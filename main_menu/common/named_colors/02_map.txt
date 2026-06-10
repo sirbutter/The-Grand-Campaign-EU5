@@ -19,7 +19,7 @@ colors = {
 	map_MQT = rgb { 0 36 125 }
 	map_OGC_UOR = rgb { 198 113 133 }
 	map_RAC = rgb { 123 150 255 }
-	map_RAC_dominion0_1 = rgb { 129 159 126 }
+	map_RAC_dominion0_1 = rgb { 109 139 106 }
 	map_TEX = rgb { 4 144 178 }
 	map_TEX_dominion1 = rgb { 180 26 74 }
 	map_TEX_dominion2 = rgb { 97 133 169 } # to replace ADV
@@ -126,6 +126,7 @@ colors = {
 	map_BAL = rgb { 142 140 84 }
 	map_GRE = rgb { 122 180 210 }
 	map_ION = rgb { 153 141 117 }
+	map_ATH = rgb { 255 222 34 }
 
 # Italy
 	map_SRP_SAV = rgb { 97 209 251 }
@@ -143,6 +144,7 @@ colors = {
 	map_SCI = rgb { 160 30 154 }
 	map_SMR = rgb { 30 144 255 }
 	map_CUO = rgb { 135 205 255 }
+	map_MCR = rgb { 115 134 224 }
 
 # German States
 	map_PZN = rgb { 255 25 40 }
@@ -178,6 +180,8 @@ colors = {
 	map_PAP = rgb { 224 224 148 }
 	map_PAP_democratic = rgb { 238 17 17 }
 	map_PAP_dominion0 = rgb { 57 140 179 }
+
+# Caucasus
 	map_CIR = rgb { 156 132 172 }
 	map_ABK = rgb { 136 170 0 }
 	map_TCA = rgb { 100 113 211 }
@@ -236,6 +240,10 @@ colors = {
 	map_LTU_napoleonic = rgb { 220 243 255 }
 	map_SLV = rgb { 20 51 146 } # Slavic Union
 	map_USS = rgb { 90 150 90 }
+
+# North Africa
+	map_EGY = rgb { 255 205 155 }
+	map_EGY_dominion0 = rgb { 233 255 219 }
 
 # China
 	map_RYU = rgb { 84 96 136 }
@@ -355,7 +363,7 @@ colors = {
 	map_MSA = rgb { 80 10 165 }
 	map_SIA = rgb { 89 194 221 }
 	map_BAN = rgb { 130 25 74 }
-	map_IRA = rgb { 62 129 20 }
+	map_IRA = rgb { 229 170 87 }
 	map_TIM = rgb { 213 0 39 }
 	map_MUG = rgb { 33 96 48 }
 	map_SKO = rgb { 201 19 700 }

@@ -371,8 +371,8 @@ earthquakes = {
  picchu willka_pampa ilucan chetilla huambos chumuch congona kuelap huamanpata olan illapa kaxa_marca tantaricuy chimu llucho markahuamachuco pirca_pirca huallumarca awajun bagua utkhupampa 
  namballe ingatambo karajia huancachaca moyobamba lamas yurimagua chatuza cocamas kachi rupharupha may_ushin kakataibo ashaninka panatahuas yanesha chanchacc nomatsigenga isabela_island 
  santiago_islands santa_cruz_islands aconca_hue qillu_uta waykuche meli_pillan rangkawe kolchawwe kuruko mawlen cauquen pikumche uthan_uthatun chillan perquilauquen puchacay biobio 
- lafkenmapu lelbunmapu wenteche inapiremapu pebuenmapu pikunwijimapu caurakawin ancud quiquilhue quellon piren colhue_huapi sengel puyu_huapi chain_chaitun puel_co futra_lhewfu nahuelpan 
- tecka koy_aike achen tawokser jautok jetarktetqal saelam kcewite kelaelkces malte caguatl west_falkland east_falkland georgia_isle waitangi tamaki whangarei aupouri manukau whakatane  
+ lafkenmapu lelbunmapu wenteche inapiremapu pebuenmapu pikunwijimapu caurakawin ancud quiquilhue quellon piren    
+  koy_aike achen tawokser jautok jetarktetqal saelam kcewite kelaelkces malte caguatl georgia_isle waitangi tamaki whangarei aupouri manukau whakatane  
  tauranga te_tairawhiti wairoa urewera ahurei ngamotu patea timaru puari rakaia kaiapoi akaroa otakou rakiura kaitangata otepoti waihopai motupohue macquarie okarito hurunui taramakau mahitahi 
  mawhera haapai vauvau rotokas bannoni naasioi tinputz mono buka makira saa kwaio kwaraae ghari isatabu kolombangara marovo roviana vangunu cheke_holo vaghua mu_ngava nendo vanikoro 
  rendova ranongga nggela valpei akei tamambo sakao tolomako ambae vanu_aroaroa malakula ambrym efate epi erromango tanna aneityum rotuma kandavu moala lakeba taveuni vanua_levu ngau 
@@ -452,7 +452,17 @@ sea_zones = {
 	bosphorus gulf_varna kaliakra_point stomoplo_bay south_danube_delta north_danube_delta dniester_estuary cape_pazarbasi cape_baba west_pontic_coast cape_kerempe central_pontic_coast cape_sinop balik_gulf cape_yasurt east_pontic_coast cape_fener batumi_bay sokhumi_bay pitsunda_cape circassian_coast gelendzhik_bay tsemess_bay kaffa_bay strait_kerch cape_meganom cape_sarych cape_fiolent kalamita_bay cape_tarkhankut karadzhynska_bay karkinit_bay dnieper_bug_estuary black_sea1 black_sea2 black_sea3 black_sea4 black_sea5 black_sea6
 	obitochny_gulf genichskaya_channel taganrog_gulf belosaraysk_gulf yasensk_bay temryuk_bay bay_arabat
 	caspian_sea1 caspian_sea2 caspian_sea3 caspian_sea4 caspian_sea5 caspian_sea6 caspian_sea7 caspian_sea8 caspian_sea9 caspian_sea10 caspian_sea11 caspian_sea12 caspian_sea13 caspian_sea14 caspian_sea15 caspian_sea16 caspian_sea17 caspian_sea18 caspian_sea19 caspian_sea20  caspian_sea23 caspian_sea24 caspian_sea28 caspian_sea30 caspian_sea31 caspian_sea32 caspian_sea33 caspian_sea34 caspian_sea35 caspian_sea36 caspian_sea37 caspian_sea38 caspian_sea39
-		
+
+	#Great Lakes
+	blue_point saginaw_bay clark_point deadmans_point wind_point cunningham_point
+	au_sable_point black_bay keweenaw_coast copper_harbor
+	green_bay traverse_bay south_lake_michigan middle_lake_michigan
+	pukaskwa_point michipicoten_bay schreiber_channel
+	southern_lake_huron northern_lake_huron georgian_bay manitoulin_channel strait_of_makinac
+	whitefish_bay keweenaw_bay thunder_bay chequamegon_bay
+	bay_of_quinte central_lake_ontario niagara_basin
+	eastern_erie_basin central_erie_basin pelee_island lake_st_clair
+
 	#caribbean_sea_area
 	west_cayman_islands east_cayman_islands guacanayabo_gulf jardines_reina ana_maria_gulf cienfuegos_bay cochinos_bay batabano_gulf east_canarreos_archipelago cape_corrientes windward_passage guantanamo_bay coast_sierra_maestra cruz_cape mona_passage negril_point montego_bay jamaica_channel port_royal long_bay gulf_gonave gonave_channel navassa_island gravois_point jacmel_cape cape_beata ocoa_bay bay_santo_domingo saona_island virgin_passage anegada_passage isla_caja_muertos rincon_bay st_croix_coast st_kitts_coast guadaloupe_coast dominica_coast saint_lucia_channel grenada_coast aruba_coast bonaire_coast los_roques blanquilla_island
 	west_colorados_archipelago east_colorados_archipelago havana_bay
@@ -869,16 +879,6 @@ sea_zones = {
 	bernier_coast 	dorre_coast	shark_coast kalbarri lucky_bay geraldton_bay green_head two_rocks perth_bay bunbury_coast	deepdene_coast flinders_bay	yeagarup_coast 
 	frenchman_bay breaksea_shore bremer_bay christmas_island_shore bellinger west_kangaroo_coast
 
-	#Great Lakes
-	blue_point saginaw_bay clark_point deadmans_point wind_point cunningham_point 
-	au_sable_point   black_bay keweenaw_coast copper_harbor
-	green_bay traverse_bay south_lake_michigan middle_lake_michigan
-	pukaskwa_point michipicoten_bay schreiber_channel
-	southern_lake_huron northern_lake_huron georgian_bay manitoulin_channel strait_of_makinac
-	whitefish_bay keweenaw_bay thunder_bay chequamegon_bay 
-	bay_of_quinte central_lake_ontario niagara_basin
-	
-	eastern_erie_basin central_erie_basin pelee_island lake_st_clair
 
 	#Oceania
 	nihoa_coast_1 nihoa_coast_2 mokumanamana_coast_1 mokumanamana_coast_2 kanemilohai_coast_1 kanemilohai_coast_2 kauo_coast papa_apoho_coast holoikauaua_coast kuaihelani_coast holaniku_coast
@@ -1019,7 +1019,8 @@ sea_zones = {
 	bellona_high_sea_1 bellona_high_sea_2 bellona_high_sea_3 bellona_high_sea_4 bellona_high_sea_5 bellona_high_sea_6 bellona_high_sea_7
 	nauru_high_sea_1 nauru_high_sea_2 nauru_high_sea_3 nauru_high_sea_4 nauru_high_sea_5
 	nauru_coast metoma_island mere_lava_island
-
+	limfjorden
+	guahan_atoll
 } 
 
 
@@ -1032,11 +1033,11 @@ sea_zones = {
 # LAKES
 ########
 lakes = { 
-    malaren hjalmaren_lake vattern limfjorden vanern siljan storsjon enare_trask torne_trask storavan uddjaur vastenjaure akkajaure	# Sweden
+    malaren hjalmaren_lake vattern vanern siljan storsjon enare_trask torne_trask storavan uddjaur vastenjaure akkajaure	# Sweden
 	mjosa #norway
 	lake_muritz
 	oulujarvi saima paijanne pielinen pihlajavesi yanis_jarvi haukivesi lake_orivesi puruvesi jaasjarvi puula kyyvesi yli_kitka muojarvi pyhajarvi hoytiainen viinijarvi koitere nasisalki #finland
-    loch_ness dyfi_estuary lough_neagh lough_derg lough_ree lough_corrib lough_mask derwent_water loch_lomond lough_erne lough_conn # british isles
+    loch_ness lough_neagh lough_derg lough_ree lough_corrib lough_mask derwent_water loch_lomond lough_erne lough_conn # british isles
     haarlemmermeer
 	hourtin_carcans_lake lagoon_of_sanguinet lagoon_of_bages_sigean lagoon_of_salses lagoon_of_vaccares lagoon_of_berre
 	taupo # New zealand
@@ -1079,7 +1080,7 @@ lakes = {
 	lake_evans lake_sakami lake_nichicun lake_naococane lake_caniapiscau lake_bienville lake_tasiujaq lake_wiyashakami seal_lake lake_minto lake_payne lake_temiscamingue lake_abitibi
 	lake_nipissing lake_simcoe wanapitei_lake onaman_lake lake_nipigon ogoki_lake lake_of_the_woods rainy_lake lac_seul lake_saint_joseph attawapiskat_lake lake_wunnumin big_trout_lake kesagami_lake
 	
-	curonian_lagoon lake_vorts lake_mamry lake_sniardwy lebsko_lake dniester_liman sasyk_lagoon alibey_lagoon tylihul_liman molochnyi_liman khadzhibey_liman kuialnyk_liman lake_yalpuh lake_kahul lake_katlabukh lake_kitai berezan_liman syvash_lagoon lake_sasyk_syvash mius_liman lake_lubans lake_razna lake_narach
+	curonian_lagoon lake_vorts lake_mamry lake_sniardwy lebsko_lake dniester_liman sasyk_lagoon alibey_lagoon khadzhibey_liman kuialnyk_liman lake_yalpuh lake_kahul lake_katlabukh lake_kitai syvash_lagoon lake_sasyk_syvash  lake_lubans lake_razna lake_narach
 
 	amadjuak_lake
 	#MesoAmerica
@@ -1191,8 +1192,9 @@ lakes = {
 
 	iro_lake kurile_lake
 	ulakhan_kyuel_lake ozero_sytygan_lake ozero_kubuy_lake ozero_orotko_lake ozero_laydy_kyuyel_lake elgygytgyn_lake munduyskoye_lake
-} 
+}
 
+######################
 #####################
 # IMPASSABLE TERRAIN
 #####################
@@ -1200,428 +1202,12 @@ lakes = {
 # Blocks unit movement.
 
 impassable_mountains = {
-	#Europe
-	s_jamtland_wasteland n_jamtland_wasteland jotunheim hardangervidda skanderna north_skanderna vattnajokull icelandic_highlands hofsjokull langjokull eyjafjallajokull
-	eiriksfjord norway_wasteland_a norway_wasteland_b norway_wasteland_c
-	kola_taiga lapland_taiga1 lapland_taiga2 lapland_taiga3 lapland_taiga4 karelia_taiga1 karelia_taiga2
-	crimean_mountains pantelleria aburakeiru malliouhana ariogana
-	abdalkuri_island tanahjampea tukangbesi_islands karatung_island sangihe_islands samana_cay utiaquia mapun
-	santa_maria barren_island nosy_ampela channel_islands porto_santo kaiman arorae beru_atoll aranuka_atoll
-	juan_fernandez_islands nga_pu_toru namorik_atoll guadalupe_island
-	chichijima hahajima iwo_jima agrihan pagan_island ranongga nanumanga
-	rotuma niutao nui_atoll nanumea_atoll ailinginae_atoll wotho_atoll ujelang_atoll
-	papakena_atoll namoluk_atoll losap_atoll pulap_atoll lamotrek_atoll syvash_sand_bar
-	marotiri oparo raivavae avarau manuae_atoll_cook mangaia tubuai rurutu rimatara nororotu_atoll
 	
-	#New Zealand
-	southern_alps ruapehu taranaki
-	alpine_mountains kosciuszko_mountains wadbilliga_mountains blue_mountains oxley_wilds
-	#India
-	great_rann_of_kutch little_rann_of_kutch
-	nilgiri pandalam_hills palni_hills
-	cardamom_hills s_cardamom_hills biligiriranga
-	seshachalam_hills s_nallamalla
-	n_nallamalla penchalakona_hills
-	western_ghats_goa western_ghats_bhatkal western_ghats_haleri
-	western_ghats_satara western_ghats_karad western_ghats_belgaum western_ghats_karkala
-	western_ghats_purandar western_ghats_pune western_ghats_kozhikode western_ghats_siruvani
-	adams_bridge
-	bastar_impassable eastern_ghats_jeypore eastern_ghats_south_bastar
-	western_ghats_bombay harishchandra_range
-	eastern_ghats_kalahandi eastern_ghats_south_odisha
-	sitanadi_hills forest_of_dang aravali_range
-	thar_desert thar_desert_2 thar_desert_bikaner
-	khandesh_mountains khandesh_mountains_2 nimar_mountains
-	gondwana_hills gondwana_hills_2 gondwana_hills_3 astamba_dongar
-	malkala_range malkala_range_2
-	southern_hazirabagh_range ramgarh_hills mailan_hills upar_ghat
-	mainpat garhjat_range simlipal_hills
-	gorumahisani_range garhjat_range
-	pir_panjal_range pir_panjal_range_2 pir_panjal_range_3 nanga_parbat kashmiri_himalayas pangi_range himalayas_chanda
-	himalayas_chanda_2 himalayas_chanda_3
-	
-	thar_desert_3
-	kirtar_range kirtar_range_2
-	suleiman_range_1  suleiman_range_2 suleiman_range_3
-	suleiman_range_5 suleiman_range_6 suleiman_range_8 suleiman_range_9 suleiman_range_7
-	salt_range salt_range_3
-	thal_desert thal_desert_2
-	hindu_kush8 hindu_kush9 hindu_kush10 tharparkar_desert
-
-	amini_atoll andrott_atoll minicoy_atoll
-	francia_mountains bejar_mountains estrela_mountains
-	#Italy
-	lampedusa
-	north_apennines central_apennines1 central_apennines2 central_apennines3 central_apennines4 central_apennines5 central_apennines6 central_apennines7 southern_apennines ligurian_alps cottian_alps2 cottian_alps3 graian_alps2 pennine_alps2 dolomite_alps1 dolomite_alps2 dolomite_alps3 dolomite_alps4 dolomite_alps5 dolomite_alps6 dolomite_alps7 rhaetian_alps1 rhaetian_alps2 rhaetian_alps3 rhaetian_alps4 rhaetian_alps5 rhaetian_alps6 rhaetian_alps7 rhaetian_alps8 corsican_mountains gennargentu_mountains
-	mount_etna mount_stromboli
-
-	#Germany
-	venediger_group tauern_range1 tauern_range2 otztal_alps1 otztal_alps2 silvretta_alps glarner_alps bernese_alps stein_glacier lepontine_alps1 lepontine_alps2 bavarian_alps1 bavarian_alps2 lechtal_alps1 lechtal_alps2
-
-	# Britain
-	snowdon cairngorm ben_nevis carn_eige fannichs ben_klibreck scilly_isles brecon_beacons cambrian_mountains ochil_hills berwyn_range pennines_01 pennines_02 pennines_03 pennines_04 pennines_05 pennines_06 north_york_moors dartmoor wicklow_mountains
-
-	#Carpathia
-	western_carpathians1 western_carpathians2 
-	eastern_carpathians1 eastern_carpathians2 eastern_carpathians3 eastern_carpathians4 eastern_carpathians5 eastern_carpathians5b eastern_carpathians6 eastern_carpathians6c eastern_carpathians7 eastern_carpathians8 eastern_carpathians9 
-	inner_carpathians 
-	southern_carpathians1 southern_carpathians2 southern_carpathians3 southern_carpathians4
-
-	#Caribbeans
-	cordrilla_central baoruco_mountains neiba_mountains mona_island vieques_island
-
-	#Maghreb
-	rif lower_rif western_rif north_middle_atlas south_middle_atlas1 south_middle_atlas2 east_high_atlas anti_atlas1 anti_atlas2
-	eastern_anti_atlas western_high_atlas1 western_high_atlas2 middle_high_atlas eastern_high_atlas1 eastern_high_atlas2 high_atlas1 high_atlas2 tellatlas skikda_mountain
-	skikda_mountain sbiba_mountain bades_mountain1 bades_mountain2
-	tablate_mountain burg_bu_mountain1 burg_bu_mountain2 stif_mountain western_tablate_mountain eastern_tablate_mountain
-
-	#Maghreb Deserts
-	plain_tamlelt1 plain_tamlelt2 plain_tamlelt3 plain_tamlelt4 el_djouf1 el_djouf2 el_djouf3 el_djouf4 el_djouf5 el_eglab_masif1 el_eglab_masif2 tademait_plateau1 tademait_plateau2 grand_erg_oriental grand_erg_occidental east_el_djouf south_el_djouf calansho_desert hamada_el_hamra
-	grand_erg_occidental_east1 grand_erg_occidental_east2 northern_tedemait east_grand_erg_oriental coastal_libyan_desert1 coastal_libyan_desert2 coastal_libyan_desert3 west_grand_erg_oriental1 west_grand_erg_oriental2
-
-	#Iberia mountains
-	ancares_range west_cantabrian_mountains east_cantabrian_mountains picos_de_europa leon_mountains cabrera_range demanda_range urbion_peaks moncayo_range western_central_system eastern_central_system1 eastern_central_system2 eastern_central_system3 iberian_system north_western_pyrenees south_western_pyrenees1 south_western_pyrenees2 south_western_pyrenees3 central_pyrenees north_eastern_pyrenees1 south_eastern_pyrenees madrona_range segura_range filambres_range nevada_range subbetic_range
-
-	#France Mountains
-	massif_central dore_mountains vercors_massif vivarais_mountains 
-	maritime_alps1 cottian_alps1 graian_alps1 dauphine_alps1 dauphine_alps2 pennine_alps1 
-	north_western_pyrenees north_eastern_pyrenees1 north_eastern_pyrenees2
-
-	#Balkans
-	julian_alps
-	dinaric_alps1 dinaric_alps2 dinaric_alps3 dinaric_alps4 dinaric_alps5 dinaric_alps6 dinaric_alps7 dinaric_alps8 dinaric_alps9
-	pindus_mountains1 pindus_mountains2 pindus_mountains3 pindus_mountains4 pindus_mountains5 pindus_mountains6 pindus_mountains7 pindus_mountains8 pindus_mountains9 pindus_mountains10 pindus_mountains11 pindus_mountains12
-	mount_olympos
-	peloponnesian_mountains1 peloponnesian_mountains2  
-	balkan_mountains1 balkan_mountains2 balkan_mountains3 balkan_mountains4 balkan_mountains5 balkan_mountains6
-	rhodope_mountains1 rhodope_mountains2 rhodope_mountains3 rhodope_mountains4 rhodope_mountains5 rhodope_mountains6
-	
-	#West Africa
-	cameroon_mountains guinean_jungle	
-	niefang_jungle maan_jungle nkam_jungle korup_jungle	
-	
-	#Horn of Africa
-	ethiopian_mountains somalian_mountains horn_deserts eritrean_mountains northern_ethiopian_mountains north_east_ethiopian_mountains
-	central_east_ethiopian_mountains central_west_ethiopian_mountains south_east_ethiopian_mountains south_west_ethiopian_mountains
-	
-	#Egypt and Libya
-	eastern_desert sinai_desert northern_sinai_desert1 northern_sinai_desert2 north_eastern_desert south_eastern_desert west_nubian_desert east_nubian_desert
-    calansho_sand_sea great_sand_sea north_western_desert western_desert south_western_desert nitrian_desert
-	
-	#Sahel
-	 erg_of_bilma erg_amatlich erg_aoukar tanezrouft talak tenere murzuk_desert rabyanah erg_selima south_talak east_erg_aoukar south_erg_amatlich
-	
-	#East Africa
-	east_african_mountains west_eastern_rift_mountains western_rift_mountains kipengere_range north_manica_highlands south_manica_highlands
-
-	#Korea
-	western_korean_mountains1 western_korean_mountains2 eastern_korean_mountains1 eastern_korean_mountains2 eastern_korean_mountains3 eastern_korean_mountains4 hekusando ulleungdo
-
-	#Japan
-	ishikari_mountains hidaka_mountains asama_mountains akaishi_mountains kiso_mountains okuchichibu_mountains yatsugatake_mountains mikuni_mountains 
-	hida_mountains mount_ontake mount_haku echigo_mountains iide_mountains mount_azuma mount_fuji mount_tsurugi ishizuchi_mountains kii_mountains
-	izu_islands makanru shasukotan rasshua repunmoshiri kumejima yonaguni tarama habomai mishima_island koshikishima satsunan_islands
-
-	#Central Asia
-	aral_karakum_desert big_balkhan dead_kultuk_sor hissar_mountains1 hissar_mountains2 hissar_mountains3 hunger_steppe karakum_desert1 karakum_desert2 karakum_desert3 karakum_desert4 karakum_desert5 karakum_desert6 kyzylkum_desert moiynkum_desert saryesik_atyrau_desert small_balkhan taukum_desert tian_shan7 tian_shan8 tian_shan9 tian_shan10 tian_shan11 tian_shan12 tian_shan13 tian_shan14 tian_shan15 ust_yurt_plateau1 ust_yurt_plateau2 
-
-	#China and Mongolia
-	ailaoshan dabashan1 dabashan2 duyangshan funiushan1 funiushan2 gaoligongshan1 hengduanshan1 hengduanshan2 hengduanshan3 hengduanshan4 jingshan_mountains jiulingshan liupanshan 
-	mazongshan qilianshan1 qilianshan2 qinlingshan1 qinlingshan2 qinlingshan3 qinlingshan4 qinlingshan5 qinlingshan6 qinlingshan7 nanling1 nanling2 nanling3 
-	nanling4 nushan qingshuilangshan qingshuilangshan2 taihangshan1 taihangshan2 taihangshan3 taihangshan4 taihangshan5 taihangshan6 taihangshan7 taihangshan8 taihangshan9 
-	taihangshan10 wanyangshan wugangshan wulingshan wushan_mountains wuyishan1 wuyishan2 xueshan_yunnan yanshan_mountains1 yanshan_mountains2 yanshan_mountains3
-
-	gurbantunggut kumtag1 kumtag2 kumtag3 taklamakan1 taklamakan2 taklamakan3 taklamakan4 taklamakan5
-	alatau balruq bodga_shan borohoro1 borohoro2 borohoro3 kuruktag saur targabatay_mountains tian_shan1 tian_shan2 tian_shan3 tian_shan4 tian_shan5 tian_shan6 wusun
-	altun_shan1 altun_shan2 altun_shan3 karakoram1 karakoram2 karakoram3 karakoram4 kunlun1 kunlun2 kunlun3 kunlun8 kunlun9 kunlun10 pamir1 pamir2 qilianshan3 qilianshan4 tsaidam_dunes kunlun4 kunlun5 kunlun6 kunlun7
-	himalaya1 himalaya2 himalaya3 himalaya5 himalaya6 himalaya7 himalaya8 himalaya9 himalaya10 himalaya11 himalaya12 himalaya13 himalaya14 himalaya15 himalaya16 himalaya17 himalaya18 himalaya19 himalaya20 himalaya21 himalaya22 himalaya23
-	bayan_har_mountains1 bayan_har_mountains2 dalungsai gangdise1 gangdise2 gangdise3 gangdise4 gangdise5 gangdise6 gangdise7 gangdise8 hengduanshan5 hengduanshan6 hengduanshan7 hengduanshan8 hengduanshan9 hengduanshan10 hoh_xil_mountains2 
-	jurhen_ui lunggar1 lunggar2 nyainqentanglha1 nyainqentanglha2 nyainqentanglha3 nyainqentanglha4 nyainqentanglha5 nyainqentanglha6 tanggula1 tanggula2 tanggula3
-	changtang ustun_tag
-
-	bureya duse_alin yam_alin ayon
-
-	badain_jarain_desert1 badain_jarain_desert2 tengger_desert ulan_buh_desert
-	altay_mountains atas_bogd barkol_mountains eastern_sayan_mountains1 eastern_sayan_mountains2 eastern_sayan_mountains3 gobi_altay khan_khentii1 khan_khentii2 khan_khentii3 khangain_mountains khasagt_khairkhan mongol_altay tannu_ola_mountains1 tannu_ola_mountains2 targavatai_mountains western_sayan_mountains
-
-	#Taiwan
-	nanhudashan xueshan yushan
-
-	#SEA
-	fernando_noronha georgia_isle bouvet_island marion_island crozet_islands kergelen central_atlantic
-	annamese_range1 annamese_range2 annamese_range3 annamese_range4 annamese_range5 annamese_range6 annamese_range7 chu_yang_sin_mountains
-	thongchai_range daen_lao_range khun_tan_range luang_prabang_range1 luang_prabang_range2 mekong_jungle
-	fan_si_mountains1 fan_si_mountains2 fan_si_mountains3 phou_mountains phou_den_din_mountains
-	bilauktaung_range1 bilauktaung_range2 bilauktaung_range3 chanthaburi_jungle dawna_range1 dawna_range2 nakai_jungle phetchabun_mountains sankamphaeng_mountains
-	kra_jungle sankalakhiri_range terengganu_hills titiwangsa_mountains karen_hills1 karen_hills2 karen_hills3 karen_jungle pandaung_range pegu_jungle sagaing_jungle shan_hills1 shan_hills2 shan_hills3 
-	arakan_mountains1 arakan_mountains2 chin_hills1 chin_hills2 chin_hills3 gaoligongshan2 kumon_range mangin_range1 mangin_range2 naga_hills1 naga_hills2 naga_hills3 naga_hills4 namsam_range nwamethin_jungle
-
-	barisan_mountains1 barisan_mountains2 barisan_mountains3 borneo_jungle1 borneo_jungle2 borneo_jungle3 borneo_jungle4 borneo_jungle5 borneo_jungle6 borneo_jungle7
-    borneo_jungle8 borneo_jungle9 borneo_jungle10 borneo_jungle11 borneo_jungle12 borneo_jungle13 borneo_jungle14 cordillera_mountains1 cordillera_mountains2 javanese_mountains1
-    javanese_mountains2 javanese_mountains3 luzon_jungle mindanao_mountains north_aceh_jungle riau_jungle seram_mountains south_aceh_jungle sulawesi_jungle1 sulawesi_jungle2 sulawesi_jungle3 sulawesi_jungle4
-	
-	#Anatolia
-	koroglu_mountains_1 koroglu_mountains_2 ilgaz_mountains west_pontus_mountains_1 west_pontus_mountains_2 east_pontus_mountains_1  east_pontus_mountains_2 east_pontus_mountains_3
-	west_taurus_1 west_taurus_2 west_taurus_3 west_taurus_4 west_taurus_5 middle_taurus_1 middle_taurus_2 middle_taurus_3 middle_taurus_4 middle_taurus_5 middle_taurus_6 middle_taurus_7 middle_taurus_8 east_taurus_1 east_taurus_2 east_taurus_3 east_taurus_4 east_taurus_5 east_taurus_6 east_taurus_7 east_taurus_8 east_taurus_9
-	sandikli_mountains sultan_mountains_1 sultan_mountains_2 sultan_mountains_3  erenler_mountains nur_mountains_1 nur_mountains_2 melendiz_mountains hodul_mountains karacadag ak_mountains suphan_mountains otlukbeli_mountains kose_mountains_1 kose_mountains_2 mescit_mountains yalnizcam_mountains
-	kars_mountains_1 kars_mountains_2 kars_mountains_3 mercan_mountains_1 mercan_mountains_2 karagol_mountains karasu_aras_mountains aladag_mountains
-	
-	#Middle East and Caucasus
-	mountain_druze lebanon_mountains antilebanon_mountains1 antilebanon_mountains2 antilebanon_mountains3 jazair
-	greater_caucasus_mountains1 greater_caucasus_mountains2 greater_caucasus_mountains3 greater_caucasus_mountains4 greater_caucasus_mountains5 greater_caucasus_mountains6 greater_caucasus_mountains7 greater_caucasus_mountains8 greater_caucasus_mountains9 greater_caucasus_mountains10
-	lesser_caucasus_mountains1 lesser_caucasus_mountains2 lesser_caucasus_mountains3 lesser_caucasus_mountains4 lesser_caucasus_mountains5 lesser_caucasus_mountains6 lesser_caucasus_mountains7 lesser_caucasus_mountains8 lesser_caucasus_mountains9 lesser_caucasus_mountains10
-	zagros_mountains1 zagros_mountains2 zagros_mountains3 zagros_mountains4 zagros_mountains5 zagros_mountains6 zagros_mountains7 zagros_mountains8 zagros_mountains9 zagros_mountains10 zagros_mountains11 zagros_mountains12 zagros_mountains13 zagros_mountains14 zagros_mountains15 zagros_mountains16 zagros_mountains17 zagros_mountains18 zagros_mountains19 zagros_mountains20 zagros_mountains21
-	elburz_mountains1 elburz_mountains2 elburz_mountains3 elburz_mountains4 elburz_mountains5 elburz_mountains6 elburz_mountains7 elburz_mountains8 elburz_mountains9 elburz_mountains10 qaradagh_mountains1 qaradagh_mountains2 qaradagh_mountains3 qaradagh_mountains4 khorasan_mountains1 khorasan_mountains2
-	dasht_kavir1 dasht_kavir2 dasht_khaf1 dasht_khaf2 dasht_khara1 dasht_khara2 dasht_lut1 dasht_lut2 dasht_lut3 dasht_lut4 dasht_lut5
-	hindu_kush1 hindu_kush2 hindu_kush3 hindu_kush4 hindu_kush5 hindu_kush6 hindu_kush7
- 	paropamisus_mountains1 paropamisus_mountains2 paropamisus_mountains3 paropamisus_mountains4 paropamisus_mountains5 paropamisus_mountains6 paropamisus_mountains7 tora_bora_mountains
-	dasht_khash dasht_margoh dasht_registan dasht_tarakun kharan_desert1 kharan_desert2 kharan_desert3
-	pamir3 pamir4 pamir5 pamir6 pamir7 pamir8
-	ad_dahna1 ad_dahna2 ad_dahna3 ad_dahna4 ad_dahna5 
-	ad_dibdibah al_ijarah al_jafurah1 al_jafurah2 ar_rakbah1 ar_rakbah2 rub_al_khali1 rub_al_khali2 
-	an_nafud1 an_nafud2 an_nafud3 an_nafud4 
-	syrian_desert1 syrian_desert2 syrian_desert3 syrian_desert4 syrian_desert5 syrian_desert6 syrian_desert7 
-	hajar_mountains haraz_mountains1 haraz_mountains2 haraz_mountains3 haraz_mountains4
-	#MesoAmerica
-	colima_mountains popocatepetl_mountains citlaltepetl_mountains nube_flan
-	nudo_zempoaltepetl teotepec ajusco_mountains tepozan_mountains toluca_mountains
-	#Aridoamerica
-	grand_canyon madre_mountains lobos_mountains fria_mountains viga_mountains dzil_ligai_mountains
-	
-	#California
-	sierra_nevada_c nomlaki_range chumawi_range klamath_range south_cascade central_cascade north_cascade inyo_mountains sierra_nevada_s nuwuvi_wasteland pagayuat newe_wasteland atsa_kudok_wa tosa_konoki toyabe reno 
-	grand_teton shoshonne yuttahih east_yuttahih bear_river_w bear_river_e bannock_range agaidika_range dukundeka arapaho colorado chumash_ranges nuchiu_range c_nuchiu_range nuwuvi_desert 
-	selish_range_s sw_ktunaxa_ranges se_ktunaxa_ranges ce_ktunaxa_ranges ne_ktunaxa_ranges nc_ktunaxa_ranges cw_ktunaxa_ranges strathacona_range kwakwala_range chilcotin_mtns s_shuswap_mtns n_shuswap_mtns e_shuswap_mtns sinixt_range 
-	selish_range_n thompson_mtns okanagan_range sierra_nevada_n nw_ktunaxa_ranges inuvialuit_uplands gwazhal_mountains yukon_flats gwazhal_hills kobuk noatak utqiagvik
-	
-	#Alaska & Yukon
-	dakelh_range sekani_forest beaver_forest beaver_plain southern_plains ediziza_forest spatsizi_forest tahltan_forest cassiar_mountains omineca_mountains dena_ina_uplands togiagamiut_forest dall_plains yukkhana malemiut_plains kugirukuk 
-	deg_xit_an_forest yukonikhotana koyukuk_forest koyukon_forest tanana_forest alaska alaska_range chugach_mtns wrangell_mtns kynocks_forest shushtone_forest nabesna_forest dan_ki_forest central_forest chandalar_forest kaska_forest 
-	dehcho_plains sahtu_uplands mackenzie_uplands horton_uplands mackenzie_mtns nunavut_uplands inuvialuit_uplands kugmiut_uplands gwichin_uplands haen_uplands tlicho_uplands dehcho_uplands dehcho_range turili_uplands 
-
-	#Yakutsk
-	peninsula_uplands1 peninsula_uplands2 peninsula_uplands3 peninsula_uplands4 peninsula_uplands5 o_mnmilin_uplands1 o_mnmilin_uplands2 
-	kerek_uplands koryak_uplands1 koryak_uplands2 koryak_uplands3 koryak_uplands4 koryak_uplands5 alyutor_range1 alyutor_range2 kamchatka_uplands1 kamchatka_uplands2 kamchatka_uplands3 kamchatka_uplands4 kamchatka_uplands5 
-	erri_uplands1 erri_uplands2 anauls_uplands1 anauls_uplands2 anauls_uplands3 chuvan_upplands1 chuvan_upplands2 omok_upplands1 omok_upplands2 omok_upplands3 omok_upplands4 omok_upplands5 kolyma_upplands1 kolyma_upplands2 
-	yukaghyr_upplands1 yukaghyr_upplands2 yukaghyr_upplands3 kedon_range omchikan_range yamsk_range1 yamsk_range2 yamsk_range3 magadan_range okam_range maya_range1 maya_range2 kolyma_highlands ayan_mai1 ayan_mai2 arga_tas_upplands 
-	hakandya_uppland olyokma_upplands1 olyokma_upplands2 olyokma_upplands3 olyokma_upplands4 olyokma_upplands5 olyokma_upplands6 aldan_upplands1 aldan_upplands2 aldan_upplands3 aldan_upplands4 siniaia_upplands biryuk_uplands 
-	yana_plateau lungxa_upplands1 lungxa_upplands2 dippa_upplands ecigeen_upplands sakha_uplands vitim_upplands makarixa_uplands xamaxar_uplands1 xamaxar_uplands2 neryunda_uplands chondon_tundra 
-	siberian_tundra_1 siberian_tundra_2 siberian_tundra_3 siberian_tundra_4 siberian_tundra_5 siberian_tundra_6 siberian_tundra_7 siberian_tundra_8 siberian_tundra_9 siberian_tundra_10 
-	siberian_hills_1 siberian_hills_2 siberian_hills_3 siberian_hills_4 siberian_hills_5 siberian_hills_6 siberian_hills_7 siberian_hills_8 
-	siberian_forests_1 siberian_forests_2 siberian_forests_3 siberian_forests_4 siberian_forests_5 siberian_forests_6 
-
-	#Central america
- 	chiapas_mountains minas_mountains cuchumatanes_mountains chiriqui_mountains 
-	darien_jungle veragua_jungle chiriqui_jungle indio_maiz_jungle 
-	tawahka_jungle lacandon_jungle maya_jungle 
-	cockscomb_jungle chimalapa_jungle 
-	#Colombia
-	central_mountain_range tama_mountains perija_mountains tayrona_mountains paramillo_mountains frontino_mountains santa_ines_mountains 
-	ebejico_mountains concondia_mountain citara_mountains tamana_mountains calima_mountains cali_mountain naya_mountains 
-	munchique_mountains gayon_mountains merida_mountains jurisdicciones_mountain yariguies_mountains 
-	cocuy_mountains tablazo_mountains chingaza_mountains sumapaz_maountains leiva_mountains 
-
-	choco_jungle cauca_jungle napiu_jungle cali_jungle tinigua_jungle orinoco_delta_jungle monagua_jungle kalina_jungle 
-	catatumbo_jungle paramillo_jungle murri_jungle bebaramau_jungle torra_jungle guacharos_jungle norcacia_jungle nambue_jungle essequibo_jungle 
-	lesser_antilles_wastelands
-
-	#Peru
-	pimempiro_mountains ami_mountains chimborazo_volcano sangay_volcano cajas_mountains ojos_del_salado_volcano pissis_mountains 
-	aucanquilcha_volcano chak_xana_volcano illimani_volcano llullaillaco_volcano tunari_mountains sumaq_urqu_mountains lluska_mountain 
-	jaqi_jiwata_mountain wanaku_imray_mountain colpanayoc_volcano poposayo_mountains bayo_mountain acay_mountains choquepata_mountains 
-	parwayuni_mountains chunkara_mountains kunturi_mountains antawilpa_mountains andahua_volcanoes sara_sara_volcano qilu_urqu_mountains
-	qurawiri_mountains salkantay_mountains sahuasiray_mountains pumanota_mountains cololo_mountains quiluta_mountains 
-	wasi_qaqa_mountains tanranioc_mountains pariacaca_mountains quiman_mountains yerupaja_mountains quilpa_hirka_mountains 
-	pampacancha_mountains quiruvilca_mountains cospan_mountains milpo_mountains huayabamba_mountains shin_shin_mountains 
-	samanga_mountains solamaco_mountains duco_mountains waqurunchu_mountains quilqi_hirka_mountains utcohuarco_mountains 
-	ayacucho_mountains 
-	
-	napo_jungle llanganates_jungle sangay_jungle huayabamba_jungle piu_piu_forest mantaro_jungle ayacucho_jungle shunte_jungle 
-	yanajanca_jungle katataibo_jungle chuyapi_jungle challana_jungle apolobamba_jungle altamachi_jungle chimore_jungle tiraque_jungle 
-	mamorecillo_forest pilaya_jungle yungas_jungle noques_jungle 
-
-	#Papua Region
-	bismarck_archipelago_wasteland
-	cendrawasih_archipelago_wastelands
-					
-	bon_irau_jungle vogelkop_jungle wandamen_jungle arandai_jungle iha_jungle kamberau_jungle mairasi_jungle iau_jungle bagusa_jungle aruek_jungle niksek_jungle abu_jungle nduga_jungle aghu_jungle awyu_jungle marind_jungle zimakani_jungle were_jungle kiwai_jungle tabo_jungle konai_jungle folopa_jungle mekeo_jungle guhu_samane_jungle aneme_jungle fuyug_jungle kanasi_jungle rapoisi_jungle konomala_jungle miu_jungle mengen_jungle qaqet_jungle 
-	central_range_mountains owen_stanley_range bismarck_range bangela_mountains 
-
-	#Russian forests
-	russian_wastelands_1
-	russian_wastelands_2
-	russian_wastelands_4
-	russian_wastelands_5
-	russian_wastelands_6
-	russian_wastelands_7
-	russian_wastelands_8
-	russian_wastelands_9
-	russian_wastelands_10
-	kanin_peninsula
-	yuzhny
-	
-	#Canada
-	magpie_massif gatineau_hills tremblant_massif laurentian_massif valin_mountains windigo_massif chochocouane_hills mecatina_hills sainte_marguerite_plateau manicouagan_plateau peribonka_hills
-	chic_choc_mountains northern_notre_dame_mountains eastern_peribonka_hills ashuapmushuan_hills
-	manouanis_massif manicouagan_depression dumoine_plateau la_grande_hills great_whale_plateau caniapiscau_plateau rupert_plateau torngat_mountains labrador_highlands mealy_mountains hamilton_highlands 
-	matagami_depression mistassini_hills otish_mountains opiscoteo_hills eastmain_hills larch_plateau ungava_peninsula labrador_hills whale_lowlands quebec_torngats george_river_plateau mecatina_plateau
-	long_range_mountains newfoundland_highlands annieopsquotch_mountains matapedia_highlands
-	canaan_bog ishpatina_ridge opeongo_hills severn_uplands wabigoon_uplands wawa_uplands hudson_bay_lowlands penokean_hills james_bay_lowlands english_river_uplands abitibi_uplands 
-	nemegosenda_uplands winisk_uplands attawapiskat_lowlands ogoki_uplands baffin_island
-
-	#Congo Region
-	congo_jungle gabun_jungle waka_jungle lope_jungle mbaka_jungle
-	
-	#Brazil
-	#amazon_jungle negro_amazon_jungle solimoes_amazon_jungle purus_amazon_jungle madeira_amazon_jungle 
-	#tapajos_amazon_jungle xingu_amazon_jungle tocantis_amazon_jungle pantanal_swamp pantanal_forest 
-	#nononai_forest tacuru_jungle maxakali_jungle jiboia_jungle  marajoara_jungle 
-	#saraua_jungle guayana_jungle piaui_jungle arariboia_jungle auwe_jungle urubu_jungle apiaka_jungle kayabi_jungle 
-	#massaco_jungle mequens_jungle manues_jungle itatupa_jungle piratuba_jungle
-	#cunhambebe_forest baependi_forest itajuba_forest camanducaia_forest paraibuna_forest mogi_forest tamoio_forest atibaia_forest jundiai_forest marataiama_forest bocaiuva_forest pinhais_forest
-	#goitaca
-	#La Plata
-	aconcagua_volcano pircas_mountains huemui_mountains chillan_mountains
- 	guarasugwe_forest ayoreo_forest yshyr_forest conguagua_forest oquiriquia_forest zapoco_forest muyupampa_forest ibera_swamp huemules_forest villarica_forest puyehue_forest piren_forest corcovado_forest melimoyu_forest quelat_forest cay_forest san_rafael_forest nansen_forest paine_forest little_wellington_forest ohiggins_forest campo_nevado_forest ladrillero_forest parrillar_forest tawokser_forest clarence_forest dawson_forest agostini_forest masaks_forest navarino_forest ilalumaala_forest
-	fernando_noronha
-	#Eastcoast
-	tanasee_ridge blue_ridge_mountains great_smokies kuwohi
-
-	#Central North America
-	eynard_upland horn_plateau kazan_uplands northern_arctic_uplands arctic_archipelago nejanilini_uplands lac_seul_upland hayes_river_upland churchill_river_upland 
-	mostoos_upland reindeer_lake_upland seal_river_upland wekusko_upland silsby_lake_upland athabasca_plains mid_boreal_upland porcupine_hills foster_upland caribou_mountains saddle_hills birch_mountains 
-	utikuma_uplands hawk_hills buffalo_head_hills robins_lake_upland lodgepole_uplands saddle_hills_2 stony_mountain_uplands muskeg_upland great_belt_mountains rockies_mt badlands_mt badlands_mt_2
-	little_belt_mountains laramie_range bighorn_mountains badlands_sd_n nd_badlands 
-	ouachita_mts indian_lake_upland thelon_river_upland coppermine_river_upland ouachita_ok southampton_island
-	walden_ridge cohutta_mountains chattahoochee_forest nantahala_forest cumberland_mountains_2 blue_ridge_mountains great_smokies blue_ridge_mountains_2 shady_valley_wasteland cumberland_mountains_3 shenandoah_mountains cumberland_mountains_4 cumberland_mountains cumberland_mountains_5 cumberland_mountains_6 cumberland_mountains_7 cumberland_mountains_8 cumberland_mountains_9
-
-	#northern islands
-	jan_mayen
-	bear_island
-
-
-	#Ocean Wastelands
-	irmingen_sea north_atlantic_ocean celtic_sea azores_biscay_ridge western_atlantic_ocean sargasso_sea central_atlantic
-	guinea_gulf okhotsk_sea indian_capricorn_tropic timor_sea south_atlantic_countercurrent
-	atlantic_capricorn_tropic  tasman_sea north_pacific_ocean chukchi_sea barents_sea labrador_sea
-	south_pacific_ocean pacific_capricorn_tropic philippine_sea norwegian_sea kara_sea
-	north_atlantic_countercurrent western_southern_ocean eastern_southern_ocean 
-	mozambique_channel zanj_sea arabian_sea bengal_bay andaman_sea north_indian_countercurrent 
-	south_indian_countercurrent zealandia_sea coral_sea south_melanesian_sea north_melanesian_sea 
-	north_polynesian_sea micronesian_sea alaska_sea bering_sea north_pacific_countercurrent south_pacific_countercurrent laptev_sea 
- 	
-	baffin_bay heard_island
-	
-	#Australian Wastelands 
-	little_sandy_desert great_victoria_desert gibson_desert western_australian_desert great_sandy_desert tanami_desert simpson_desert sturt_stony_desert strzelecki_desert south_australian_desert pedrika_desert
-	
-	#Siberian Forests
-	siberian_wasteland_1
-	siberian_wasteland_2
-	siberian_wasteland_3
-	siberian_wasteland_4
-	ural_mountains
-	ural_mountains2
-	ural_forest
-	siberian_wasteland_5
-	siberian_wasteland_6
-	siberian_wasteland_7
-	siberian_wasteland_8
-	siberian_wasteland_9
-	siberian_wasteland_10
-	siberian_wasteland_11
-	siberian_wasteland_12
-	siberian_wasteland_13
-	siberian_wasteland_14
-	siberian_wasteland_15
-	siberian_wasteland_16
-	siberian_wasteland_17
-	altay_forest_wasteland_1
-	altay_forest_wasteland_2
-	altay_forest_wasteland_3
-	sverdlovsk_forest_1
-	perm_forest
-	perm_forest_3
-	nenets
-	kolguyev
-	yamal
-	west_siberian_forests
-
-	northwestern_passage
-
-	#South Africa
-	etosha_salt_pan nwetwe_salt_pan sua_salt_pan tsaris_mountains hakos_mountains otjiwarongo_mountains ombombo_mountains
-	roggeveld_mountains winterkoek_mountain skurweberge_mountains langeberg_east_mountains langeberg_west_mountains
-	groot_swart_mountains outenniqua_mountains tsitsikamma_mountains tandjies_mountains clock_mountains anys_mountains 
-	north_drakensberg_mountains south_drakensberg_mountains jonkershoek_mountains riviersonderend_mountains 
-	hawequas_mountains waterval_mountains kalahari_desert namib_desert mocamedes_desert
-
-	#Oceania
-	nauru mokumanamana oeno_atoll
-	revillagigedo_islands eiao ua_huka ua_pou temoe_atoll morane_atoll maria_atoll tematagi_atoll hereheretue_atoll anuanuraro_atoll tatakoto reao nengonengo_atoll rekareka_atoll
-	hikueru_atoll reitoru_atoll fangatau_atoll puka_puka_atoll napuka_atoll nihiru_atoll makatea_atoll tetiaroa_atoll haraiki_atoll moorea huahine pora_pora maupiti_atoll maupihaa_atoll motu_one_atoll
-	#Hawaii
-	mauna_loa nihoa kauo holaniku_atoll kuaihelani_atoll holoikauaua_atoll papa_apoho_atoll kanemilohai_atoll
-	teraina malden starbuck palmyra_atoll
-	rakahanga
-	olohega zephyr_atoll
-	rotuma_atoll
-	paraoa_atoll tauere_atoll	
-	yasawa_atoll vatoa navatu_reef thikombia cicia ovalau koro_island
-	vanua_vatu marovo_lagoon roviana_lagoon
-	walpole kiritimati_atoll kingman_reff
-	kita_iwo_jima  tubuai_atoll raivavae_atoll
-	uracas maug alamagan moorea_atoll tahiti_atoll macquarie
-	helene_atoll havaii_atoll huahine_atoll pora_pora_atoll
-	mokil_atoll tongatapu_atoll haapai_atoll
-	ngau_atoll makogai_atoll bukatatonoa_atoll mallum_atoll
-	banaba kadavu_atoll moala_atoll totoya_atoll tehaolei_atoll
-	howland viti_levu_atoll cacau_levu_atoll ovalau_atoll ulawa lavukal nggatokae vaghena
-	futuna_vanuatu maiao tikei ducie_atoll belau_atoll frederick_reef
-	duff_islands belep mehetia pitcairn bougainville_jungle choiseul_jungle henderson elgin_atoll
-	bougainville_jungle isatabu_jungle zabana_jungle makira_jungle ngulu_atoll
-	cook_knolls bayonnaise_banks chagos_archipelago kosciusko_bank niuoku_atoll bellona_reef
-	west_faru_atoll caroline new_caledonia_barrier_reef_1 new_caledonia_barrier_reef_2 entrecasteaux_atoll beautemps_beaupre_atoll tikopia_atoll anuta_atoll reef_atoll indispensable_reefs manning_atoll nukumanu_atoll luangiua_atoll tauu_atoll anen_kio_atoll bikar_atoll taongi_atoll pohnpei_atoll oroluk_atoll minto_atoll noos anatahan hall_atoll chuuk_lagoon guahan_atoll piagailoe_atoll caroline_atoll namonuito_atoll
-	lord_howe_island norfolk kwenyii manua manihiki te_ulu_o_te_watu atafu_atoll nikumaroro_atoll 
-	christmas_island saint_paul_island seychelles gough_island tristan_da_cunha_island ascensao ebon_atoll orona_atoll manra_atoll kanton_atoll ono_i_llau_atoll faraulep_atoll ngatik_atoll rota lakeba moala angaur eua niuatoputapu_atoll niuafo_ou futuna
-	
-	changshan_islands_wastelands geiyo_islands_wastelands banta_island_wasteland kamaran_islands_wasteland
-	amrum_island_wasteland lastovo_island_wasteland
 }
 
 
 non_ownable = {
-	timimoun_qulaia_corridor	ain_abalessa_corridor	abalessa_djanet_corridor	djanet_ghadames_corridor	horn_desert_corridor1 horn_desert_corridor2 horn_desert_corridor3	ain_salah_el_golea_corridor
-	ghardaia_el_golea_corridor	ouargla_el_golea_corridor	touggourt_ouargla_corridor	beni_sabih_tabelbala_corridor	tabelbala_charouine_corridor
-	tozeur_ghadames_corridor	tabelbala_taghaza_corridor1	tabelbala_taghaza_corridor2 ghadames_ouargla_corridor
-
-	ksar_es_souk_bechar_corridor	moulouya_corridor1	moulouya_corridor2	moulouya_corridor3
-
-	mirbat_masirah_corridor1 mirbat_masirah_corridor2 mirbat_masirah_corridor3 rumah_jarrarah_corridor tanumah_mashdhubah_corridor ash_shamli_tayma_corridor bir_fajr_tayma_corridor bir_fajr_basithah_corridor
-
-	syrian_desert_corridor1 syrian_desert_corridor2 syrian_desert_corridor3 syrian_desert_corridor4 syrian_desert_corridor5 syrian_desert_corridor6 syrian_desert_corridor7 syrian_desert_corridor8 syrian_desert_corridor9 syrian_desert_corridor10 syrian_desert_corridor11 syrian_desert_corridor12 syrian_desert_corridor13
-
-	anarak_jondaq_corridor ribat_ushturan_jondaq_corridor tabas_al_tamr_ribat_ushturan_corridor ravar_nayband_corridor
-	tharthar
 	
-	sahel_corridor01 	sahel_corridor02 	sahel_corridor03 	sahel_corridor04 	sahel_corridor05 	sahel_corridor06	sahel_corridor07
-	sahel_corridor08	sahel_corridor09	sahel_corridor10	sahel_corridor11	sahel_corridor12	sahel_corridor13	sahel_corridor14
-	sahel_corridor15	sahel_corridor16	sahel_corridor17	sahel_corridor18	sahel_corridor19	sahel_corridor20	sahel_corridor21
-	sahel_corridor22	sahel_corridor23	sahel_corridor24	sahel_corridor25	sahel_corridor26	sahel_corridor27	sahel_corridor28
-	sahel_corridor29	sahel_corridor30	sahel_corridor31	sahel_corridor32	sahel_corridor33	sahel_corridor34
-	
-	connector_egypt1	connector_egypt2	connector_egypt3	connector_egypt4	connector_egypt5	connector_egypt6	connector_egypt7
-	connector_egypt8	connector_egypt9	connector_egypt10	connector_egypt11	connector_egypt12	connector_egypt13	connector_egypt14
-	connector_egypt15	connector_egypt16	connector_egypt17
-	
-	connector_libya1	connector_libya2	connector_libya3	connector_libya4	connector_libya5	connector_libya6	connector_libya7
-	connector_libya8	connector_libya9	connector_libya10	connector_libya11	connector_libya12	connector_libya13	connector_libya14 
-	connector_libya15	connector_libya16	connector_libya17
-	kamchatka_trail1 kamchatka_trail2 tses_kiya_trail ediziza_trail kinaskan_trail kechika_trail kahntah_trail dezadeash_trail chilkootg_trail 
-	chauchu_trail1 chauchu_trail2 chauchu_trail3 anadyr_trail anadyr_river yeropol_river anjuj_river kolyma_river soyangi_trail indigiir_trail 
-	orgulaax_trail kolyma_trail lena_trail1 lena_trail2 lena_trail3 markhaya_trail dulgalaax_trail tunguska_trail1 tunguska_trail2 tunguska_trail3 
-	tunguska_trail4 tunguska_trail5 tunguska_trail6 vilyuy_trail chona_trail ol_de_trail uyandina_trail uolya_trail puur_trail 
 }
 
 

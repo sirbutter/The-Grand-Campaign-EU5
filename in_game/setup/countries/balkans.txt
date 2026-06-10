@@ -14,14 +14,6 @@ ACH = {
 	religion_definition = catholic
 }
 
-ATH = {
-	color = map_athenian
-	color2 = rgb { 41 188 84 } #new color
-
-	culture_definition = catalan
-	religion_definition = catholic
-}
-
 CEP = {
 	color = map_cephalonian
 	color2 = rgb { 41 188 84 } #new color

@@ -52,3 +52,10 @@ FRI = {
 	culture_definition = frisian
 	religion_definition = catholic
 }
+
+MRT = {
+	color = rgb { 135 180 230 }
+
+	culture_definition = frisian
+	religion_definition = catholic
+}

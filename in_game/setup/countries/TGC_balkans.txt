@@ -59,3 +59,11 @@ ION = {
 	culture_definition = hungarian
 	religion_definition = catholic
 }
+
+ATH = {
+	color = map_ATH
+	color2 = rgb { 41 188 84 } #new color
+
+	culture_definition = catalan
+	religion_definition = catholic
+}

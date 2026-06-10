@@ -1,0 +1,15 @@
+LTU = {
+	color = map_LTU
+	color2 = black
+
+	culture_definition = french
+	religion_definition = catholic
+}
+
+SLV = {
+	color = map_SLV
+	color2 = black
+
+	culture_definition = muscovite
+	religion_definition = orthodox
+}
