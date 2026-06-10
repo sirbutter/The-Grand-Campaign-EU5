@@ -1,0 +1,22 @@
+### Roman-SD
+fontfiles = {
+	name = "Roman-SD"
+	always_load = yes
+
+	group = {
+		languages = { "l_english" "l_french" "l_german" "l_spanish" }
+		files = { "fonts/Roman-SD.ttf" }
+	}
+}
+
+#######################################################################
+
+# For map names
+font = {
+	name = "MapFont"
+
+	fontstyle = {
+		style = regular
+		fontfiles = "Roman-SD"
+	}
+}

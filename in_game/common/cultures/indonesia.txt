@@ -1461,7 +1461,7 @@ aeta_culture = { #https://en.wikipedia.org/wiki/Aeta_people
 subanon_culture = { #https://en.wikipedia.org/wiki/Subanon_people
 	language = subanon_dialect
 	
-	color = map_SNL
+	color = map_SML
 	
 	tags = { austronesian_gfx indian_gfx filipino_coa_gfx }
 

@@ -153,3 +153,10 @@ SMR	= { #san marino
 	culture_definition = emilian
 	religion_definition = catholic
 }
+
+MCR	= { #Duchy of Massa and Principality of Carrara
+	color = map_MCR
+
+	culture_definition = tuscan
+	religion_definition = catholic
+}

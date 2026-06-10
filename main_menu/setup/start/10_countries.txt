@@ -18,12 +18,16 @@ countries = {
 
 			UCA = {
 				own_control_core = {
+					cockscomb_jungle tawahka_jungle indio_maiz_jungle chiriqui_mountains chiriqui_jungle
+					xunantunich tzoite campin paliac
+					chiapas_mountains cuchumatanes_mountains
+					huehuetan tonala_chiapas
 					acasaguastlan chiquimula cuauhtemallan guazacapan itzalku
 					xelahuh kakol_kiej itzcuintlan atitlan_guatemala
-					jolom_konob zapaluta tzunun_kaab otzoya chinabajul pismachi
+					jolom_konob tzunun_kaab otzoya chinabajul pismachi
 					chama seacal kajyub nito toquegua
-					noh_peten namaan yax_mutal pachan wak_kabnal
-					ceibal ixtutz pusilha 
+					noh_peten
+					ceibal pusilha 
 					talanga tecohtzincalpan comayagua maniani
 					tencoa ocotepec opoa cururu shalatenan
 					chinda naco yoro ticamaya
@@ -484,6 +488,19 @@ countries = {
 
 			MEX = {
 				own_control_core = {
+					ajusco_mountains tepozan_mountains toluca_mountains colima_mountains
+					reno c_nuchiu_range
+					tu_dotlizh_ndee zapaluta
+					tchokana
+					kwaaru
+					penatuka
+					paruhuya
+					kanahatino
+					mashgalende
+					tu_sis_nde
+					teyas
+					koke_metchesko_laha
+					tsel_tatli_dsha
 					xaltocan
 					tehotihuacan
 					culhuacan
@@ -721,10 +738,8 @@ countries = {
 					zinacantan
 					pochutla
 					tila
-					tonala_chiapas
 					napinaica
 					jaltenango
-					huehuetan
 					baak
 					cupilco
 					zahuatan
@@ -1087,8 +1102,21 @@ countries = {
 					wailaki
 					hoilkut
 					oohl
-					chidkhu
+					bear_river_w
+					sweetwater
+					yuttahih
+					nuchiu_range
+					colorado
+					pagayuat newe_wasteland nuwuvi_desert nuwuvi_wasteland toyabe inyo_mountains sierra_nevada_c sierra_nevada_s chumash_ranges grand_canyon arapaho dzil_ligai_mountains madre_mountains viga_mountains fria_mountains lobos_mountains popocatepetl_mountains citlaltepetl_mountains chimalapa_jungle
+					klamath_range
+					nomlaki_range
+					chumawi_range
+					atsa_kudok_wa
+					gidi_tika
+					moadokado
 					natinixwe
+					tosa_konoki
+					panati
 					amblu_kai
 					tsnungwe
 					wintu
@@ -1186,27 +1214,22 @@ countries = {
 					flaming_gorge
 					sinclair
 					east_yuttahih
+					piguique
+					cacaxtles
+					bobole
+					sha_ia_nde
+
 				}
 
 				our_cores_conquered_by_others = {
-					cacaxtles
-					koke_metchesko_laha
 					cabias
-					tsel_tatli_dsha
-					piguique
 					capoque
 					karankawa
 					copane
 					mariame
-					tu_sis_nde
-					bobole
 					ndawe_qoha
 					tonkawa
-					kanahatino
-					sha_ia_nde
 					kol_kuka
-					teyas
-					mashgalende
 					melenudo
 					waco
 					nokoni
@@ -1218,10 +1241,6 @@ countries = {
 					yscani
 					tses_tsembai
 					tenawa
-					tchokana
-					penatuka
-					kwaaru
-					paruhuya
 					atajal
 					tchesha
 					aranama
@@ -1316,24 +1335,14 @@ countries = {
 
 			TEX = {
 				own_control_core = {
-					cacaxtles
-					koke_metchesko_laha
 					cabias
-					tsel_tatli_dsha
-					piguique
 					capoque
 					karankawa
 					copane
 					mariame
-					tu_sis_nde
-					bobole
 					ndawe_qoha
 					tonkawa
-					kanahatino
-					sha_ia_nde
 					kol_kuka
-					teyas
-					mashgalende
 					melenudo
 					waco
 					nokoni
@@ -1345,10 +1354,6 @@ countries = {
 					yscani
 					tses_tsembai
 					tenawa
-					tchokana
-					penatuka
-					kwaaru
-					paruhuya
 					atajal
 					tchesha
 					aranama
@@ -1419,6 +1424,15 @@ countries = {
 
 			USA = {
 				own_control_core = {
+					cumberland_mountains cumberland_mountains_3 cumberland_mountains_4 cumberland_mountains_5
+					st_francois_mts ouachita_mts cohutta_mountains
+					cumberland_mountains_6 cumberland_mountains_7 cumberland_mountains_8 cumberland_mountains_9 blue_ridge_mountains blue_ridge_mountains_2 shenandoah_mountains
+					bighorn_mountains hot_springs grass_creek hinono_ei moneta split_rock milk_creek
+					ruby_valley great_belt_mountains little_belt_mountains ashalaho
+					shoshonne dukundeka washakie pushroot wamsutter
+					beaverhead elkhorn red_rock penointikara gazzllatin
+					wolastoq
+					madawaska
 					shawmut
 					naumkeag
 					assabet
@@ -2241,7 +2255,6 @@ countries = {
 					kyaiyesisahtai
 					onnikisisaahtaayi
 					mahpahpahazhhah
-					nataeosueti
 					rockies_mt
 					shuntaneshnanga
 					kansas
@@ -2351,7 +2364,7 @@ countries = {
 				}
 				starting_technology_level = 3
 				government = {
-					ruler = random
+					ruler = usa_andrew_jackson
 
 					type = republic
 					heir_selection = oligarchic_elective
@@ -2947,15 +2960,12 @@ countries = {
 					kura kajabi kaiabi panara apiacas ikpeng
 					paranaiba porekry opaye ofaie taquarucu anhandui
 					kadiweu piripucu terena nioac
-					#amazon_jungle negro_amazon_jungle solimoes_amazon_jungle purus_amazon_jungle madeira_amazon_jungle
 					saraua_jungle piaui_jungle marajoara_jungle
 					jiboia_jungle maxakali_jungle
 					pantanal_swamp pantanal_forest
 					evuevi sucuriu piquiri camapua ytykyra
 					dawande balotipone parecis haliti ikuiapa guato otuques
-					amazon_jungle
 					eexiwa
-					# oro_win karipuna pakaasnovos yjxa ahe wari kaxarari
 					tacaru_jungle kaiowa kaiwa chiripa maracaju
 					uru_pa_in jiparana uru_eu_wau_wau amundava itarap djeoromitxi
 					kwaza akana latunde nambikwara surui_paiter kawahib
@@ -3444,6 +3454,9 @@ countries = {
 		# Europe
 			CPL = {
 				own_control_core = {
+					piskorowice
+					brest_litowsk malaryta
+					tykocin mielnik suraz drohiczyn
 					sokolow biala_podlaska wlodawa 
 					chelm krasnystaw ugrovesk grabowiec
 					suwalki lipsk veisiejai lazdijai alytus vilkaviskis panemune
@@ -3451,7 +3464,6 @@ countries = {
 					dobrzyn lipno rypin
 					#Kujavia
 					wloclawek kowal radziejow
-					ostrow_wielkopolski pleszew
 					siewierz
 					#Lesser Poland
 					ksiaz_wielki proszowice
@@ -3460,14 +3472,14 @@ countries = {
 					lublin janow_lubelski kazimierz lukow lubartow urzedow
 					busko_zdroj wislica
 					radom ilza stezyca szydlowiec zwolen
-					sandomierz kunow opatow rudnik_poland
+					kunow opatow
 					#Greater Poland
 					kalisz 
 					konin kolo lad_konin
 
 					# own_control_integrated, but culture accepted
 					#Wielun
-					wielun ostrzeszow wieruszow rawa sochaczew wizna goniadz zambrow ostroleka zakroczym przasnysz
+					wielun wieruszow rawa sochaczew wizna goniadz zambrow ostroleka zakroczym przasnysz
 					rozan lomza kolno biala_rawska ciechanow
 					warsaw grojec czersk liw nur kamieniec garwolin tarczyn
 					plock sierpc szrensk plonsk gostynin gabin
@@ -3481,9 +3493,9 @@ countries = {
 				government = {
 					type = monarchy
 					heir_selection = cognatic_primogeniture
-					ruler = eng_edward_i
+					ruler = cpl_ivan_paskevich
 
-					ruler_term = {	 character = eng_edward_i start_date = 1327.1.25 regnal_number = 1 }
+					ruler_term = {	 character = cpl_ivan_paskevich start_date = 1327.1.25 regnal_number = 1 }
 
 					regnal_numbers = {
 						name_edward = 1
@@ -3670,9 +3682,9 @@ countries = {
 				government = {
 					type = monarchy
 					heir_selection = cognatic_primogeniture
-					ruler = eng_edward_i
+					ruler = esh_paul_friedrich_von_benckendorff
 
-					ruler_term = {	 character = eng_edward_i start_date = 1327.1.25 regnal_number = 1 }
+					ruler_term = {	 character = esh_paul_friedrich_von_benckendorff start_date = 1327.1.25 regnal_number = 1 }
 
 					regnal_numbers = {
 						name_edward = 1
@@ -3732,9 +3744,9 @@ countries = {
 				government = {
 					type = monarchy
 					heir_selection = cognatic_primogeniture
-					ruler = eng_edward_i
+					ruler = liv_georg_friedrich_von_folkesahm
 
-					ruler_term = {	 character = eng_edward_i start_date = 1327.1.25 regnal_number = 1 }
+					ruler_term = {	 character = liv_georg_friedrich_von_folkesahm start_date = 1327.1.25 regnal_number = 1 }
 
 					regnal_numbers = {
 						name_edward = 1
@@ -3793,9 +3805,9 @@ countries = {
 				government = {
 					type = monarchy
 					heir_selection = cognatic_primogeniture
-					ruler = eng_edward_i
+					ruler = kur_christoph_engelbrecht_von_brevern
 
-					ruler_term = {	 character = eng_edward_i start_date = 1327.1.25 regnal_number = 1 }
+					ruler_term = {	 character = kur_christoph_engelbrecht_von_brevern start_date = 1327.1.25 regnal_number = 1 }
 
 					regnal_numbers = {
 						name_edward = 1
@@ -3847,12 +3859,14 @@ countries = {
 
 			PZN = { #Poznan
 				own_control_core = {
+					czlopa wyrzysk
 					bydgoszcz inowroclaw
 					znin chodziez szubin
 					gniezno mogilno trzemeszno
 					poznan buk czarnkow miedzyrzecz oborniki skwierzyna szamotuly wielen
 					pyzdry kozmin sroda_wielkopolska
 					koscian babimost grodzisk_wielkopolski rawicz srem wschowa
+					ostrow_wielkopolski pleszew ostrzeszow
 				}
 
 				own_control_integrated = {
@@ -3881,6 +3895,8 @@ countries = {
 
 			SWE = {
 				own_control_core = {
+					skanderna
+					s_jamtland_wasteland n_jamtland_wasteland
 					laholm asbo idre 
 					sveg hede
 
@@ -3905,15 +3921,14 @@ countries = {
 
 					harnosand solatunum ramsele sjalevad anundsjo grundsunda
 
-					umea vindeln skelleftea tornea bygdea pitea lulea ranea gratesk hienatiemi branna byske bodebyn alvsby kiemi pajala kittila rovaniemi
-
+					umea vindeln skelleftea tornea bygdea pitea lulea ranea gratesk hienatiemi branna byske bodebyn alvsby pajala
 					asele lycksele arvidsjaur volgsjo stensele tarna ortrask
 
 					akkajaur arjeplog silbojock sorsele
 
 					storavan uddjaur socksjock jokkmokk kvikkjock porjus gellivaara sarek
 
-					nikkaluokta kasivarren torne_trask vastenjaure akkajaure abisko raunala mourionska enontakis nunnanen korpilombo juckasjarvi
+					nikkaluokta kasivarren torne_trask vastenjaure akkajaure raunala mourionska korpilombo juckasjarvi
 
 					varberg halmstad kungsbacka
 					ronneby bregne solvesborg
@@ -4188,6 +4203,8 @@ countries = {
 
 			FIN = {
 				own_control_core = {
+					nurmes valkeasaari kyyrola
+					enontakis nunnanen kasivarren kittila rovaniemi kiemi
 					abo poytis sauvo nystad
 					helsinge ekenas sjundea porvoo kymi_fi
 					vyborg villmanstrand veckelax vederlax beryozovskoye
@@ -4218,7 +4235,9 @@ countries = {
 
 			NOR = {
 				own_control_core = {
-
+					kautokeino karasjok
+					hattfjelldal rana abisko
+					hardangervidda norway_wasteland_c jotunheim norway_wasteland_b norway_wasteland_a
 					moss halden borg trogstad
 					oslo ski eidsvoll
 					tonsberg skien sande grenland
@@ -4293,6 +4312,7 @@ countries = {
 
 			ICE = {
 				own_control_core = {
+					icelandic_highlands hofsjokull langjokull vattnajokull eyjafjallajokull
 					holar husavik akureyri blonduos torshofn
 					vopnafjordur egilsstadir seydisfjordur reydarfjordur holmur kirkjubaejar
 					borgarnes olavsvik isafjordur hvamstangi
@@ -4319,6 +4339,7 @@ countries = {
 
 			GRL = {
 				own_control_core = {
+					arsuk ivituut gronnedal kangeq godthab lysufjord sandnes kapisillit anavik
 					gardr brattahlid dyrnes hvalsey einarsfjord vatnahverfi
 					herjolfsnes petursvik lundey altafjord ketilsfjord siglufjord
 				}
@@ -4372,7 +4393,7 @@ countries = {
 					vindeln raisa
 					kautokeino varanger vardo deatnu porsanger karasjok hammerfest alta
 					asele lycksele sorsele arvidsjaur arjeplog silbojock volgsjo stensele tarna ortrask akkajaur hattfjelldal
-					pajala socksjock jokkmokk kvikkjock porjus gellivaara juckasjarvi mourionska enontakis raunala abisko sarek korpilombo nikkaluokta kasivarren
+					pajala socksjock jokkmokk kvikkjock porjus gellivaara juckasjarvi mourionska enontakis raunala abisko sarek korpilombo nikkaluokta 
 					suonikyla koliskoj maaselka luujarvi akkala mootka pechenga prirechnyi nuorttijarvi
 					alakurti kiestinki uhtuo jyskyjarvi paanajarvi repola ontajarvi pieninka
 
@@ -4565,13 +4586,15 @@ countries = {
 
 			PRU = { #Prussia
 				own_control_core = {
-					naumburg
+					neufchateau_luxembourg st_vith
+					schleusingen
+					apolda
+					lichtenberg_veldenz
 					eisleben
 					merseburg
 					weissenfels
 					langensalza freyburg beichlingen
 					erfurt
-					schmalkalden
 					wetzlar
 					muhlhausen
 					nordhausen
@@ -4580,7 +4603,7 @@ countries = {
 					wittenberg belzig schweinitz bitterfeld torgau liebenwerda hoyerswerda delitzsch
 					 merzig bitburg 
 					mors
-					essen munster ahaus warendorf horstmar dulmen
+					essen munster ahaus horstmar dulmen
 					hamm altena bochum dortmund rheine tecklenburg
 					arnsberg meschede lippstadt
 					ruppin
@@ -4636,7 +4659,7 @@ countries = {
 					mayen coblenz saarburg
 					daun cochem
 					kreuznach castellaun
-					naklo wyrzysk zlotow
+					naklo zlotow
 					raciborz #Duchy of Raciborz
 					lubawa chelmno
 					kwidzyn
@@ -4659,7 +4682,7 @@ countries = {
 					stendal osterburg salzwedel gardelegen
 					wittenberge pritzwalk treuenbrietzen
 					angermunde prenzlau
-					torzym swidwin choszczno drawsko czaplinek walcz czlopa santok gorzow
+					torzym swidwin choszczno drawsko czaplinek walcz santok gorzow
 					#Chełmno Land
 					brodnica grudziadz torun
 					#Pomerelia
@@ -4684,13 +4707,10 @@ countries = {
 
 				government = {
 					type = monarchy
-					ruler = teu_dietrich_von_altenburg
-					ruler_term = { character = teu_werner_von_orseln start_date = 1324.7.6 end_date = 1331.2.17 regnal_number = 1	}
-					ruler_term = { character = teu_luther_von_braunschweig_grubenhagen start_date = 1331.2.17 end_date = 1335.4.18 regnal_number = 1 }
-					ruler_term = { character = teu_dietrich_von_altenburg start_date = 1335.4.18 regnal_number = 1	}
+					ruler = pru_friedrich_wilhelm_iii
+					ruler_term = { character = pru_friedrich_wilhelm_iii start_date = 1335.4.18 regnal_number = 3	}
 					regnal_numbers = {
-						name_theodoric = 1
-						name_werner = 1
+						name_frederick_william = 3
 					}
 
 					centralization_vs_decentralization = 20
@@ -4717,31 +4737,12 @@ countries = {
 				}
 
 				country_rank = rank_kingdom
-				capital = malbork
+				capital = berlin
 
 				#Setup to accurately portray the starting situation
 				currency_data = {
 					war_exhaustion = 5
 				}
-			}
-
-			HSA = {	#Hansa
-				type = building
-				starting_technology_level = 3
-
-				capital = lubeck
-				include = "hansa"
-				government = {
-					type = republic
-					heir_selection = oligarchic_elective
-					laws = {
-						marriage_law = monogamous_marriage
-						heir_religion_law = heir_same_religion
-					}
-					ruler = random
-				}
-				country_rank = rank_duchy
-				include = "expl_northern_europe"
 			}
 
 			LUB = {	#Lübeck
@@ -4915,19 +4916,12 @@ countries = {
 				include = "german_principality"
 				government = {
 
-					ruler = mei_friedrich_ii_meissen
-					consort = mei_mathilde_von_bayern
+					ruler = sax_anthony
 
-					ruler_term = {	character = mei_albrecht_ii_the_degenerate_meissen start_date = 1288.1.1 end_date = 1291.1.1 regnal_number = 2	}
-					ruler_term = {	character = mei_friedrich_the_bitten_meissen start_date = 1291.1.1 end_date = 1323.1.1 regnal_number = 1	}
-					ruler_term = {	character = mei_friedrich_ii_meissen start_date = 1323.1.1 regnal_number = 2	}
+					ruler_term = {	character = sax_anthony start_date = 1827.5.5 }
 
 					regnal_numbers = {
-						name_frederick = 2
-					}
-
-					reforms = {
-						margraviate
+						name_frederick_augustus = 1
 					}
 
 					laws = {
@@ -4941,12 +4935,9 @@ countries = {
 
 				}
 
-				country_rank = rank_county
-				capital = meissen
+				country_rank = rank_kingdom
+				capital = dresden
 				dynasty = wettin_dynasty
-				tolerated_cultures = {
-					sorbian
-				}
 			}
 
 			MAG = {	#Magdeburg
@@ -4993,7 +4984,7 @@ countries = {
 
 			BRE = {	#Bremen
 				own_control_core = {
-					bremen
+					bremen bremervorde
 				}
 				starting_technology_level = 3
 				include = "expl_western_europe"
@@ -5083,6 +5074,7 @@ countries = {
 
 			SLW = { #Slesvig
 				own_control_core = {
+					amrum_island_wasteland
 					eckernforde slesvig flensburg aabenraa haderslev
 					ribe tonder
 					husum
@@ -6285,8 +6277,14 @@ countries = {
 			#Russia
 			RUS = {
 				own_control_core = {
+					siberian_wasteland_3 siberian_wasteland_2 perm_forest_3 sverdlovsk_forest_1 siberian_wasteland_1 perm_forest ural_mountains ural_forest ural_mountains2 siberian_wasteland_4 yamal siberian_wasteland_11
+					solovetsky
+					russian_wastelands_4 russian_wastelands_1 russian_wastelands_6 russian_wastelands_5 russian_wastelands_2 russian_wastelands_9 russian_wastelands_7 russian_wastelands_10 russian_wastelands_8 kanin_peninsula kolguyev yuzhny west_siberian_forests nenets
+					kondpoga shyoltozero
+					lapland_taiga2 lapland_taiga3 lapland_taiga4 kola_taiga karelia_taiga1 karelia_taiga2
+					guvrel
+					husi tulcea
 					liuboml shatsk
-					tykocin
 					kazym sumgut_vosh vezhakary kaltysyany
 					kushva novaya_lyalya turyinskiye_rudniki sosva verkhoturye
 					nizhnyaya_salda
@@ -6419,7 +6417,6 @@ countries = {
 					kola dalniye_zelentsy kiltina luujarvi maaselka ponoi semiostrov svyatoy_nos
 					umba kantalahti kashkarantsy olenitsa pyalitsa raivke tetrino varzuga
 					pechenga akkala alakurti koliskoj mootka nuorttijarvi prirechnyi suonikyla
-					valkeasaari kyyrola
 					trubchevsk
 					rylsk
 					starodub_siverskyi klintsy ropsk radogosch
@@ -6526,14 +6523,12 @@ countries = {
 					#Volhynia
 					ratne
 					kremenets dubno zbarazh tykhomel
-					lutsk chortoryisk peremyl rozhyshche stepan volodymyrets
+					lutsk chortoryisk  rozhyshche stepan volodymyrets
 					rivne kostopil ostroh peresopnytsya
-					volodymyr kamin kovel melnytsya turiisk
+					kamin kovel melnytsya turiisk
 					novohrad_volynskyi iziaslav korets liubar polonne
 					#Halych
-					belz busk  sokal
-					brody
-					
+					volodymyr peremyl
 					#Polesia
 					liubeshiv dubrovytsia
 
@@ -6699,7 +6694,7 @@ countries = {
 					nyasvizh
 					babruysk luchin rahachow svietlahorsk
 					#Polesia
-					brest_litowsk chernyany malaryta
+					chernyany
 					kobryn dabuchyn hajnowka kamyenyets
 					#Samogitia
 					medininkai
@@ -6713,7 +6708,7 @@ countries = {
 					palanga rietavas silale skuodas taurage
 					grodek
 					#Podlasie
-					drohiczyn bielsk_podlaski mielnik suraz
+					bielsk_podlaski
 					mazeikiai
 					#Ukraine
 					kyiv dymer fastiv zdvizhen
@@ -6748,8 +6743,7 @@ countries = {
 					kilmez stelty falenki uni ural_nema
 					aspa suksun ust_kishert orda kasevo yanaul tatyshly saygatsky yelovo osa 
 					ushytsia khmilnyk letychiv mezhybozhe mohyliv_podilskyi rov
-					bakota horodok kamianets_podilskyi zalishchyky
-					terebovlia khorostkiv ternopil
+					bakota horodok kamianets_podilskyi
 					shuryshkar
 				}
 
@@ -6786,10 +6780,12 @@ countries = {
 				government = {
 					type = monarchy
 					heir_selection = cognatic_primogeniture
-					ruler = mos_ivan_i_danilovich_kalita_rurikovich
-					ruler_term = { character = mos_daniil_aleksandrovich_rurikovich start_date = 1263.11.14 regnal_number = 1 end_date = 1303.5.4 }
-					ruler_term = { character = mos_yury_danilovich_rurikovich start_date = 1303.5.4 regnal_number = 1 end_date = 1325.11.21 }
-					ruler_term = { character = mos_ivan_i_danilovich_kalita_rurikovich start_date = 1325.11.21 regnal_number = 1 }
+					ruler = rus_nicholas_i
+					ruler_term = { character = rus_nicholas_i start_date = 1825.12.1 regnal_number = 1 }
+					regnal_numbers = {
+						name_nicholas = 1
+						name_alexander = 1
+					}
 				}
 
 				liturgical_language = church_slavonic_language
@@ -6801,22 +6797,18 @@ countries = {
 
 			RAC = {
 				own_control_core = {
-					# Alaska
-					agw_aneq su_naq kasukuak swikshak amalik alinchak
-					chignik kangi_asinaq qagiigun qagaan unimax qawalangin
-					akuugun niigugis naahmigus qaxun sasignan amiq
-					aniakchak ugashik egegik qarr_unaq igiugig nuuriileng
-					aguyaq akokpaq koliaganeq baleknagiq igushiq togiaq
-					mamterat quinhagaq iiq mamterilleq kwigilingoq kalskaq
-					nunapichuq tununaq kaghasuq niugtaq ce_vaq mekoryuq
-					marayaarmiut imangaq qerrulliiq tapqaq unalakleet ungaliq
-					malemiut kuuyuk qikiqtagruk kuugaaluk kongashuk
-					sinjik nachirvik kigluaik anakovik
-					sivuqaq savoonga kitagnaq st_matthew
-					nuurvik uataaq kivualinagmut uivvak kali
-					kachemak kenai dgheyaytnu k_enakatnu tyonek iliamna susitna
-					daxunhyuu taatiilaaq caniqaq nanwalek nuciiq
-					t_aaku jilkaat aa_kw xunaa shee_t_ika xutsnoowu
+
+					igushiq kalskaq koyukuk manley unalakleet qagiigun
+					mekoryuq kwigilingoq kaghasuq tununaq niugtaq ce_vaq marayaarmiut imangaq
+					amiq st_matthew sivuqaq savoonga kitagnaq
+					unimax qawalangin niigugis naahmigus qaxun sasignan
+					
+					kasukuak su_naq agw_aneq
+					igiugig
+
+					kenai kachemak
+					nanwalek caniqaq
+					xunaa shee_t_ika
 
 					# Fort Ross
 					kashaya
@@ -6826,12 +6818,9 @@ countries = {
 				country_rank = rank_county
 
 				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-					ruler = mos_ivan_i_danilovich_kalita_rurikovich
-					ruler_term = { character = mos_daniil_aleksandrovich_rurikovich start_date = 1263.11.14 regnal_number = 1 end_date = 1303.5.4 }
-					ruler_term = { character = mos_yury_danilovich_rurikovich start_date = 1303.5.4 regnal_number = 1 end_date = 1325.11.21 }
-					ruler_term = { character = mos_ivan_i_danilovich_kalita_rurikovich start_date = 1325.11.21 regnal_number = 1 }
+					type = republic
+					heir_selection = oligarchic_elective
+					ruler = rac_ivan_kupreyanov
 				}
 
 				liturgical_language = church_slavonic_language
@@ -6839,170 +6828,6 @@ countries = {
 				capital = xunaa
 				include = "russian_principality_no_coast"
 				include = "expl_novgorod"
-			}
-
-			#Principality of Pereyaslavl-Zalessky
-			PZL = {
-				our_cores_conquered_by_others = {
-					pereyaslavl alexandrovskaya_sloboda bogorodskoye_pereyaslavl kirzhach poreevo yanovo
-				}
-
-				starting_technology_level = 3
-				country_rank = rank_kingdom
-
-				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-
-					ruler_term = { character = kie_vsevolod_iii_rurikovich start_date = 1175.1.1 end_date = 1176.1.1 regnal_number = 1 }
-					ruler_term = { character = kie_yaroslav_iii_rurikovich start_date = 1246.1.1 end_date = 1246.10.30 regnal_number = 1 }
-					ruler_term = { character = kie_alexander_nevsky_rurikovich start_date = 1246.10.30 end_date = 1263.11.14 regnal_number = 1 }
-
-					ruler_term = { character = yar_fyodor_rostislavich_cherny_rurikovich start_date = 1293.1.1 end_date = 1294.1.1 regnal_number = 1 }
-				}
-
-				liturgical_language = church_slavonic_language
-
-				capital = pereyaslavl
-				include = "russian_principality_no_coast_not_present"
-				include = "expl_novgorod"
-			}
-
-			#Principality of Kolomna
-			KLM = {
-				our_cores_conquered_by_others = {
-					kolomna borovsk khatun koshira maloyaroslavets serpukhov vereya vysokoye
-				}
-
-				starting_technology_level = 3
-				country_rank = rank_kingdom
-
-				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-
-				}
-
-				liturgical_language = church_slavonic_language
-
-				capital = kolomna
-				include = "russian_principality_no_coast_not_present"
-				include = "expl_novgorod"
-			}
-
-			#Grand Principality of Vladimir
-			#Personal Union under Moscovy
-			VLR = {
-				own_control_core = {
-				}
-
-				own_control_integrated = {
-				}
-
-				starting_technology_level = 3
-				country_rank = rank_duchy
-
-				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-					ruler = mos_ivan_i_danilovich_kalita_rurikovich
-					
-					#ruler_term = {	character = kie_vsevolod_iii_rurikovich start_date = 1176.6.20 end_date = 1212.4.15 regnal_number = 1	}
-					#ruler_term = { character = nov_konstantin_vsevolodovich_rurikovich start_date = 1216.1.1 end_date = 1218.1.1 regnal_number = 1 }	
-					#ruler_term = { character = nov_svyatoslav_iii_vsevolodovich_rurikovich start_date = 1246.1.1 end_date = 1248.1.1 regnal_number = 1 }
-					#ruler_term = { character = vlr_andrey_yaroslavich_rurikovich start_date = 1248.1.1 end_date = 1252.1.1 regnal_number = 1 }
-					#ruler_term = { character = kie_alexander_nevsky_rurikovich start_date = 1252.1.1 end_date = 1263.1.1 regnal_number = 1 }
-					#ruler_term = { character = psk_aleksandr_mikhailovich_rurikovich start_date = 1326.1.1 end_date = 1327.1.1 regnal_number = 1 }
-					ruler_term = { character = szl_alexander_vasilyevich_rurikovich start_date = 1328.1.1 end_date = 1332.1.1 regnal_number = 1 }
-					ruler_term = { character = mos_ivan_i_danilovich_kalita_rurikovich start_date = 1332.1.1 regnal_number = 1 }
-				}
-
-				liturgical_language = church_slavonic_language
-
-				country_rank = rank_kingdom
-				capital = vladimir
-				include = "russian_principality_no_coast"
-				include = "expl_novgorod"
-			}
-
-			#Principality of Uglich
-			#Personal Union under Moscovy
-			UGL = {
-				own_control_core = {
-				}
-
-				starting_technology_level = 3
-				country_rank = rank_duchy
-
-				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-					ruler = mos_ivan_i_danilovich_kalita_rurikovich
-
-					#ruler_term = { character = rso_dmitry_borisovich_rurikovich start_date = 1285.1.1 end_date = 1288.1.1 regnal_number = 1 }
-					#ruler_term = { character = rso_konstantin_borisovich_rurikovich start_date = 1288.1.1 end_date = 1294.1.1 regnal_number = 1 }
-					#ruler_term = { character = rso_alexander_konstantinovich_rurikovich start_date = 1294.1.1 end_date = 1307.1.1 regnal_number = 1 }
-					#ruler_term = { character = rso_yuri_alexandrovich_rurikovich start_date = 1307.1.1 end_date = 1320.1.1 regnal_number = 1 }
-					ruler_term = { character = mos_ivan_i_danilovich_kalita_rurikovich start_date = 1325.11.21 regnal_number = 1 }
-				}
-
-				liturgical_language = church_slavonic_language
-
-				capital = uglich
-				include = "russian_principality_no_coast"
-				include = "expl_novgorod"
-			}
-
-			#Principality of Yuriev
-			YRV = {
-				own_control_core = {
-				}
-
-				starting_technology_level = 3
-				country_rank = rank_duchy
-
-				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-					ruler = yrv_yaroslav_ivanovich_rurikovich
-
-					#ruler_term = { character = nov_svyatoslav_iii_vsevolodovich_rurikovich start_date = 1214.1.1 end_date = 1230.1.1 regnal_number = 1 }
-					ruler_term = { character = yrv_dmitriy_svyatoslavich_rurikovich start_date = 1253.1.1 end_date = 1269.1.1 regnal_number = 1 }
-					ruler_term = { character = yrv_yaroslav_dmitrevich_rurikovich start_date = 1269.1.1 end_date = 1279.1.1 regnal_number = 1 }
-					ruler_term = { character = yrv_ivan_dmitrevich_rurikovich start_date = 1279.1.1 end_date = 1310.1.1 regnal_number = 1 }
-					ruler_term = { character = yrv_yaroslav_ivanovich_rurikovich start_date = 1310.1.1 regnal_number = 1 }
-				}
-
-				liturgical_language = church_slavonic_language
-
-				capital = yuryev_polsky
-				include = "russian_principality_no_coast"
-				include = "expl_novgorod"
-			}
-
-			ORE = {
-				own_control_core = {
-				}
-				starting_technology_level = 3
-				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-					ruler = pok_narimantas_gediminds
-					ruler_term = {	 character = pok_narimantas_gediminds start_date = 1333.1.1 regnal_number = 1	}
-				}
-
-				liturgical_language = church_slavonic_language
-
-				tolerated_cultures = {
-					ingrian
-					karelian
-				}
-
-				country_rank = rank_duchy
-				capital = oreshek
-				include = "russian_principality"
-				include = "expl_novgorod"
-
 			}
 
 
@@ -7769,6 +7594,7 @@ countries = {
 
 			GBI = { # England
 				own_control_core = {
+					dartmoor brecon_beacons cambrian_mountains berwyn_range snowdon north_york_moors pennines_01 pennines_02 pennines_03 pennines_04 pennines_05 pennines_06 scilly_isles wicklow_mountains ochil_hills ben_nevis cairngorm carn_eige fannichs ben_klibreck
 					# Earldom of Chester
 					# cornwall
 					launceston truro bodmin
@@ -7886,7 +7712,7 @@ countries = {
 						cairiani alubera waitu_kubuli hewanorra ichirouganaim kamahuya youloumain
 
 					# Belize
-						tzunuun altun_ha lamanai xunantunich uxwitza campin tzoite paliac
+						altun_ha colha
 
 					# Mosquito Coast
 						karawala awastara ahuya_yari
@@ -8000,7 +7826,6 @@ countries = {
 						wachilmezi
 						onkobagag
 						sartigan
-						wolastoq
 						stadacona
 						andawaohie
 						ontaretse
@@ -8329,7 +8154,6 @@ countries = {
 						maleagit
 						pogomeg
 						asoqasqoq
-						madawaska
 						negoot
 						becaguimec
 						siegas
@@ -8552,9 +8376,11 @@ countries = {
 						akimiski
 					
 					# Oregon
-						stlpulmsh chehalis chala_at sklallam twana makah
-						wishram klikitat mamachatpam pa_kiut_lema wanapum
-						aqanqmi yaqan_nukiy akinkumasnuqit aq_am akisq_nuk kananmituk
+						north_cascade
+						sw_ktunaxa_ranges se_ktunaxa_ranges ce_ktunaxa_ranges ne_ktunaxa_ranges nc_ktunaxa_ranges cw_ktunaxa_ranges
+						stlpulmsh chehalis chala_at sklallam twana makah n_pooh_le
+						wishram klikitat mamachatpam pa_kiut_lema
+						akinkumasnuqit aq_am akisq_nuk kananmituk
 						akinka_nup aqyam_nup ainu_nik ktunwakanmituk aknuq_uk yakyu_ki
 						puyallup kittikas duwamish snohomish skagit nisqually
 						nooksack lhaq_temish sto_lo sts_ailes whonnock katzie
@@ -8731,64 +8557,12 @@ countries = {
 				government = {
 					type = monarchy
 					heir_selection = cognatic_primogeniture
-					ruler = eng_edward_iii
+					ruler = gbi_han_william_iv
 
-					ruler_term = {	 character = eng_alfred_the_great start_date = 886.1.1 end_date = 899.10.26 regnal_number = 0	}
-					ruler_term = {	 character = eng_edward_the_elder start_date = 899.10.26 end_date = 924.7.17 regnal_number = 0	}
-					ruler_term = {	 character = eng_athelstan_the_glorious start_date = 924.7.17 end_date = 939.10.27 regnal_number = 0	}
-					ruler_term = {	 character = eng_edmund_the_magnificent start_date = 939.10.27 end_date = 946.5.26 regnal_number = 0	}
-					ruler_term = {	 character = eng_eadred start_date = 946.5.26 end_date = 955.11.23 regnal_number = 0	}
-					ruler_term = {	 character = eng_eadwig start_date = 955.11.23 end_date = 959.10.1 regnal_number = 0	}
-					ruler_term = {	 character = eng_edgar_the_peaceful start_date = 959.10.1 end_date = 975.7.8 regnal_number = 0	}
-					ruler_term = {	 character = eng_edward_the_martyr start_date = 975.7.8 end_date = 978.3.18 regnal_number = 0	}
-					ruler_term = {	 character = eng_ethelred_the_unready start_date = 978.3.18 end_date = 1013.12.25 regnal_number = 0	}
-
-					ruler_term = {	 character = eng_sweyn_forkbeard start_date = 1013.12.25 end_date = 1014.2.3 regnal_number = 0	}
-
-					ruler_term = {	 character = eng_ethelred_the_unready start_date = 1014.2.3 end_date = 1016.4.23 regnal_number = 0	}
-
-					ruler_term = { character = eng_edmund_ironside start_date = 1016.4.23 end_date = 1016.10.18 regnal_number = 0 }
-					ruler_term = {
-						character = eng_edmund_ironside start_date = 1016.10.18 end_date = 1016.11.30 regnal_number = 0
-						character = eng_cnut_the_great start_date = 1016.10.18 end_date = 1016.11.30 regnal_number = 0
-					}
-
-					ruler_term = { character = eng_cnut_the_great start_date = 1016.11.30 end_date = 1035.11.12 regnal_number = 0 }
-					ruler_term = { character = eng_harold_harefoot start_date = 1035.11.12 end_date = 1040.3.17 regnal_number = 0 }
-
-					ruler_term = { character = eng_harthacnute start_date = 1040.3.17 end_date = 1042.5.8 regnal_number = 0 }
-					ruler_term = {
-						character = eng_harthacnute start_date = 1042.5.8 end_date = 1042.6.8 regnal_number = 0
-						character = eng_edward_the_confessor start_date = 1042.5.8 end_date = 1042.6.8 regnal_number = 0
-					}
-
-					ruler_term = { character = eng_edward_the_confessor start_date = 1042.6.8 end_date = 1066.1.5 regnal_number = 0 }
-
-					ruler_term = {	 character = eng_harold_godwinson start_date = 1066.1.6 end_date = 1066.10.14 regnal_number = 0	}
-
-					# regnal numbering usually starts with the Norman Invasion
-					ruler_term = {	 character = eng_william_the_conquerer start_date = 1066.12.25 end_date = 1087.9.9 regnal_number = 1	}
-					ruler_term = {	 character = eng_william_ii_rufus start_date = 1087.9.26 end_date = 1100.7.2 regnal_number = 2	}
-					ruler_term = {	 character = eng_henry_i start_date = 1100.7.5 end_date = 1135.12.1 regnal_number = 1	}
-
-					ruler_term = {	 character = eng_stephen_i start_date = 1135.12.22 end_date = 1154.10.25 regnal_number = 1	}
-
-					ruler_term = {	 character = eng_henry_ii_curtmantle start_date = 1154.12.19 end_date = 1189.7.6 regnal_number = 2	}
-					ruler_term = {	 character = eng_richard_i_lionheart start_date = 1189.9.3 end_date = 1199.4.6 regnal_number = 1	}
-					ruler_term = {	 character = eng_john_lackland start_date = 1199.5.27 end_date = 1216.10.19 regnal_number = 1	}
-
-					ruler_term = {	 character = eng_henry_iii start_date = 1216.10.28 end_date = 1272.11.16 regnal_number = 3	}
-					ruler_term = {	 character = eng_edward_i start_date = 1272.11.20 end_date = 1307.7.8 regnal_number = 1	}
-					ruler_term = {	 character = eng_edward_ii start_date = 1307.7.8 end_date = 1327.1.20 regnal_number = 2	}
-					ruler_term = {	 character = eng_edward_iii start_date = 1327.1.25 regnal_number = 3 }
+					ruler_term = {	 character = gbi_han_william_iv start_date = 1830.6.26 regnal_number = 4 }
 
 					regnal_numbers = {
-						name_william = 2
-						name_henry = 3
-						name_stephen = 1
-						name_richard = 2
-						name_john = 1
-						name_edward = 3
+						name_william = 4
 					}
 
 					reforms = {
@@ -12094,6 +11868,7 @@ countries = {
 					pistoia
 					prato
 					pitigliano sansepolcro modigliana
+					ficarolo massa pescia
 				}
 
 				own_control_conquered = {
@@ -12254,7 +12029,7 @@ countries = {
 
 			LUC = { #Lucca
 				own_control_core = {
-					lucca massa pescia
+					lucca
 				}
 
 				starting_technology_level = 3
@@ -12315,7 +12090,7 @@ countries = {
 
 			PAR = {
 				own_control_core = {
-					parma berceto sandonnino piacenza bardi fiorenzuola
+					parma berceto sandonnino piacenza bardi fiorenzuola bobbio
 				}
 
 				starting_technology_level = 3
@@ -12343,6 +12118,7 @@ countries = {
 
 			MOD = {
 				own_control_core = {
+					north_apennines
 					frassinoro modena nonantola
 					# own_control_integrated, but culture accepted
 					canossa guastalla mirandola reggioem
@@ -12369,6 +12145,34 @@ countries = {
 					ruler_term = { character = fer_azzo_viii_este start_date = 1293.2.13 end_date = 1306.1.1 regnal_number = 0 }
 				}
 				capital = modena
+			}
+
+			MCR = {
+				own_control_core = {
+					fosdinovo
+				}
+
+				starting_technology_level = 3
+				include = "expl_mediterranean"
+				include = "expl_silk_road_west"
+				include = "expl_silk_road_center"
+				include = "expl_silk_road_east"
+				include = "expl_indian_trade_route"
+				include = "catholic_republic_not_present"
+				government = {
+					type = republic
+					heir_selection = podesta_elective
+
+					reforms = {
+						signoria_reform
+					}
+
+					ruler_term = { character = pad_guglielmo_rossi start_date = 1281.1.1 end_date = 1282.1.1 regnal_number = 0 }
+
+					ruler_term = { character = fer_obizzo_ii_este start_date = 1288.1.1 end_date = 1293.2.13 regnal_number = 0 }
+					ruler_term = { character = fer_azzo_viii_este start_date = 1293.2.13 end_date = 1306.1.1 regnal_number = 0 }
+				}
+				capital = fosdinovo
 			}
 
 			#Naples
@@ -12500,6 +12304,8 @@ countries = {
 
 			PAP = { # Papal States
 				own_control_core = {
+					central_apennines1 central_apennines5
+					montefeltro
 					cittacastello
 					anagni palestrina sabina tivoli rome terracina velletri bracciano civitavecchia
 					corneto orte orvietano viterbo assisi narni rieti spoleto todi
@@ -12515,12 +12321,11 @@ countries = {
 					pesaro
 					marsciano perugia
 					rimini
-					cesena 
-					faenza
+					cesena
 					imola
 					ravenna
 					bologna medicina vergato
-					comacchio ferrara ficarolo rovigo argenta
+					comacchio ferrara argenta
 				}
 
 				include = "catholic_bishopric"
@@ -12649,7 +12454,9 @@ countries = {
 
 			SRP = { # Sardinia-Piedmont
 				own_control_core = {
-					chambery  saint_jean_de_maurienne
+					lepontine_alps1 cottian_alps2 ligurian_alps cottian_alps3 graian_alps1 graian_alps2 pennine_alps1
+					gennargentu_mountains
+					chambery saint_jean_de_maurienne
 					moutiers evian
 					cagliari tratalias villa_di_chiesa isili muravera seddori tortoli orosei terranova_pausania posada tempiopausania pragelato cuneo nice puget_theniers
 					sassari
@@ -12675,7 +12482,7 @@ countries = {
 					ceva
 					cairo_montenotte finalborgo
 					novi tortona
-					bobbio fosdinovo rovegno
+					rovegno
 				}
 
 				starting_technology_level = 3
@@ -12684,36 +12491,10 @@ countries = {
 				government = {
 					type = monarchy
 					heir_selection = cognatic_primogeniture
-					ruler = sav_aymon_savoy
+					ruler = srp_charles_albert
 
-					ruler_term = { character = sav_humbert_i_savoy start_date = 1027.1.1 end_date = 1042.7.1 regnal_number = 1 }
-					ruler_term = { character = sav_amedee_i_savoy start_date = 1042.7.1 end_date = 1051.1.1 regnal_number = 1 }
-					ruler_term = { character = sav_othon_i_savoy start_date = 1051.1.1 end_date = 1060.1.1 regnal_number = 1 }
-					ruler_term = { character = sav_pierre_i_savoy start_date = 1060.1.1 end_date = 1078.7.9 regnal_number = 1 }
-					ruler_term = { character = sav_amedee_ii_savoy start_date = 1078.7.9 end_date = 1080.1.26 regnal_number = 2 }
-					ruler_term = { character = sav_humbert_ii_savoy start_date = 1080.1.26 end_date = 1103.10.19 regnal_number = 2 }
-					ruler_term = { character = sav_amedee_iii_savoy start_date = 1103.10.19 end_date = 1148.8.30 regnal_number = 3 }
-					ruler_term = { character = sav_humbert_iii_savoy start_date = 1148.8.30 end_date = 1189.3.4 regnal_number = 3 }
-					ruler_term = { character = sav_thomas_i_savoy start_date = 1189.3.4 end_date = 1233.3.1 regnal_number = 1 }
-					ruler_term = { character = sav_amedee_iv_savoy start_date = 1233.3.1 end_date = 1253.6.24 regnal_number = 4 }
-					ruler_term = { character = sav_boniface_savoy start_date = 1253.6.24 end_date = 1263.6.11 regnal_number = 1 }
-					ruler_term = { character = sav_pierre_ii_savoy start_date = 1263.6.11 end_date = 1268.5.16 regnal_number = 2 }
-					ruler_term = { character = sav_philippe_i_savoy start_date = 1268.5.16 end_date = 1285.8.15 regnal_number = 1 }
-					ruler_term = { character = sav_amedee_v_savoy start_date = 1285.8.15 end_date = 1323.10.16 regnal_number = 5 }
-					ruler_term = { character = sav_edouard_i_savoy start_date = 1323.10.16 end_date = 1329.11.4 regnal_number = 1 }
-					ruler_term = { character = sav_aymon_savoy start_date = 1329.11.4 regnal_number = 2 }
+					ruler_term = { character = srp_charles_albert start_date = 1831.4.27 regnal_number = 1 }
 
-					regnal_numbers = {
-						name_humbert = 3
-						name_amadeus = 5
-						name_otto = 1
-						name_peter = 2
-						name_thomas = 1
-						name_boniface = 1
-						name_philip = 1
-						name_edward = 1
-						name_haimo = 1
-					}
 				}
 
 				tolerated_cultures = {
@@ -12721,7 +12502,7 @@ countries = {
 				}
 
 				country_rank = rank_county
-				capital = chambery
+				capital = turin
 			}
 
 			#Principality of Piedmont - PIE
@@ -12788,6 +12569,7 @@ countries = {
 
 			TSC = { # Two Sicilies
 				own_control_core = {
+					central_apennines2 central_apennines3 central_apennines4 central_apennines6 central_apennines7 southern_apennines mount_etna
 					catania messina mistretta nicosiasic patti piazza girgenti bivona caltanisetta cefalu sciacca termini
 					corleone mazara palermo salemi trapani caltagirone modica noto syracuse terranovasic
 					aquila atri celano cittaducale csantangelo sulmona teramo chieti lanciano vasto bojano
@@ -13030,7 +12812,7 @@ countries = {
 					negroponte kleisoura karystos kymi oreos eretreia
 					monemvasia mystras oitylo leuktron astros andros mykonos amorgos
 					naxos kythnos milos
-					karpathos sporades
+					sporades
 				}
 
 				starting_technology_level = 3
@@ -13077,6 +12859,54 @@ countries = {
 				own_control_core = {
 					zakynthos leukas cephalonia 
 					corfu kythira
+				}
+
+				starting_technology_level = 3
+				include = "expl_mediterranean"
+				include = "expl_silk_road_west"
+				include = "expl_silk_road_center"
+				include = "expl_silk_road_east"
+				include = "expl_indian_trade_route"
+				include = "catholic_monarchy"
+				government = {
+					type = monarchy
+					heir_selection = cognatic_primogeniture
+
+					ruler = ach_robert_taranto
+
+					ruler_term = { character = cep_riccardo_i_orsini start_date = 1194.1.1 end_date = 1197.1.1 regnal_number = 1 }
+					ruler_term = { character = cep_maio_i_orsini start_date = 1197.1.1 end_date = 1238.1.1 regnal_number = 1 }
+					ruler_term = { character = cep_maio_ii_orsini start_date = 1238.1.1 end_date = 1259.1.1 regnal_number = 2 }
+					ruler_term = { character = cep_riccardo_ii_orsini start_date = 1259.1.1 end_date = 1304.1.1 regnal_number = 2 }
+					ruler_term = { character = cep_giovanni_i_orsini start_date = 1304.1.1 end_date = 1317.1.1 regnal_number = 1 }
+					ruler_term = { character = epi_nikolaos_orsini start_date = 1317.1.1 end_date = 1323.1.1 regnal_number = 1 }
+					ruler_term = { character = cep_john_orsini start_date = 1323.1.1 end_date = 1324.1.1 regnal_number = 2 }
+
+					ruler_term = { character = alb_john_gravina start_date = 1324.1.1 end_date = 1336.4.5 regnal_number = 3 }
+					ruler_term = { character = ach_robert_taranto start_date = 1336.4.5 regnal_number = 1 }
+
+					regnal_numbers = {
+						#Margaritus = 1
+						name_matthew = 2
+						name_richard = 2
+						name_john = 3
+						name_charles = 1
+						name_robert = 1
+					}
+				}
+
+				tolerated_cultures = {
+					greek_culture
+				}
+				capital = cephalonia
+				court_language = french_language
+				dynasty = anjou_dynasty
+				#dynasty = anjou_taranto_dynasty
+			}
+
+			ATH = {
+				own_control_core = {
+					mount_athos
 				}
 
 				starting_technology_level = 3
@@ -13987,6 +13817,13 @@ countries = {
 
 			SPA = {
 				own_control_core = {
+					nevada_range filambres_range subbetic_range segura_range madrona_range iberian_system francia_mountains bejar_mountains western_central_system eastern_central_system1 eastern_central_system2 eastern_central_system3 urbion_peaks demanda_range moncayo_range cabrera_range leon_mountains ancares_range west_cantabrian_mountains east_cantabrian_mountains picos_de_europa
+					puigcerda
+					south_eastern_pyrenees
+					central_pyrenees
+					south_western_pyrenees3
+					south_western_pyrenees2
+					south_western_pyrenees1
 					avila adrada arevalo las_navas oropesa villatoro
 					burgos aranda_de_duero briviesca castrojeriz lerma logrono miranda_de_ebro najera sto_domingo_silos villadiego villarcayo
 					palencia aguilar_de_campoo carrion_de_los_condes monzon_campos palenzuela saldana reinosa
@@ -14025,7 +13862,6 @@ countries = {
 					jativa alcoy alicante denia elche orihuela
 					valencia gandia ayora bunol chelva lliria
 					elizondo estella olite roncesvalles sanguesa tudela viana laguardia
-					saint_jean_pied_de_port #Gascony
 					jumilla
 					pamplona
 					palma ciudadela_de_menorca ibiza manacor pollensa #Kingdom of Mallorca
@@ -14141,6 +13977,7 @@ countries = {
 
 			POR = {
 				own_control_core = {
+					estrela_mountains
 					lagos faro silves tavira
 					evora alvalade alvito avis beja crato elvas estremoz mertola montemor mora_portugal moura odemira ourique ponte_sor portalegre portel salvaterra serpa sines vila_vicosa
 					coimbra besteiros castelo_branco covilha esgueira feira guarda idanha lamego meda pinhel proenca_nova sabugal seia trancoso viseu
@@ -14539,6 +14376,12 @@ countries = {
 
 			FRA = {
 				own_control_core = {
+					cottian_alps1 dauphine_alps2 dauphine_alps1 maritime_alps1
+					dore_mountains massif_central vivarais_mountains vercors_massif corsican_mountains
+					north_eastern_pyrenees2
+					north_eastern_pyrenees1
+					north_western_pyrenees
+					saint_jean_pied_de_port #Gascony
 					#Appanages
 					wallerfangen bitche
 					#Poitou (Own by the ruler)
@@ -14694,7 +14537,7 @@ countries = {
 					# own_control_integrated, but culture accepted
 					clermont_en_beauvaisis #C. Clermont-en-Beauvaisis
 					blois beaugency chateaudun romorantin st_aignan
-					puigcerda prades #County of Cerdanya
+					prades #County of Cerdanya
 					perpignan #County of Roselló
 					montpellier #Lordship of Montpellier
 					brest
@@ -14749,11 +14592,6 @@ countries = {
 					narbonne
 					aleria bastia calvi corte ajaccio sartene vico bonifacio #Corsica
 				}
-				own_control_integrated = {
-				}
-
-				own_control_conquered = {
-				}
 
 				own_control_colony = {
 					# Algeria
@@ -14774,71 +14612,12 @@ countries = {
 				government = {
 					heir_selection = salic_law
 
-					ruler = fra_philip_vi_valois
+					ruler = fra_louis_philippe
 
-					ruler_term = { character = fra_pepin_the_short start_date = 751.10.9 end_date = 768.9.24 regnal_number = 1 }
-					ruler_term = { character = fra_charlemagne start_date = 768.9.24 end_date = 814.1.28 regnal_number = 1 }
-					ruler_term = { character = fra_louis_i start_date = 814.1.28 end_date = 840.6.20 regnal_number = 1 }
-					ruler_term = { character = fra_charles_ii start_date = 840.6.20 end_date = 877.10.6 regnal_number = 2 }
-					ruler_term = { character = fra_louis_ii start_date = 877.10.6 end_date = 879.4.10 regnal_number = 2 }
-					ruler_term = { character = fra_louis_iii start_date = 879.4.11 end_date = 882.8.5 regnal_number = 3 }
-					ruler_term = { character = fra_carloman_ii start_date = 882.8.5 end_date = 884.12.12 regnal_number = 1 }
-					ruler_term = { character = fra_charles_iii start_date = 884.12.12 end_date = 888.1.13 regnal_number = 3 }
-
-					ruler_term = { character = fra_odo start_date = 888.2.29 end_date = 898.1.3 regnal_number = 1 }
-
-					ruler_term = { character = fra_charles_iii start_date = 898.1.3 end_date = 922.6.29 regnal_number = 3 } # Second reign
-
-					ruler_term = { character = fra_robert start_date = 922.6.29 end_date = 923.6.15 regnal_number = 1 }
-
-					ruler_term = { character = fra_rudolph start_date = 923.7.1 end_date = 936.1.15 regnal_number = 1 }
-
-					ruler_term = { character = fra_louis_iv start_date = 936.6.19 end_date = 954.9.10 regnal_number = 4 }
-					ruler_term = { character = fra_lothair start_date = 954.10.12 end_date = 986.3.2 regnal_number = 2 }
-					ruler_term = { character = fra_louis_v start_date = 986.3.8 end_date = 987.5.22 regnal_number = 5 }
-
-					ruler_term = { character = fra_hugues_capet start_date = 987.7.3 end_date = 996.10.24 regnal_number = 1 }
-					ruler_term = { character = fra_robert_ii_capet start_date = 996.10.24 end_date = 1031.7.20 regnal_number = 2 }
-					ruler_term = { character = fra_henri_i_capet start_date = 1031.7.20 end_date = 1060.8.4 regnal_number = 1 }
-					ruler_term = { character = fra_philippe_i_capet start_date = 1060.8.4 end_date = 1108.7.29 regnal_number = 1 }
-					ruler_term = { character = fra_louis_vi_capet start_date = 1108.9.18 end_date = 1137.8.1 regnal_number = 6 }
-					ruler_term = { character = fra_louis_vii_capet start_date = 1137.8.1 end_date = 1180.9.18 regnal_number = 7 }
-					ruler_term = { character = fra_philippe_ii_auguste_capet start_date = 1180.9.18 end_date = 1223.7.14 regnal_number = 2 }
-					ruler_term = { character = fra_louis_viii_capet start_date = 1223.7.14 end_date = 1226.11.8 regnal_number = 8 }
-					ruler_term = { character = fra_louis_ix_capet start_date = 1226.11.8 end_date = 1270.8.25 regnal_number = 9 }
-					ruler_term = { character = fra_philippe_iii_capet start_date = 1270.8.25 end_date = 1285.10.5 regnal_number = 3 }
-					ruler_term = { character = fra_philippe_iv_capet start_date = 1285.10.5 end_date = 1314.11.29 regnal_number = 4 }
-					ruler_term = { character = fra_louis_x_capet start_date = 1314.11.29 end_date = 1316.6.5 regnal_number = 10 }
-					ruler_term = { character = fra_jean_i_capet start_date = 1316.11.15 end_date = 1316.11.20 regnal_number = 1 }
-					ruler_term = { character = fra_philippe_v_capet start_date = 1316.11.20 end_date = 1322.1.3 regnal_number = 5 }
-					ruler_term = { character = fra_charles_iv_capet start_date = 1322.1.3 end_date = 1328.3.21 regnal_number = 4 }
-
-					ruler_term = { character = fra_philip_vi_valois start_date = 1328.4.1 regnal_number = 6 }
+					ruler_term = { character = fra_louis_philippe start_date = 1830.8.9 regnal_number = 1 }
 
 					regnal_numbers = {
-						#Clovis = 4
-						#Clodomir = 1
-						name_theodoric = 4
-						#Thibert = 2
-						name_thobald = 1
-						#Childebert = 4
-						#Clotaire = 5
-						#Caribert = 1
-						#Sigebert = 1
-						#Childéric = 3
-						#Gontran = 1
-						#Dagobert = 3
-						name_pepin = 1
-						name_carloman = 2
-						name_otto = 1
-						name_charles = 4
-						name_henry = 1
-						name_hugh = 1
-						name_john = 1
-						name_louis = 10
-						name_philip = 6
-						name_robert = 2
-						name_lothar = 2
+						name_louis.name_philip = 1
 					}
 
 					centralization_vs_decentralization = 85
@@ -16140,7 +15919,53 @@ countries = {
 					}
 				}
 				country_rank = rank_county
-				capital = the_hague
+				capital = amsterdam
+
+				accepted_cultures = {
+					frisian
+				}
+			}
+
+			#Moresnet
+			MRT = {
+				own_control_core = {
+					limbourg
+				}
+
+				starting_technology_level = 3
+				include = "expl_western_europe"
+				include = "catholic_monarchy"
+				include = "german_principality"
+				government = {
+					ruler = hai_guillaume_de_hainault
+
+					ruler_term = { character = hai_jean_ii_de_hainault start_date = 1299.11.10 end_date = 1304.8.22 regnal_number = 2 }
+					ruler_term = { character = hai_guillaume_de_hainault start_date = 1304.8.22 regnal_number = 3 }
+
+					regnal_numbers = {
+						name_gerulf = 1
+						name_theodoric = 7
+						name_arnulf = 1
+						name_florence = 5
+						name_ada = 1
+						name_william = 3
+						name_john = 2
+					}
+
+					aristocracy_vs_plutocracy = 20
+					serfdom_vs_free_subjects = 20
+					mercantilism_vs_free_trade = 30
+					land_vs_naval = 20
+					capital_economy_vs_traditional_economy = -10
+					individualism_vs_communalism = -20
+					outward_vs_inward = 0
+
+					reforms = {
+						feudal_nobility
+					}
+				}
+				country_rank = rank_county
+				capital = amsterdam
 
 				accepted_cultures = {
 					frisian
@@ -16207,10 +16032,9 @@ countries = {
 					namur
 					liege dinant walcourt tournai
 					hasselt bree borgloon
-					bastogne orchimont la_roche neufchateau_luxembourg st_vith arlon
+					bastogne orchimont la_roche arlon
 					bouillon
 					stavelot
-					limbourg
 					luxembourg vianden
 					maastricht roermond venlo weert
 				}
@@ -16284,10 +16108,22 @@ countries = {
 				capital = liege
 			}
 
-			HAB = {	
+			HAB = {		
 				own_control_core = {
+					rhaetian_alps3 rhaetian_alps2 lechtal_alps1 lechtal_alps2 otztal_alps2 otztal_alps1 venediger_group bavarian_alps1 tauern_range1 bavarian_alps2 tauern_range2 julian_alps dolomite_alps3 dolomite_alps2 dolomite_alps7 dolomite_alps1 dolomite_alps6 dolomite_alps4 dolomite_alps5 rhaetian_alps7 rhaetian_alps8 rhaetian_alps6 rhaetian_alps5
+					western_carpathians1 western_carpathians2 inner_carpathians eastern_carpathians1 eastern_carpathians2 eastern_carpathians3 eastern_carpathians4 eastern_carpathians7 eastern_carpathians6c eastern_carpathians8
+					brody
+					dinaric_alps9
+					southern_carpathians3
+					southern_carpathians4
+					eastern_carpathians5
+					eastern_carpathians6
+					zalishchyky
+					terebovlia khorostkiv ternopil
+					belz busk sokal
+					sandomierz rudnik_poland
+					kotor rovigo
 					fryvaldov slano cetatea_tetina
-					suceava 
 					vienna amstetten austria_baden bruck_leitha ganserndorf hollabrunn horn korneuburg krems lilienfeld scheibbs melk mistelbach pitten tulln waidhofen_an_der_thaya wiener_neustadt zwettl  #Duchy of Lower Austria
 					bregenz scharding ried braunau
 					dubrovnik waidhofen skofja_loka metkovic 
@@ -16298,7 +16134,7 @@ countries = {
 					brixen bled
 					feldkirchen
 					cernauti
-					storozhynets putna siret campulung_moldovenesc vatra_dornei
+					storozhynets putna siret campulung_moldovenesc
 					krnov #Duchy of Krnov
 					opava #Duchy of Opava
 					goito mantova ostiglia
@@ -16406,17 +16242,11 @@ countries = {
 					drohobych sambir stryi turka
 					kolomyia kosiv sniatyn tysmenytsia
 					lviv bereschany zhovkva yavoriv zvenyhorod
-					przemysl piskorowice rzeszow yaroslav_poland
+					przemysl rzeszow yaroslav_poland
 					sanok krosno lesko
 					zhydachiv bolekhiv dolyna
 					chioggia venice mestre
 					pola rovinj pag zadar split brac
-				}
-
-				own_control_integrated = {
-				}
-
-				own_control_conquered = {
 				}
 
 				starting_technology_level = 3
@@ -16425,34 +16255,12 @@ countries = {
 				include = "german_principality"
 				government = {
 
-					ruler = hab_albrecht_ii_habsburg
-					consort = frt_johanna_pfirt
+					ruler = hab_ferdinand_i
 
-					ruler_term = { character = hab_rudolf_i_habsburg start_date = 1276.11.1 end_date = 1282.12.1 regnal_number = 1 }
-					ruler_term = {
-						character = hab_albrecht_i_habsburg start_date = 1282.12.1 end_date = 1283.6.1 regnal_number = 1 # As Co-Ruler
-						character = boh_rudolf_ii_habsburg start_date = 1282.12.1 end_date = 1283.6.1 regnal_number = 2 # As Co-Ruler
-					}
-					ruler_term = { character = hab_albrecht_i_habsburg start_date = 1283.6.1 end_date = 1298.11.21 regnal_number = 1 }
-					ruler_term = {
-						character = hab_albrecht_i_habsburg start_date = 1298.11.21 end_date = 1307.7.3 regnal_number = 1
-						character = boh_rudolf_habsburg start_date = 1298.11.21 end_date = 1307.7.3 regnal_number = 3
-					}
-					ruler_term = { character = hab_albrecht_i_habsburg start_date = 1307.7.3 end_date = 1308.5.1 regnal_number = 1 }
-					ruler_term = {
-						character = hab_friedrich_i_habsburg start_date = 1308.5.1 end_date = 1326.2.28 regnal_number = 1 # As Co-Ruler
-						character = hab_leopold_i_habsburg start_date = 1308.5.1 end_date = 1326.2.28 regnal_number = 1 # As Co-Ruler
-					}
-					ruler_term = { character = hab_friedrich_i_habsburg start_date = 1326.2.28 end_date = 1330.1.13 regnal_number = 1 }
-					ruler_term = { character = hab_albrecht_ii_habsburg start_date = 1330.1.13 regnal_number = 2 }
-					#ruler_term = { character = hab_otto_habsburg start_date = 1330.1.13 regnal_number = 1 } # As Co-Ruler
+					ruler_term = { character = hab_ferdinand_i start_date = 1835.3.2 regnal_number = 1 }
 
 					regnal_numbers = {
-						name_rudolf = 3
-						name_albert = 2
-						name_frederick = 1
-						name_leopold = 1
-						name_otto = 1
+						name_ferdinand = 1
 					}
 
 					#societal values
@@ -16612,6 +16420,9 @@ countries = {
 
 			WAL = {	#Wallachia
 				own_control_core = {
+					southern_carpathians1
+					southern_carpathians2
+					campulung_muscel
 					targoviste ploesti valenii_de_munte arges zimnicea
 					severin stramba targu_jiu targu_bengai ramnicu_valcea craiova
 					caracal calafat slatina turnu_magurele
@@ -16648,10 +16459,6 @@ countries = {
 					outward_vs_inward = 20
 				}
 
-				tolerated_cultures = {
-					bulgarian
-				}
-
 				liturgical_language = church_slavonic_language
 
 				country_rank = rank_duchy
@@ -16660,7 +16467,10 @@ countries = {
 
 			MOL = {	#Moldova
 				own_control_core = {
-					iasi bacau cotnari dorohoi harlau husi roman stefanesti tutova vaslui
+					vatra_dornei
+					suceava 
+					eastern_carpathians5b
+					iasi bacau cotnari dorohoi harlau roman stefanesti tutova vaslui
 					adjud focsani hangu_romania piatra_lui_craciun targu_neamt targu_trotus tulnici
 					barlad cudalbi galati oancea targul_saratii tecuci
 				}
@@ -18316,8 +18126,7 @@ countries = {
 
 			#-------------------------- Egypt ----------------------------
 
-			#Mamluk Sultanate - MAM
-			MAM = {
+			EGY = {
 				own_control_core = {
 					aswan  aydhab kom_ombo
 					deraheib #suakin_province
@@ -18431,7 +18240,7 @@ countries = {
 					mizrahi
 				}
 
-			capital = cairo
+				capital = cairo
 			}
 
 			#-------------------------- East Africa ----------------------------
@@ -20510,7 +20319,7 @@ countries = {
 			#Ottomans - TUR https://en.wikipedia.org/wiki/Rise_of_the_Ottoman_Empire
 			OTT = {
 				own_control_core = {
-					
+					karpathos 
 					amasra #Black Sea
 					gradiski_brod dubica bihac srb 
 					akhaltsikhe ardahan
@@ -20584,7 +20393,7 @@ countries = {
 					argyrokastro avlonya konitsa
 					sultanonu bilecik goynuk eynegol inonu nalli sogut
 					servia kastoria hatera veria edessa kassandreia polygyros thessaloniki
-					kilkis giannitsa gynaikokastro serres rentina kavala mount_athos thasos drama xanthia komotini
+					kilkis giannitsa gynaikokastro serres rentina kavala thasos drama xanthia komotini
 					traianopolis demotica lemnos imbros molyvos mitilene gallipoli kesan
 					edirne hayrabolu corlu
 					rodoscuk enez kiyikoy ahtopol constantinople silivri catalca luleburgaz kirklareli
@@ -20594,7 +20403,7 @@ countries = {
 					ormenio
 					demetrias farsala elassona larissa siatista stomio trikala tyrnavos pyli karditsa grevena
 					bukelon devol ustra
-					peja prizren bitola kicevo tetovo kotor shkoder debar onogost gradina
+					peja prizren bitola kicevo tetovo shkoder debar onogost gradina
 					budimlja brskovo gjakova mitrovica pristina novo_brdo skopje kumanovo veles prosek shtip
 					kratovo vranje podgorica bar_cg prijepolje visegrad ustikolina soko_grad
 					glubocica nis prokuplje gacko trebinje ohrid kocani strumica
@@ -20604,7 +20413,7 @@ countries = {
 					tarnovo drastar tutrakan cherven razgrad shumen aytos targoviste_BUL sliven kran
 					lovech nikopol pleven vratsa kutlovitsa vidin oryahovo bozhenitsa hotalich tryavna
 					anhialo varna karvuna pangalia kaliakra
-					tulcea harsova
+					harsova
 					archar lom gigen dobrolak svoge kostenets strelcha ruse kladentsi lyaskovets veliki_preslav ktenia constantia_bul elhovo
 					babadag cernavoda constanta enisala isaccea
 					pirot tsaribrod  
@@ -20748,7 +20557,6 @@ countries = {
 			}
 
 
-			#Jalayirids - JAL https://en.wikipedia.org/wiki/Jalayirid_Sultanate
 			IRA = {
 				own_control_core = {
 					gorgan aliabad_katul etrek incheh_borun minudasht mubarakabad nardin
@@ -21625,9 +21433,9 @@ countries = {
 					erding rosenheim mallersdorf rottenburg
 					munich ebersberg tolz andechs weilheim schongau landsberg indersdorf wasserburg parsberg
 					pfaffenhofen friedberg ingolstadt neuburg_an_der_donau  burglengenfeld
-					germersheim neustadt_an_der_haardt oppenheim kaiserslautern
+					germersheim neustadt_an_der_haardt kaiserslautern
 					amberg eschenbach neumarkt roding sulzbach #Oberpfalz
-					zweibrucken pirmasens lichtenberg_veldenz landau_rhineland leiningen speyer worms hof
+					zweibrucken pirmasens landau_rhineland leiningen speyer hof
 					laufen muhldorf passau immenstadt
 					dillingen oberdorf sonthofen
 					freising miesbach garmisch
@@ -21657,6 +21465,7 @@ countries = {
 					dinkelsbuhl
 					uffenheim kitzingen
 					rothenburg
+					meisenheim
 				}
 
 				starting_technology_level = 3
@@ -21664,9 +21473,9 @@ countries = {
 				include = "catholic_monarchy_no_coast"
 				include = "expl_northern_europe"
 				include = "german_principality"
-				country_rank = rank_duchy
+				country_rank = rank_kingdom
 				government = {
-					ruler = lbv_heinrich_xiv_wittelsbach
+					ruler = bav_ludwig_i
 
 					ruler_term = { character = lbv_heinrich_xiii_wittelsbach start_date = 1253.11.29 end_date = 1290.2.3 regnal_number = 13 }
 					ruler_term = {
@@ -21692,20 +21501,9 @@ countries = {
 						character = lbv_heinrich_xiv_wittelsbach start_date = 1333.6.18 end_date = 1334.12.14 regnal_number = 14
 						character = lbv_otto_iv_wittelsbach start_date = 1333.6.18 end_date = 1334.12.14 regnal_number = 4 # As Co-Ruler
 					}
-					ruler_term = { character = lbv_heinrich_xiv_wittelsbach start_date = 1334.12.14 regnal_number = 14 }
+					ruler_term = { character = bav_ludwig_i start_date = 1825.10.13 regnal_number = 1 }
 					regnal_numbers = {
-						name_stephen = 1
-						name_henry = 14
-						name_otto = 4
-						name_louis = 4
-						name_rudolf = 1
-						name_leopold = 1
-						name_welf = 2
-						name_conrad = 2
-						name_berthold = 1
-						name_everard = 1
-						name_arnulf = 1
-						name_leopold = 1
+						name_louis = 1
 					}
 				}
 
@@ -21713,13 +21511,13 @@ countries = {
 					upper_palatine
 				}
 
-				capital = landshut
+				capital = munich
 				dynasty = wittelsbach_dynasty
 			}
 
 			SMN = {	#Henneberg
 				own_control_core = {
-					meiningen schleusingen 
+					meiningen 
 					 hildburghausen #Lordship of Coburg
 				}
 
@@ -21746,8 +21544,8 @@ countries = {
 			}
 
 			SMR = {	#san marino
-				own_control_core = {
-					montefeltro
+				own_control_core = { 
+					faenza
 				}
 				starting_technology_level = 3
 				include = "expl_western_europe"
@@ -21930,6 +21728,7 @@ countries = {
 
 			SWI = {
 				own_control_core = {
+					silvretta_alps rhaetian_alps4 rhaetian_alps1 lepontine_alps2 pennine_alps2 bernese_alps stein_glacier glarner_alps
 					ilanz
 					geneve
 					yverdon_les_bains nyon montreux monthey
@@ -22061,7 +21860,7 @@ countries = {
 
 			HEH = {  # Falkenstein (South Germany)
 				own_control_core = {
-					meisenheim
+					hunfeld alsfeld
 				}
 				starting_technology_level = 3
 				include = "expl_western_europe"
@@ -22078,18 +21877,18 @@ countries = {
 					}
 				}
 				country_rank = rank_county
-				capital = friedberg_hesse
+				capital = hunfeld
 				dynasty = falkenstein_dynasty
 			}
 
-			HSD = {  # Katzenelnbogen (North Germany)
+			HSD = { 
 				own_control_core = {
-					darmstadt mainz bensheim offenbach
+					darmstadt bensheim offenbach
 					erbach
-					friedberg_hesse marburg alsfeld
-					giessen frankenberg
+					friedberg_hesse marburg
 					nidda
 					lauterbach
+					worms oppenheim
 				}
 				starting_technology_level = 3
 				include = "expl_western_europe"
@@ -22103,6 +21902,7 @@ countries = {
 
 			NAS = {  # Nassau Idstein (North Germany)
 				own_control_core = {
+					mainz
 					wiesbaden katzenelnbogen
 					diez
 					usingen
@@ -22173,7 +21973,7 @@ countries = {
 
 			HOH = {  # Hohenzollern (South Germany)
 				own_control_core = {
-					balingen horb
+					balingen
 				}
 				starting_technology_level = 3
 				include = "expl_western_europe"
@@ -22215,7 +22015,6 @@ countries = {
 					stuttgart goppingen welzheim backnang urach nagold riedlingen oberndorf calw hohenberg
 					tubingen 
 					waldsee saulgau #Lordship of Waldsee
-					uberlingen
 					heilbronn vaihingen
 					crailsheim ohringen mergentheim
 					hall
@@ -22226,7 +22025,7 @@ countries = {
 					erbach_swabia 
 					biberach
 					waldburg
-					ravensburg
+					ravensburg horb
 				}
 
 				starting_technology_level = 3
@@ -22236,17 +22035,16 @@ countries = {
 				include = "german_principality"
 				government = {
 					regnal_numbers = {
-						name_ulrick = 3
-						name_everard = 2
+						name_william = 1
 					}
-					ruler = wur_ulrich_iii_wurttemberg
+					ruler = wur_wilhelm_i
 				}
 
 				tolerated_cultures = {
 					rhine_franconian
 				}
 
-				country_rank = rank_county
+				country_rank = rank_kingdom
 				capital = stuttgart
 				dynasty = wurttemberg_dynasty
 			}
@@ -22264,6 +22062,7 @@ countries = {
 					bruchsal sinsheim mosbach buchen tauberbischofsheim
 					hachberg
 					furstenberg
+					uberlingen
 				}
 
 				starting_technology_level = 3
@@ -22272,27 +22071,18 @@ countries = {
 				include = "expl_northern_europe"
 				include = "german_principality"
 				government = {
-					regnal_numbers = {
-						name_herman = 9
-						name_frederick = 2
-					}
-					ruler = bde_hermann_ix_baden
-					ruler_term = {	 character = bde_friedrich_ii_baden start_date = 1291.6.22 end_date = 1333.6.22 regnal_number = 2	}
-					ruler_term = {	 character = bde_hermann_ix_baden start_date = 1333.6.22 regnal_number = 9	}
+					ruler = bde_leopold
+					ruler_term = {	 character = bde_leopold start_date = 1830.3.30 }
 
-
-					reforms = {
-						margraviate
-					}
 				}
 
 				tolerated_cultures = {
 					rhine_alemannic
 				}
 
-				country_rank = rank_county
-				capital = baden
-				dynasty = baden_dynasty
+				country_rank = rank_duchy
+				capital = durlach
+				dynasty = zahringen_dynasty
 			}
 
 			SOR = { #Lusatia
@@ -22516,7 +22306,7 @@ countries = {
 
 			HAM = {	#Hamburg
 				own_control_core = {
-					hamburg
+					hamburg warendorf
 				}
 
 				starting_technology_level = 3
@@ -22662,12 +22452,34 @@ countries = {
 				}
 
 				country_rank = rank_county
-				capital = gera
+				capital = schleiz
+			}
+
+			RJL = {
+				own_control_core = {
+					naumburg
+				}
+
+				starting_technology_level = 3
+				include = "expl_western_europe"
+				include = "catholic_german_republic_no_coast"
+				include = "expl_northern_europe"
+				government = {
+
+					ruler = random
+				}
+
+				tolerated_cultures = {
+					east_franconian
+				}
+
+				country_rank = rank_county
+				capital = naumburg
 			}
 
 			SWM = {	#Weimar
 				own_control_core = {
-					weimar gera eisenach apolda
+					weimar gera eisenach
 				}
 
 				starting_technology_level = 3
@@ -22695,7 +22507,7 @@ countries = {
 
 			SZR = {	#Schwarzburg
 				own_control_core = {
-					arnstadt 
+					saalfeld
 				}
 
 				starting_technology_level = 3
@@ -22720,13 +22532,12 @@ countries = {
 				}
 
 				country_rank = rank_county
-				capital = arnstadt
+				capital = saalfeld
 				dynasty = schwarzburg_dynasty
 			}
 
 			RLE = {
 				own_control_core = {
-					saalfeld
 				}
 
 				starting_technology_level = 3
@@ -22755,7 +22566,7 @@ countries = {
 
 			SZS = {	#Sondershausen
 				own_control_core = {
-					sondershausen
+					sondershausen arnstadt
 				}
 
 				starting_technology_level = 3
@@ -22781,12 +22592,15 @@ countries = {
 
 			HSK = {	#Hesse
 				own_control_core = {
+					hofgeismar 
 					kassel rotenburg eschwege melsungen
 					hanau
 					budingen
-					fulda hunfeld
+					fulda
 					hersfeld
 					ziegenhain
+					schmalkalden
+					giessen frankenberg
 				}
 
 				starting_technology_level = 3
@@ -22900,7 +22714,8 @@ countries = {
 
 			BSW = {	#Ravensberg
 				own_control_core = {
-					gifhorn brunswick helmstedt meinersen holzminden gandersheim goslar blankenburg
+					brunswick helmstedt holzminden gandersheim goslar blankenburg
+					wolfenbuttel
 				}
 
 				starting_technology_level = 3
@@ -22935,20 +22750,19 @@ countries = {
 					bentheim
 					leer emden aurich
 					meppen aschendorf
-					wolfenbuttel #Duchy of Braunschweig-Wolfenbüttel
 					hanover hamelin neustadt_am_rubenberge #Duchy of Calemberg
 					gottingen #Duchy of Göttingen 
-					stade neuhaus gestenthorpe osterholz achim bremervorde zeven
+					stade neuhaus gestenthorpe osterholz achim zeven
 					osnabruck bersenbruck
 					verden soltau
 					lingen
 					hoya
 					nienburg
 					diepholz
-					hofgeismar 
 					einbeck duderstadt herzberg
 					wernigerode
 					hildesheim alfeld burgdorf
+					meinersen gifhorn
 				}
 
 				starting_technology_level = 3
@@ -22971,10 +22785,6 @@ countries = {
 					}
 					ruler_term = { character = lun_johann_i_braunschweig_luneburg start_date = 1269.1.1 end_date = 1277.12.13 regnal_number = 1 }
 					ruler_term = { character = lun_otto_ii_luneburg start_date = 1277.12.13 end_date = 1330.4.10 regnal_number = 2 }
-					ruler_term = {
-						character = lun_otto_iii_luneburg start_date = 1330.4.10 regnal_number = 3 
-						#character = lun_wilhelm_ii_luneburg start_date = 1330.4.10 regnal_number = 2 # As Co-Ruler
-					}
 
 					regnal_numbers = {
 						name_william = 2

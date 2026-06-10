@@ -118,8 +118,8 @@ RAC = {
 	unit_color1 = hsv360 {	230 64 36 }
 	unit_color2 = hsv360 {	37 84 89 }
 
-	culture_definition = english
-	religion_definition = catholic
+	culture_definition = alyaskan
+	religion_definition = orthodox
 
 	description_category = administrative
 	difficulty = 3
