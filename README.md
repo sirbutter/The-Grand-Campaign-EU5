@@ -4,7 +4,9 @@
 
 Born as a synthesis between the legacy of *Victoria II* and the modern architecture of Victoria 3, this project seeks to create the definitive Victorian simulation, with the aim to bridge the gap between the mechanical depth of the classics and the robustness of the modern engine.
 
-## Planned Features
+## Planned Features!
+
+<img width="763" height="661" alt="image" src="https://github.com/user-attachments/assets/b087e846-8cf4-4641-968c-ee49d7db08dc" />
 
 <img width="780" height="617" alt="WIP1" src="https://github.com/user-attachments/assets/1dadb782-46f6-4222-ab0f-6b6ce8f676df" />
 
