@@ -8,8 +8,6 @@ Born as a synthesis between the legacy of *Victoria II* and the modern architect
 
 <img width="763" height="661" alt="image" src="https://github.com/user-attachments/assets/b087e846-8cf4-4641-968c-ee49d7db08dc" />
 
-<img width="780" height="617" alt="WIP1" src="https://github.com/user-attachments/assets/1dadb782-46f6-4222-ab0f-6b6ce8f676df" />
-
 ### A True Victorian Map
 Given the standard for location granularity in the base game, we will reconstruct the world for an 1836 start date with an unprecedented amount of detail only seen since the days of TGC for Victoria II.
 *   **Granular Borders:** Restoration of historical borders and granularity previously impossible in past titles due to province limits.
