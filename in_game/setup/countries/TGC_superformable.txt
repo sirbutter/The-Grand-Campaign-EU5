@@ -13,3 +13,10 @@ SLV = {
 	culture_definition = muscovite
 	religion_definition = orthodox
 }
+
+JAN = {
+	color = rgb { 217  225  248 }
+
+	culture_definition = low_franconian
+	religion_definition = catholic
+}

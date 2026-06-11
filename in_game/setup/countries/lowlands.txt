@@ -97,13 +97,6 @@ STV = {
 	religion_definition = catholic
 }
 
-HAI = {
-	color = rgb { 103  62  185 }
-
-	culture_definition = picard
-	religion_definition = catholic
-}
-
 ARS = {
 	color = rgb { 227 136 216 }
 

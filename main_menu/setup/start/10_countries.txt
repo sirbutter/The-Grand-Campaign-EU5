@@ -63,9 +63,7 @@ countries = {
 					individualism_vs_communalism = 100
 					outward_vs_inward = 50
 
-					parliament = {
-						parliament_type = estate_parliament
-					}
+					
 
 					laws = {
 						censorship = limited_censorship
@@ -141,9 +139,7 @@ countries = {
 					individualism_vs_communalism = 100
 					outward_vs_inward = 50
 
-					parliament = {
-						parliament_type = estate_parliament
-					}
+					
 
 					laws = {
 						censorship = limited_censorship
@@ -217,9 +213,7 @@ countries = {
 					individualism_vs_communalism = 100
 					outward_vs_inward = 50
 
-					parliament = {
-						parliament_type = estate_parliament
-					}
+					
 
 					laws = {
 						censorship = limited_censorship
@@ -290,9 +284,7 @@ countries = {
 					individualism_vs_communalism = 100
 					outward_vs_inward = 50
 
-					parliament = {
-						parliament_type = estate_parliament
-					}
+					
 
 					laws = {
 						censorship = limited_censorship
@@ -365,9 +357,7 @@ countries = {
 					individualism_vs_communalism = 100
 					outward_vs_inward = 50
 
-					parliament = {
-						parliament_type = estate_parliament
-					}
+					
 
 					laws = {
 						censorship = limited_censorship
@@ -439,9 +429,7 @@ countries = {
 					individualism_vs_communalism = 100
 					outward_vs_inward = 50
 
-					parliament = {
-						parliament_type = estate_parliament
-					}
+					
 
 					laws = {
 						censorship = limited_censorship
@@ -1301,9 +1289,7 @@ countries = {
 					individualism_vs_communalism = 100
 					outward_vs_inward = 50
 
-					parliament = {
-						parliament_type = estate_parliament
-					}
+					
 
 					laws = {
 						censorship = limited_censorship
@@ -2383,9 +2369,7 @@ countries = {
 					individualism_vs_communalism = 100
 					outward_vs_inward = 50
 
-					parliament = {
-						parliament_type = estate_parliament
-					}
+					
 
 					laws = {
 						censorship = limited_censorship
@@ -2452,7 +2436,6 @@ countries = {
 					privilege = {
 					}
 					laws = {
-						distribution_of_power_law = dop_law_english_parliament
 						language_of_pleading = language_of_pleading_court
 						legal_code_law = common_law_policy
 						medieval_levy_law = longbow_competitions
@@ -2537,9 +2520,7 @@ countries = {
 					individualism_vs_communalism = 100
 					outward_vs_inward = 50
 
-					parliament = {
-						parliament_type = estate_parliament
-					}
+					
 
 					laws = {
 						censorship = limited_censorship
@@ -2622,9 +2603,7 @@ countries = {
 					individualism_vs_communalism = 100
 					outward_vs_inward = 50
 
-					parliament = {
-						parliament_type = estate_parliament
-					}
+					
 
 					laws = {
 						censorship = limited_censorship
@@ -2702,9 +2681,7 @@ countries = {
 					individualism_vs_communalism = 100
 					outward_vs_inward = 50
 
-					parliament = {
-						parliament_type = estate_parliament
-					}
+					
 
 					laws = {
 						censorship = limited_censorship
@@ -2749,35 +2726,21 @@ countries = {
 				include = "expl_western_europe"
 			}
 
-			PER = {
+			NPR = {
 				own_control_core = {
 					tumbes chira nariguala nunura xllang
 					ayahuacas guayacundo apurlec huancapampa
 					pakatnamu sana farfan chan_chan chao huacatambo manchan huarmey
 					ocro paramonga guamanmayo
-					chancay chiprac collique cantamarca rimaq huarochiri
-					ishma chilca huarco naupahuasi incahuasi
-					chuqlluqucha chinchay puka_tampu ica cahuachi acari
-					incawasi chullac pukiupukio
-					yauca atico caraveli ucuna camana quilca yanque aruni
-					arequipa churajon tampo puquina chaucalana tacna kileqollo
+
 					aqush yaino huari rapayan chavin japallan huacrachuco manchac
 					garu wanuco_marka chiquia kotosh atash ichugan pumpu gochacalla
 					andaymarca pashas tumshukaiko waricoto choquerecuay kasha_tampu quillahuaca willcahuain
-					ingapirca llampqui tarmatambo tunanmarca hatun_xauxa pumaruri
-					wari_willka willka_ulo tampu_machay churkampa tayaccasa llacsapallanca
-					allpas wari_peru pariahuanca pampahuaylla choccalpata paqwayranra
-					sondor auccapana challwanqa millcca tukri_apu_apu willkawaman soras huaman_karpa
-					caniche seqse_qaqa
-					yanahuara cotapampa antabamba tucssa sara_sara
-					raqchi sausaya kanamarca
-					achachiwa uyo_uyo pampa
-					chumbivilcas maukallaqta waqrapukara pikillaqta qusqu pisaq paucartambo
-					urupampa quillarumiyoc
-					yanatile yunca ullantaytampu picchu willka_pampa
+					
 					ilucan chetilla huambos chumuch congona kuelap huamanpata olan
 					illapa kaxa_marca tantaricuy chimu llucho markahuamachuco pirca_pirca
 					huallumarca
+
 					awajun bagua utkhupampa namballe ingatambo karajia huancachaca
 					moyobamba lamas yurimagua chatuza cocamas kachi rupharupha
 					may_ushin kakataibo ashaninka panatahuas yanesha chanchacc nomatsigenga
@@ -2803,9 +2766,95 @@ countries = {
 					individualism_vs_communalism = 100
 					outward_vs_inward = 50
 
-					parliament = {
-						parliament_type = estate_parliament
+					
+
+					laws = {
+						censorship = limited_censorship
+						republican_foundation_law = republicanism_policy
+						education_masses_law = basic_religious_education
+						administrative_system = autonomous_councils
+						cultural_traditions_law = civil_society
+						marriage_law = monogamous_marriage
+						heir_religion_law = heir_same_religion
+						legal_code_law = civil_law_policy
+						maritime_law = protect_trade_routes
+						piracy_law = anti_piracy_policy
+						distribution_of_power_law = dop_traditional_distribution_of_power
+						immigration_law = open_borders_law
 					}
+				}
+
+				discovered_regions = {
+					canada_region
+					caribbean_region
+					east_coast_region
+					great_plains_region
+					mesoamerica_region
+					central_america_region
+					aridoamerica_region
+					alaska_region
+					west_coast_region
+					colombia_region
+					brazil_region
+					andes_region
+					chaco_region
+					la_plata_region
+				}
+
+				accepted_cultures = { }
+				tolerated_cultures = { }
+
+				court_language = norman_dialect
+				country_rank = rank_kingdom
+				capital = tenochtitlan
+
+				include = "expl_western_europe"
+			}
+
+			SPR = {
+				own_control_core = {
+					chancay chiprac collique cantamarca rimaq huarochiri
+					ishma chilca huarco naupahuasi incahuasi
+					chuqlluqucha chinchay puka_tampu ica cahuachi acari
+					incawasi chullac pukiupukio
+					yauca atico caraveli ucuna camana quilca yanque aruni
+					arequipa churajon tampo puquina chaucalana tacna kileqollo
+
+					ingapirca llampqui tarmatambo tunanmarca hatun_xauxa pumaruri
+					wari_willka willka_ulo tampu_machay churkampa tayaccasa llacsapallanca
+					allpas wari_peru pariahuanca pampahuaylla choccalpata paqwayranra
+					sondor auccapana challwanqa millcca tukri_apu_apu willkawaman soras huaman_karpa
+					caniche seqse_qaqa
+					yanahuara cotapampa antabamba tucssa sara_sara
+					raqchi sausaya kanamarca
+					achachiwa uyo_uyo pampa
+					
+					chumbivilcas maukallaqta waqrapukara pikillaqta qusqu pisaq paucartambo
+					urupampa quillarumiyoc
+					yanatile yunca ullantaytampu picchu willka_pampa
+				}
+				starting_technology_level = 3
+				government = {
+					ruler = random
+
+					type = republic
+					heir_selection = oligarchic_elective
+
+					centralization_vs_decentralization = 100
+					traditionalist_vs_innovative = -70
+					spiritualist_vs_humanist = -50
+					aristocracy_vs_plutocracy = 80
+					serfdom_vs_free_subjects = 100
+					mercantilism_vs_free_trade = 0
+					belligerent_vs_conciliatory = -20
+					quality_vs_quantity = 100
+					offensive_vs_defensive = 100
+					land_vs_naval = 0
+					capital_economy_vs_traditional_economy = 100
+					individualism_vs_communalism = 100
+					outward_vs_inward = 50
+
+					
 
 					laws = {
 						censorship = limited_censorship
@@ -2888,9 +2937,7 @@ countries = {
 					individualism_vs_communalism = 100
 					outward_vs_inward = 50
 
-					parliament = {
-						parliament_type = estate_parliament
-					}
+					
 
 					laws = {
 						censorship = limited_censorship
@@ -3083,9 +3130,7 @@ countries = {
 					individualism_vs_communalism = 100
 					outward_vs_inward = 50
 
-					parliament = {
-						parliament_type = estate_parliament
-					}
+					
 
 					laws = {
 						censorship = limited_censorship
@@ -3178,9 +3223,7 @@ countries = {
 					individualism_vs_communalism = 100
 					outward_vs_inward = 50
 
-					parliament = {
-						parliament_type = estate_parliament
-					}
+					
 
 					laws = {
 						censorship = limited_censorship
@@ -3252,9 +3295,7 @@ countries = {
 					individualism_vs_communalism = 100
 					outward_vs_inward = 50
 
-					parliament = {
-						parliament_type = estate_parliament
-					}
+					
 
 					laws = {
 						censorship = limited_censorship
@@ -3331,9 +3372,7 @@ countries = {
 					individualism_vs_communalism = 100
 					outward_vs_inward = 50
 
-					parliament = {
-						parliament_type = estate_parliament
-					}
+					
 
 					laws = {
 						censorship = limited_censorship
@@ -3404,9 +3443,7 @@ countries = {
 					individualism_vs_communalism = 100
 					outward_vs_inward = 50
 
-					parliament = {
-						parliament_type = estate_parliament
-					}
+					
 
 					laws = {
 						censorship = limited_censorship
@@ -3452,6 +3489,29 @@ countries = {
 			}
 
 		# Europe
+			JAN = {	#Jan Mayen
+				own_control_core = {
+					jan_mayen bear_island
+				}
+
+				starting_technology_level = 3
+				include = "expl_western_europe"
+				include = "catholic_german_bishopric_no_coast"
+				include = "expl_northern_europe"
+				government = {
+					type = republic
+					heir_selection = oligarchic_elective
+					ruler = random
+				}
+
+				tolerated_cultures = {
+					rhine_franconian
+				}
+
+				country_rank = rank_county
+				capital = jan_mayen
+			}
+
 			CPL = {
 				own_control_core = {
 					piskorowice
@@ -3506,7 +3566,7 @@ countries = {
 					privilege = {
 					}
 					laws = {
-						distribution_of_power_law = dop_law_english_parliament
+						
 						language_of_pleading = language_of_pleading_court
 						legal_code_law = common_law_policy
 						medieval_levy_law = longbow_competitions
@@ -3569,7 +3629,7 @@ countries = {
 					privilege = {
 					}
 					laws = {
-						distribution_of_power_law = dop_law_english_parliament
+						
 						language_of_pleading = language_of_pleading_court
 						legal_code_law = common_law_policy
 						medieval_levy_law = longbow_competitions
@@ -3634,7 +3694,7 @@ countries = {
 					privilege = {
 					}
 					laws = {
-						distribution_of_power_law = dop_law_english_parliament
+						
 						language_of_pleading = language_of_pleading_court
 						legal_code_law = common_law_policy
 						medieval_levy_law = longbow_competitions
@@ -3695,7 +3755,7 @@ countries = {
 					privilege = {
 					}
 					laws = {
-						distribution_of_power_law = dop_law_english_parliament
+						
 						language_of_pleading = language_of_pleading_court
 						legal_code_law = common_law_policy
 						medieval_levy_law = longbow_competitions
@@ -3757,7 +3817,7 @@ countries = {
 					privilege = {
 					}
 					laws = {
-						distribution_of_power_law = dop_law_english_parliament
+						
 						language_of_pleading = language_of_pleading_court
 						legal_code_law = common_law_policy
 						medieval_levy_law = longbow_competitions
@@ -3818,7 +3878,7 @@ countries = {
 					privilege = {
 					}
 					laws = {
-						distribution_of_power_law = dop_law_english_parliament
+						
 						language_of_pleading = language_of_pleading_court
 						legal_code_law = common_law_policy
 						medieval_levy_law = longbow_competitions
@@ -4032,7 +4092,6 @@ countries = {
 
 						#peasants
 						peasants_free_peasantry
-						peasants_represented_in_parliament
 						land_owning_farmers
 					}
 
@@ -5295,9 +5354,7 @@ countries = {
 					#ruler_term = { character = psk_aleksandr_mikhailovich_rurikovich start_date = 1325.1.1 end_date = 1327.1.1 regnal_number = 1 }
 
 					ruler_term = { character = mos_ivan_i_danilovich_kalita_rurikovich start_date = 1328.1.1 regnal_number = 1 }
-					parliament = {
-						parliament_type = estate_parliament
-					}
+					
 					centralization_vs_decentralization = 65
 					aristocracy_vs_plutocracy = 30
 					serfdom_vs_free_subjects = -20
@@ -6277,6 +6334,7 @@ countries = {
 			#Russia
 			RUS = {
 				own_control_core = {
+					crimean_mountains syvash_sand_bar
 					siberian_wasteland_3 siberian_wasteland_2 perm_forest_3 sverdlovsk_forest_1 siberian_wasteland_1 perm_forest ural_mountains ural_forest ural_mountains2 siberian_wasteland_4 yamal siberian_wasteland_11
 					solovetsky
 					russian_wastelands_4 russian_wastelands_1 russian_wastelands_6 russian_wastelands_5 russian_wastelands_2 russian_wastelands_9 russian_wastelands_7 russian_wastelands_10 russian_wastelands_8 kanin_peninsula kolguyev yuzhny west_siberian_forests nenets
@@ -6843,9 +6901,7 @@ countries = {
 					reforms = {
 						veche_republic
 					}
-					parliament = {
-						parliament_type = estate_parliament
-					}
+					
 					ruler = psk_aleksandr_mikhailovich_rurikovich
 
 					ruler_term = {	 character = psk_aleksandr_mikhailovich_rurikovich start_date = 1327.1.1 end_date = 1330.1.1 regnal_number = 1	}
@@ -6929,9 +6985,7 @@ countries = {
 					reforms = {
 						veche_republic
 					}
-					parliament = {
-						parliament_type = estate_parliament
-					}
+					
 					ruler = random
 					
 					centralization_vs_decentralization = 65
@@ -7700,7 +7754,7 @@ countries = {
 						sherbro_island galinhas mano cape_mount
 
 					# Mediterranean
-						malta
+						malta lampedusa
 
 					# Atlantic
 						bermuda west_falkland east_falkland
@@ -7718,6 +7772,8 @@ countries = {
 						karawala awastara ahuya_yari
 
 					# Canada
+						newfoundland_highlands long_range_mountains annieopsquotch_mountains
+						canaan_bog matapedia_highlands chic_choc_mountains northern_notre_dame_mountains
 						thilane_hot_ine sakawyiniw ot_esh_otchore
 						athabasca kai_theli_ke_hot_inne tethul
 						amisk_sipi amisk_sakahikan wawaskesiwisakahikan
@@ -8589,7 +8645,7 @@ countries = {
 						access_to_royal_and_ecclesiastical_courts
 					}
 					laws = {
-						distribution_of_power_law = dop_law_english_parliament
+						
 						language_of_pleading = language_of_pleading_court
 						legal_code_law = common_law_policy
 						medieval_levy_law = longbow_competitions
@@ -8655,7 +8711,7 @@ countries = {
 					offensive_vs_defensive = 75
 
 					laws = {
-						distribution_of_power_law = dop_law_english_parliament
+						
 						language_of_pleading = language_of_pleading_court
 						feudal_de_jure_law = by_tradition
 						medieval_levy_law = longbow_competitions
@@ -8913,15 +8969,13 @@ countries = {
 					quality_vs_quantity = 25
 					offensive_vs_defensive = 75
 
-					parliament = {
-						parliament_type = estate_parliament
-					}
+					
 
 					privilege = {
 						noble_fortification_licenses
 					}
 					laws = {
-						distribution_of_power_law = dop_law_english_parliament
+						
 						language_of_pleading = language_of_pleading_court
 						medieval_levy_law = longbow_competitions
 						feudal_de_jure_law = by_tradition
@@ -12569,6 +12623,7 @@ countries = {
 
 			TSC = { # Two Sicilies
 				own_control_core = {
+					pantelleria
 					central_apennines2 central_apennines3 central_apennines4 central_apennines6 central_apennines7 southern_apennines mount_etna
 					catania messina mistretta nicosiasic patti piazza girgenti bivona caltanisetta cefalu sciacca termini
 					corleone mazara palermo salemi trapani caltagirone modica noto syracuse terranovasic
@@ -12799,6 +12854,7 @@ countries = {
 
 			GRE = {
 				own_control_core = {
+					pindus_mountains11 pindus_mountains12 peloponnesian_mountains1 peloponnesian_mountains2
 					karpenisi vonitsa angelokastron nafpaktos
 					athens megara thebes atalanti livadeia gravia
 					damala ermioni kalamata kyparissia modon
@@ -13988,7 +14044,7 @@ countries = {
 				own_control_colony = {
 					# Madeira + Azores
 					funchal porto_santo
-					santa_maria angra horta santa_cruz_flores
+					santa_maria angra horta santa_cruz_flores ponta_delgada
 
 					# Capo Verde
 					santo_antao sao_nicolao boa_vista santiago fogo
@@ -15773,6 +15829,11 @@ countries = {
 			#Hainaut
 			HAI = {
 				own_control_core = {
+					bavaro yuma mona_island hicayagua cayacoa yamasa boya
+					maguana jarabacoa cibao azua bani banique cordrilla_central
+					yaqui magorix bohio moca samana cubao ciguayo cotui
+					marien iguamuco guahaba tortuga baynoa
+					jaragua cayguani baoruco guanabo cahay guacayakima haniguayagua yaquimo yaguana baoruco_mountains neiba_mountains
 				}
 
 				starting_technology_level = 3
@@ -16110,7 +16171,7 @@ countries = {
 
 			HAB = {		
 				own_control_core = {
-					rhaetian_alps3 rhaetian_alps2 lechtal_alps1 lechtal_alps2 otztal_alps2 otztal_alps1 venediger_group bavarian_alps1 tauern_range1 bavarian_alps2 tauern_range2 julian_alps dolomite_alps3 dolomite_alps2 dolomite_alps7 dolomite_alps1 dolomite_alps6 dolomite_alps4 dolomite_alps5 rhaetian_alps7 rhaetian_alps8 rhaetian_alps6 rhaetian_alps5
+					rhaetian_alps3 rhaetian_alps2 lechtal_alps1 lechtal_alps2 otztal_alps2 otztal_alps1 venediger_group bavarian_alps1 tauern_range1 bavarian_alps2 tauern_range2 julian_alps dolomite_alps3 dolomite_alps2 dolomite_alps7 dolomite_alps1 dolomite_alps6 dolomite_alps4 dolomite_alps5 rhaetian_alps7 rhaetian_alps8 rhaetian_alps6 rhaetian_alps5 lastovo_island_wasteland
 					western_carpathians1 western_carpathians2 inner_carpathians eastern_carpathians1 eastern_carpathians2 eastern_carpathians3 eastern_carpathians4 eastern_carpathians7 eastern_carpathians6c eastern_carpathians8
 					brody
 					dinaric_alps9
@@ -17336,7 +17397,7 @@ countries = {
 				capital = murzuk #Traghen
 			}
 
-		#West Africa
+		# West Africa
 
 			JOL = {
 				own_control_core = {
@@ -17518,9 +17579,7 @@ countries = {
 					ruler_term = { character = mal_qu start_date = 1300.1.1 end_date = 1305.1.1 regnal_number = 1 }
 					ruler_term = { character = mal_muhammad_qu start_date = 1305.1.1 end_date = 1312.1.1 regnal_number = 1 }
 					ruler_term = { character = mal_musa_keita start_date = 1312.1.1 regnal_number = 1 }
-					parliament = {
-						parliament_type = council
-					}
+					
 					reforms = {
 						manden_kurufa_reform
 					}
@@ -18128,6 +18187,8 @@ countries = {
 
 			EGY = {
 				own_control_core = {
+					connector_egypt6 horn_desert_corridor1 horn_desert_corridor2 horn_desert_corridor3 south_eastern_desert west_nubian_desert east_nubian_desert connector_egypt16 connector_egypt12
+					northern_sinai_desert2 sinai_desert northern_sinai_desert1 connector_egypt15 connector_egypt14 connector_egypt17 connector_egypt6 north_eastern_desert eastern_desert
 					aswan  aydhab kom_ombo
 					deraheib #suakin_province
 					ed_debba al_jeblien korti shemkhiya #bayuda_province
@@ -18268,9 +18329,7 @@ countries = {
 					type = monarchy
 					ruler = zan_daud_mahdali
 					heir_selection = cognatic_primogeniture
-					parliament = {
-						parliament_type = council
-					}
+					
 					reforms = {
 						kilwan_trade_communities
 						control_of_the_mahdali_coinage_reform
@@ -19014,6 +19073,7 @@ countries = {
 
 			CHI = { #China
 				own_control_core = {
+					ulenkhe selenge
 					amis paiwan takbanuao truku
 					basai kavalan ketagalan kulun pakuali squliq
 					siraya ishbukun lloa makatao rukai takitudu tsou
@@ -19440,7 +19500,7 @@ countries = {
 					bishreit dalay doloodyn_gobi ikh_narttin_chuluu saikhandulaan ulaanbadrakh
 					avnagar chono khuuchid sangiin_dalai sorin_nuur ulgain uzemchin
 					kyakhta khadanzaa khan_khentii tsokh
-					selenge khimni ulenkhe zed zelterijin
+					khimni zed zelterijin
 					amarbayas_galang bornuur eroo
 					sulkhari khilgo khilgoson ung
 					ude_baikal anaa bureen khudan khurbe
@@ -20319,6 +20379,8 @@ countries = {
 			#Ottomans - TUR https://en.wikipedia.org/wiki/Rise_of_the_Ottoman_Empire
 			OTT = {
 				own_control_core = {
+					west_taurus_1 west_taurus_2 west_taurus_3 west_taurus_4 west_taurus_5 middle_taurus_1 middle_taurus_2 middle_taurus_3 middle_taurus_4 middle_taurus_5 middle_taurus_6 middle_taurus_7 middle_taurus_8 erenler_mountains sultan_mountains_1 sultan_mountains_2 sultan_mountains_3 melendiz_mountains hodul_mountains ak_mountains koroglu_mountains_1 koroglu_mountains_2 ilgaz_mountains west_pontus_mountains_1 west_pontus_mountains_2 kose_mountains_1 kose_mountains_2 east_pontus_mountains_1 east_pontus_mountains_2 east_pontus_mountains_3 otlukbeli_mountains mescit_mountains east_taurus_8 east_taurus_2 east_taurus_1 east_taurus_9 kars_mountains_1 kars_mountains_2 kars_mountains_3 karagol_mountains karasu_aras_mountains
+					dinaric_alps1 dinaric_alps4 dinaric_alps3 dinaric_alps2 dinaric_alps7 dinaric_alps6 dinaric_alps5 dinaric_alps8 pindus_mountains1 pindus_mountains2 pindus_mountains3 pindus_mountains4 pindus_mountains8 pindus_mountains5 pindus_mountains6 pindus_mountains7 pindus_mountains9 pindus_mountains10 mount_olympos balkan_mountains1 balkan_mountains2 balkan_mountains3 balkan_mountains4 balkan_mountains5 balkan_mountains6 rhodope_mountains1 rhodope_mountains3 rhodope_mountains2 rhodope_mountains4 rhodope_mountains5 rhodope_mountains6
 					karpathos 
 					amasra #Black Sea
 					gradiski_brod dubica bihac srb 
@@ -23039,9 +23101,7 @@ countries = {
 					type = republic
 					heir_selection = oligarchic_elective
 					ruler = random
-					parliament = {
-						parliament_type = council
-					}
+					
 
 					privilege = {
 						peasants_free_peasantry
@@ -27154,9 +27214,7 @@ countries = {
 					individualism_vs_communalism = 20
 					outward_vs_inward = -95
 
-					parliament = {
-						parliament_type = council
-					}
+					
 
 					laws = {
 						censorship = limited_censorship
@@ -35099,9 +35157,7 @@ countries = {
 				government = {
 					type = monarchy
 					heir_selection = cognatic_primogeniture
-					parliament = {
-						parliament_type = council
-					}
+					
 					laws = {
 						marriage_law = monogamous_marriage
 						heir_religion_law = heir_same_religion

@@ -75,6 +75,62 @@ CAN = {
 	difficulty = 3
 }
 
+LCN = {
+	color = map_CAN
+
+	culture_definition = english
+	religion_definition = anglican
+}
+
+UCN = {
+	color = map_CAN
+
+	culture_definition = english
+	religion_definition = anglican
+}
+
+NBR = {
+	color = map_CAN
+
+	culture_definition = english
+	religion_definition = anglican
+}
+
+PEI = {
+	color = map_CAN
+
+	culture_definition = english
+	religion_definition = anglican
+}
+
+NSC = {
+	color = map_CAN
+
+	culture_definition = english
+	religion_definition = anglican
+}
+
+NFL = {
+	color = map_CAN
+
+	culture_definition = english
+	religion_definition = anglican
+}
+
+RPL = {
+	color = map_CAN
+
+	culture_definition = english
+	religion_definition = anglican
+}
+
+MTC = {
+	color = map_CAN
+
+	culture_definition = english
+	religion_definition = anglican
+}
+
 # Settler Territories
 
 OGC = { # Oregon County
@@ -247,3 +303,10 @@ MQT = {
 }
 
 # Caribbean
+
+HAI = {
+	color = rgb { 139 179 207 }
+
+	culture_definition = picard
+	religion_definition = catholic
+}
