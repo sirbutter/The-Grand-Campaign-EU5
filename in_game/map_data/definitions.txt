@@ -230,7 +230,8 @@
 
 		}
 
-		north_german_region = {
+		lowlands_region = {
+			
 			brabant_area = {
 				limburg_province = {
 					maastricht venlo weert roermond
@@ -304,6 +305,9 @@
 					bastogne bouillon la_roche montmedy neufchateau_luxembourg
 				}
 			}
+		}
+
+		north_german_region = {
 
 			holstein_area = {
 				lubeck_province = {

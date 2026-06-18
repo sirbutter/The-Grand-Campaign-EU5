@@ -444,11 +444,12 @@ colors = {
 	map_POM = rgb { 61 136 66 } #same as in EU4
 	map_SWA = rgb { 225 98 87 } #same as in EU4
 	map_ANS = rgb { 130 77 119 } #same as in EU4
-	map_GER = rgb { 75 130 135 } #same as in EU4
-	map_HRE = rgb { 150 177 161 } #same as in EU4
+	map_GER = rgb { 82 104 120 } 
+	map_HRE = rgb { 150 177 161 } 
 	map_ALL = rgb { 200 189 16 }
 	map_SHL = rgb { 220 150 158 }
 	map_NSA = rgb { 91 83 203 }
+	map_GCF = rgb { 200 165 50 }
 	
 	map_BRE = rgb { 33 101 137 }
 	map_BRU = rgb { 116 92 39 }

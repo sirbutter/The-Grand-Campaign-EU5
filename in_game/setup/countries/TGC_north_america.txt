@@ -76,63 +76,56 @@ CAN = {
 }
 
 LCN = {
-	color = map_CAN
+	color = rgb { 155 15 20 }
 
 	culture_definition = english
 	religion_definition = anglican
 }
 
 UCN = {
-	color = map_CAN
+	color = rgb { 165 20 25 }
 
 	culture_definition = english
 	religion_definition = anglican
 }
 
 NBR = {
-	color = map_CAN
+	color = rgb { 145 15 15 }
 
 	culture_definition = english
 	religion_definition = anglican
 }
 
 PEI = {
-	color = map_CAN
+	color = rgb { 130 5 5 }
 
 	culture_definition = english
 	religion_definition = anglican
 }
 
 NSC = {
-	color = map_CAN
-
-	culture_definition = english
-	religion_definition = anglican
-}
-
-NFL = {
-	color = map_CAN
+	color = rgb { 135 10 10 }
 
 	culture_definition = english
 	religion_definition = anglican
 }
 
 RPL = {
-	color = map_CAN
+	color = rgb { 168 15 33 }
 
 	culture_definition = english
 	religion_definition = anglican
 }
 
 NWF = {
-	color = map_CAN
+	color = rgb { 140 10 15 }
 
 	culture_definition = english
 	religion_definition = anglican
 }
 
 MTC = {
-	color = map_CAN
+	color = rgb { 124 10 2 }
 
 	culture_definition = english
 	religion_definition = anglican

@@ -1,5 +1,8 @@
 diplomacy_manager = {
-    dependency = { first = PRU second = PZN subject_type = vassal }
+    # Germany
+        dependency = { first = PRU second = PZN subject_type = vassal }
+
+    # Russia
     dependency = { first = RUS second = CPL subject_type = vassal }
     dependency = { first = RUS second = FIN subject_type = vassal }
     dependency = { first = RUS second = KUR subject_type = vassal }
@@ -9,9 +12,23 @@ diplomacy_manager = {
     dependency = { first = TCA second = ABK subject_type = vassal }
     dependency = { first = TCA second = SVN subject_type = vassal }
     dependency = { first = TCA second = MGL subject_type = vassal }
-    dependency = { first = OTT second = MOL subject_type = vassal }
-    dependency = { first = OTT second = WAL subject_type = vassal }
-    dependency = { first = OTT second = EGY subject_type = vassal }
-    dependency = { first = SWE second = NOR subject_type = vassal }
+
+    # Balkans
+        dependency = { first = OTT second = MOL subject_type = vassal }
+        dependency = { first = OTT second = WAL subject_type = vassal }
+        dependency = { first = OTT second = EGY subject_type = vassal }
+
+    # Scandinavia
+        dependency = { first = SWE second = NOR subject_type = vassal }
+
+    # Canada
+        dependency = { first = GBI second = NSC subject_type = vassal }
+        dependency = { first = GBI second = PEI subject_type = vassal }
+        dependency = { first = GBI second = NBR subject_type = vassal }
+        dependency = { first = GBI second = NWF subject_type = vassal }
+        dependency = { first = GBI second = UCN subject_type = vassal }
+        dependency = { first = GBI second = LCN subject_type = vassal }
+        dependency = { first = GBI second = MTC subject_type = vassal }
+        dependency = { first = GBI second = RPL subject_type = vassal }
 
 }

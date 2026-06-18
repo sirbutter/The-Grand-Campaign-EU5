@@ -2358,6 +2358,23 @@ countries = {
 
 				capital = choigan
 			}
+			
+			MQT = { # Metis
+				own_control_core = {
+					karawala awastara ahuya_yari
+				}
+
+				include = "east_asia_monarchy"
+				government = {
+					regency = consort_regency
+					active_regent = chz_tamagusuku_spouse
+					start_regency_date = 1336.1.1
+					end_regency_date = 1346.1.1
+					heir = chz_seii
+				}
+
+				capital = choigan
+			}
 
 		# South America
 			COL = {
@@ -4295,7 +4312,7 @@ countries = {
 				}
 
 				include = "catholic_military_order"
-				include = "expl_northern_europe"
+				include = "expl_european_tag"
 				include = "eastern_european_catholic"
 
 				government = {
@@ -5084,6 +5101,12 @@ countries = {
 					}
 				}
 
+				discovered_regions = {
+					alaska_region
+					west_siberia_region
+					east_siberia_region
+				}
+
 				liturgical_language = church_slavonic_language
 
 				capital = moscow
@@ -5247,9 +5270,6 @@ countries = {
 
 					# Belize
 						altun_ha colha
-
-					# Mosquito Coast
-						karawala awastara ahuya_yari
 					
 					# Guyana
 						essequibo demerara berbice tumatumari neekeari

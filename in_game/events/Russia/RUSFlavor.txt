@@ -1,1 +1,46 @@
 namespace = russia
+
+russia.1 = {
+	type = country_event
+	title = russia.1.title
+	desc = russia.1.desc
+
+	trigger = {
+		
+	}
+
+	fire_only_once = yes
+
+	dynamic_historical_event = {
+		tag = RUS
+		from = 1836.1.1
+		to = 1837.1.1
+		monthly_chance = 100
+	}
+
+	option = {
+		name = russia.1.a
+
+		add_prestige = 1
+
+		trigger_event_non_silently = russia.2
+	}
+}
+
+russia.2 = {
+	type = country_event
+	title = russia.2.title
+	desc = russia.2.desc
+
+	trigger = {
+		
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = russia.2.a
+
+		add_prestige = 1
+	}
+}
