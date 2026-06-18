@@ -124,6 +124,13 @@ RPL = {
 	religion_definition = anglican
 }
 
+NWF = {
+	color = map_CAN
+
+	culture_definition = english
+	religion_definition = anglican
+}
+
 MTC = {
 	color = map_CAN
 

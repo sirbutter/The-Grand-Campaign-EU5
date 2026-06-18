@@ -18,6 +18,7 @@ countries = {
 
 			UCA = {
 				own_control_core = {
+					minas_mountains
 					cockscomb_jungle tawahka_jungle indio_maiz_jungle chiriqui_mountains chiriqui_jungle
 					xunantunich tzoite campin paliac
 					chiapas_mountains cuchumatanes_mountains
@@ -910,8 +911,6 @@ countries = {
 					ruby_valley great_belt_mountains little_belt_mountains ashalaho
 					shoshonne dukundeka washakie pushroot wamsutter
 					beaverhead elkhorn red_rock penointikara gazzllatin
-					wolastoq
-					madawaska
 					shawmut
 					naumkeag
 					assabet
@@ -979,9 +978,7 @@ countries = {
 					pemetic
 					millinocket
 					katahdin
-					aroostook
 					meduxnekeag
-					allagash
 					passamaquoddy
 					machias
 					nicatous
@@ -1910,10 +1907,462 @@ countries = {
 					exploration = 5
 				}
 			}
+			
+			NSC = { # Nova Scotia
+				own_control_core = {
+					askataliank cheticamp ingonish qospemk apaqtukowatek sipuk kluskapewiktuk
+					pictou chignecto maccan tatamagouche antigonish
+					canso kekwapskuk wikipoq weljuik
+					jijkwtuk cobequid shubenacadie kennetook
+					kjipuktuk wetewatoqsik musquedoboit aspotogan esekatik
+					nmejuaqnek nictaux wekwayik chebogue muinawamek nisiamk oqumkikiak
+				}
+
+				include = "east_asia_monarchy"
+				government = {
+					regency = consort_regency
+					active_regent = chz_tamagusuku_spouse
+					start_regency_date = 1336.1.1
+					end_regency_date = 1346.1.1
+					heir = chz_seii
+				}
+
+				capital = choigan
+			}
+			
+			PEI = { # Prince Edward Island
+				own_control_core = {
+					elsiktuk tignish malpeque tapu_tuitn pukusamkek menageesenog
+				}
+
+				include = "east_asia_monarchy"
+				government = {
+					regency = consort_regency
+					active_regent = chz_tamagusuku_spouse
+					start_regency_date = 1336.1.1
+					end_regency_date = 1346.1.1
+					heir = chz_seii
+				}
+
+				capital = choigan
+			}
+			
+			NBR = { # New Brunswick
+				own_control_core = {
+					matapedia_highlands
+					chipoudy petitcodiac memramcook richibucto kouchibouguac miramichi neguac anagance seeboosis
+					nepisiguit tracadie caraquet restigouche maleagit pogomeg asoqasqoq
+					madawaska negoot becaguimec siegas
+					menahkwesk mispec kennebecasis washademoak otnabog kcheeminpink canaan_bog
+					nashwaak oromocto meductic welamooktook pokiok
+					grand_manan pocologan chamcook magaguadavic
+					allagash aroostook
+				}
+
+				include = "east_asia_monarchy"
+				government = {
+					regency = consort_regency
+					active_regent = chz_tamagusuku_spouse
+					start_regency_date = 1336.1.1
+					end_regency_date = 1346.1.1
+					heir = chz_seii
+				}
+
+				capital = choigan
+			}
+			
+			NWF = { # Newfoundland
+				own_control_core = {
+					# Newfoundland
+						belle_isle wipetikil naskwotchu mekapisk long_range_mountains
+						eimastukwek epwikek kutapuskuj pgotapesg upsukdaskooch wli_qospem
+						gosaoie nogamsig meelpaeg amasipukwek sibook annieopsquotch_mountains
+						baie_verte walnaypek akilasiewakik newfoundland_highlands
+						cape_spear bacalhieu mekwiskajk mollyhuajeck
+						placentia cape_race maqtewey nukamkiajijk
+
+					# Labrador
+						catucto red_bay ikkatuluk uivvatok natsitok inutsualak tessuialluk aillik kaipokok agvituk ukasikalik nunainguk aulatsivik okak napaktok kingmirtok navchak
+				}
+
+				include = "east_asia_monarchy"
+				government = {
+					regency = consort_regency
+					active_regent = chz_tamagusuku_spouse
+					start_regency_date = 1336.1.1
+					end_regency_date = 1346.1.1
+					heir = chz_seii
+				}
+
+				capital = choigan
+			}
+			
+			UCN = { # Upper Canada
+				own_control_core = {
+					kaministiquia kakabeka neebing
+					nipigon namewaminikan ombabika wabinosh kaitotikwia
+					baawitigong batchawana michipicoten agawa_superior manitowik pekatek aguasabon wawa_uplands penokean_hills
+					manitoulin wemitigoj eskimanetigon mississagi
+					onaping pogamasing wanapitei mattagami
+					temagami matabichuan sessekinika opimika mattawa
+					nosbonsing nipissing powassan memesagamesing nemag
+					shawanaga cognashene kahshe magnetawan opeongo_hills
+					macassa niagara nissouri kandoucho kenhionatatie
+					tekahionhake kanagio ganatchio bkwejanong
+					menesetung saugeen dehskan_ziibi nochemoweniing
+					etharita ehwae garafraxa eramosa
+					ouentarionk cahiague kaotia scanonaenrat ossossane
+					tkaronto oshawa scugog haskaont missinihe tetioneshohon
+					cataraqui kahwenoke toniato gananoque opinicon
+					kitchissippi pasapkedjinawong onontchataronon maizinaazibi matoueska kinozhesipi pikwakanagan petawawa
+					napanee ganneious ganaraska quinte
+					otonabee kawartha mazinaw skootamatta kamaniskeg catchacoma kashagawigamog
+				}
+
+				include = "east_asia_monarchy"
+				government = {
+					regency = consort_regency
+					active_regent = chz_tamagusuku_spouse
+					start_regency_date = 1336.1.1
+					end_regency_date = 1346.1.1
+					heir = chz_seii
+				}
+
+				capital = choigan
+			}
+			
+			LCN = { # Lower Canada
+				own_control_core = {
+					magpie_massif mecatina_plateau
+					gaspe chicchoc marsoui pewjeg cascapedia paspebiac matapedia chic_choc_mountains matane
+					rimouski mitis amqui causapscal kakouna molsemtekw temiscouata kamouraska northern_notre_dame_mountains
+					gaspe chicchoc marsoui pewjeg cascapedia paspebiac matapedia chic_choc_mountains matane
+					rimouski mitis amqui causapscal kakouna molsemtekw temiscouata kamouraska northern_notre_dame_mountains
+					kikonteku kamitsisit etchemin wachilmezi onkobagag sartigan wolastoq
+					stadacona andawaohie ontaretse ahwendoe ondaonnentakwi aunona taoondewake kouate laurentian_massif
+					mingan pigou aguanish natashquan manapakuaniskau uanaman upuahpukau magpie_massif notiskuan anticosti natigostec
+					mecatina kegaska coacoachou napetipi mecatina_hills
+					uashat nipisso nipissis caopacho opocopa mistecapiu sainte_marguerite_plateau
+					ouiauirabugu toulnustouc capotigamau manicouagan mouchalagane kapuameut piletisipuk manicouagan_plateau manicouagan_depression
+					pessamit betsiamites pipmuacan itomamo kitchesatsiou manouanis tetepisca essipit manouane manouanis_massif
+					chicoutimi shipshaw onatchiway outapimiskou metabetchouane valin_mountains tadoussac
+					opiticiwan oskelaneo minkaniciciw wemotaci maskotci metabeskega kokokachi cikakw_sipi kiskissink wayagamac windigo_massif
+					kitigan_zibi baskatong poigan picanoc gatineau_hills tapani kiamika kanegaok
+					temiscamingue maganasipi kippawa winneway kinojevis osisko kitcisakik kakibonga cawassiemica capimitchigama chochocouane_hills dumoine_plateau
+					mistassibi samaqua ouasimesca nestaocano tchitogama peribonka onistagane machisque eastern_peribonka_hills peribonka_hills
+					ashuapmushuan kanishushteu chigoubiche nicabau ouiatchouaniche ashuapmushuan_hills
+					wigwomadensis masolian yamaska wdpesek
+					hochelaga kemoimenahan ahkwesasne otennienontant makigotekw loigan_sibo
+					kiwetin_sipi mikiwam outaragasipi tremblant_massif
+					alsigontekw wolinak wabanaki arthabaska nebesek
+					nikitotegwak megantic maskikogamak coaticook memphremagog wigwomadenek wagowategok
+					ekwentondie yamachiche shawinigan mekinac matawin
+					nagatinong weskarini okaisipi quyon nichabau
+				}
+
+				include = "east_asia_monarchy"
+				government = {
+					regency = consort_regency
+					active_regent = chz_tamagusuku_spouse
+					start_regency_date = 1336.1.1
+					end_regency_date = 1346.1.1
+					heir = chz_seii
+				}
+
+				capital = choigan
+			}
+			
+			MTC = { # Metis
+				own_control_core = {
+					oceko_sipiy mantago chitek
+					onabeesh tootinaowaziibeeng kinosota
+					kihi sihabi sipiweske waskada
+					winnipeg mnisaton mihkwakamiwi_sipiy pikwedina_sagaomam maskwa
+				}
+
+				include = "east_asia_monarchy"
+				government = {
+					regency = consort_regency
+					active_regent = chz_tamagusuku_spouse
+					start_regency_date = 1336.1.1
+					end_regency_date = 1346.1.1
+					heir = chz_seii
+				}
+
+				capital = choigan
+			}
+			
+			RPL = { # Rupert's Land
+				own_control_core = {
+					# Canada
+						chilcotin_mtns kwakwala_range strathacona_range thompson_mtns
+						robins_lake_upland foster_upland stony_mountain_uplands seal_river_upland southampton_island
+						rupert_plateau mistassini_hills  abitibi_uplands james_bay_lowlands attawapiskat_lowlands hudson_bay_lowlands winisk_uplands english_river_uplands ogoki_uplands nemegosenda_uplands ishpatina_ridge wabigoon_uplands severn_uplands lac_seul_upland hayes_river_upland churchill_river_upland silsby_lake_upland wekusko_upland reindeer_lake_upland indian_lake_upland nejanilini_uplands kazan_uplands
+						otish_mountains eastmain_hills matagami_depression
+						amisk_sipi amisk_sakahikan
+						namew kipahigan mistahi_sakahikan wapiskau_sk kiheewapiw
+						sakitawahk methye missinipi kawatinook
+						thoa kasba
+						poyiitahtai
+						wakpa_juk_ana
+						etzikom
+						kwaskwuti
+						cahe
+						canhewincasta
+						wazihe
+						minizuahe
+						wibazoka_wakpa
+						minichinas
+						tugaske
+						notukeu
+						miksiw_sipisis
+						kiyiu
+						manitowi_sakahikanihk
+						ye_ya_xabine
+						ogiciza_wakpa
+						pimicaskewyashik
+						ceepee
+						saskatchewan
+						kistapinan
+						petaigan
+						notinito_sipiy
+						wetaskiwin
+						amisk
+						kisiskaciwani_sipiy
+						amiskwaciwiy
+						titaga
+						wabamun
+						apahtoksipisskan
+						mokowan
+						ijathibe_wapta
+						kananaskis
+						okotoks
+						inotonniicaah
+						saamis
+						insaombi
+						makhabn
+						waskasoo
+						netook
+						keoma
+						michichi
+						wawaskesiw_sipiy
+						wastina
+						shunda
+						pembina_ab
+						ya_kti_ki
+						osukyuze
+						hepa
+						canuba_wakpa
+						muskiki
+						kinistino
+						etomami
+						kamsack
+						iskwao
+						tacehubana
+						wascana
+						posakanaciwiy
+						katepwewi
+						assapasca
+						opaskwayak
+						wapisiw_sipihk
+						winnipegosis
+						malartic
+						wasakin
+						chicobi
+						harricana
+						obaska
+						megiscane
+						opawica
+						opemisca
+						waswanipi
+						maicasagi
+						soscumica
+						nottaway
+						missicabi
+						waskaganish
+						kaipeshimushich
+						nemasca
+						kapitukamach
+						kauakiekamatsh
+						natastan
+						nistam
+						kamashikamach
+						ouagama
+						mistissini
+						cawachagamite
+						shipastouk
+						mistassiniish
+						chibougamau
+						temiscamie
+						pitchibourenik
+						chisasibi
+						maquatua
+						nichicun
+						wahemen
+						kuujjuaq
+						koskoak
+						sanikiluaq baffin_island
+						amadjuak thelon_river_upland
+						kinngait
+						qikirtajuaq
+						mistimakan
+						matachewan
+						minong
+						kapuskasing
+						missinaibi
+						nemegosenda
+						otapingshewee
+						tionaga
+						wakusimi
+						mattawishkwia
+						kenogamissi
+						buskegau
+						mistango
+						nahma
+						piscoutagami
+						mattawasaga
+						nagagami
+						watistiguam
+						achikamii
+						kabinakagami
+						pagwachuan
+						ginoogaming
+						atikwa
+						saganaga
+						quetico
+						namakan
+						gojijin
+						kakagi
+						wabaseemong
+						winnange
+						wabigoon
+						obishikokaang
+						waaninaawangang
+						ogoki
+						miniss
+						atikokiwam
+						matapesatakun
+						petawanga
+						pichinamei
+						makokibatan
+						kagianagami
+						winisk
+						kinusheo
+						wabuk
+						asheweig
+						tabasokwia
+						shibogama
+						wapikopa
+						wunnumin
+						wapitotem
+						washeo
+						niskibi
+						shagamu
+						ministik
+						kinosao_sipi
+						manigotagan
+						atikaki
+						mukutawa
+						kawinaw
+						mechiso
+						pikwitonei
+						anipitapiskow
+						poskatinak
+						nunatonowago
+						kanaskipenaski
+						kaministikowak
+						echimamish
+						eyapaysis
+						numaykoos
+						mistutikumak
+						opuskowin
+						kapuskaywak
+						shethanei
+						tadoule
+						kapuskaypachik
+						thlewiaza
+						mistahi
+						kamisak
+						machichi
+						kichekokotic
+						sowunusiske
+						wapusk
+						des_nedhe
+						nunalla
+						nueltin
+						tatinnai
+						thaolintoa
+						tha_anne
+						attawapiskat
+						ekwan
+						otadaonanis
+						patchepawapoka
+						lakitusaki
+						kashechewan
+						wabimeig
+						mammamattawa
+						wapiskau
+						kinosheo
+						pagashi
+						tchakashapug
+						moosonee
+						abimatinu
+						takwata
+						wawiyastan
+						kwetabohigan
+						kagawask
+						mesagami
+						olimisk
+						mahnahwoonan
+						sivukutaitiarruvik
+						akimiski
+					
+					# Oregon
+						north_cascade
+						sw_ktunaxa_ranges se_ktunaxa_ranges ce_ktunaxa_ranges ne_ktunaxa_ranges nc_ktunaxa_ranges cw_ktunaxa_ranges
+						stlpulmsh chehalis chala_at sklallam twana makah n_pooh_le
+						wishram klikitat mamachatpam pa_kiut_lema
+						akinkumasnuqit aq_am akisq_nuk kananmituk
+						akinka_nup aqyam_nup ainu_nik ktunwakanmituk aknuq_uk yakyu_ki
+						puyallup kittikas duwamish snohomish skagit nisqually
+						nooksack lhaq_temish sto_lo sts_ailes whonnock katzie
+						squamish sechelt sliammon klahoose homalco
+						wenatchi chelan osoyoos similkameen okanagan spaxomin
+						enselxcin swarakxen ntiltxitk stxtilusten snk_mip q_espiea illecillewaet
+						skuppah nlaka_pamux scw_exmx st_at_imcets tsala_ihmec leel_watr_ool
+						tsi_del_del tl_etinqox_t_in tl_esqox yunesit_in elhdaqox_t_in
+						sk_atsin skitsetsen st_uxwtews splatsin tk_emlups qw_ewt stil_qw
+						esk_el stswecen_c llenllenet_ten sexqeltqin simpcw xat_sull
+						mica_creek kinbasket karluk_peak moose_river monashee cariboo
+						saanich stz_uminus ditidaht pentlatch ucluelet
+						k_omoks maaqtusiis yuquot tlatlasikwala ma_amtagila
+						tanakteuk quawshelah oweekeno nuxalc kitasoo heiltsuk haisla
+						sm_algyax nisga_a gitxsanimaax kiis_gwaay gwaay_haanas
+						ulkatchot_en nazkot_en lhoosk_uzt_en saik_uz cheslattat_en nechakot_en lheidlit_en
+						nat_oot_en nadleh_whuten yekooche nak_azdlit_en tl_azt_en khelhghubunt_en a_taw_bun_kut_en
+						nadleht_en goat_creek lanezi crescent_spur willmore hutton
+						ts_il_kaz_koh witset hagwilget skin_tyee nee_tahi_buhn wet_suwet_en sguuxs
+						kwadacha thutade tse_khene takla
+						hominka ingenika mesilinka tsekani
+						sekani_forest ediziza_forest s_shuswap_mtns e_shuswap_mtns n_shuswap_mtns sinixt_range mostoos_upland mid_boreal_upland porcupine_hills
+				}
+
+				include = "east_asia_monarchy"
+				government = {
+					regency = consort_regency
+					active_regent = chz_tamagusuku_spouse
+					start_regency_date = 1336.1.1
+					end_regency_date = 1346.1.1
+					heir = chz_seii
+				}
+
+				capital = choigan
+			}
 
 		# South America
 			COL = {
 				own_control_core = {
+					veragua_jungle darien_jungle choco_jungle murri_jungle paramillo_jungle cauca_jungle bebaramau_jungle torra_jungle tinigua_jungle guacharos_jungle
 					burica chiriqui huista
 					veragua caribaro terbi
 					tauraba parita nata escoria chiru esquegua
@@ -3170,6 +3619,7 @@ countries = {
 					kuldiga dundaga durbe grobina kandava piltene saldus ventspils
 					daugavpils aizkraukle selpils
 					jelgava bauska dobele tukums
+					palanga
 				}
 				government = {
 					type = monarchy
@@ -3425,10 +3875,23 @@ countries = {
 					kobenhavn slagelse vordingborg falster
 				}
 
-
 				own_control_colony = {
+					# Iceland
+						icelandic_highlands hofsjokull langjokull vattnajokull eyjafjallajokull
+						holar husavik akureyri blonduos torshofn
+						vopnafjordur egilsstadir seydisfjordur reydarfjordur holmur kirkjubaejar
+						borgarnes olavsvik isafjordur hvamstangi
+						skalholt selfoss keflavik reikjavik thingvellir hvolsvollur
+
+					# Greenland
+						eggers_o
+						eiriksfjord
+						arsuk ivituut gronnedal kangeq godthab lysufjord sandnes kapisillit anavik
+						gardr brattahlid dyrnes hvalsey einarsfjord vatnahverfi
+						herjolfsnes petursvik lundey altafjord ketilsfjord siglufjord
+					
 					# Caribbean
-					ayay
+						ayay
 				}
 
 				capital = roskilde
@@ -3655,13 +4118,6 @@ countries = {
 			}
 
 			ICE = {
-				own_control_core = {
-					icelandic_highlands hofsjokull langjokull vattnajokull eyjafjallajokull
-					holar husavik akureyri blonduos torshofn
-					vopnafjordur egilsstadir seydisfjordur reydarfjordur holmur kirkjubaejar
-					borgarnes olavsvik isafjordur hvamstangi
-					skalholt selfoss keflavik reikjavik thingvellir hvolsvollur
-				}
 				capital = thingvellir
 
 				include = "catholic_monarchy_limited"
@@ -3682,11 +4138,6 @@ countries = {
 			}
 
 			GRL = {
-				own_control_core = {
-					arsuk ivituut gronnedal kangeq godthab lysufjord sandnes kapisillit anavik
-					gardr brattahlid dyrnes hvalsey einarsfjord vatnahverfi
-					herjolfsnes petursvik lundey altafjord ketilsfjord siglufjord
-				}
 				capital = gardr
 
 				include = "catholic_monarchy_limited"
@@ -4111,6 +4562,16 @@ countries = {
 			#Russia
 			RUS = {
 				own_control_core = {
+					tsokh khan_khentii3
+					nibuchu ingedei aga boorj unda kuenga nurchuu chit tura uldurga sulkhari khilgo khilgoson ung khimni ude_baikal anaa bureen khudan khurbe
+					eastern_sayan_mountains1 altay_forest_wasteland_3 altay_forest_wasteland_2 altay_forest_wasteland_1
+					silkari kara_shilka uryum lower_gazimur upper_gazimur urov khirkhira talman_boorj zyyn_tar_nuur qorqonaq_yubur kyra khan_khentii khadanzaa zed zelterijin
+					usun
+					kolyma_upplands1 kolyma_river makarixa_uplands
+					ulenkhe selenge
+					siberian_wasteland_17 siberian_wasteland_16 neryunda_uplands olyokma_upplands1 vitim_upplands olyokma_upplands5 xamaxar_uplands1 xamaxar_uplands2 olyokma_upplands2 olyokma_upplands3 olyokma_upplands4 olyokma_upplands6 biryuk_uplands aldan_upplands4 siniaia_upplands lungxa_upplands2 lungxa_upplands1 dippa_upplands aldan_upplands1 aldan_upplands2 ayan_mai2 ayan_mai1 maya_range1 maya_range2 siberian_tundra_6 chondon_tundra siberian_tundra_4 siberian_hills_6 siberian_hills_5 siberian_hills_2 siberian_hills_3 shandrin kolyma_upplands2 omok_upplands5 omok_upplands3 omok_upplands2 omok_upplands1 chuvan_upplands1 yamsk_range3 yamsk_range2 yamsk_range1 kolyma_highlands kedon_range koryak_uplands4 koryak_uplands3 koryak_uplands5 alyutor_range1 koryak_uplands1 o_mnmilin_uplands2 anauls_uplands2 o_mnmilin_uplands1 peninsula_uplands5 peninsula_uplands4 erri_uplands1 peninsula_uplands3 peninsula_uplands2 peninsula_uplands1
+					siberian_forests_3 ecigeen_upplands siberian_hills_1 yana_plateau siberian_tundra_8 siberian_hills_7 siberian_tundra_10 siberian_tundra_7 siberian_hills_4 siberian_forests_1 siberian_tundra_5 yukaghyr_upplands1 yukaghyr_upplands2 yukaghyr_upplands3 arga_tas_upplands omchikan_range hakandya_uppland okam_range aldan_upplands3 omok_upplands4 anauls_uplands1 anauls_uplands3 chuvan_upplands2 erri_uplands2 magadan_range kerek_uplands koryak_uplands2 alyutor_range2 kamchatka_uplands1 kamchatka_uplands2 kamchatka_uplands3 kamchatka_uplands4 kamchatka_uplands5
+					siberian_wasteland_5 siberian_wasteland_6 siberian_wasteland_7 siberian_wasteland_8 siberian_wasteland_9 siberian_wasteland_13 siberian_tundra_1 siberian_wasteland_10 siberian_wasteland_12 siberian_wasteland_15 siberian_wasteland_14 siberian_forests_5 siberian_tundra_2 siberian_hills_8 siberian_forests_2 siberian_forests_6 siberian_forests_4 sakha_uplands siberian_tundra_3 siberian_tundra_9
 					crimean_mountains syvash_sand_bar
 					siberian_wasteland_3 siberian_wasteland_2 perm_forest_3 sverdlovsk_forest_1 siberian_wasteland_1 perm_forest ural_mountains ural_forest ural_mountains2 siberian_wasteland_4 yamal siberian_wasteland_11
 					solovetsky
@@ -4431,7 +4892,7 @@ countries = {
 					bursol kuchukskoye volchikha butyrskoe zmeinogorsk shemonayevskoye oskemen ust_kalmanka
 					krivoshchekovo kamen dovolnoye kozhevnikovo bolotnye
 					suzun berdsk chesnokovka kalmanka barnaul verkhotomsk kolchugino
-					altayskoye onguday ust_koksa smolenskoye mayma biysk
+					smolenskoye biysk
 					kuznetsk salair kytmanovo ust_kabyrza askiz abakasnk beya shushenskoye
 					tomsk melnikovo molchanovo kargasok vasyugan kolpashevo
 					surgut bolshoy_balyk irtysh megion bolshoy_yugan upper_ob
@@ -4540,7 +5001,7 @@ countries = {
 					lahoysk begoml byerazino ilya krasnoe smalyavichy
 					minsk chervyen koidanova marjina_horka rakau stowbtsy svislach
 					mogilev bykhaw
-					palanga rietavas silale skuodas taurage
+					rietavas silale skuodas taurage
 					grodek
 					#Podlasie
 					bielsk_podlaski
@@ -4596,7 +5057,7 @@ countries = {
 					takhtoyamsk brokhovo yamsk atargan magadan palatka tauisk
 					palana voyampolka tigil sedanka kovran
 					uka_town shiveluch klyuchi kamchatsk malka
-					ostrov_beringa milkovo achava oktyabr_skii pauzhetka kamchatka_trail1 kamchatka_trail2 kurile_lake
+					ostrov_beringa milkovo achava oktyabr_skii pauzhetka kamchatka_trail1 kamchatka_trail2
 					kozyrevsk krutogorovskiy sobolevo kirovskiy khayryuzovo
 					ugoyan ukulan verkhnyaya tegyulte onnyos uluu borulakh
 					nuotara myndagai abaga amga uchele darkylakh
@@ -4789,694 +5250,6 @@ countries = {
 
 					# Mosquito Coast
 						karawala awastara ahuya_yari
-
-					# Canada
-						newfoundland_highlands long_range_mountains annieopsquotch_mountains
-						canaan_bog matapedia_highlands chic_choc_mountains northern_notre_dame_mountains
-						thilane_hot_ine sakawyiniw ot_esh_otchore
-						athabasca kai_theli_ke_hot_inne tethul
-						amisk_sipi amisk_sakahikan wawaskesiwisakahikan
-						namew kipahigan mistahi_sakahikan wapiskau_sk kiheewapiw
-						sakitawahk methye missinipi kawatinook
-						gani_koe tazin tipinuwak misekumaw
-						klewi tu_nedhe tucho tidee kakisa
-						wecho soombak_e utsingi kahochella
-						thubun tronka_chua tatsan nonacho lutselk_e deskenetlata natalkai
-						thoa dubawnt abitau kasba
-						poyiitahtai
-						wakpa_juk_ana
-						etzikom
-						kwaskwuti
-						cahe
-						canhewincasta
-						wazihe
-						minizuahe
-						wibazoka_wakpa
-						minichinas
-						tugaske
-						notukeu
-						miksiw_sipisis
-						kiyiu
-						manitowi_sakahikanihk
-						ye_ya_xabine
-						ogiciza_wakpa
-						pimicaskewyashik
-						ceepee
-						saskatchewan
-						kistapinan
-						petaigan
-						notinito_sipiy
-						wetaskiwin
-						amisk
-						kisiskaciwani_sipiy
-						amiskwaciwiy
-						titaga
-						wabamun
-						apahtoksipisskan
-						mokowan
-						ijathibe_wapta
-						kananaskis
-						okotoks
-						inotonniicaah
-						saamis
-						insaombi
-						makhabn
-						waskasoo
-						netook
-						keoma
-						michichi
-						wawaskesiw_sipiy
-						wastina
-						shunda
-						pembina_ab
-						ya_kti_ki
-						apetowun
-						osukyuze
-						hepa
-						canuba_wakpa
-						muskiki
-						kinistino
-						etomami
-						kamsack
-						iskwao
-						tacehubana
-						wascana
-						posakanaciwiy
-						katepwewi
-						assapasca
-						opaskwayak
-						wapisiw_sipihk
-						winnipegosis
-						onabeesh
-						tootinaowaziibeeng
-						kinosota
-						kihi
-						sihabi
-						sipiweske
-						waskada
-						winnipeg
-						mnisaton
-						mihkwakamiwi_sipiy
-						pikwedina_sagaomam
-						maskwa
-						gaspe
-						chicchoc
-						marsoui
-						pewjeg
-						cascapedia
-						paspebiac
-						matapedia
-						matane
-						rimouski
-						mitis
-						amqui
-						causapscal
-						kakouna
-						molsemtekw
-						temiscouata
-						kamouraska
-						kikonteku
-						kamitsisit
-						etchemin
-						wachilmezi
-						onkobagag
-						sartigan
-						stadacona
-						andawaohie
-						ontaretse
-						ahwendoe
-						ondaonnentakwi
-						aunona
-						taoondewake
-						kouate
-						mingan
-						pigou
-						aguanish
-						natashquan
-						manapakuaniskau
-						uanaman
-						upuahpukau
-						notiskuan
-						anticosti
-						natigostec
-						mecatina
-						kegaska
-						coacoachou
-						napetipi
-						uashat
-						nipisso
-						nipissis
-						caopacho
-						opocopa
-						mistecapiu
-						ouiauirabugu
-						toulnustouc
-						capotigamau
-						manicouagan
-						mouchalagane
-						kapuameut
-						piletisipuk
-						pessamit
-						betsiamites
-						pipmuacan
-						itomamo
-						kitchesatsiou
-						manouanis
-						tetepisca
-						essipit
-						manouane
-						chicoutimi
-						shipshaw
-						onatchiway
-						outapimiskou
-						metabetchouane
-						tadoussac
-						opiticiwan
-						oskelaneo
-						minkaniciciw
-						wemotaci
-						maskotci
-						metabeskega
-						kokokachi
-						cikakw_sipi
-						kiskissink
-						wayagamac
-						kitigan_zibi
-						baskatong
-						poigan
-						picanoc
-						tapani
-						kiamika
-						kanegaok
-						temiscamingue
-						maganasipi
-						kippawa
-						winneway
-						kinojevis
-						osisko
-						kitcisakik
-						kakibonga
-						cawassiemica
-						capimitchigama
-						mistassibi
-						samaqua
-						ouasimesca
-						nestaocano
-						tchitogama
-						peribonka
-						onistagane
-						machisque
-						ashuapmushuan
-						kanishushteu
-						chigoubiche
-						nicabau
-						ouiatchouaniche
-						wigwomadensis
-						masolian
-						yamaska
-						wdpesek
-						hochelaga
-						kemoimenahan
-						ahkwesasne
-						otennienontant
-						makigotekw
-						loigan_sibo
-						kiwetin_sipi
-						mikiwam
-						outaragasipi
-						alsigontekw
-						wolinak
-						wabanaki
-						arthabaska
-						nebesek
-						nikitotegwak
-						megantic
-						maskikogamak
-						coaticook
-						memphremagog
-						wigwomadenek
-						wagowategok
-						ekwentondie
-						yamachiche
-						shawinigan
-						mekinac
-						matawin
-						nagatinong
-						weskarini
-						okaisipi
-						quyon
-						nichabau
-						malartic
-						wasakin
-						chicobi
-						harricana
-						obaska
-						megiscane
-						opawica
-						opemisca
-						waswanipi
-						maicasagi
-						soscumica
-						nottaway
-						missicabi
-						waskaganish
-						kaipeshimushich
-						nemasca
-						kapitukamach
-						kauakiekamatsh
-						natastan
-						nistam
-						kamashikamach
-						ouagama
-						mistissini
-						cawachagamite
-						shipastouk
-						mistassiniish
-						chibougamau
-						temiscamie
-						pitchibourenik
-						caisaboscai
-						chistamikap
-						nasacauso
-						neoskweskau
-						cauouatstacau
-						mistimakan
-						chisasibi
-						maquatua
-						atikuan
-						nichicun
-						misask
-						wahemen
-						naococane
-						kuujjuarapik
-						qingaaluk
-						tupialuviniq
-						wiyashakimi
-						nastapoka
-						kuujjuaq
-						kuuvik
-						natuak
-						kasuswapaskau
-						koskoak
-						sanikiluaq
-						pangnirtung
-						iglunga
-						iqaluit
-						kimmirut
-						amadjuak
-						kinngait
-						caniapiscau
-						kasakaupuyau
-						wayustikw
-						mistanipi
-						chipisipi
-						katataskatikw
-						misinichikw
-						otelnuk
-						kawachisakau
-						kawachikamasu
-						enchukamao
-						qikirtajuaq
-						kamusawawasich
-						kawawasukutisich
-						kaypikupau
-						mistinatwayasu
-						kamiskayachuuch
-						qurlutuq
-						kangiqsualujjuaq
-						imaapik
-						siimitalik
-						uashekanau
-						mistinatuakamau
-						mushuau
-						kausseskait
-						tupirvialuit
-						koroc
-						nunainguk
-						navchak
-						kingmirtok
-						napaktok
-						okak
-						aulatsivik
-						ukasikalik
-						agvituk
-						kaipokok
-						aillik
-						tessuialluk
-						misha_shipu
-						tikigaksuagusik
-						aivitok
-						kenamu
-						sheshatshiu
-						kauipushkakamat
-						kamassekutinat
-						shabogamo
-						ashuanipi
-						kepimits
-						muhaukamau
-						atikonak
-						kamassekuakamat
-						nipissu
-						winokapau
-						mishikamau
-						menutinau
-						ushkau_nipi
-						attikamagen
-						petitsikapau
-						catucto
-						ikkatuluk
-						uivvatok
-						natsitok
-						inutsualak
-						belle_isle
-						wipetikil
-						naskwotchu
-						mekapisk
-						eimastukwek
-						epwikek
-						kutapuskuj
-						pgotapesg
-						upsukdaskooch
-						wli_qospem
-						gosaoie
-						nogamsig
-						meelpaeg
-						amasipukwek
-						sibook
-						baie_verte
-						walnaypek
-						akilasiewakik
-						cape_spear
-						bacalhieu
-						mekwiskajk
-						mollyhuajeck
-						placentia
-						cape_race
-						maqtewey
-						nukamkiajijk
-						miquelon
-						elsiktuk
-						tignish
-						malpeque
-						tapu_tuitn
-						pukusamkek
-						menageesenog
-						askataliank
-						cheticamp
-						ingonish
-						qospemk
-						apaqtukowatek
-						sipuk
-						kluskapewiktuk
-						pictou
-						chignecto
-						maccan
-						tatamagouche
-						antigonish
-						canso
-						kekwapskuk
-						wikipoq
-						weljuik
-						jijkwtuk
-						cobequid
-						shubenacadie
-						kennetook
-						kjipuktuk
-						wetewatoqsik
-						musquedoboit
-						aspotogan
-						esekatik
-						nmejuaqnek
-						nictaux
-						wekwayik
-						chebogue
-						muinawamek
-						nisiamk
-						oqumkikiak
-						chipoudy
-						petitcodiac
-						memramcook
-						richibucto
-						kouchibouguac
-						miramichi
-						neguac
-						anagance
-						seeboosis
-						nepisiguit
-						tracadie
-						caraquet
-						restigouche
-						maleagit
-						pogomeg
-						asoqasqoq
-						negoot
-						becaguimec
-						siegas
-						menahkwesk
-						mispec
-						kennebecasis
-						washademoak
-						otnabog
-						kcheeminpink
-						nashwaak
-						oromocto
-						meductic
-						welamooktook
-						pokiok
-						grand_manan
-						pocologan
-						chamcook
-						magaguadavic
-						cataraqui
-						kahwenoke
-						toniato
-						gananoque
-						opinicon
-						kitchissippi
-						pasapkedjinawong
-						onontchataronon
-						maizinaazibi
-						matoueska
-						kinozhesipi
-						pikwakanagan
-						petawawa
-						napanee
-						ganneious
-						ganaraska
-						quinte
-						otonabee
-						kawartha
-						mazinaw
-						skootamatta
-						kamaniskeg
-						catchacoma
-						kashagawigamog
-						macassa
-						niagara
-						nissouri
-						kandoucho
-						kenhionatatie
-						tekahionhake
-						kanagio
-						ganatchio
-						bkwejanong
-						menesetung
-						saugeen
-						dehskan_ziibi
-						nochemoweniing
-						etharita
-						ehwae
-						garafraxa
-						eramosa
-						ouentarionk
-						cahiague
-						kaotia
-						scanonaenrat
-						ossossane
-						tkaronto
-						oshawa
-						scugog
-						haskaont
-						missinihe
-						tetioneshohon
-						shawanaga
-						cognashene
-						kahshe
-						magnetawan
-						nosbonsing
-						nipissing
-						powassan
-						memesagamesing
-						nemag
-						wanapitei
-						onaping
-						pogamasing
-						temagami
-						manitoulin
-						wemitigoj
-						eskimanetigon
-						mississagi
-						matabichuan
-						matachewan
-						sessekinika
-						mattawa
-						opimika
-						baawitigong
-						batchawana
-						michipicoten
-						agawa_superior
-						manitowik
-						pekatek
-						aguasabon
-						nipigon
-						namewaminikan
-						ombabika
-						wabinosh
-						kaitotikwia
-						kaministiquia
-						kakabeka
-						neebing
-						minong
-						kapuskasing
-						missinaibi
-						nemegosenda
-						otapingshewee
-						tionaga
-						wakusimi
-						mattawishkwia
-						kenogamissi
-						mattagami
-						buskegau
-						mistango
-						nahma
-						piscoutagami
-						mattawasaga
-						nagagami
-						watistiguam
-						achikamii
-						kabinakagami
-						pagwachuan
-						ginoogaming
-						atikwa
-						saganaga
-						quetico
-						namakan
-						gojijin
-						kakagi
-						wabaseemong
-						winnange
-						wabigoon
-						obishikokaang
-						waaninaawangang
-						ogoki
-						miniss
-						atikokiwam
-						matapesatakun
-						petawanga
-						pichinamei
-						makokibatan
-						kagianagami
-						winisk
-						kinusheo
-						wabuk
-						asheweig
-						tabasokwia
-						shibogama
-						wapikopa
-						wunnumin
-						wapitotem
-						washeo
-						niskibi
-						shagamu
-						ministik
-						kinosao_sipi
-						manigotagan
-						atikaki
-						mukutawa
-						oceko_sipiy
-						mantago
-						chitek
-						kawinaw
-						mechiso
-						pikwitonei
-						anipitapiskow
-						poskatinak
-						nunatonowago
-						kanaskipenaski
-						kaministikowak
-						echimamish
-						eyapaysis
-						numaykoos
-						mistutikumak
-						opuskowin
-						kapuskaywak
-						shethanei
-						tadoule
-						kapuskaypachik
-						thlewiaza
-						mistahi
-						kamisak
-						machichi
-						kichekokotic
-						sowunusiske
-						wapusk
-						des_nedhe
-						nunalla
-						nueltin
-						tatinnai
-						thaolintoa
-						tha_anne
-						attawapiskat
-						ekwan
-						otadaonanis
-						patchepawapoka
-						lakitusaki
-						kashechewan
-						wabimeig
-						mammamattawa
-						wapiskau
-						kinosheo
-						pagashi
-						tchakashapug
-						moosonee
-						abimatinu
-						takwata
-						wawiyastan
-						kwetabohigan
-						kagawask
-						mesagami
-						olimisk
-						mahnahwoonan
-						sivukutaitiarruvik
-						akimiski
-					
-					# Oregon
-						north_cascade
-						sw_ktunaxa_ranges se_ktunaxa_ranges ce_ktunaxa_ranges ne_ktunaxa_ranges nc_ktunaxa_ranges cw_ktunaxa_ranges
-						stlpulmsh chehalis chala_at sklallam twana makah n_pooh_le
-						wishram klikitat mamachatpam pa_kiut_lema
-						akinkumasnuqit aq_am akisq_nuk kananmituk
-						akinka_nup aqyam_nup ainu_nik ktunwakanmituk aknuq_uk yakyu_ki
-						puyallup kittikas duwamish snohomish skagit nisqually
-						nooksack lhaq_temish sto_lo sts_ailes whonnock katzie
-						squamish sechelt sliammon klahoose homalco
-						wenatchi chelan osoyoos similkameen okanagan spaxomin
-						enselxcin swarakxen ntiltxitk stxtilusten snk_mip q_espiea illecillewaet
-						skuppah nlaka_pamux scw_exmx st_at_imcets tsala_ihmec leel_watr_ool
-						tsi_del_del tl_etinqox_t_in tl_esqox yunesit_in elhdaqox_t_in
-						sk_atsin skitsetsen st_uxwtews splatsin tk_emlups qw_ewt stil_qw
-						esk_el stswecen_c llenllenet_ten sexqeltqin simpcw xat_sull
-						mica_creek kinbasket karluk_peak moose_river monashee cariboo
-						saanich stz_uminus ditidaht pentlatch ucluelet
-						k_omoks maaqtusiis yuquot tlatlasikwala ma_amtagila
-						tanakteuk quawshelah oweekeno nuxalc kitasoo heiltsuk haisla
-						sm_algyax nisga_a gitxsanimaax kiis_gwaay gwaay_haanas
-						ulkatchot_en nazkot_en lhoosk_uzt_en saik_uz cheslattat_en nechakot_en lheidlit_en
-						nat_oot_en nadleh_whuten yekooche nak_azdlit_en tl_azt_en khelhghubunt_en a_taw_bun_kut_en
-						nadleht_en goat_creek lanezi crescent_spur willmore hutton
-						ts_il_kaz_koh witset hagwilget skin_tyee nee_tahi_buhn wet_suwet_en sguuxs
-						kwadacha thutade tse_khene takla
-						hominka ingenika mesilinka yutuwichan tsekani
 					
 					# Guyana
 						essequibo demerara berbice tumatumari neekeari
@@ -9438,6 +9211,9 @@ countries = {
 
 					# Caribbean
 						carucairi iguanacaera
+
+					# St. Pierre and Miquelon
+						miquelon
 				}
 
 				starting_technology_level = 3
@@ -11215,7 +10991,7 @@ countries = {
 
 			CHI = { #China
 				own_control_core = {
-					ulenkhe selenge
+					fuxin
 					amis paiwan takbanuao truku
 					basai kavalan ketagalan kulun pakuali squliq
 					siraya ishbukun lloa makatao rukai takitudu tsou
@@ -11260,56 +11036,6 @@ countries = {
 					derge jomda katok kharak sibda tromge wara_kham
 					longtang gegong mangge sershul
 					dzagyal khana lab serkar
-					ganze manigango trotsang khordong dawu
-					pome lhari chumdo shukden
-					rigyal metog tirkong
-					rima sangacho walong
-					dzongkar baryang dargyeling lo_mustang tradun
-					zangla padum phuktal
-					shey leh charasa kargil karpokhar lamayuru
-					skardu khaplu shigar
-					nako tabo tsorub
-					rutok drangtse hanle tashigang
-					purang tokchen
-					toling dungkar tsaparang
-					gartok rala
-					gyanema khyunglung
-					sakya ganden_delingshar lhadrak ngamring tagmo_lingkha
-					shigatse jonang namling tropu tsangdram
-					lhasa damzhung drigung galo gyama taklung tsora tsurphu
-					nedong densatil gongkar nyemo rinpung_yarlung samye
-					dingri chorten_nyima gonga_chode nyalam pelmo
-					gyantse nenying ralung
-					trigu chikchar gonpatsi lhodrak lho_taklung tragor zangchen
-					gyamda buchu daklha_gampo zhokha
-					nakchu barom rongpo
-					namtso_doring tsedzong ronglung gonkri zagya
-					gerze_tibet bairab cemar cozha dagze dogai dorsotung yurba
-					sharu drichu duolundu hoh_xil jilibulake kunlun qumarleb
-					chogyal_khar balgatai dsun gashun nalinggele temirlik tsaidam yuka
-					yalingkuo jingyu kumkol
-					serzhik shantsa zangdan
-					mendong samten selephu
-					phari
-					tsherlung ormogang
-					shenyang
-					kaiyuan_jurchen tieling
-					changchun itu_jilin nongan yehe
-					girin_ula gongjiang_jurchen lefu odoli shulan
-					hoifa huifacheng
-					wanggika
-					hetu_ala jabiyan
-					fushun_liaoyang qinhe
-					donggo kuandian
-					golmin_salggiyan sunggari
-					liaoyang dingliao dandong
-					gaizhou fuzhou_liaoyang jinzhou_dalian xiuyan zhuanghe
-					guangning kaicheng wangping yizhou_jinzhou
-					jinzhou_liaoyang dalinghe haizhou_liaoyang ningyuan_jinzhou
-					yizhou_jurchen ningchang tongliao
-					qiantun
-					linjiang_jurchen
-					helong juxeri longjing yenji
 					bozhou wujiang_bozhou shaxi suiyang bochuan zizhou renhuai
 					gulin yongning
 					shuicheng zhijin huozhu caoni cengtai dafang jinji dagu_shunyuan shuixi
@@ -11432,43 +11158,7 @@ countries = {
 					luoji
 					rongxian
 					qijiang
-					aksu bai_xinjiang kumtura kucha qumbash shayar uqturpan
-					akto kizilsu
-					kashgar artush barchuk maralbexi payzawat tokkuzak yingisar yopurga
-					khotan karakax keriya lop qira
-					yarkand guma kargilik poskam
-					karasahr bosten
-					kurla bugur kuerchu
-					charchan charklik niya qietai tatrang waxxari
-					urumqi
-					manas
-					mazar_tagh tikenliq
 					
-					fayzabad
-					jurm
-					 shiveh
-					kham_bahar ragh
-					qalai_khumb vanch
-					charyn chundzha kegen lavar shelek
-					barskoon balykchy kochkor san_tash
-					dungene lepsy sagabuyen tekeli
-					koshoy_korgon cholok_kaiyn chon_naryn jumgal ketmen_tobe naryn
-					gharm daroot_korgon karakol muksu sangvor
-					kurchum kandysu kokpekty shar zyryan
-					almaliq gulja narat nilka tokkuztara sarikol yulduz bortala jing 
-					kuytun urghtbulaq usu_xinjiang yangjibaliq kutubi ulan_us qanbalik 
-					hoboksar gonganbao utbulaq zhekdeliq targabatay dahra_sasykkol emin 
-					ilanbalyk koktuma toli atanuul bodonch bulgan chinggil ulungur kara_irtysh 
-					burqin jeminay qila_panjeh ishkashim roshtqala sarhad sar_sang zebak 
-					shighnan vamar ilibalyk koktal kayalyk ayagoz tansyk
-					zarafshan murgo amtogor raskam sanju
-					gunt murghab oksu
-					qocho turpan lukchun pichan toksun
-					beshbalik dunla guchung mori
-					dashahai bailongdui miran loulan
-					kumux
-					yuanhu
-					nazhi hami geziyandun
 					#Proper China
 					ningde fuan changshi
 					minxian lianjiang luoyuan fuqing houguan minqing changle_fujian gutian yongfu_fuzhou
@@ -11628,94 +11318,15 @@ countries = {
 					zhennan dingyuan_chuxiong weichu nanan
 					heyang jiangchuan lunan xinxing
 
-					#Mongolia
-					buir_nuur barun_xiabaer khalkh tamsabulag
-					bars_khot bayan_tumen bayantsagaan dalai_nuur menen
-					hailar bayan_ula hulun xuguit yimin
-					avraga kherlen rahsaan_khad uguumur undurkhaan
-					enhe_hada jiliu lower_gazimur merelka upper_gazimur urov
-					abagaita gegen hasar khirkhira talman_boorj
-					choyrin_datsan bayan gazrin_chuluu takhilyn ulziit
-					tavan_tolgoi matad sharga_uul sumtiin zara_uul
-					jingzhou_dorbod bathahalak chahar muumyangan ulan_hua ulanchab
-					erenkhot avga baganuur khobootsar shuluun_khoboot_tsagaan sonod
-					bishreit dalay doloodyn_gobi ikh_narttin_chuluu saikhandulaan ulaanbadrakh
-					avnagar chono khuuchid sangiin_dalai sorin_nuur ulgain uzemchin
-					kyakhta khadanzaa khan_khentii tsokh
-					khimni zed zelterijin
-					amarbayas_galang bornuur eroo
-					sulkhari khilgo khilgoson ung
-					ude_baikal anaa bureen khudan khurbe
-					khovd achit_nuur haerhhana huysiyn khurgan tahiltyn_khotgot tsagaan_usun
-					ulaagchiin airag_nuur hunguy khyargas_nuur telmen
-					ulaamgom dzaigil erzin tes turuum
-					uliastai ogomoor teel zavkhan
-					nibuchu ingedei
-					qorqonaq_yubur aga boorj unda
-					silkari kara_shilka
-					tsagaan baruun_tar_nuur lower_ulz upper_ulz yakhi zyyn_tar_nuur
-					onon balj baldan_bereeven kyra
-					bayankhot alxa bagh bayannurhong urad
-					del_khad galbyn_gobi khatanbulag oiyin_korken ooshiyn_gobi zhavklant_khairkhan
-					bayannur uraqai xinhure
-					khara_khoto banzart_khairkhan naraan_chilaun noyon_uul zag_suujiyn_gobi
-					ordos aerzhai otog tongwancheng
-					bii choigan systyg
-					kaa balyktyg buren_khem busiyn
-					den_terek khemchik ulug usun
-					khatgal eringiin uur
-					karakorum khar_balgas orkhon tsetserleg
-					baibalyk alyanbulag kharkhul mori_baridag tarvagatai
-					urga kedun khar_bukhyn kharuukh manzushir tuul
-					zagzuugiin_balgas altan_gadas chuluutyn delger_moron ider
-					barkul altayn_ovor_gobi naomao santokhe zuun_garyn_gobi
-					otegu_qulan bugat chikhan_agui tevsh_uul tsagaan_agui tsogt
-					ongiin_khiid gimpil_darjaalan shaazan_khot shaazan_tolgoi suriig
-					ulaan bogd khadat ukhaa_khudag
-					khalzan_shireg baidrag biger boontsagaan khangal naran orog tuin
-					tost_uul gaxun_gobi shargyn_gobi shira_qulusun
-					fuxin
 				}
 
 				own_control_integrated = {
-					chit nurchuu tura uldurga kuenga uryum
+					 
 
 					lingfang xuanhua_nanning ningpu
 				}
 
 				own_control_conquered = {
-					amgun dukin dzhuk imilen kerbi suluk
-					nurgan bulava shantar torom tugur usalgin
-					boli achan nemptu simmi uninka xungake
-					kedar bitki evur pilda uschu
-					nanghaer idy_sakhalin porokotan wuliehe
-					guohuo boluohe kushunkotan nayoro
-					datta deren kema koppi samarginka tumzhdin
-					urmi bidzhan bira kukan kur sutara
-					yakesa amazar emuer mohe ollo urka
-					gilyuy bryante mogot tukuringra tynda urkan
-					humar bir_amur kuanhe pangu sahar tahe
-					aigun arkhara chenqing jiajin nioman xunhe zhanhe
-					gromatukha birma tehcha tom tygde yor
-					selemde burunda buse kogan mamyn nehru ulma
-					upper_nioman akishma olongki tujun tyrma urgal
-					djee argi dep kupuri mulmuga tok
-					hulan bayan_susu hailun hvlan ougen
-					shangjing boduna hulawen yushu zhaozhou_jurchen
-					ilan_hala hailang malong mudan_ula ningguta
-					chalin taowen wanhufu wehe
-					taizhou_jurchen buteha chol hurle
-					talaha dalaiketun nemeri sart yilaha zhalong
-					qiqihar arun bila laha nuomin
-					chaghankhot gorlos huolin taluhe tuliemao wafang
-					mergen dobkuri gan kuile menlu non
-					zhengjiatun haihaer kailu linhuang qingzhou_mongol xinkai
-					alchan bikinka imanka katen vaka xunka
-					juru_hoton dongning jixi mishan mulun
-					anchun hulin namunka noto_ussuri yiman
-					lahasusu futi nuoluo shuangyashan tulguur
-					kaiyuan_warka anju_nurgan nogule shili yongmingcheng
-					huncun kahari tulazi
 				}
 
 				include = "far_east_asia_monarchy"
@@ -11847,6 +11458,281 @@ countries = {
 					date = 1368.1.1
 					size = 1
 				}
+			}
+
+			XIN = { # Xinjiang
+				own_control_core = {
+					aksu bai_xinjiang kumtura kucha qumbash shayar uqturpan
+					akto kizilsu
+					kashgar artush barchuk maralbexi payzawat tokkuzak yingisar yopurga
+					khotan karakax keriya lop qira
+					yarkand guma kargilik poskam
+					karasahr bosten
+					kurla bugur kuerchu
+					charchan charklik niya qietai tatrang waxxari
+					urumqi
+					manas
+					mazar_tagh tikenliq
+					fayzabad
+					jurm
+					shiveh
+					kham_bahar ragh
+					qalai_khumb vanch
+					charyn chundzha kegen lavar shelek
+					barskoon balykchy kochkor san_tash
+					dungene lepsy sagabuyen tekeli
+					koshoy_korgon cholok_kaiyn chon_naryn jumgal ketmen_tobe naryn
+					gharm daroot_korgon karakol muksu sangvor
+					kurchum kandysu kokpekty shar zyryan
+					almaliq gulja narat nilka tokkuztara sarikol yulduz bortala jing 
+					kuytun urghtbulaq usu_xinjiang yangjibaliq kutubi ulan_us qanbalik 
+					hoboksar gonganbao utbulaq zhekdeliq targabatay dahra_sasykkol emin 
+					ilanbalyk koktuma toli atanuul bodonch bulgan chinggil ulungur kara_irtysh 
+					burqin jeminay qila_panjeh ishkashim roshtqala sarhad sar_sang zebak 
+					shighnan vamar ilibalyk koktal kayalyk ayagoz tansyk
+					zarafshan murgo amtogor raskam sanju
+					gunt murghab oksu
+					qocho turpan lukchun pichan toksun
+					beshbalik dunla guchung mori
+					dashahai bailongdui miran loulan
+					kumux
+					yuanhu
+					nazhi hami geziyandun
+				}
+
+				include = "east_asia_monarchy"
+				government = {
+					regency = consort_regency
+					active_regent = chz_tamagusuku_spouse
+					start_regency_date = 1336.1.1
+					end_regency_date = 1346.1.1
+					heir = chz_seii
+				}
+
+				capital = choigan
+			}
+
+			TIB = { # Tibet
+				own_control_core = {
+					ganze manigango trotsang khordong dawu
+					pome lhari chumdo shukden
+					rigyal metog tirkong
+					rima sangacho walong
+					dzongkar baryang dargyeling lo_mustang tradun
+					zangla padum phuktal
+					shey leh charasa kargil karpokhar lamayuru
+					skardu khaplu shigar
+					nako tabo tsorub
+					rutok drangtse hanle tashigang
+					purang tokchen
+					toling dungkar tsaparang
+					gartok rala
+					gyanema khyunglung
+					sakya ganden_delingshar lhadrak ngamring tagmo_lingkha
+					shigatse jonang namling tropu tsangdram
+					lhasa damzhung drigung galo gyama taklung tsora tsurphu
+					nedong densatil gongkar nyemo rinpung_yarlung samye
+					dingri chorten_nyima gonga_chode nyalam pelmo
+					gyantse nenying ralung
+					trigu chikchar gonpatsi lhodrak lho_taklung tragor zangchen
+					gyamda buchu daklha_gampo zhokha
+					nakchu barom rongpo
+					namtso_doring tsedzong ronglung gonkri zagya
+					gerze_tibet bairab cemar cozha dagze dogai dorsotung yurba
+					sharu drichu duolundu hoh_xil jilibulake kunlun qumarleb
+					chogyal_khar balgatai dsun gashun nalinggele temirlik tsaidam yuka
+					yalingkuo jingyu kumkol
+					serzhik shantsa zangdan
+					mendong samten selephu
+					phari
+					tsherlung ormogang
+				}
+
+				include = "east_asia_monarchy"
+				government = {
+					regency = consort_regency
+					active_regent = chz_tamagusuku_spouse
+					start_regency_date = 1336.1.1
+					end_regency_date = 1346.1.1
+					heir = chz_seii
+				}
+
+				capital = choigan
+			}
+
+			MCH = { 
+				own_control_core = {
+					barun_xiabaer sorin_nuur ulgain avnagar khuuchid uzemchin
+					hailar bayan_ula hulun xuguit yimin dalai_nuur
+					enhe_hada jiliu merelka
+					abagaita gegen hasar
+					shenyang
+					kaiyuan_jurchen tieling
+					changchun itu_jilin nongan yehe
+					girin_ula gongjiang_jurchen lefu odoli shulan
+					hoifa huifacheng
+					wanggika
+					hetu_ala jabiyan
+					fushun_liaoyang qinhe
+					donggo kuandian
+					golmin_salggiyan sunggari
+					liaoyang dingliao dandong
+					gaizhou fuzhou_liaoyang jinzhou_dalian xiuyan zhuanghe
+					guangning kaicheng wangping yizhou_jinzhou
+					jinzhou_liaoyang dalinghe haizhou_liaoyang ningyuan_jinzhou
+					yizhou_jurchen ningchang tongliao
+					qiantun
+					linjiang_jurchen
+					helong juxeri longjing yenji
+					amgun dukin dzhuk imilen kerbi suluk
+					nurgan bulava shantar torom tugur usalgin
+					boli achan nemptu simmi uninka xungake
+					kedar bitki evur pilda uschu
+					nanghaer idy_sakhalin porokotan wuliehe
+					guohuo boluohe kushunkotan nayoro
+					datta deren kema koppi samarginka tumzhdin
+					urmi bidzhan bira kukan kur sutara
+					yakesa amazar emuer mohe ollo urka
+					gilyuy bryante mogot tukuringra tynda urkan
+					humar bir_amur kuanhe pangu sahar tahe
+					aigun arkhara chenqing jiajin nioman xunhe zhanhe
+					gromatukha birma tehcha tom tygde yor
+					selemde burunda buse kogan mamyn nehru ulma
+					upper_nioman akishma olongki tujun tyrma urgal
+					djee argi dep kupuri mulmuga tok
+					hulan bayan_susu hailun hvlan ougen
+					shangjing boduna hulawen yushu zhaozhou_jurchen
+					ilan_hala hailang malong mudan_ula ningguta
+					chalin taowen wanhufu wehe
+					taizhou_jurchen buteha chol hurle
+					talaha dalaiketun nemeri sart yilaha zhalong
+					qiqihar arun bila laha nuomin
+					chaghankhot gorlos huolin taluhe tuliemao wafang
+					mergen dobkuri gan kuile menlu non
+					zhengjiatun haihaer kailu linhuang qingzhou_mongol xinkai
+					alchan bikinka imanka katen vaka xunka
+					juru_hoton dongning jixi mishan mulun
+					anchun hulin namunka noto_ussuri yiman
+					lahasusu futi nuoluo shuangyashan tulguur
+					kaiyuan_warka anju_nurgan nogule shili yongmingcheng
+					huncun kahari tulazi
+				}
+
+				include = "east_asia_monarchy"
+				government = {
+					regency = consort_regency
+					active_regent = chz_tamagusuku_spouse
+					start_regency_date = 1336.1.1
+					end_regency_date = 1346.1.1
+					heir = chz_seii
+				}
+
+				capital = choigan
+			}
+
+			MGE = { # Outer Mongolia
+				own_control_core = {
+					khan_khentii2 khan_khentii1 eastern_sayan_mountains2 eastern_sayan_mountains3
+					buir_nuur khalkh tamsabulag
+					bars_khot bayan_tumen bayantsagaan menen
+					avraga kherlen rahsaan_khad uguumur undurkhaan
+					choyrin_datsan bayan gazrin_chuluu takhilyn ulziit
+					tavan_tolgoi matad sharga_uul sumtiin zara_uul
+					muumyangan
+					bishreit dalay doloodyn_gobi ikh_narttin_chuluu saikhandulaan ulaanbadrakh
+					chono sangiin_dalai 
+					kyakhta
+					amarbayas_galang bornuur eroo
+					khovd achit_nuur haerhhana huysiyn khurgan tahiltyn_khotgot
+					ulaagchiin airag_nuur hunguy khyargas_nuur telmen
+					ulaamgom dzaigil erzin turuum
+					uliastai ogomoor teel zavkhan
+					tsagaan baruun_tar_nuur lower_ulz upper_ulz yakhi
+					onon balj baldan_bereeven
+
+					del_khad galbyn_gobi khatanbulag oiyin_korken ooshiyn_gobi zhavklant_khairkhan
+					khara_khoto banzart_khairkhan naraan_chilaun noyon_uul zag_suujiyn_gobi
+					kaa busiyn
+					khatgal eringiin uur
+					karakorum khar_balgas orkhon tsetserleg
+					baibalyk alyanbulag kharkhul mori_baridag tarvagatai
+					urga kedun khar_bukhyn kharuukh manzushir tuul
+					zagzuugiin_balgas altan_gadas chuluutyn delger_moron ider
+					barkul altayn_ovor_gobi naomao santokhe zuun_garyn_gobi
+					otegu_qulan bugat chikhan_agui tevsh_uul tsagaan_agui tsogt
+					ongiin_khiid gimpil_darjaalan shaazan_khot shaazan_tolgoi suriig
+					ulaan bogd khadat ukhaa_khudag
+					khalzan_shireg baidrag biger boontsagaan khangal naran orog tuin
+					tost_uul gaxun_gobi shargyn_gobi shira_qulusun
+				}
+
+				include = "east_asia_monarchy"
+				government = {
+					regency = consort_regency
+					active_regent = chz_tamagusuku_spouse
+					start_regency_date = 1336.1.1
+					end_regency_date = 1346.1.1
+					heir = chz_seii
+				}
+
+				capital = choigan
+			}
+
+			IMG = { # Inner Mongolia
+				own_control_core = {
+					badain_jarain_desert1 badain_jarain_desert2 tengger_desert ulan_buh_desert ordos
+					bayankhot alxa bagh bayannurhong urad rdos aerzhai otog tongwancheng bayannur uraqai xinhure jingzhou_dorbod bathahalak chahar ulan_hua ulanchab erenkhot avga baganuur khobootsar shuluun_khoboot_tsagaan sonod
+				}
+
+				include = "east_asia_monarchy"
+				government = {
+					regency = consort_regency
+					active_regent = chz_tamagusuku_spouse
+					start_regency_date = 1336.1.1
+					end_regency_date = 1346.1.1
+					heir = chz_seii
+				}
+
+				capital = choigan
+			}
+
+			TNT = { # Tuva
+				own_control_core = {
+					buren_khem
+					tes balyktyg
+					western_sayan_mountains tannu_ola_mountains1 tannu_ola_mountains2
+					den_terek khemchik ulug
+					bii choigan systyg
+				}
+
+				include = "east_asia_monarchy"
+				government = {
+					regency = consort_regency
+					active_regent = chz_tamagusuku_spouse
+					start_regency_date = 1336.1.1
+					end_regency_date = 1346.1.1
+					heir = chz_seii
+				}
+
+				capital = choigan
+			}
+
+			ALT = { # Altai
+				own_control_core = {
+					mayma altayskoye onguday ust_koksa
+					altay_mountains tsagaan_usun
+				}
+
+				include = "east_asia_monarchy"
+				government = {
+					regency = consort_regency
+					active_regent = chz_tamagusuku_spouse
+					start_regency_date = 1336.1.1
+					end_regency_date = 1346.1.1
+					heir = chz_seii
+				}
+
+				capital = urasoe
 			}
 
 			RYU = { # Ryukyu
@@ -12287,6 +12173,7 @@ countries = {
 			#Ottomans - TUR https://en.wikipedia.org/wiki/Rise_of_the_Ottoman_Empire
 			OTT = {
 				own_control_core = {
+					sandikli_mountains
 					west_taurus_1 west_taurus_2 west_taurus_3 west_taurus_4 west_taurus_5 middle_taurus_1 middle_taurus_2 middle_taurus_3 middle_taurus_4 middle_taurus_5 middle_taurus_6 middle_taurus_7 middle_taurus_8 erenler_mountains sultan_mountains_1 sultan_mountains_2 sultan_mountains_3 melendiz_mountains hodul_mountains ak_mountains koroglu_mountains_1 koroglu_mountains_2 ilgaz_mountains west_pontus_mountains_1 west_pontus_mountains_2 kose_mountains_1 kose_mountains_2 east_pontus_mountains_1 east_pontus_mountains_2 east_pontus_mountains_3 otlukbeli_mountains mescit_mountains east_taurus_8 east_taurus_2 east_taurus_1 east_taurus_9 kars_mountains_1 kars_mountains_2 kars_mountains_3 karagol_mountains karasu_aras_mountains
 					dinaric_alps1 dinaric_alps4 dinaric_alps3 dinaric_alps2 dinaric_alps7 dinaric_alps6 dinaric_alps5 dinaric_alps8 pindus_mountains1 pindus_mountains2 pindus_mountains3 pindus_mountains4 pindus_mountains8 pindus_mountains5 pindus_mountains6 pindus_mountains7 pindus_mountains9 pindus_mountains10 mount_olympos balkan_mountains1 balkan_mountains2 balkan_mountains3 balkan_mountains4 balkan_mountains5 balkan_mountains6 rhodope_mountains1 rhodope_mountains3 rhodope_mountains2 rhodope_mountains4 rhodope_mountains5 rhodope_mountains6
 					karpathos 

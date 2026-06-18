@@ -489,15 +489,6 @@ religion_definition = catholic
 }
 
 
-TNT	= { #trento
-color = map_trento
-
-culture_definition = southern_bavarian
-religion_definition = catholic
-
-}
-
-
 TOR	= { #torres
 	color = rgb { 200 200 200 }
 

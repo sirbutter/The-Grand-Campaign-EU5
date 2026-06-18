@@ -95,14 +95,6 @@ HGO = {
 	religion_definition = tengri
 }
 
-ALT = {
-	color = map_telengit
-	color2 = rgb { 90 23 130 }
-
-	culture_definition = telengit_culture
-	religion_definition = tengri
-}
-
 KMG = {
 	color = map_xamag
 	color2 = rgb { 206  87 112 }

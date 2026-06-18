@@ -97,14 +97,6 @@ CJO = { #https://ja.wikipedia.org/wiki/%E4%B8%AD%E6%9D%A1%E6%B0%8F
 	religion_definition = shinto
 }
 
-IMG = { #https://ja.wikipedia.org/wiki/%E4%BB%8A%E5%B7%9D%E6%B0%8F
-	color = map_IMG
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = tougoku_culture
-	religion_definition = shinto
-}
-
 ISD = { #https://ja.wikipedia.org/wiki/%E7%9F%B3%E5%A1%94%E6%B0%8F
 	color = map_ISD
 	color2 = rgb { 16 41 202 }
@@ -2108,14 +2100,6 @@ CHH = { #Chiang Hung
 
 	culture_definition = tai_lu_culture
 	religion_definition = satsana_phi
-}
-
-TIB = { #Tibet
-	color = map_TIB
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = utsang_culture
-	religion_definition = tibetan_buddhism
 }
 
 GUG = { #Guge

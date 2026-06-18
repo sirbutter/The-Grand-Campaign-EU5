@@ -25,15 +25,6 @@ LNC = {
 	religion_definition = lenca_religion
 }
 
-#Xinca - XIN
-XIN = {
-	color = map_xinka
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = xinka_culture
-	religion_definition = mayan
-}
-
 #Garabito - GAR
 GAR = {
 	color = map_huetar
