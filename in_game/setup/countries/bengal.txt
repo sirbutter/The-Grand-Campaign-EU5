@@ -142,14 +142,6 @@ GWL = { #Garhwal
 	religion_definition = hindu
 }
 
-KHS = { #Khasa
-	color = map_KHS
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = khas_culture
-	religion_definition = hindu
-}
-
 KMN = { #Kumaon
 	color = map_kumaoni
 	color2 = rgb { 16 41 202 }

@@ -267,12 +267,3 @@ IGR = {
 	culture_definition = igneri
 	religion_definition = zemi_religion
 }
-
-#Kalinago
-KGN = {
-	color = map_carib
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = carib
-	religion_definition = zemi_religion
-}

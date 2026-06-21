@@ -185,14 +185,6 @@ KLW = { #Kolwa
 	religion_definition = sunni
 }
 
-KHZ = { #Khuzdar
-	color = map_KHZ
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = sindhi
-	religion_definition = sunni
-}
-
 KLA = { #Kalat
 	color = map_KLA
 	color2 = rgb { 16 41 202 }
@@ -276,14 +268,6 @@ SFR = { #Esfarayen
 
 SBZ = { #Sabzevar
 	color = map_SBZ
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = khorasani_culture
-	religion_definition = sunni
-}
-
-KHT = { #Kuhistan
-	color = map_KHT
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = khorasani_culture

@@ -22,13 +22,6 @@ BAK = {
 	religion_definition = obian_paganism
 }
 
-KND = {
-	color = rgb { 137 21 128 }
-
-	culture_definition = khanty_culture
-	religion_definition = obian_paganism
-}
-
 BGJ = {
 	color = rgb { 61 223 10 }
 

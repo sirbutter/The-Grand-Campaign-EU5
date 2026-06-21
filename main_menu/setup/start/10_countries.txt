@@ -8847,15 +8847,14 @@ countries = {
 			#SMA - Samma
 			SMA = {
 				own_control_core = {
-					sehwan
-					kashmore shadodkot shikarpur jhatpat sukkur paat
+					kashmore shadodkot shikarpur  sukkur paat
 					rohri dubbi ghotki kot_lalu kandiaro islamgarh
 					rajabar moro_sindh mansura
 
 					#Siwistan/Sibi
 					#This region should most likely be under an independent ruler, though I have not found which one.
-					siwi dhadar gandava lahri bab_kot jhal
-					dera_bugti mithri sui_pakistan
+					siwi    
+					dera_bugti  sui_pakistan
 				}
 
 				religious_school = hanafi_school
@@ -8882,7 +8881,7 @@ countries = {
 			#SND - Sindh
 			SND = { #https://en.wikipedia.org/wiki/Sindh
 				own_control_core = {
-					thatta sonda manora muhammad_tur laribandar
+					thatta sonda muhammad_tur laribandar
 					ahmad_khan kotri naserpur hala ranikot
 					vingur nagarparkar
 					chor umarkot wanga_bazar
@@ -13362,30 +13361,6 @@ countries = {
 				religious_school = maturidi_school #Widespread among the Turks together with Hanafi
 			}
 
-			#Sohri - SOH
-			SOH = {
-				own_control_core = {
-					rawanduz
-				}
-
-				include = "expl_middle_east"
-				include = "muslim_tribe_no_coast"
-
-
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = soh_husam
-				}
-
-				tolerated_cultures = {
-					armenian_culture
-				}
-
-				capital = rawanduz
-				religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-			}
-
 			#Zirqan - ZRQ
 			ZRQ = {
 				own_control_core = {
@@ -13479,16 +13454,12 @@ countries = {
 					rodos kos
 					ghat sokna zawila ubari
 					djanet
-					dayr_aqul badra ilam
-					wasit abdanan al_tib arkvaz bakusaya dehloran meymeh
-					basra abadan abdas al_madar al_qatr zuwayr
-					an_nil nasiriyah numaniyyah rusafa
-					khalafabad quban
-					ahvaz dowraq hamidiyeh hoveyzeh mosharahat muhammerah
-					samawa suq_al_shuyukh kazimah
-					baghdad
-					samarra ar_rabb tikrit ukbara
-					balad_ruz baqubah khalis khanaqin mandali
+					
+					 nasiriyah rusafa
+					ahvaz dowraq hamidiyeh hoveyzeh mosharahat
+					
+					  tikrit 
+					  khanaqin 
 					gadegara ladik_pontus merzifon
 					al_sinn
 					raqqa  busayrah jabar madinat_far
@@ -13705,6 +13676,16 @@ countries = {
 
 			IRA = {
 				own_control_core = {
+					sepeh
+					qatruyeh hajjiabad meshkan
+					darab jannat_shahr rostaq tarom
+					ij_iran jahrom fasa juyom meymand
+					hajjiabad_zarrindasht
+					neyriz
+					lar darz dehtal 
+					kariyan bastak
+					khunj jahreh karzin alamarvdasht bagh_iran ahel
+					asir
 					gorgan aliabad_katul etrek incheh_borun minudasht mubarakabad nardin
 					damghan bastam lasjerd qumis semnan
 					raz
@@ -13722,9 +13703,9 @@ countries = {
 					qazvin
 					amol al_mamtir sari ashraf farim_iran lafur
 					shiraz abadeh_tashk kherameh sarvestan zarqan
-					firuzabad bandar_deyr dehram kalameh khormoj riz
-					kazerun borazjan reyshahr farashband sar_mashhad
-					qala_safid bandar_deylam bandar_rig basht jannaba nurabad
+					firuzabad bandar_deyr dehram kalameh riz
+					kazerun borazjan farashband sar_mashhad
+					qala_safid basht jannaba nurabad
 					deh_kord borujen samiram sisakht vanak yasuj
 					istakhr aspas beyza qaryat_al_bidh saadatshahr shahr_meyan
 					qumisha karkevand ramsheh sohrfiruzan yangabad yazdikhwast
@@ -13746,31 +13727,24 @@ countries = {
 					tejend abiward kalat_nader sarakhs
 					mashhad farhadgerd mazdaran radkan tus
 					herat awbeh chishti_sarif firozkoh karokh pushang tulak
-					azghand mahvelat roshtkhar zaveh
-					turaythith kashmar
-					bakharz fariman mashhad_rizeh
+					turaythith
+					bakharz fariman
 					marv_al_rudh ghormach jawand kusk kusk_kohneh qala_kohistan qala_naw qasr_ahnaf
 					barkdiz pandjih
 					adraskan azab firuzkuh_afghanistan khaysar shindand
 					torbat_e_jam salehabad
-					birjand deyhuk khusf khvor mazhan nayband qala_zari
-					doroh sarbisheh
-					tabas_al_tamr dastgerdan korit
-					bajestan boshruyeh sarayan tun
-					gonabad
-					qaen abiz shahrakht tabas_al_unnab yazduye zohan
 					hamadan kurijan qorveh_darjazin karaj_abi_dulaf khondab saruk tafresh
 					delijan khomeyn mahallat nimvar
 					kerman ghobeyra mahan shahdad
-					ravar zarand_iran kahnuj mardehek
+					ravar zarand_iran
 					rafsanjan baghin bardsir negar khatunabad
-					sirjan  arzu  khabr saadatabad soghan
-					jiroft  baft dowlatabad_esfandaqeh rabor sarduiyeh zakht
-					bam fahraj_narmashir narmashir rayen rigan golashkerd
+					sirjan  arzu  khabr saadatabad
+					baft dowlatabad_esfandaqeh rabor
+					bam fahraj_narmashir narmashir rayen
 					izeh andika dehdez lordegan naghan
 					somaleh bagh_malek
-					dezful  andimeshk masjed_soleyman shush shushtar
-					behbahan  dehdasht dishmok dogonbadan hendijan suq
+					andimeshk masjed_soleyman
+					behbahan  dehdasht dishmok dogonbadan suq
 					ramhormoz
 					fereydunshahr
 					golpayegan khwansar
@@ -13793,20 +13767,6 @@ countries = {
 					miyaneh aghkand
 					zanjan mahneshan sarcham sojas
 					bijar bashqurtaran dehgolan divandarreh ghorveh sohrevard yasukand
-				}
-
-				our_cores_conquered_by_others = {
-					rahba anah abu_kemal haditha
-					al_anbar hit ayn_tamr karbala
-					kufa al_udayb qadisiyyah
-					dayr_aqul badra ilam
-					wasit abdanan al_tib arkvaz bakusaya dehloran meymeh
-					basra abadan abdas al_madar al_qatr zuwayr
-					an_nil nasiriyah numaniyyah rusafa
-					khalafabad machul quban
-					ahvaz dowraq hamidiyeh hoveyzeh mosharahat muhammerah
-					kazimah
-					hillah samawa suq_al_shuyukh
 				}
 
 				starting_technology_level = 3
@@ -13862,34 +13822,6 @@ countries = {
 				}
 
 				capital = maku
-			}
-
-			#Hillah - HLL https://en.wikipedia.org/wiki/Hillah
-			HLL = {
-				#Ruler Title: Sharifate (Sharif)
-				own_control_core = {
-					hillah kufa al_udayb qadisiyyah
-				}
-
-				starting_technology_level = 3
-				include = "expl_middle_east"
-				include = "muslim_monarchy_no_abrahamic_dhimmi_no_coast"
-				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-					ruler = hll_ahmad_rumaythah
-
-					laws = {
-						sharia_law = zaidi_policy
-					}
-				}
-
-				capital = hillah
-				court_language = persian_language
-				tolerated_cultures = {
-					iraqi_culture
-				}
-				religious_school = zaidi_school
 			}
 
 			#Khalkhal - KKL
@@ -14354,14 +14286,14 @@ countries = {
 					ithriya sukhnah taybah
 					khanaser qastal salamiyya
 					marrat
-					arak huwwarin qaryatayn tadmur
+					arak huwwarin qaryatayn tadmur rahba
 				}
 
 				own_control_integrated = {
 					zubala al_labbah al_thulayma al_waqbi linah lowqah
-					al_anbar hit ayn_tamr karbala
-					anah abu_kemal haditha
-					deir_ez_zor tabqah rahba
+					   
+					anah abu_kemal 
+					deir_ez_zor tabqah 
 				}
 
 				starting_technology_level = 3
@@ -17787,59 +17719,6 @@ countries = {
 				capital = ngimbo_amburi
 			}
 
-			UGH = { #Ughanids
-				type = army
-				own_control_core = {
-					qatruyeh hajjiabad meshkan
-				}
-
-				include = "expl_middle_east"
-				include = "expl_mongols"
-				starting_technology_level = 3
-				include = "eurasian_horde_no_muslim"
-				government = {
-					type = steppe_horde
-					heir_selection = tribal_oldest_male
-					ruler = random
-
-
-					reforms = {
-						legacy_of_genghis
-					}
-				}
-
-				tolerated_cultures = {
-					farsi_culture
-				}
-
-				capital = qatruyeh
-				dynasty = ughanid_dynasty
-			}
-
-			KHU = { #Khunj https://en.wikipedia.org/wiki/Khonj
-				own_control_core = {
-					khunj jahreh karzin alamarvdasht bagh_iran ahel
-				}
-
-				include = "expl_middle_east"
-				starting_technology_level = 3
-				include = "muslim_monarchy_no_abrahamic_dhimmi_no_coast"
-				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-					ruler = random
-
-				}
-
-				tolerated_cultures = {
-					lur_culture
-					achomi_culture
-				}
-
-				religious_school = maturidi_school #Said to be predominant in Persia before the Safavids
-				capital = khunj
-			}
-
 			MIH = { #Mihrabanids
 				own_control_core = {
 					bahramchah delaram khash_sistan qala_fateh qarnin rudbar_sistan
@@ -17849,7 +17728,7 @@ countries = {
 				}
 
 				own_control_integrated = {
-					zaranj zabol chehl_dokhtaran nehbandan shusef lash_joveyn
+					zaranj zabol chehl_dokhtaran lash_joveyn
 				}
 
 				include = "expl_middle_east"
@@ -17872,176 +17751,6 @@ countries = {
 
 				religious_school = maturidi_school #Said to be predominant in Persia before the Safavids
 				capital = zaranj
-			}
-
-			KHN = { #Kharan https://en.wikipedia.org/wiki/Kharan,_Pakistan
-				own_control_core = {
-					mastung nushki
-					kharan besima chagai naalbandin washuk
-					khash jaleq ladiz mashkel
-					sepeh dowzdab
-				}
-
-				include = "expl_middle_east"
-				starting_technology_level = 0
-				include = "muslim_tribe_no_coast"
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-
-				}
-
-				tolerated_cultures = {
-					afghan_culture
-					dehwar_culture
-					brahui_culture
-				}
-
-				religious_school = maturidi_school #Said to be predominant in Persia before the Safavids
-				capital = kharan
-				dynasty = nahrui_dynasty
-			}
-
-			SHB = { #Shabankara
-				own_control_core = {
-					ij_iran jahrom fasa juyom meymand
-					hajjiabad_zarrindasht
-					neyriz
-				}
-
-				include = "expl_middle_east"
-				starting_technology_level = 3
-				include = "muslim_tribe_no_coast"
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-
-					ruler_term = { character = shb_ardashir start_date = 1310.1.1 }
-
-					ruler = shb_ardashir
-				}
-
-				religious_school = maturidi_school #Said to be predominant in Persia before the Safavids
-				capital = ij_iran
-				dynasty = shabankarai_dynasty
-			}
-
-			JUR = { #Jurmanids
-				type = army
-				own_control_core = {
-					darab jannat_shahr rostaq tarom
-				}
-
-				include = "expl_middle_east"
-				include = "expl_mongols"
-				starting_technology_level = 3
-				include = "eurasian_horde_no_muslim"
-				government = {
-					type = steppe_horde
-					heir_selection = tribal_oldest_male
-					ruler = random
-
-
-					reforms = {
-						legacy_of_genghis
-					}
-				}
-
-				tolerated_cultures = {
-					farsi_culture
-				}
-				capital = darab
-				dynasty = jurmanid_dynasty
-			}
-
-			ORM = { #Ormus
-				own_control_core = {
-					hormuz gamrun bandar_charak bandar_khamir bandar_lengeh
-					kish minab manujan nowdezh rudkhaneh shaqrud senderk sirik
-				}
-
-				own_control_conquered = {
-					julfar al_dhaid
-					khor_fakkan shinas
-					machul
-					abu_dhabi al_ayn dubai sharjah
-					masqat al_kamil_wal_wafi as_sib jalan_buani_buali masirah qalhat sur
-					suhar al_khaburah nakhal rustaq saham
-					manama sayhat
-				}
-				include = "expl_middle_east"
-				starting_technology_level = 3
-				include = "muslim_monarchy_no_abrahamic_dhimmi"
-				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-
-					ruler_term = { character = orm_izz_al_din_kurdanshah start_date = 1311.1.1 end_date = 1317.1.1 regnal_number = 1 }
-					ruler_term = { character = orm_kut_al_din_tahamtan start_date = 1317.1.1 regnal_number = 2 }
-
-					ruler = orm_kut_al_din_tahamtan
-
-					laws = {
-						sharia_law = hanafi_policy
-					}
-				}
-
-				tolerated_cultures = {
-					kaliji_culture
-				}
-
-				religious_school = hanafi_school
-				government = { mysticism_vs_jurisprudence = -15 }
-				
-				capital = hormuz
-			}
-
-			FAL = { #Fal https://en.wikipedia.org/wiki/Fal,_Fars
-				own_control_core = {
-					siraf asir
-				}
-
-				include = "expl_middle_east"
-				starting_technology_level = 0
-				include = "muslim_tribe"
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-
-				}
-
-				tolerated_cultures = {
-					brahui_culture
-				}
-
-				religious_school = maturidi_school #Said to be predominant in Persia before the Safavids
-				capital = siraf
-				dynasty = fali_dynasty
-			}
-
-			JSK = { #Jask https://en.wikipedia.org/wiki/Jask
-				own_control_core = {
-					bandar_e_jask jagin_zir
-				}
-
-				include = "expl_middle_east"
-				starting_technology_level = 0
-				include = "muslim_tribe"
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-
-				}
-
-				tolerated_cultures = {
-					baloch_culture
-				}
-
-				religious_school = maturidi_school #Said to be predominant in Persia before the Safavids
-				capital = bandar_e_jask
 			}
 
 			FMN = {
@@ -18187,220 +17896,6 @@ countries = {
 				capital = bandar_e_anzali
 			}
 
-			MKR = { #Makran https://en.wikipedia.org/wiki/Makran
-				own_control_core = {
-					kalmat qasr_e_qand gwatar rask sarbaz
-					gwadar kuddan pasni tump turbat
-					hinglaj ormara
-					bih al_tiz zarabad bent
-				}
-
-				include = "expl_middle_east"
-				starting_technology_level = 3
-				include = "muslim_monarchy_no_abrahamic_dhimmi"
-				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-					ruler = mkr_ghiyath_al_din_dinar
-
-					laws = {
-						sharia_law = hanafi_policy
-					}
-				}
-
-				tolerated_cultures = {
-					brahui_culture
-				}
-
-				religious_school = hanafi_school
-				government = { mysticism_vs_jurisprudence = -15 }
-				
-				capital = kalmat
-				dynasty = hot_dynasty
-				court_language = persian_language
-			}
-
-			BMP = { #Bampur https://en.wikipedia.org/wiki/Bampur
-				own_control_core = {
-					bampur bazman dalgan espakeh fahrej karvandar rameshk
-					qaleh_ganj shahabad_kerman
-					bashagard
-				}
-
-				include = "expl_middle_east"
-				starting_technology_level = 0
-				include = "muslim_tribe_no_coast"
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-
-					laws = {
-						sharia_law = hanafi_policy
-					}
-				}
-
-				tolerated_cultures = {
-					brahui_culture
-				}
-
-				religious_school = hanafi_school
-				government = { mysticism_vs_jurisprudence = -15 }
-				
-				capital = bampur
-				dynasty = rind_lashari_dynasty
-				court_language = persian_language
-			}
-
-			BLA = { #Buleda https://en.wikipedia.org/wiki/Buleda
-				own_control_core = {
-					bannajbur mahgas murt nagh paroom saravan suran
-					buleda irafshan
-				}
-
-				include = "expl_middle_east"
-				starting_technology_level = 0
-				include = "muslim_tribe_no_coast"
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-
-					laws = {
-						sharia_law = hanafi_policy
-					}
-				}
-
-				tolerated_cultures = {
-					dehwar_culture
-				}
-
-				religious_school = hanafi_school
-				government = { mysticism_vs_jurisprudence = -15 }
-				
-				capital = buleda
-				dynasty = buledai_dynasty
-				court_language = persian_language
-			}
-
-			KLW = { #Kolwa
-				own_control_core = {
-					zik awaran jhao mashkai
-				}
-
-				include = "expl_middle_east"
-				starting_technology_level = 0
-				include = "muslim_tribe_no_coast"
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-
-					laws = {
-						sharia_law = hanafi_policy
-					}
-				}
-
-				tolerated_cultures = {
-					brahui_culture
-				}
-
-				religious_school = hanafi_school
-				government = { mysticism_vs_jurisprudence = -15 }
-				
-				capital = awaran
-				dynasty = bizenjo_dynasty
-				court_language = persian_language
-			}
-
-			KHZ = { #Khuzdar https://en.wikipedia.org/wiki/Khuzdar
-				own_control_core = {
-					sonamiani bela
-					khuzdar lakhsar nal wadh
-				}
-
-				include = "expl_middle_east"
-				starting_technology_level = 0
-				include = "muslim_tribe"
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-
-					laws = {
-						sharia_law = hanafi_policy
-					}
-				}
-
-				tolerated_cultures = {
-					brahui_culture
-					baloch_culture
-				}
-
-				religious_school = hanafi_school
-				government = { mysticism_vs_jurisprudence = -15 }
-				
-				capital = khuzdar
-				dynasty = jat_dynasty
-				court_language = persian_language
-			}
-
-			KLA = { #Kalat https://en.wikipedia.org/wiki/Kalat,_Balochistan
-				own_control_core = {
-					surab kalat
-				}
-
-				include = "expl_middle_east"
-				starting_technology_level = 0
-				include = "muslim_tribe_no_coast"
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-
-					laws = {
-						sharia_law = hanafi_policy
-					}
-				}
-
-				religious_school = hanafi_school
-				government = { mysticism_vs_jurisprudence = -15 }
-				
-				capital = kalat
-				dynasty = mirwari_dynasty
-				court_language = persian_language
-			}
-
-			LST = { #Larestan
-				own_control_core = {
-					lar darz dehtal fin ruydar
-					kariyan bastak
-				}
-
-				include = "expl_middle_east"
-				starting_technology_level = 3
-				include = "muslim_monarchy_no_abrahamic_dhimmi_no_coast"
-				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-					ruler = random
-
-					laws = {
-						sharia_law = shafii_policy
-					}
-				}
-
-				tolerated_cultures = {
-					farsi_culture
-				}
-
-				religious_school = shafii_school
-				government = { mysticism_vs_jurisprudence = 20 }
-				
-				capital = lar
-				dynasty = miladid_dynasty
-			}
-
 			ASR = { #Astarabad
 				own_control_core = {
 					astarabad tammisha
@@ -18516,7 +18011,7 @@ countries = {
 				own_control_core = {
 					ghazni gardez muqur nawah wazakhwa zarghun_shahr
 					kandahar arghestan chaman deychopan maruf qalat_ghilji
-					quetta gulistan shorabak
+					gulistan shorabak
 				}
 
 				include = "expl_middle_east"
@@ -19131,6 +18626,515 @@ countries = {
 				capital = tuapse
 			}
 
+			KHT = { 
+				own_control_core = {
+					dasht_lut5
+					birjand deyhuk khusf khvor mazhan nayband qala_zari dasht_lut3
+					tabas_al_tamr dastgerdan korit
+					kashmar bajestan boshruyeh sarayan tun
+					azghand mahvelat roshtkhar zaveh gonabad salameh
+					mashhad_rizeh
+					qaen abiz shahrakht tabas_al_unnab yazduye zohan zozan khargerd
+					nehbandan shusef
+					doroh sarbisheh
+				} 
+
+				include = "expl_christian_caucasus"
+				starting_technology_level = 3
+				include = "eastern_european_monarchy_not_present"
+				government = {
+					ruler = random
+				}
+
+				tolerated_cultures = {
+					abazin_culture
+				}
+
+				capital = tuapse
+			}
+
+			QSM = { 
+				own_control_core = {
+					sharjah al_dhaid khor_fakkan
+					bandar_charak bandar_lengeh
+				} 
+
+				include = "expl_christian_caucasus"
+				starting_technology_level = 3
+				include = "eastern_european_monarchy_not_present"
+				government = {
+					ruler = random
+				}
+
+				tolerated_cultures = {
+					abazin_culture
+				}
+
+				capital = tuapse
+			}
+
+			KGN = { 
+				own_control_core = {
+					siraf kish
+				} 
+
+				include = "expl_christian_caucasus"
+				starting_technology_level = 3
+				include = "eastern_european_monarchy_not_present"
+				government = {
+					ruler = random
+				}
+
+				tolerated_cultures = {
+					abazin_culture
+				}
+
+				capital = tuapse
+			}
+
+			BSR = { 
+				own_control_core = {
+					khormoj reyshahr bandar_rig bandar_deylam
+				} 
+
+				include = "expl_christian_caucasus"
+				starting_technology_level = 3
+				include = "eastern_european_monarchy_not_present"
+				government = {
+					ruler = random
+				}
+
+				tolerated_cultures = {
+					abazin_culture
+				}
+
+				capital = tuapse
+			}
+
+			KHZ = { 
+				own_control_core = {
+					hendijan machul khalafabad quban
+					dezful shush shushtar hamidiyeh hoveyzeh ahvaz dowraq mosharahat
+				} 
+
+				include = "expl_christian_caucasus"
+				starting_technology_level = 3
+				include = "eastern_european_monarchy_not_present"
+				government = {
+					ruler = random
+				}
+
+				tolerated_cultures = {
+					abazin_culture
+				}
+
+				capital = tuapse
+			}
+
+			KWT = { 
+				own_control_core = {
+					abadan zuwayr kazimah
+				} 
+
+				include = "expl_christian_caucasus"
+				starting_technology_level = 3
+				include = "eastern_european_monarchy_not_present"
+				government = {
+					ruler = random
+				}
+
+				tolerated_cultures = {
+					abazin_culture
+				}
+
+				capital = tuapse
+			}
+
+			QAT = { 
+				own_control_core = {
+					eglat_faisal zubarah al_bidda al_huwaila
+				}
+
+				include = "expl_christian_caucasus"
+				starting_technology_level = 3
+				include = "eastern_european_monarchy_not_present"
+				government = {
+					ruler = random
+				}
+
+				tolerated_cultures = {
+					abazin_culture
+				}
+
+				capital = tuapse
+			}
+
+			BHR = { 
+				own_control_core = {
+					manama
+				}
+
+				include = "expl_christian_caucasus"
+				starting_technology_level = 3
+				include = "eastern_european_monarchy_not_present"
+				government = {
+					ruler = random
+				}
+
+				tolerated_cultures = {
+					abazin_culture
+				}
+
+				capital = tuapse
+			}
+
+			ABU = { 
+				own_control_core = {
+					abu_dhabi dubai
+				}
+
+				include = "expl_christian_caucasus"
+				starting_technology_level = 3
+				include = "eastern_european_monarchy_not_present"
+				government = {
+					ruler = random
+				}
+
+				tolerated_cultures = {
+					abazin_culture
+				}
+
+				capital = tuapse
+			}
+
+			SOH = { 
+				own_control_core = {
+					al_ayn shinas suhar saham
+				}
+
+				include = "expl_christian_caucasus"
+				starting_technology_level = 3
+				include = "eastern_european_monarchy_not_present"
+				government = {
+					ruler = random
+				}
+
+				tolerated_cultures = {
+					abazin_culture
+				}
+
+				capital = tuapse
+			}
+
+			IMO = { 
+				own_control_core = {
+					nizwa bahla ibri izki sinaw
+				}
+
+				include = "expl_christian_caucasus"
+				starting_technology_level = 3
+				include = "eastern_european_monarchy_not_present"
+				government = {
+					ruler = random
+				}
+
+				tolerated_cultures = {
+					abazin_culture
+				}
+
+				capital = tuapse
+			}
+
+			OMA = { #Oman
+				own_control_core = {
+					ibra hajar_mountains
+					jalan_buani_buali sur al_kamil_wal_wafi masqat as_sib qalhat
+					al_khaburah nakhal rustaq
+					julfar
+					hormuz gamrun bandar_khamir
+					fin ruydar
+					zagros_mountains21
+					soghan
+					minab manujan nowdezh rudkhaneh shaqrud senderk sirik golashkerd
+					jiroft zakht sarduiyeh zagros_mountains20
+					kahnuj mardehek qaleh_ganj
+					bashagard
+					bandar_e_jask
+					gwatar gwadar
+				}
+
+				include = "expl_middle_east"
+				starting_technology_level = 3
+				include = "muslim_monarchy_no_abrahamic_dhimmi_no_coast"
+				government = {
+					type = monarchy
+					heir_selection = cognatic_primogeniture
+
+					ruler = oma_abu_muhammad
+
+					centralization_vs_decentralization = 50
+					aristocracy_vs_plutocracy = -50
+					serfdom_vs_free_subjects = -40
+					traditionalist_vs_innovative = 10
+					spiritualist_vs_humanist = -50
+					mercantilism_vs_free_trade = 50
+					belligerent_vs_conciliatory = 20
+					offensive_vs_defensive = 0
+					land_vs_naval = 50
+					quality_vs_quantity = 20
+					capital_economy_vs_traditional_economy = 100
+					individualism_vs_communalism = 20
+					outward_vs_inward = 0
+
+					laws = {
+						sharia_law = ibadi_policy
+					}
+				}
+
+				religious_school = ibadi_school
+
+				capital = nizwa
+			}
+
+			LAS = { 
+				own_control_core = {
+					ormara sonamiani bela
+					manora sehwan
+				}
+
+				include = "expl_christian_caucasus"
+				starting_technology_level = 3
+				include = "eastern_european_monarchy_not_present"
+				government = {
+					ruler = random
+				}
+
+				tolerated_cultures = {
+					abazin_culture
+				}
+
+				capital = tuapse
+			}
+
+			KHS = { 
+				own_control_core = {
+					bampur bazman dalgan espakeh fahrej karvandar rameshk
+					shahabad_kerman rigan
+					dowzdab ladiz khash jaleq dasht_lut2
+				}
+
+				include = "expl_christian_caucasus"
+				starting_technology_level = 3
+				include = "eastern_european_monarchy_not_present"
+				government = {
+					ruler = random
+				}
+
+				tolerated_cultures = {
+					abazin_culture
+				}
+
+				capital = tuapse
+			}
+
+			MKR = { #Makran https://en.wikipedia.org/wiki/Makran
+				own_control_core = {
+					kalmat qasr_e_qand rask sarbaz
+					kuddan pasni tump turbat
+					hinglaj
+					bih al_tiz zarabad bent
+					jagin_zir
+					mahgas murt saravan suran bannajbur paroom
+					buleda irafshan
+					awaran zik
+				}
+
+				include = "expl_middle_east"
+				starting_technology_level = 3
+				include = "muslim_monarchy_no_abrahamic_dhimmi"
+				government = {
+					type = monarchy
+					heir_selection = cognatic_primogeniture
+					ruler = mkr_ghiyath_al_din_dinar
+
+					laws = {
+						sharia_law = hanafi_policy
+					}
+				}
+
+				tolerated_cultures = {
+					brahui_culture
+				}
+
+				religious_school = hanafi_school
+				government = { mysticism_vs_jurisprudence = -15 }
+				
+				capital = kalmat
+				dynasty = hot_dynasty
+				court_language = persian_language
+			}
+
+			KLA = { #Kalat https://en.wikipedia.org/wiki/Kalat,_Balochistan
+				own_control_core = {
+					surab kalat
+					quetta mastung dhadar mithri
+					khuzdar lakhsar nal wadh
+					lahri
+					bab_kot jhatpat jhal
+					kirtar_range kirtar_range_2
+					jhao gandava
+				}
+
+				include = "expl_middle_east"
+				starting_technology_level = 0
+				include = "muslim_tribe_no_coast"
+				government = {
+					type = tribe
+					heir_selection = tribal_oldest_male
+					ruler = random
+
+					laws = {
+						sharia_law = hanafi_policy
+					}
+				}
+
+				religious_school = hanafi_school
+				government = { mysticism_vs_jurisprudence = -15 }
+				
+				capital = kalat
+				dynasty = mirwari_dynasty
+				court_language = persian_language
+			}
+
+			KHN = { #Kharan https://en.wikipedia.org/wiki/Kharan,_Pakistan
+				own_control_core = {
+					kharan besima washuk
+					nagh mashkai
+				}
+
+				include = "expl_middle_east"
+				starting_technology_level = 0
+				include = "muslim_tribe_no_coast"
+				government = {
+					type = tribe
+					heir_selection = tribal_oldest_male
+					ruler = random
+
+				}
+
+				tolerated_cultures = {
+					afghan_culture
+					dehwar_culture
+					brahui_culture
+				}
+
+				religious_school = maturidi_school #Said to be predominant in Persia before the Safavids
+				capital = kharan
+				dynasty = nahrui_dynasty
+			}
+
+			KND = { 
+				own_control_core = {
+					mashkel kharan_desert2 kharan_desert3
+					naalbandin chagai nushki
+				}
+
+				include = "expl_christian_caucasus"
+				starting_technology_level = 3
+				include = "eastern_european_monarchy_not_present"
+				government = {
+					ruler = random
+				}
+
+				tolerated_cultures = {
+					abazin_culture
+				}
+
+				capital = tuapse
+			}
+
+			MTF = { 
+				own_control_core = {
+					samawa nasiriyah rusafa wasit al_tib al_madar
+					muhammerah suq_al_shuyukh basra abdas al_qatr
+				}
+
+				include = "expl_christian_caucasus"
+				starting_technology_level = 3
+				include = "eastern_european_monarchy_not_present"
+				government = {
+					ruler = random
+				}
+
+				tolerated_cultures = {
+					abazin_culture
+				}
+
+				capital = tuapse
+			}
+
+			KZL = { 
+				own_control_core = {
+					hillah kufa qadisiyyah
+					karbala ayn_tamr al_anbar 
+					haditha numaniyyah hit ar_rabb
+				}
+
+				include = "expl_christian_caucasus"
+				starting_technology_level = 3
+				include = "eastern_european_monarchy_not_present"
+				government = {
+					ruler = random
+				}
+
+				tolerated_cultures = {
+					abazin_culture
+				}
+
+				capital = tuapse
+			}
+
+			IRQ = { 
+				own_control_core = {
+					bakusaya badra mandali khalis samarra
+					tharthar ukbara baghdad an_nil dayr_aqul
+					balad_ruz baqubah
+				}
+
+				include = "expl_christian_caucasus"
+				starting_technology_level = 3
+				include = "eastern_european_monarchy_not_present"
+				government = {
+					ruler = random
+				}
+
+				tolerated_cultures = {
+					abazin_culture
+				}
+
+				capital = tuapse
+			}
+
+			PST = { 
+				own_control_core = {
+					abdanan arkvaz dehloran meymeh
+					ilam
+				}
+
+				include = "expl_christian_caucasus"
+				starting_technology_level = 3
+				include = "eastern_european_monarchy_not_present"
+				government = {
+					ruler = random
+				}
+
+				tolerated_cultures = {
+					abazin_culture
+				}
+
+				capital = tuapse
+			}
+
 
 			#Arabia
 
@@ -19213,12 +19217,12 @@ countries = {
 					al_qatif al_ahsa al_jubayl al_uqayr baqqa
 					ar_rukai ash_shuaybah qurain
 					nita_arabia al_suman al_uyayna jannah jarrarah qaryat_ulya
-					al_bidda al_huwaila al_mashqar al_udayd eglat_faisal zubarah
+					al_mashqar al_udayd
 					al_hunayy harad_al_ahsa khurays rumah urayrah
 				}
 
 				our_cores_conquered_by_others = {
-					manama sayhat
+					sayhat
 				}
 
 				include = "expl_middle_east"
@@ -19238,50 +19242,6 @@ countries = {
 				religious_school = imamiya_school
 
 				capital = al_qatif
-			}
-
-			OMA = { #Oman
-				own_control_core = {
-					nizwa bahla ibra ibri izki sinaw yanqul
-				}
-
-				our_cores_conquered_by_others = {
-					masqat al_kamil_wal_wafi as_sib jalan_buani_buali masirah qalhat sur
-					suhar al_khaburah nakhal rustaq saham
-					khor_fakkan shinas
-				}
-
-				include = "expl_middle_east"
-				starting_technology_level = 3
-				include = "muslim_monarchy_no_abrahamic_dhimmi_no_coast"
-				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-
-					ruler = oma_abu_muhammad
-
-					centralization_vs_decentralization = 50
-					aristocracy_vs_plutocracy = -50
-					serfdom_vs_free_subjects = -40
-					traditionalist_vs_innovative = 10
-					spiritualist_vs_humanist = -50
-					mercantilism_vs_free_trade = 50
-					belligerent_vs_conciliatory = 20
-					offensive_vs_defensive = 0
-					land_vs_naval = 50
-					quality_vs_quantity = 20
-					capital_economy_vs_traditional_economy = 100
-					individualism_vs_communalism = 20
-					outward_vs_inward = 0
-
-					laws = {
-						sharia_law = ibadi_policy
-					}
-				}
-
-				religious_school = ibadi_school
-
-				capital = nizwa
 			}
 
 			MEC = { #Mecca
@@ -19634,31 +19594,6 @@ countries = {
 				religious_school = ismaili_school
 
 				capital = najran
-			}
-
-			YAS = { #Yas
-				own_control_core = {
-					liwa marawah sir_bani_yas
-				}
-
-				include = "expl_middle_east"
-
-				starting_technology_level = 0
-				include = "muslim_tribe"
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-
-					laws = {
-						sharia_law = maliki_policy
-					}
-				}
-
-				religious_school = maliki_school
-				government = { mysticism_vs_jurisprudence = -5 }
-
-				capital = liwa
 			}
 
 			MDA = { #Medina

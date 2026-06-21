@@ -45,3 +45,139 @@ KOK = { #Abkhazia
 	culture_definition = circassian_culture
 	religion_definition = orthodox
 }
+
+KHT = { #Kuhistan
+	color = map_KHT
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = khorasani_culture
+	religion_definition = sunni
+}
+
+QSM = { #Qasimi
+	color = map_KHT
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = khorasani_culture
+	religion_definition = sunni
+}
+
+KGN = { #Kangan
+	color = map_carib
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = carib
+	religion_definition = zemi_religion
+}
+
+BSR = { #Bushehr
+	color = map_carib
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = carib
+	religion_definition = zemi_religion
+}
+
+KHZ = { #Khuzestan
+	color = map_KHZ
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = sindhi
+	religion_definition = sunni
+}
+
+KWT = { #Kuwait
+	color = map_KHZ
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = sindhi
+	religion_definition = sunni
+}
+
+QAT = { #Qatar
+	color = map_KHZ
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = sindhi
+	religion_definition = sunni
+}
+
+BHR = { #Bahrain
+	color = map_KHZ
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = sindhi
+	religion_definition = sunni
+}
+
+ABU = { #Abu Dhabi
+	color = map_KHZ
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = sindhi
+	religion_definition = sunni
+}
+
+SOH = {
+	color = map_sohri
+	color2 = rgb { 144 220 149 }
+
+	culture_definition = kurdish_culture
+	religion_definition = sunni
+}
+
+IMO	= { #Imamate of Oman
+	color = rgb { 0 116 200 }
+
+	culture_definition = emilian
+	religion_definition = catholic
+}
+
+LAS	= { #las bela
+	color = rgb { 0 116 200 }
+
+	culture_definition = emilian
+	religion_definition = catholic
+}
+
+KHS = { #Kohistan
+	color = map_KHS
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = khas_culture
+	religion_definition = hindu
+}
+
+KND = { # Kandahar
+	color = rgb { 137 21 128 }
+
+	culture_definition = khanty_culture
+	religion_definition = obian_paganism
+}
+
+MTF = { # Muntafiq
+	color = rgb { 137 21 128 }
+
+	culture_definition = khanty_culture
+	religion_definition = obian_paganism
+}
+
+KZL = { # Khaza'il
+	color = rgb { 137 21 128 }
+
+	culture_definition = khanty_culture
+	religion_definition = obian_paganism
+}
+
+IRQ = { # Iraw
+	color = rgb { 137 21 128 }
+
+	culture_definition = khanty_culture
+	religion_definition = obian_paganism
+}
+
+PST = { # Pistoia
+    color = rgb { 180 120 80 }
+    culture_definition = tuscan
+    religion_definition = catholic
+}

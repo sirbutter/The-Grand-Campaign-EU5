@@ -251,15 +251,6 @@ religion_definition = catholic
 }
 
 
-IMO	= { #imola
-color = rgb { 0 116 200 }
-
-culture_definition = emilian
-religion_definition = catholic
-
-}
-
-
 
 MAN	= { #mantua
 color = rgb { 191 83 101 }
@@ -577,10 +568,4 @@ BRD = { #Bardi
 
 	culture_definition = bardi_bank_culture
 	religion_definition = catholic
-}
-
-PST = { # Pistoia
-    color = rgb { 180 120 80 }
-    culture_definition = tuscan
-    religion_definition = catholic
 }

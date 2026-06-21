@@ -342,14 +342,6 @@ MUS = {
 	religion_definition = sunni
 }
 
-SOH = {
-	color = map_sohri
-	color2 = rgb { 144 220 149 }
-
-	culture_definition = kurdish_culture
-	religion_definition = sunni
-}
-
 ZRQ = {
 	color = map_zirqan
 	color2 = rgb { 91 172 87 }
