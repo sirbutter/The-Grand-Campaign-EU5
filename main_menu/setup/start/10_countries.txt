@@ -19087,7 +19087,7 @@ countries = {
 			KHI = { 
 				own_control_core = {
 					pulzhai qonirat shimbay xojeli khurgancha kath
-					vezir urgench khiva kyat_kala nyzvar darganata hazarasp buzikkala
+					vezir urgench khiva kyat_kala nyzvar darganata hazarasp
 				}
 
 				include = "expl_christian_caucasus"
