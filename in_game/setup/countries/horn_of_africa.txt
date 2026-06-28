@@ -155,14 +155,6 @@ HRL = {
 	religion_definition = sunni
 }
 
-#Sharkha - SHK
-SHK = {
-	color = map_sharkha
-	color2 = beige
-	culture_definition = gurage
-	religion_definition = sunni
-}
-
 #Shewa - SOA
 SOA = {
 	color = map_shewa
@@ -235,14 +227,6 @@ ALO = {
 #	culture_definition = nubian
 #	religion_definition = miaphysite
 #}
-
-#Makuria - MAK
-MAK = {
-	color = map_makuria
-	color2 = black
-	culture_definition = nubian
-	religion_definition = sunni
-}
 
 #Baqlin - BQL
 BQL = {

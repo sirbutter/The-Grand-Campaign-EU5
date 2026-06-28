@@ -560,3 +560,59 @@ WZR = { #Kartids
 	religion_definition = sunni
 }
 
+MAK = {
+	color = map_makuria
+	color2 = black
+	culture_definition = nubian
+	religion_definition = sunni
+}
+
+JEL = {
+	color = map_makuria
+	color2 = black
+	culture_definition = nubian
+	religion_definition = sunni
+}
+
+SHK = {
+	color = map_sharkha
+	color2 = beige
+	culture_definition = gurage
+	religion_definition = sunni
+}
+
+URM = {
+	color = map_sharkha
+	color2 = beige
+	culture_definition = gurage
+	religion_definition = sunni
+}
+
+MRQ = {
+	color = map_sharkha
+	color2 = beige
+	culture_definition = gurage
+	religion_definition = sunni
+}
+
+BAB = {
+	color = map_sharkha
+	color2 = beige
+	culture_definition = gurage
+	religion_definition = sunni
+}
+
+BYD = {
+	color = map_sharkha
+	color2 = beige
+	culture_definition = gurage
+	religion_definition = sunni
+}
+
+SRN = {
+	color = map_sharkha
+	color2 = beige
+	culture_definition = gurage
+	religion_definition = sunni
+}
+

@@ -12571,6 +12571,7 @@ countries = {
 
 			EGY = {
 				own_control_core = {
+					kilis afrin trapessac
 					connector_egypt6 horn_desert_corridor1 horn_desert_corridor2 horn_desert_corridor3 south_eastern_desert west_nubian_desert east_nubian_desert connector_egypt16 connector_egypt12
 					northern_sinai_desert2 sinai_desert northern_sinai_desert1 connector_egypt15 connector_egypt14 connector_egypt17 connector_egypt6 north_eastern_desert eastern_desert
 					aswan  aydhab kom_ombo
@@ -12891,12 +12892,145 @@ countries = {
 				capital = buganda
 			}
 
-			#Anatolia
+		#Anatolia
+
+			MAK = {
+				own_control_core = {
+					siah_cheshmeh khor_virap maku
+				}
+
+				include = "expl_christian_caucasus"
+				starting_technology_level = 3
+				include = "eastern_european_monarchy_not_present"
+				government = {
+					ruler = random
+				}
+
+				tolerated_cultures = {
+					abazin_culture
+				}
+
+				capital = tuapse
+			}
+
+			JEL = {
+				own_control_core = {
+					qarahziaoddin east_taurus_6
+				}
+
+				include = "expl_christian_caucasus"
+				starting_technology_level = 3
+				include = "eastern_european_monarchy_not_present"
+				government = {
+					ruler = random
+				}
+
+				tolerated_cultures = {
+					abazin_culture
+				}
+
+				capital = tuapse
+			}
+
+			SHK = {
+				own_control_core = {
+					mahabad zagros_mountains1
+				}
+
+				include = "expl_christian_caucasus"
+				starting_technology_level = 3
+				include = "eastern_european_monarchy_not_present"
+				government = {
+					ruler = random
+				}
+
+				tolerated_cultures = {
+					abazin_culture
+				}
+
+				capital = tuapse
+			}
+
+			URM = {
+				own_control_core = {
+					salmas urmia osnavieh
+				}
+
+				include = "expl_christian_caucasus"
+				starting_technology_level = 3
+				include = "eastern_european_monarchy_not_present"
+				government = {
+					ruler = random
+				}
+
+				tolerated_cultures = {
+					abazin_culture
+				}
+
+				capital = tuapse
+			}
+
+			MRQ = {
+				own_control_core = {
+					maragheh malekan sain miandoab barza bukan takht_e_soleyman zagros_mountains4
+				}
+
+				include = "expl_christian_caucasus"
+				starting_technology_level = 3
+				include = "eastern_european_monarchy_not_present"
+				government = {
+					ruler = random
+				}
+
+				tolerated_cultures = {
+					abazin_culture
+				}
+
+				capital = tuapse
+			}
+
+			BAB = {
+				own_control_core = {
+					sulaymaniyah qaladiza chamchamal
+				}
+
+				include = "expl_christian_caucasus"
+				starting_technology_level = 3
+				include = "eastern_european_monarchy_not_present"
+				government = {
+					ruler = random
+				}
+
+				tolerated_cultures = {
+					abazin_culture
+				}
+
+				capital = tuapse
+			}
+
+			BYD = {
+				own_control_core = {
+					bayazit karakilise karasu_aras_mountains tutak aladag_mountains bargiri hosap
+				}
+
+				include = "expl_christian_caucasus"
+				starting_technology_level = 3
+				include = "eastern_european_monarchy_not_present"
+				government = {
+					ruler = random
+				}
+
+				tolerated_cultures = {
+					abazin_culture
+				}
+
+				capital = tuapse
+			}
 
 			#Bohtan - BHT
 			BHT = {
 				own_control_core = {
-					cizre eruh sirnak
+					eruh sirnak east_taurus_7
 				}
 
 				include = "expl_middle_east"
@@ -12917,34 +13051,38 @@ countries = {
 				capital = cizre
 			}
 
-			#Bingöl/Çapakçur - BIN
-			BIN = {
+			SRN = {
 				own_control_core = {
-					bingol genc
+					cizre amadiya zakho hazro heni kulp sason mayyafariqin palu
+					sivrice egil piranshahr cermik siverek viransehir ras_ayn hasakah
+					kozluk siirt hasankeyf savur tunanir sinjar tal_afar tikrit al_sinn
+					altun_kupri daquq kirkuk tuz_khurma khanaqin zagros_mountains2 rawanduz
+					erbil akre duhok balad mosul qayyarah barqaid bara_iraq nusaybin midyat
+					mardin dunaysir diyarbekir ergani karacadag
 				}
 
 				include = "expl_middle_east"
-				include = "muslim_tribe_no_coast"
+				include = "kurdish_yazid_tribe_no_coast"
 
 
 				government = {
 					type = tribe
 					heir_selection = tribal_oldest_male
-					ruler = bin_shap
+					ruler = bht_izz_al_din
+
 				}
 
 				tolerated_cultures = {
 					armenian_culture
 				}
 
-				capital = bingol
-				religious_school = maturidi_school #Widespread among the Turks together with Hanafi
+				capital = cizre
 			}
 
 			#Bitlis - BIT
 			BIT = {
 				own_control_core = {
-					bitlis tatvan
+					bitlis tatvan hizan suphan_mountains east_taurus_3
 				}
 
 				include = "expl_middle_east"
@@ -12965,108 +13103,10 @@ countries = {
 				religious_school = maturidi_school #Widespread among the Turks together with Hanafi
 			}
 
-			#Çemişgezek - CEM
-			CEM = {
-				own_control_core = {
-					cemisgezek kuzucan pertek
-				}
-
-				include = "expl_middle_east"
-				include = "muslim_tribe_no_coast"
-
-
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-				}
-
-				tolerated_cultures = {
-					armenian_culture
-				}
-
-				capital = cemisgezek
-				dynasty = malkishi_dynasty
-				religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-			}
-
-			#Domboli-Bosht - DMB
-			DMB = {
-				own_control_core = {
-					akre
-				}
-
-				include = "expl_middle_east"
-				include = "kurdish_yazid_tribe_no_coast"
-
-
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-
-				}
-
-				tolerated_cultures = {
-					armenian_culture
-				}
-
-				capital = akre
-				dynasty = domboli_dynasty
-			}
-
-			#Dasni - DSN
-			DSN = {
-				own_control_core = {
-					duhok balad
-				}
-
-				include = "expl_middle_east"
-				include = "kurdish_yazid_tribe_no_coast"
-
-
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = dsn_ala_al_din_kurk_ibn_ibrahim
-
-				}
-
-				tolerated_cultures = {
-					syriac_culture			
-				}
-
-				capital = duhok
-			}
-
-			#Egil - EGL
-			EGL = {
-				own_control_core = {
-					sivrice egil
-				}
-
-				include = "expl_middle_east"
-				include = "muslim_tribe_no_coast"
-
-
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = egl_isa
-				}
-
-				tolerated_cultures = {
-					armenian_culture
-				}
-
-				capital = sivrice
-				religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-			}
-
 			#Hakkari - HKK
 			HKK = {
 				own_control_core = {
-					hakkari amadiya
+					hakkari semdinli bahcesaray baskale catak east_taurus_5 east_taurus_4
 				}
 
 				include = "expl_middle_east"
@@ -13087,214 +13127,18 @@ countries = {
 				religious_school = maturidi_school #Widespread among the Turks together with Hanafi
 			}
 
-			#Hizan - HZN
-			HZN = {
-				own_control_core = {
-					hizan
-				}
-
-				include = "expl_middle_east"
-				include = "muslim_tribe_no_coast"
-
-
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-				}
-
-				tolerated_cultures = {
-					armenian_culture
-				}
-
-				capital = hizan
-				dynasty = ruzagi_dynasty #unknown
-				religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-			}
-
-			#Hazro - HZR
-			HZR = {
-				own_control_core = {
-					hazro heni kulp sason
-				}
-
-				include = "expl_middle_east"
-				include = "muslim_tribe_no_coast"
-
-
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-				}
-
-				tolerated_cultures = {
-					armenian_culture
-				}
-
-				capital = hazro
-				dynasty = zraqi_dynasty
-				religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-			}
-
-			#Jolemark - JLM
-			JLM = {
-				own_control_core = {
-					van bahcesaray baskale catak hosap zakho
-				}
-
-				include = "expl_middle_east"
-				include = "muslim_tribe_no_coast"
-
-
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-				}
-
-				tolerated_cultures = {
-					armenian_culture
-					syriac_culture
-				}
-
-				capital = van
-				dynasty = jolemark_dynasty
-				religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-			}
-
-			#Mazenjani - MZJ
-			MZJ = {
-				own_control_core = {
-					erbil
-				}
-
-				include = "expl_middle_east"
-				include = "muslim_tribe_no_coast"
-
-
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = mzj_izz_al_din
-				}
-
-				tolerated_cultures = {
-					armenian_culture
-				}
-
-				capital = erbil
-				religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-			}
-
-			#Mus - MUS
-			MUS = {
-				own_control_core = {
-					mus
-				}
-
-				include = "expl_middle_east"
-				include = "muslim_tribe_no_coast"
-
-
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = mus_shams_al_din
-				}
-
-				tolerated_cultures = {
-					armenian_culture
-				}
-
-				capital = mus
-				religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-			}
-
-			#Zirqan - ZRQ
-			ZRQ = {
-				own_control_core = {
-					mayyafariqin
-				}
-
-				include = "expl_middle_east"
-				include = "muslim_tribe_no_coast"
-
-
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = zrq_zeyd
-				}
-
-				tolerated_cultures = {
-					armenian_culture
-				}
-
-				capital = mayyafariqin
-				religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-			}
-
-			#Zerzari - ZZR
-			ZZR = {
-				own_control_core = {
-					semdinli
-				}
-
-				include = "expl_middle_east"
-				include = "muslim_tribe_no_coast"
-
-
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = zzr_najm_al_din
-				}
-
-				tolerated_cultures = {
-					armenian_culture
-				}
-
-				capital = semdinli
-				religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-			}
-
-			#Kilis - KIL
-			KIL = {
-				own_control_core = {
-					kilis afrin trapessac
-				}
-
-				include = "expl_middle_east"
-				include = "muslim_monarchy_no_coast"
-
-
-				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-					ruler = random
-				}
-
-				tolerated_cultures = {
-					syriac_culture
-					levantine_culture
-				}
-
-				capital = kilis
-				dynasty = canbolad_dynasty
-				religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-			}
-
 			#Ottomans - TUR https://en.wikipedia.org/wiki/Rise_of_the_Ottoman_Empire
 			OTT = {
 				own_control_core = {
-					sandikli_mountains
-					west_taurus_1 west_taurus_2 west_taurus_3 west_taurus_4 west_taurus_5 middle_taurus_1 middle_taurus_2 middle_taurus_3 middle_taurus_4 middle_taurus_5 middle_taurus_6 middle_taurus_7 middle_taurus_8 erenler_mountains sultan_mountains_1 sultan_mountains_2 sultan_mountains_3 melendiz_mountains hodul_mountains ak_mountains koroglu_mountains_1 koroglu_mountains_2 ilgaz_mountains west_pontus_mountains_1 west_pontus_mountains_2 kose_mountains_1 kose_mountains_2 east_pontus_mountains_1 east_pontus_mountains_2 east_pontus_mountains_3 otlukbeli_mountains mescit_mountains east_taurus_8 east_taurus_2 east_taurus_1 east_taurus_9 kars_mountains_1 kars_mountains_2 kars_mountains_3 karagol_mountains karasu_aras_mountains
+					mercan_mountains_1 mercan_mountains_2
+					van cemisgezek kuzucan pertek bingol genc mus
+					sandikli_mountains batumi yalnizcam_mountains lesser_caucasus_mountains3 lesser_caucasus_mountains9
+					west_taurus_1 west_taurus_2 west_taurus_3 west_taurus_4 west_taurus_5 middle_taurus_1 middle_taurus_2 middle_taurus_3 middle_taurus_4 middle_taurus_5 middle_taurus_6 middle_taurus_7 middle_taurus_8 erenler_mountains sultan_mountains_1 sultan_mountains_2 sultan_mountains_3 melendiz_mountains hodul_mountains ak_mountains koroglu_mountains_1 koroglu_mountains_2 ilgaz_mountains west_pontus_mountains_1 west_pontus_mountains_2 kose_mountains_1 kose_mountains_2 east_pontus_mountains_1 east_pontus_mountains_2 east_pontus_mountains_3 otlukbeli_mountains mescit_mountains east_taurus_8 east_taurus_2 east_taurus_1 east_taurus_9 kars_mountains_1 kars_mountains_2 kars_mountains_3 karagol_mountains
 					dinaric_alps1 dinaric_alps4 dinaric_alps3 dinaric_alps2 dinaric_alps7 dinaric_alps6 dinaric_alps5 dinaric_alps8 pindus_mountains1 pindus_mountains2 pindus_mountains3 pindus_mountains4 pindus_mountains8 pindus_mountains5 pindus_mountains6 pindus_mountains7 pindus_mountains9 pindus_mountains10 mount_olympos balkan_mountains1 balkan_mountains2 balkan_mountains3 balkan_mountains4 balkan_mountains5 balkan_mountains6 rhodope_mountains1 rhodope_mountains3 rhodope_mountains2 rhodope_mountains4 rhodope_mountains5 rhodope_mountains6
 					karpathos 
 					amasra #Black Sea
 					gradiski_brod dubica bihac srb 
-					akhaltsikhe ardahan
+					 ardahan
 					hasankale ispir khupati rize
 					artanuji khikhani oltu parkhali savsat
 					ani kars kagizman tmogvi
@@ -13308,23 +13152,19 @@ countries = {
 					 nasiriyah rusafa
 					ahvaz dowraq hamidiyeh hoveyzeh mosharahat
 					
-					  tikrit 
-					  khanaqin 
+					   
+					   
 					gadegara ladik_pontus merzifon
-					al_sinn
+					
 					raqqa  busayrah jabar madinat_far
-					urfa  birecik harran suruc viransehir  siverek
-					midyat
-					dunaysir
-					araban hasakah makisin mardin tunanir
-					barqaid sinjar bara_iraq nusaybin ras_ayn
-					harput adakli keban palu
-					malazgirt hinis karakilise tekman tutak varto
-					ahlat bargiri ercis
-					diyarbekir ergani
+					urfa  birecik harran suruc
+					harput adakli keban
+					malazgirt hinis tekman varto
+					ahlat ercis
+					
 					erzurum tercan
-					cermik
-					mosul qayyarah tal_afar
+					
+					 
 					gumus
 					samsun
 					amasya niksar sonisa
@@ -13525,6 +13365,8 @@ countries = {
 
 			IRA = {
 				own_control_core = {
+					qaradagh_mountains3 qaradagh_mountains1 qaradagh_mountains2 qaradagh_mountains4 elburz_mountains2 elburz_mountains3 zagros_mountains5 elburz_mountains4 zagros_mountains9 zagros_mountains11
+					nazok_olya khoy hashtrud ujan
 					dasht_kavir1 elburz_mountains8 elburz_mountains7 elburz_mountains6 elburz_mountains5 khorasan_mountains2 khorasan_mountains1 elburz_mountains9 elburz_mountains10 dasht_kavir2 dasht_khara1 dasht_khara2 zagros_mountains15 zagros_mountains17 zagros_mountains18 zagros_mountains19 zagros_mountains16 zagros_mountains14 zagros_mountains13 zagros_mountains8 zagros_mountains7 zagros_mountains6 dasht_lut1 dasht_lut4 ribat_ushturan_jondaq_corridor anarak_jondaq_corridor tabas_al_tamr_ribat_ushturan_corridor
 					astarabad tammisha
 					fuman lahijan langarud rasht
@@ -13605,11 +13447,10 @@ countries = {
 					sabzevar farumad
 					agh_qala
 					beyarjomand haresabad kharturan
-					tabriz heris maragheh sarab tufarqan
+					tabriz heris sarab tufarqan
 					ahar aslanduz kaleybar khiyav mardanaqom qahqaheh
 					hadishahr marand
-					urmia khameneh salmas
-					takht_e_soleyman
+					khameneh
 					miyaneh aghkand
 					zanjan mahneshan sarcham sojas
 					sohrevard yasukand
@@ -13642,244 +13483,6 @@ countries = {
 					syriac_culture
 				}
 				religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-			}
-
-			#Artaz - ATZ
-			ATZ = {
-				own_control_core = {
-					maku bayazit igdir khor_virap nazok_olya qarahziaoddin siah_cheshmeh surmali
-				}
-
-				include = "expl_christian_caucasus"
-				starting_technology_level = 3
-				include = "eastern_european_monarchy_no_coast"
-
-
-				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-					ruler = random
-
-				}
-
-				tolerated_cultures = {
-					kurdish_culture
-					azeri_culture
-				}
-
-				capital = maku
-			}
-
-			#Domboli - DML
-			DML = {
-				own_control_core = {
-					khoy
-				}
-
-				include = "expl_middle_east"
-				include = "kurdish_yazid_tribe_no_coast"
-
-
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = dml_kalti
-
-				}
-
-				tolerated_cultures = {
-					armenian_culture
-				}
-
-				capital = khoy
-				dynasty = domboli_dynasty
-			}
-
-			#Hasbani - HBN
-			HBN = {
-				own_control_core = {
-					hashtrud malekan miandoab sain ujan
-				}
-
-				include = "expl_middle_east"
-				include = "muslim_tribe_no_coast"
-
-
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = hbn_abdallah_ibn_shahab_al_din_zani
-
-					laws = {
-						sharia_law = hanafi_policy
-					}
-				}
-
-				tolerated_cultures = {
-					adhari_culture
-					azeri_culture
-				}
-
-				capital = ujan
-				religious_school = hanafi_school
-				government = { mysticism_vs_jurisprudence = -15 }
-				
-			}
-
-			#Hadhur - HDR
-			HDR = {
-				own_control_core = {
-					sulaymaniyah
-				}
-
-				include = "expl_middle_east"
-				include = "muslim_tribe_no_coast"
-
-
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = hdr_taj_al_din_hadhur_bin_suleyman
-
-					laws = {
-						sharia_law = hanafi_policy
-					}
-				}
-
-				capital = sulaymaniyah
-				religious_school = hanafi_school
-				government = { mysticism_vs_jurisprudence = -15 }
-				
-			}
-
-			#Kartawi - KTW
-			KTW = {
-				own_control_core = {
-					barza bukan 
-				}
-
-				include = "expl_middle_east"
-				include = "muslim_tribe_no_coast"
-
-
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = ktw_sayf_al_din_abu_bakr
-
-					laws = {
-						sharia_law = hanafi_policy
-					}
-				}
-
-				capital = barza
-				religious_school = hanafi_school
-				government = { mysticism_vs_jurisprudence = -15 }
-				
-			}
-
-			#Merkewan - MKW
-			MKW = {
-				own_control_core = {
-					osnavieh
-				}
-
-				include = "expl_middle_east"
-				include = "muslim_tribe_no_coast"
-
-
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-
-					laws = {
-						sharia_law = hanafi_policy
-					}
-				}
-
-				capital = osnavieh
-				religious_school = hanafi_school
-				government = { mysticism_vs_jurisprudence = -15 }
-				
-			}
-
-			#Sabuli - SLI
-			SLI = {
-				own_control_core = {
-					mahabad piranshahr
-				}
-
-				include = "expl_middle_east"
-				include = "muslim_tribe_no_coast"
-
-
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = sli_burek_ibn_izz_al_din_resu_ibn_mahmud
-
-					laws = {
-						sharia_law = hanafi_policy
-					}
-				}
-
-				capital = mahabad
-				religious_school = hanafi_school
-				government = { mysticism_vs_jurisprudence = -15 }
-				
-			}
-
-			#Saqiyya - SYY
-			SYY = {
-				own_control_core = {
-					altun_kupri chamchamal daquq kirkuk tuz_khurma
-				}
-
-				include = "expl_middle_east"
-				include = "muslim_tribe_no_coast"
-
-
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = syy_shuja_al_din_abu_bakr_ramaki
-
-					laws = {
-						sharia_law = hanafi_policy
-					}
-				}
-
-				capital = kirkuk
-				religious_school = hanafi_school
-				government = { mysticism_vs_jurisprudence = -15 }
-				
-			}
-
-			#Zebari - ZBR
-			ZBR = {
-				own_control_core = {
-					 qaladiza
-				}
-
-				include = "expl_middle_east"
-				include = "muslim_tribe_no_coast"
-
-
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = zbr_shahab_al_din_ibn_badr_al_din
-
-					laws = {
-						sharia_law = hanafi_policy
-					}
-				}
-
-				capital = qaladiza
-				religious_school = hanafi_school
-				government = { mysticism_vs_jurisprudence = -15 }
-				
 			}
 
 			#Al 'Alī - AAL
@@ -13947,13 +13550,11 @@ countries = {
 					ithriya sukhnah taybah
 					khanaser qastal salamiyya
 					marrat
-					arak huwwarin qaryatayn tadmur rahba
+					arak huwwarin qaryatayn tadmur
 				}
 
 				own_control_integrated = {
 					zubala al_labbah al_thulayma al_waqbi linah lowqah
-					   
-					anah abu_kemal 
 					deir_ez_zor tabqah 
 				}
 
@@ -17494,6 +17095,7 @@ countries = {
 
 			TCA = { 
 				own_control_core = {
+					surmali igdir lesser_caucasus_mountains2 lesser_caucasus_mountains4 lesser_caucasus_mountains5 lesser_caucasus_mountains7 lesser_caucasus_mountains6 lesser_caucasus_mountains10 lesser_caucasus_mountains8
 					lankaran baciravan mughan bilasuvar salyan
 					baku javad mahmudabad maraza qobustan shamakhi
 					agsu goychay zardab
@@ -17549,7 +17151,7 @@ countries = {
 
 			MGL = { 
 				own_control_core = {
-					anaklia batumi ozurgeti poti_caucasus tsalenjikha
+					anaklia lesser_caucasus_mountains1 ozurgeti poti_caucasus tsalenjikha akhaltsikhe
 					kutaisi skande shorapani tsageri tsesi vartsikhe
 				}
 
@@ -18243,9 +17845,9 @@ countries = {
 				capital = tuapse
 			}
 
-			#Ardalan - ARD
 			ARD = {
 				own_control_core = {
+					zagros_mountains3 zagros_mountains10
 					sanandaj hawraman marivan javanrud sahrazur mawet sardasht
 					santeh divandarreh bijar bashqurtaran ghorveh dehgolan
 					asadabad sonqor kamyaran muchesh
