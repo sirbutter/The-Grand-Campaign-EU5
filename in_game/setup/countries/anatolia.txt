@@ -136,14 +136,6 @@ KAR = {
 	religion_definition = sunni
 }
 
-KBD = {
-	color = map_kubadids
-	color2 = rgb { 235 206 207 }
-
-	culture_definition = turkish_culture #turkoman_culture
-	religion_definition = sunni
-}
-
 KRD = {
 	color = map_karasids
 	color2 = rgb { 212 225 156 } 
@@ -189,14 +181,6 @@ TDJ = {
 	color2 = rgb { 240 151 219 }
 
 	culture_definition = turkish_culture # turkoman_culture
-	religion_definition = sunni
-}
-
-TEK = {
-	color = map_teke
-	color2 = rgb { 221 180 249 }
-
-	culture_definition = turkish_culture
 	religion_definition = sunni
 }
 

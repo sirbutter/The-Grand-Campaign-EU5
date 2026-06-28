@@ -53,13 +53,6 @@ KOJ = {
 }
 
 
-ARD = {
-	color = map_ardalan
-	color2 = rgb { 144 220 149 }
-
-	culture_definition = kurdish_culture
-	religion_definition = sunni
-}
 
 ATZ = {
 	color = map_artaz

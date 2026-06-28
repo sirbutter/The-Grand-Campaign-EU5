@@ -275,14 +275,6 @@ MAL = {
 	difficulty = 3
 }
 
-SGH = {
-	color = map_SGH
-	color2 = black
-
-	culture_definition = godala_culture
-	religion_definition = sunni
-}
-
 TKR = {
 	color = map_TKR
 	color2 = black

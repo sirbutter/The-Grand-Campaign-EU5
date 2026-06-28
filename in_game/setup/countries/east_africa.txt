@@ -526,15 +526,6 @@ ATF = {
 	religion_definition = fomba_gasy_religion
 }
 
-#Antambahoaka - ATB (Stateless, Revolter)
-ATB = {
-	color = map_antambahoaka
-	color2 = black
-
-	culture_definition = antambahoaka_culture
-	religion_definition = fomba_gasy_religion
-}
-
 #Tanala - TAL (Stateless, Revolter)
 TAL = {
 	color = map_tanala

@@ -1,21 +1,5 @@
-﻿SGN = { #Sonargaon
-	color = map_SGN
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = bengali
-	religion_definition = sunni
-}
-
-GAU = { #Gaur
+﻿GAU = { #Gaur
 	color = map_GAU
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = bengali
-	religion_definition = sunni
-}
-
-STN = { #Saptagram
-	color = map_STN
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = bengali

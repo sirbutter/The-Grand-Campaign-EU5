@@ -1069,13 +1069,6 @@ KJK = { #http://www2.harimaya.com/sengoku/html/kaziki_k.html
 	culture_definition = kyushu_culture
 	religion_definition = shinto
 }
-HSR = { #http://www2.harimaya.com/sengoku/html/hisikari.html
-	color = map_HSR
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = kyushu_culture
-	religion_definition = shinto
-}
 
 HKZ = {
 	color = map_HKZ
@@ -2307,15 +2300,6 @@ WMO = { #Weimao
 
 	culture_definition = rma_culture
 	religion_definition = rmaism
-
-}
-
-TSK = { #Tsakho
-	color = map_TSK
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = gyalrong_culture
-	religion_definition = bon
 
 }
 

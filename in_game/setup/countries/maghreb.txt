@@ -137,13 +137,6 @@ GBS = {
 	religion_definition = sunni
 }
 
-BTL = { 
-	color = rgb { 155 233 115 }
-	
-	culture_definition = eastern_amazigh
-	religion_definition = sunni
-}
-
 ZAB = { 
 	color = hsv360 { 109 79 67 }
 	

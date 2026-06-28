@@ -451,16 +451,6 @@ religion_definition = catholic
 }
 
 
-SPL	= { #spoleto
-color = hsv { 0 0.71 0.38 }
-
-culture_definition = median
-religion_definition = catholic
-
-
-}
-
-
 PTG	= { #pitigliano
 color = rgb { 255 214 0 }
 

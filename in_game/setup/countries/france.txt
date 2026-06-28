@@ -47,15 +47,6 @@ AQN = {
 	religion_definition = catholic
 }
 
-#Alencon
-ALE = {
-	#color = map_FRA
-	color = rgb { 162 116 225 }
-
-	culture_definition = norman
-	religion_definition = catholic
-}
-
 #Auxerre
 AUX = {
 	#color = map_FRA

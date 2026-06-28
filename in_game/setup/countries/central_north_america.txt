@@ -403,16 +403,6 @@ STW = {
 	
 }
 
-#Wahpekhute
-WKH = {
-	color = map_wahpekhute
-	color2 = rgb { 71 39 141 }
-
-	culture_definition = wahpekhute_culture
-	religion_definition = mississippian_ceremonial
-	
-}
-
 #Wahpetunwan
 WPW = {
 	color = map_wahpetunwan

@@ -181,3 +181,382 @@ PST = { # Pistoia
     culture_definition = tuscan
     religion_definition = catholic
 }
+
+BTL = { 
+	color = rgb { 155 233 115 }
+	
+	culture_definition = eastern_amazigh
+	religion_definition = sunni
+}
+
+NMN = { 
+	color = rgb { 155 233 115 }
+	
+	culture_definition = eastern_amazigh
+	religion_definition = sunni
+}
+
+KGD = { 
+	color = rgb { 155 233 115 }
+	
+	culture_definition = eastern_amazigh
+	religion_definition = sunni
+}
+
+ARD = {
+	color = map_ardalan
+	color2 = rgb { 144 220 149 }
+
+	culture_definition = kurdish_culture
+	religion_definition = sunni
+}
+
+STN = { #Saptagram
+	color = map_STN
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = bengali
+	religion_definition = sunni
+}
+
+HRT = {
+	color = map_STN
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = bengali
+	religion_definition = sunni
+}
+
+TYM = {
+	color = map_STN
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = bengali
+	religion_definition = sunni
+}
+
+HZJ = {
+	color = map_STN
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = bengali
+	religion_definition = sunni
+}
+
+SLR = {
+	color = map_STN
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = bengali
+	religion_definition = sunni
+}
+
+JSD = {
+	color = map_STN
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = bengali
+	religion_definition = sunni
+}
+
+TEK = {
+	color = map_teke
+	color2 = rgb { 221 180 249 }
+
+	culture_definition = turkish_culture
+	religion_definition = sunni
+}
+
+YMD = {
+	color = map_teke
+	color2 = rgb { 221 180 249 }
+
+	culture_definition = turkish_culture
+	religion_definition = sunni
+}
+
+NKL = {
+	color = map_teke
+	color2 = rgb { 221 180 249 }
+
+	culture_definition = turkish_culture
+	religion_definition = sunni
+}
+
+ATB = {
+	color = map_antambahoaka
+	color2 = black
+
+	culture_definition = antambahoaka_culture
+	religion_definition = fomba_gasy_religion
+}
+
+SHD = {
+	color = map_antambahoaka
+	color2 = black
+
+	culture_definition = antambahoaka_culture
+	religion_definition = fomba_gasy_religion
+}
+
+ZFR = {
+	color = map_antambahoaka
+	color2 = black
+
+	culture_definition = antambahoaka_culture
+	religion_definition = fomba_gasy_religion
+}
+
+ALE = {
+	#color = map_FRA
+	color = rgb { 162 116 225 }
+
+	culture_definition = norman
+	religion_definition = catholic
+}
+
+TJN = {
+	#color = map_FRA
+	color = rgb { 162 116 225 }
+
+	culture_definition = norman
+	religion_definition = catholic
+}
+
+JLY = { #Jalayirs
+	color = map_JLY
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = mongolian_culture
+	religion_definition = sunni
+}
+
+SPL	= { #spoleto
+	color = hsv { 0 0.71 0.38 }
+
+	culture_definition = median
+	religion_definition = catholic
+}
+
+MMN	= {
+	color = hsv { 0 0.71 0.38 }
+
+	culture_definition = median
+	religion_definition = catholic
+}
+
+ADK	= {
+	color = hsv { 0 0.71 0.38 }
+
+	culture_definition = median
+	religion_definition = catholic
+}
+
+SGH = {
+	color = map_SGH
+	color2 = black
+
+	culture_definition = godala_culture
+	religion_definition = sunni
+}
+
+KBL = {
+	color = map_SGH
+	color2 = black
+
+	culture_definition = godala_culture
+	religion_definition = sunni
+}
+
+MRR = {
+	color = map_SGH
+	color2 = black
+
+	culture_definition = godala_culture
+	religion_definition = sunni
+}
+
+BGT = {
+	color = map_SGH
+	color2 = black
+
+	culture_definition = godala_culture
+	religion_definition = sunni
+}
+
+BLK = {
+	color = map_SGH
+	color2 = black
+
+	culture_definition = godala_culture
+	religion_definition = sunni
+}
+
+BKH = {
+	color = map_SGH
+	color2 = black
+
+	culture_definition = godala_culture
+	religion_definition = sunni
+}
+
+MZR = {
+	color = map_SGH
+	color2 = black
+
+	culture_definition = godala_culture
+	religion_definition = sunni
+}
+
+TSK = { #Tsakho
+	color = map_TSK
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = gyalrong_culture
+	religion_definition = bon
+}
+
+KDZ = {
+	color = map_TSK
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = gyalrong_culture
+	religion_definition = bon
+}
+
+BDS = {
+	color = map_BDS
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = mazanderani_culture
+	religion_definition = shia
+}
+
+KFR = {
+	color = map_BDS
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = mazanderani_culture
+	religion_definition = shia
+}
+
+DIR = {
+	color = map_BDS
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = mazanderani_culture
+	religion_definition = shia
+}
+
+SKH = {
+	color = map_BDS
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = mazanderani_culture
+	religion_definition = shia
+}
+
+WKH = {
+	color = map_wahpekhute
+	color2 = rgb { 71 39 141 }
+
+	culture_definition = wahpekhute_culture
+	religion_definition = mississippian_ceremonial
+}
+
+SGN = {
+	color = map_SGN
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = bengali
+	religion_definition = sunni
+}
+
+RSH = {
+	color = map_rasht
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = gilak_culture
+	religion_definition = sunni
+}
+
+DRV = {
+	color = map_rasht
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = gilak_culture
+	religion_definition = sunni
+}
+
+KLB = { #Banu Kilab
+	color = map_KLB
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = najdi_culture
+	religion_definition = sunni
+}
+
+BLJ = { #Banu Kilab
+	color = map_KLB
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = najdi_culture
+	religion_definition = sunni
+}
+
+KRG = { #Banu Kilab
+	color = map_KLB
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = najdi_culture
+	religion_definition = sunni
+}
+
+KBD = {
+	color = map_kubadids
+	color2 = rgb { 235 206 207 }
+
+	culture_definition = turkish_culture #turkoman_culture
+	religion_definition = sunni
+}
+
+HSR = {
+	color = map_HSR
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = kyushu_culture
+	religion_definition = shinto
+}
+
+SRS = {
+	color = map_HSR
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = kyushu_culture
+	religion_definition = shinto
+}
+
+UTP = {
+	color = map_HSR
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = kyushu_culture
+	religion_definition = shinto
+}
+
+KRT = { #Kartids
+	color = map_KRT
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = khorasani_culture
+	religion_definition = sunni
+}
+
+WZR = { #Kartids
+	color = map_KRT
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = khorasani_culture
+	religion_definition = sunni
+}
+
