@@ -226,14 +226,6 @@ KSA = { #Kashan
 	religion_definition = sunni
 }
 
-ASR = { #Astarabad
-	color = map_ASR
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = mazanderani_culture
-	religion_definition = shia
-}
-
 JKR = { #Jauni Kurban
 	color = map_JKR
 	color2 = rgb { 16 41 202 }
@@ -351,14 +343,6 @@ KTT = { #Khuttal
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = mongolian_culture
-	religion_definition = sunni
-}
-
-LHJ = { #Lahijan
-	color = map_lahijan
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = gilak_culture
 	religion_definition = sunni
 }
 

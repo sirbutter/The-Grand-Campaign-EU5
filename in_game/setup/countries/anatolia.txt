@@ -88,14 +88,6 @@ ERE = {
 	religion_definition = sunni
 }
 
-GRM = {
-	color = map_germiyanids
-	color2 = rgb { 200 8 21 } #same as in EU4
-
-	culture_definition = turkish_culture
-	religion_definition = sunni
-}
-
 HMD = {
 	color = map_hamidids
 	color2 = rgb { 82 87 60 }

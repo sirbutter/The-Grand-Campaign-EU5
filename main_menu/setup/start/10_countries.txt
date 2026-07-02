@@ -6615,15 +6615,6 @@ countries = {
 						sirhind sadhaura samana_india thanesar kaithal karnal #Puadh
 						hisar dadri hansi #Bhattiana
 						hajner sunam raikot faridkot bathinda firozpur muktsar #Punjabi Malwa
-						tulamba #Bari Doab Province
-						gugera kasur virkgarh sialkot eminabad pasrur #Mahja
-						jalandhar rahon bajwara milwat kapurthala #Doaba
-						pindi_bhattian shorkot dijkot #Rechna Doab
-						gujrat busal bhera lalian shahpur sillanwali #Jech Doab
-						harrand mithankot #Derajat
-						dinkot isakhel #Karman
-						chakwal dina khewra khushab pindi_gheb rawalpindi sangni #Pothwar
-						attock #Peshawar
 						shishgarh chandpur_uttar_pradesh nagina seohara shahabad_uttar_pradesh
 						jalna nander pathri kaulas
 						janjira chaul kalyan bombay bassein
@@ -6654,11 +6645,10 @@ countries = {
 						bhind konch kalpi lalitpur deogarh bhilsa
 						damoh singorgarh ujargarh sugaur
 						nawakot bijnot derawar channan_pir kot_marot uch mir_garh_qila dunga_bunga chishtian khairpur aror #Cholistan
-						multan mailsi chichawatni dipalpur pakpattan karur_punjab jalalpur_pirwala
-						lahore sultanwind fatehabad batala kalanaur
-						chiniot kamalia talwandi jaranwala jhang
-						dajal dera_ghazi_khan  kot_addu
-						sitpur karor  bhakkar mankera
+						
+						
+						
+						
 						
 						manikpur bhadohi mungra raebareli unnao
 						awadh akbarpur kishi sultanpur_uttar_pradesh
@@ -8137,57 +8127,6 @@ countries = {
 				}
 			}
 
-			#KGR - Kangra
-			KGR = { #https://en.wikipedia.org/wiki/Kangra_State
-				own_control_core = {
-					nagarkot palampur
-				}
-
-				capital = nagarkot
-
-				include = "expl_india_hindu"
-				include = "indian_hindu_monarchy_no_coast"
-				government = {
-					ruler_term = { character = kgr_prithvi_chandra_katoch start_date = 1300.1.1 regnal_number = 2 }
-
-					ruler = kgr_prithvi_chandra_katoch
-
-					regnal_numbers = {
-						name_prithvi.name_chandra = 2
-					}
-
-					reforms = {
-						
-					}
-				}
-			}
-
-			#CBH - Bhimber
-			CBH = {
-				#Taken over by the Chibhal/Jibhal dynasty around 1400
-				own_control_core = {
-					bhimber
-				}
-
-				capital = bhimber
-
-				include = "expl_india_hindu"
-				include = "indian_hindu_monarchy_no_coast"
-				government = {
-					ruler_term = { character = cbh_siripat_thakial start_date = 1300.1.1 regnal_number = 2 }
-
-					ruler = cbh_siripat_thakial
-
-					reforms = {
-						
-					}
-				}
-				tolerated_cultures = {
-					punjabi
-					kangri
-				 }
-			}
-
 			#SKT - Suket
 			SKT = { #https://en.wikipedia.org/wiki/Suket_State
 				own_control_core = {
@@ -8246,49 +8185,6 @@ countries = {
 					ruler_term = { character = bsp_sampurn_chandel start_date = 1317.1.1 regnal_number = 0 }
 
 					ruler = bsp_sampurn_chandel
-
-					reforms = {
-						
-					}
-				}
-
-				tolerated_cultures = { punjabi }
-			}
-
-			#NRP - Nurpur
-			NRP = { #https://en.wikipedia.org/wiki/Nurpur_kingdom
-				own_control_core = {
-					pathankot nurpur
-				}
-
-				capital = nurpur
-
-				include = "expl_india_hindu"
-				include = "indian_hindu_monarchy_no_coast"
-				government = {
-					ruler_term = { character = nrp_jas_pal_tanwar start_date = 1317.1.1 regnal_number = 0 }
-					ruler = nrp_jas_pal_tanwar
-
-					reforms = {
-						
-					}
-				}
-
-				tolerated_cultures = { punjabi }
-			}
-
-			#KTL - Kutlehar
-			KTL = { #https://en.wikipedia.org/wiki/Kutlehar_State
-				own_control_core = {
-					kutlehar
-				}
-
-				capital = kutlehar
-
-				include = "expl_india_hindu"
-				include = "indian_hindu_monarchy_no_coast"
-				government = {
-					ruler = random 
 
 					reforms = {
 						
@@ -12571,6 +12467,9 @@ countries = {
 
 			EGY = {
 				own_control_core = {
+					syrian_desert_corridor1 mountain_druze antilebanon_mountains1 antilebanon_mountains2 antilebanon_mountains3 lebanon_mountains nur_mountains_1 nur_mountains_2
+					burraq jayrud qutayfah ayas marash bosra dara irbid nawa suwayda kars_armenia
+					tabqah deir_ez_zor busayrah qastal tadmur qaryatayn khanaser salamiyya huwwarin marrat
 					kilis afrin trapessac
 					connector_egypt6 horn_desert_corridor1 horn_desert_corridor2 horn_desert_corridor3 south_eastern_desert west_nubian_desert east_nubian_desert connector_egypt16 connector_egypt12
 					northern_sinai_desert2 sinai_desert northern_sinai_desert1 connector_egypt15 connector_egypt14 connector_egypt17 connector_egypt6 north_eastern_desert eastern_desert
@@ -12614,10 +12513,7 @@ countries = {
 					jerusalem acre amman aqaba beersheba gaza hebron karak maan majdal nablus safed sughar jaffa al_quwayrah
 					beirut baalbek deir_qamar sidon tripoli_syria shoubak madaba
 					damascus al_bab aleppo antioch arsuz artah baniyas dabiq hama homs idlib jabbul jableh kafartab latakia manbij maskanah masyaf nabek qusayr tartus zardana
-					umluj al_hawra al_manjur al_maramiyah
-					al_ula al_bleiteh al_farah_ula al_marwa az_zubayir mughayra
-					duba ad_disah al_azlam al_wajh bada_yaqub bir_al_qurr
-					tabuk_arabia al_khanbarah al_muazzam al_ukhaydir bajdah bir_ibn_hermas dhat_al_hajj
+					duba al_azlam al_wajh bada_yaqub bir_al_qurr
 					aynuna al_bad al_muwaylih haql makna
 				}
 
@@ -13156,7 +13052,7 @@ countries = {
 					   
 					gadegara ladik_pontus merzifon
 					
-					raqqa  busayrah jabar madinat_far
+					raqqa   jabar madinat_far
 					urfa  birecik harran suruc
 					harput adakli keban
 					malazgirt hinis tekman varto
@@ -13276,15 +13172,14 @@ countries = {
 					karahisar_i_sahib sandikli suhut
 					ankara cubuk haymana kalecik polatli karakecili
 					adana
-					anavarza kars_armenia
+					anavarza 
 					sis caxud hargan molevon
 					tarsus candir_cil corycus
-					ayas kapan
+					 kapan
 					gerger kahta samsat
 					besni elbistan enguzud goksun afsin
 					kaysun
 					ulnia
-					marash
 				}
 
 				include = "expl_eastern_europe"
@@ -13485,110 +13380,7 @@ countries = {
 				religious_school = maturidi_school #Widespread among the Turks together with Hanafi
 			}
 
-			#Al 'Alī - AAL
-			AAL = {
-				own_control_core = {
-					burraq jayrud qutayfah
-					sakaka dumat_al_jandal aba_al_qur al_hamad arar
-				}
-
-				starting_technology_level = 3
-				include = "expl_middle_east"
-				include = "muslim_monarchy_no_abrahamic_dhimmi_no_coast"
-				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-					ruler = aal_jumaz_bin_muhammed
-					ruler_term = {	 character = aal_abu_bakr_bin_ali start_date = 1301.1.1 end_date = 1320.1.1}
-					ruler_term = {	 character = aal_muhammed_bin_abu_bakr start_date = 1320.1.1 end_date = 1322.1.1}
-					ruler_term = {	 character = aal_jumaz_bin_muhammed start_date = 1322.1.1	}
-				}
-
-				capital = qutayfah
-				tolerated_cultures = {
-					levantine_culture
-					najdi_culture
-				}
-				religious_school = hanafi_school
-				government = { mysticism_vs_jurisprudence = -15 }
-				
-			}
-
-			#Al Mira - AMR
-			AMR = {
-				own_control_core = {
-					bosra dara irbid nawa salkhad suwayda
-					azraq
-					kaf al_harrah an_nasifah qurayyat_al_milh
-				}
-
-				starting_technology_level = 3
-				include = "expl_middle_east"
-				include = "muslim_monarchy_no_abrahamic_dhimmi_no_coast"
-				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-					ruler = amr_shata_bin_ahmad
-					ruler_term = {	 character = amr_hajji_bin_burayd start_date = 1235.1.1 end_date = 1260.1.1}
-					ruler_term = {	 character = amr_ahmad_bin_hajji start_date = 1260.1.1 end_date = 1282.1.1}
-					ruler_term = {	 character = amr_shata_bin_ahmad start_date = 1282.1.1	}
-				}
-
-				capital = irbid
-				tolerated_cultures = {
-					levantine_culture
-					najdi_culture
-				}
-				religious_school = hanafi_school
-				government = { mysticism_vs_jurisprudence = -15 }
-				
-			}
-
-			#Al Fadl - FDL
-			FDL = {
-				own_control_core = {
-					ithriya sukhnah taybah
-					khanaser qastal salamiyya
-					marrat
-					arak huwwarin qaryatayn tadmur
-				}
-
-				own_control_integrated = {
-					zubala al_labbah al_thulayma al_waqbi linah lowqah
-					deir_ez_zor tabqah 
-				}
-
-				starting_technology_level = 3
-				include = "expl_middle_east"
-				include = "muslim_monarchy_no_abrahamic_dhimmi_no_coast"
-				government = {
-					type = monarchy
-					heir_selection = cognatic_primogeniture
-					ruler = fdl_muzzaffar_ad_din_musa_ibn_muhanna
-					ruler_term = {	 character = fdl_haditha_bin_ghudayya start_date = 1218.1.1 end_date = 1220.1.1}
-					ruler_term = {	 character = fdl_mani_bin_haditha start_date = 1220.1.1 end_date = 1232.1.1}
-					ruler_term = {	 character = fdl_muhanna_bin_mani start_date = 1232.1.1 end_date = 1240.1.1}
-					ruler_term = {	 character = fdl_ali_bin_haditha start_date = 1240.1.1 end_date = 1260.1.1}
-					ruler_term = {	 character = fdl_sharaf_ad_din_isa_bin_muhanna_at_tai start_date = 1260.1.1 end_date = 1284.1.1}
-					ruler_term = {	 character = fdl_husam_ad_din_muhanna_ibn_isa start_date = 1284.1.1 end_date = 1293.1.1	regnal_number = 2}
-					ruler_term = {	 character = aal_muhammed_bin_abu_bakr start_date = 1293.1.1 end_date = 1295.1.1}
-					ruler_term = {	 character = fdl_husam_ad_din_muhanna_ibn_isa start_date = 1295.1.1 end_date = 1312.1.1	regnal_number = 2}
-					ruler_term = {	 character = fdl_fadl_ibn_isa start_date = 1312.1.1 end_date = 1317.1.1	regnal_number = 2}
-					ruler_term = {	 character = fdl_husam_ad_din_muhanna_ibn_isa start_date = 1317.1.1 end_date = 1320.1.1	regnal_number = 2}
-					ruler_term = {	 character = aal_muhammed_bin_abu_bakr start_date = 1320.1.1 end_date = 1322.1.1}
-					ruler_term = {	 character = fdl_fadl_ibn_isa start_date = 1322.1.1 end_date = 1330.1.1	regnal_number = 2}
-					ruler_term = {	 character = fdl_husam_ad_din_muhanna_ibn_isa start_date = 1330.1.1 end_date = 1335.1.1	regnal_number = 2}
-					ruler_term = {	 character = fdl_muzzaffar_ad_din_musa_ibn_muhanna start_date = 1335.1.1	}
-				}
-
-				capital = tadmur
-				tolerated_cultures = {
-					levantine_culture
-				}
-				religious_school = hanafi_school
-				government = { mysticism_vs_jurisprudence = -15 }
-				
-			}
+		# Himalayas
 
 			LMN = { #Lho Mon
 				own_control_core = {
@@ -18504,8 +18296,17 @@ countries = {
 
 			SKH = {
 				own_control_core = {
+					pangi_range hindu_kush10
 					chilas ganderbal kupwara sharda srinagar behali sherwan udabhanda
-					mardan kohat hangu akora thal_daman dera_ismail_khan karor_2
+					mardan kohat hangu akora thal_daman dera_ismail_khan karor_2 nanga_parbat
+					harrand mithankot dajal dera_ghazi_khan kot_addu sitpur karor bhakkar mankera
+					multan mailsi chichawatni dipalpur pakpattan karur_punjab jalalpur_pirwala
+					chakwal dina khewra khushab pindi_gheb rawalpindi sangni bhimber
+					gugera kasur virkgarh sialkot eminabad pasrur pathankot nurpur
+					kutlehar nagarkot palampur jalandhar rahon bajwara milwat kapurthala
+					lahore sultanwind fatehabad batala kalanaur tulamba
+					chiniot kamalia talwandi jaranwala jhang dinkot isakhel attock
+					gujrat busal bhera lalian shahpur sillanwali pindi_bhattian shorkot dijkot
 				}
 
 				include = "expl_christian_caucasus"
@@ -18851,25 +18652,12 @@ countries = {
 
 			#Arabia
 
-			YEM = { #Yemen
+			NJD = {
 				own_control_core = {
-					zabid al_ghulayfiqah as_salafiyah mikhlaf_al_hubishiyah mudhaykirah
-					adan al_arah al_mafalis lahj zinjibar
-					birali al_mukalla al_shihr azzan balhaf habban hajar
-					ahwar al_qara jurrah lawdar shuqra
-					shibam al_khuraybah arrayda dha_sohis huraydah khayrij rakhyah sayun tarim
-					al_hirda hajjah harad_asir khamir shaharah
-					hudaida al_luhayyah as_salif hutayb kawkaban
-					ibb dhafar juban musaymir yahr
-					jazan al_haqu al_khosuf farasan sabt_bani_bishr sabya
-					marib baraqish dhamar harib radaa
-					sana_yemen thula
-					shabwa al_bayda_yemen bayhan markha nisab
-					taizz al_mandab al_mukha hays mawza
-				}
-
-				our_cores_conquered_by_others = {
-					dhufar hadibu qulensya khalfut mirbat qishn raysut
+					al_qatif al_jubayl nita_arabia baqqa urayrah khurays rumah harad_al_ahsa al_jafurah2 ad_dahna5
+					rumah_jarrarah_corridor malham thadiq diriyah al_hajr al_yamamah yabrin
+					laila al_aflaj al_majazah ad_dilam naam muzahmiyah dhurma saqra
+					al_majmaah al_ghat az_zilfi udakh al_mithnab unaizah an_nabhaniyah thadij at_tarfawi al_laghfiyyah miskah ar_rass
 				}
 
 				include = "expl_middle_east"
@@ -18878,64 +18666,50 @@ countries = {
 				government = {
 					type = monarchy
 					heir_selection = cognatic_primogeniture
-					ruler = yem_al_mujahid_ali
-
-					laws = {
-						sharia_law = shafii_policy
-					}
+					ruler = jrw_jarwan
 				}
 
 				tolerated_cultures = {
-					hadhrami_culture
+					kaliji_culture
+					najdi_culture
 				}
 
-				religious_school = shafii_school
-				government = { mysticism_vs_jurisprudence = 20 }
-				
+				religious_school = imamiya_school
 
-				country_rank = rank_kingdom
-				capital = zabid
+				capital = al_qatif
 			}
 
-			DHF = { #Dhofar
+			BNK = {
 				own_control_core = {
-					dhufar khalfut mirbat qishn raysut hadibu qulensya
+					sayhat al_uqayr al_ahsa al_jafurah1 al_hunayy al_mashqar
 				}
 
 				include = "expl_middle_east"
 				starting_technology_level = 3
-				include = "muslim_monarchy"
+				include = "muslim_monarchy_no_abrahamic_dhimmi"
 				government = {
 					type = monarchy
 					heir_selection = cognatic_primogeniture
-					ruler = dhf_al_mughith
-
-					laws = {
-						sharia_law = shafii_policy
-					}
+					ruler = jrw_jarwan
 				}
 
 				tolerated_cultures = {
-					mehri_culture soqotri_culture
+					kaliji_culture
+					najdi_culture
 				}
 
-				religious_school = shafii_school
-				government = { mysticism_vs_jurisprudence = 20 }
+				religious_school = imamiya_school
 
-				capital = dhufar
+				capital = al_qatif
 			}
 
-			JRW = { #Jarwanids
+			HAL = {
 				own_control_core = {
-					al_qatif al_ahsa al_jubayl al_uqayr baqqa
-					ar_rukai ash_shuaybah qurain
-					nita_arabia al_suman al_uyayna jannah jarrarah qaryat_ulya
-					al_mashqar al_udayd
-					al_hunayy harad_al_ahsa khurays rumah urayrah
-				}
-
-				our_cores_conquered_by_others = {
-					sayhat
+					al_ajfar uyun_al_jiwa al_udhaim samira fayd sara
+					hail ash_shuaybah_hail baqa al_hufayr jubbah mawqaq umm_al_qulban
+					al_ayn_khaybar khaybar al_huwayyit fadak darghat ash_shamli
+					ar_rabadha as_suwaydirah al_hinakiyah medina al_thamad
+					al_aythamah an_nuqrah an_nuhaytiyyah al_ghazalah ar_rawdah as_sulaymi an_nakhil
 				}
 
 				include = "expl_middle_east"
@@ -18959,8 +18733,15 @@ countries = {
 
 			MEC = { #Mecca
 				own_control_core = {
+					bajdah dhat_al_hajj al_khanbarah ad_disah
+					al_ula al_bleiteh al_farah_ula al_marwa az_zubayir mughayra
+					umluj al_hawra al_manjur al_maramiyah
+					al_furaish yanbu al_ahmar al_jar ash_shibahah badr_hunayn yanbu_an_nakhil buwat shajwa al_ais
+					al_hegrieah khalis_medina umm_al_ghiran al_hadhah ar_rayyan
+					taif al_mahani bani_saad abu_rakah barahrah raghdan turbah al_abala
+					khaybar_janoub abil samakh tanomah
 					mecca al_jumum al_lith dhat_irq ghumayqah jeddah yalamlam
-					hali adham al_qunfudhah al_shuqayq al_sirrayn bariq dhi_ain muhayil rijal_almaa
+					hali adham al_qunfudhah al_shuqayq al_sirrayn bariq dhi_ain muhayil
 					khulays al_abwa al_juhfah al_muthainiyah asfan qudayd
 				}
 
@@ -18988,477 +18769,299 @@ countries = {
 				capital = mecca
 			}
 
-			SHM = { #Shammar
+			ASR = {
 				own_control_core = {
-					hail ash_shuaybah_hail baqa
-					al_hufayr jubbah mawqaq umm_al_qulban
-				}
-
-			include = "expl_middle_east"
-
-				starting_technology_level = 0
-				include = "muslim_tribe_no_coast"
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-
-					laws = {
-						sharia_law = hanbali_policy
-					}
-				}
-
-				religious_school = hanbali_school
-				government = { mysticism_vs_jurisprudence = 40 }
-				
-				capital = hail
-			}
-
-			ANZ = { #Anizah
-				own_control_core = {
-					al_ayn_khaybar khaybar
-					al_huwayyit fadak darghat
+					rijal_almaa abha al_harjah dhahran jazan al_haqu al_khosuf farasan sabt_bani_bishr sabya
 				}
 
 				include = "expl_middle_east"
-
-				starting_technology_level = 0
-				include = "muslim_tribe_no_coast"
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-
-					laws = {
-						sharia_law = hanbali_policy
-					}
-				}
-
-				tolerated_cultures = {
-					hijazi_culture
-				}
-
-				religious_school = hanbali_school
-				government = { mysticism_vs_jurisprudence = 40 }
-				
-
-				capital = dumat_al_jandal
-
-			}
-
-			HUT = { #Hutaym
-				own_control_core = {
-					tayma ash_shamli
-					abu_qasr basithah bir_fajr
-				}
-
-				include = "expl_middle_east"
-				starting_technology_level = 0
-				include = "muslim_tribe_no_coast"
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-
-					laws = {
-						sharia_law = hanbali_policy
-					}
-				}
-
-				religious_school = hanbali_school
-				government = { mysticism_vs_jurisprudence = 40 }
-				
-
-				capital = tayma
-
-			}
-
-			HRB = { #Harb
-				own_control_core = {
-					al_hegrieah khalis_medina
-					ar_rayyan
-					al_hadhah as_suwayriqiyah sufaynah umm_al_ghiran
-				}
-
-			include = "expl_middle_east"
-
-				starting_technology_level = 0
-				include = "muslim_tribe_no_coast"
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-
-					laws = {
-						sharia_law = hanbali_policy
-					}
-				}
-
-				religious_school = hanbali_school
-				government = { mysticism_vs_jurisprudence = 40 }
-				
-
-				capital = khalis_medina
-
-			}
-
-			MUT = { #Mutayr
-				own_control_core = {
-				an_nakhil
-				al_hisu al_aythamah an_nuqrah an_nuhaytiyyah bilghah dawbah
-				al_ghazalah ar_rawdah as_sulaymi
-				}
-
-				our_cores_conquered_by_others = {
-
-				}
-
-			include = "expl_middle_east"
-
-				starting_technology_level = 0
-				include = "muslim_tribe_no_coast"
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-
-					laws = {
-						sharia_law = hanbali_policy
-					}
-				}
-
-				religious_school = hanbali_school
-				government = { mysticism_vs_jurisprudence = 40 }
-
-				capital = al_aythamah
-
-			}
-
-
-
-			UTB = { #Utaybah
-				own_control_core = {
-					taif al_mahani al_kharabah bani_saad
-					abu_rakah barahrah
-					raghdan
-				}
-
-				include = "expl_middle_east"
-
-				starting_technology_level = 0
-				include = "muslim_tribe_no_coast"
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-
-					laws = {
-						sharia_law = hanbali_policy
-					}
-				}
-
-				religious_school = hanbali_school
-				government = { mysticism_vs_jurisprudence = 40 }
-				
-
-				capital = taif
-			}
-
-			DWS = { #Dawasir
-				own_control_core = {
-					aqiq_banu_uqayi habiyah tamrah
-					laila al_aflaj al_haddar qasr_himam
-					al_majazah
-					ad_dawasir
-				}
-
-			include = "expl_middle_east"
-
-				starting_technology_level = 0
-				include = "muslim_tribe_no_coast"
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-
-					laws = {
-						sharia_law = hanbali_policy
-					}
-				}
-
-				religious_school = hanbali_school
-				government = { mysticism_vs_jurisprudence = 40 }
-				
-				dynasty = al_zayid_dynasty
-
-				capital = aqiq_banu_uqayi
-			}
-
-			QHT = { #Qahtan
-				own_control_core = {
-					abha abil samakh tanomah
-					tathlith al_amwah al_harjah al_maddah khaybar_janoub yadamah
-					al_husayniyah
-				}
-
-			include = "expl_middle_east"
-
-				starting_technology_level = 0
-				include = "muslim_tribe_no_coast"
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-
-					laws = {
-						sharia_law = ismaili_policy
-					}
-				}
-
-				religious_school = ismaili_school
-
-				capital = tathlith
-			}
-
-			SBY = { #Subay
-				own_control_core = {
-					ranyah
-					muzahmiyah
-					asila_arabia saqra dhurma
-					ad_dilam naam
-					al_quway ar_rayn al_mardamah al_maslum halaban rawdat_al_ard
-					tabalah
-					al_abala al_amlah ash_shaqiqah qalat_bishah
-					turbah ad_dughmiyah
-					dhalam al_hufayrah ar_ruwailiyyah muwayh qasr_al_qaba umm_ad_dawm
-				}
-
-				include = "expl_middle_east"
-
-				starting_technology_level = 0
-				include = "muslim_tribe_no_coast"
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-
-					laws = {
-						sharia_law = hanbali_policy
-					}
-				}
-
-				tolerated_cultures = {
-					yemeni_culture
-					hijazi_culture
-				}
-
-				religious_school = hanbali_school
-				government = { mysticism_vs_jurisprudence = 40 }
-				
-
-				capital = tabalah
-			}
-
-			MRH = { #Al Murrah
-				own_control_core = {
-					yabrin
-				}
-
-				include = "expl_middle_east"
-
-				starting_technology_level = 0
-				include = "muslim_tribe_no_coast"
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-
-					laws = {
-						sharia_law = hanbali_policy
-					}
-				}
-
-				religious_school = hanbali_school
-				government = { mysticism_vs_jurisprudence = 40 }
-				
-
-				capital = yabrin
-			}
-
-			YAM = { #Yam
-				own_control_core = {
-					al_mahjal dhahran huth main najran sadah suq_al_ghinan
-				}
-
-				include = "expl_middle_east"
-
-				starting_technology_level = 0
-				include = "muslim_tribe_no_coast"
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-
-					laws = {
-						sharia_law = ismaili_policy
-					}
-				}
-
-				religious_school = ismaili_school
-
-				capital = najran
-			}
-
-			MDA = { #Medina
-				own_control_core = {
-					medina al_furaish
-					yanbu al_ahmar al_jar ash_shibahah badr_hunayn yanbu_an_nakhil
-					al_thamad buwat shajwa
-					al_ais
-				}
-
-			include = "expl_middle_east"
-
 				starting_technology_level = 3
 				include = "muslim_monarchy_no_abrahamic_dhimmi"
 				government = {
 					type = monarchy
 					heir_selection = cognatic_primogeniture
-					ruler = mda_wudayy_bin_jammaz
-
-					ruler_term = {	 character = mda_wudayy_bin_jammaz start_date = 1336.5.1 regnal_number = 1	}
-
-					laws = {
-						sharia_law = zaidi_policy
-					}
+					ruler = jrw_jarwan
 				}
 
-				religious_school = zaidi_school
+				tolerated_cultures = {
+					kaliji_culture
+					najdi_culture
+				}
 
-				capital = medina
+				religious_school = imamiya_school
 
+				capital = al_qatif
 			}
 
-			AAD = { #Al A'idh
+			ARS = {
 				own_control_core = {
-					al_majmaah al_ghat al_qaiyah az_zilfi
-					mashdhubah hafar_al_batin
-					tanumah
+					sadah shaharah
 				}
 
 				include = "expl_middle_east"
-
-				starting_technology_level = 0
-				include = "muslim_tribe_no_coast"
+				starting_technology_level = 3
+				include = "muslim_monarchy_no_abrahamic_dhimmi"
 				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-
-					laws = {
-						sharia_law = maliki_policy
-					}
+					type = monarchy
+					heir_selection = cognatic_primogeniture
+					ruler = jrw_jarwan
 				}
 
-				religious_school = maliki_school
-				government = { mysticism_vs_jurisprudence = -5 }
+				tolerated_cultures = {
+					kaliji_culture
+					najdi_culture
+				}
 
-				capital = al_qaiyah
+				religious_school = imamiya_school
+
+				capital = al_qatif
 			}
 
-			BNL = { #Banu Lam
+			ZYD = {
 				own_control_core = {
-					buraydah unaizah al_mithnab
-					an_nabhaniyah ar_rass
-					al_laghfiyyah
-					afif al_baharah ramah
-					udakh al_bijadiyah al_fuqarah ash_shuara miskah nifi
-					al_burud al_maghib
-					al_udhaim at_tarfawi samira thadij
-					uyun_al_jiwa an_nibaj
-					al_ajfar  fayd sara
-				}
-
-			include = "expl_middle_east"
-
-				starting_technology_level = 0
-				include = "muslim_tribe_no_coast"
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-
-					laws = {
-						sharia_law = hanbali_policy
-					}
-				}
-
-				religious_school = hanbali_school
-				government = { mysticism_vs_jurisprudence = 40 }
-				
-
-				capital = unaizah
-
-			}
-
-			AZF = { #Al-Zafir
-				own_control_core = {
-					ar_rabadha as_suwaydirah
-					al_hinakiyah
+					zabid al_ghulayfiqah as_salafiyah mikhlaf_al_hubishiyah mudhaykirah al_hirda hajjah harad_asir khamir
+					hudaida al_luhayyah as_salif hutayb kawkaban ibb dhafar juban musaymir al_mahjal huth main
+					marib baraqish dhamar harib radaa sana_yemen thula al_bayda_yemen taizz al_mukha hays mawza
+					haraz_mountains1 haraz_mountains2 haraz_mountains3 haraz_mountains4
 				}
 
 				include = "expl_middle_east"
-
-				starting_technology_level = 0
-				include = "muslim_tribe_no_coast"
+				starting_technology_level = 3
+				include = "muslim_monarchy_no_abrahamic_dhimmi"
 				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
+					type = monarchy
+					heir_selection = cognatic_primogeniture
+					ruler = jrw_jarwan
+				}
+
+				tolerated_cultures = {
+					kaliji_culture
+					najdi_culture
+				}
+
+				religious_school = imamiya_school
+
+				capital = al_qatif
+			}
+
+			LHJ = {
+				own_control_core = {
+					yahr adan al_arah al_mafalis lahj al_mandab
+				}
+
+				include = "expl_middle_east"
+				starting_technology_level = 3
+				include = "muslim_monarchy_no_abrahamic_dhimmi"
+				government = {
+					type = monarchy
+					heir_selection = cognatic_primogeniture
+					ruler = jrw_jarwan
+				}
+
+				tolerated_cultures = {
+					kaliji_culture
+					najdi_culture
+				}
+
+				religious_school = imamiya_school
+
+				capital = al_qatif
+			}
+
+			FDH = {
+				own_control_core = {
+					al_qara lawdar zinjibar
+				}
+
+				include = "expl_middle_east"
+				starting_technology_level = 3
+				include = "muslim_monarchy_no_abrahamic_dhimmi"
+				government = {
+					type = monarchy
+					heir_selection = cognatic_primogeniture
+					ruler = jrw_jarwan
+				}
+
+				tolerated_cultures = {
+					kaliji_culture
+					najdi_culture
+				}
+
+				religious_school = imamiya_school
+
+				capital = al_qatif
+			}
+
+			ALQ = {
+				own_control_core = {
+					bayhan markha nisab jurrah shuqra ahwar
+				}
+
+				include = "expl_middle_east"
+				starting_technology_level = 3
+				include = "muslim_monarchy_no_abrahamic_dhimmi"
+				government = {
+					type = monarchy
+					heir_selection = cognatic_primogeniture
+					ruler = jrw_jarwan
+				}
+
+				tolerated_cultures = {
+					kaliji_culture
+					najdi_culture
+				}
+
+				religious_school = imamiya_school
+
+				capital = al_qatif
+			}
+
+			WHD = {
+				own_control_core = {
+					shabwa azzan balhaf habban
+				}
+
+				include = "expl_middle_east"
+				starting_technology_level = 3
+				include = "muslim_monarchy_no_abrahamic_dhimmi"
+				government = {
+					type = monarchy
+					heir_selection = cognatic_primogeniture
+					ruler = jrw_jarwan
+				}
+
+				tolerated_cultures = {
+					kaliji_culture
+					najdi_culture
+				}
+
+				religious_school = imamiya_school
+
+				capital = al_qatif
+			}
+
+			NJR = {
+				own_control_core = {
+					al_husayniyah najran suq_al_ghinan
+				}
+
+				include = "expl_middle_east"
+				starting_technology_level = 3
+				include = "muslim_monarchy_no_abrahamic_dhimmi"
+				government = {
+					type = monarchy
+					heir_selection = cognatic_primogeniture
+					ruler = jrw_jarwan
+				}
+
+				tolerated_cultures = {
+					kaliji_culture
+					najdi_culture
+				}
+
+				religious_school = imamiya_school
+
+				capital = al_qatif
+			}
+
+			KSD = {
+				own_control_core = {
+					birali hajar shibam huraydah rakhyah
+				}
+
+				include = "expl_middle_east"
+				starting_technology_level = 3
+				include = "muslim_monarchy_no_abrahamic_dhimmi"
+				government = {
+					type = monarchy
+					heir_selection = cognatic_primogeniture
+					ruler = jrw_jarwan
+				}
+
+				tolerated_cultures = {
+					kaliji_culture
+					najdi_culture
+				}
+
+				religious_school = imamiya_school
+
+				capital = al_qatif
+			}
+
+			GRM = {
+				own_control_core = {
+					al_mukalla al_shihr sayun tarim arrayda dha_sohis al_khuraybah rub_al_khali2
+				}
+
+				include = "expl_middle_east"
+				starting_technology_level = 3
+				include = "muslim_monarchy_no_abrahamic_dhimmi"
+				government = {
+					type = monarchy
+					heir_selection = cognatic_primogeniture
+					ruler = jrw_jarwan
+				}
+
+				tolerated_cultures = {
+					kaliji_culture
+					najdi_culture
+				}
+
+				religious_school = imamiya_school
+
+				capital = al_qatif
+			}
+
+			MHR = {
+				own_control_core = {
+					qishn khalfut hadibu qulensya abdalkuri_island khayrij
+				}
+
+				include = "expl_middle_east"
+				starting_technology_level = 3
+				include = "muslim_monarchy_no_abrahamic_dhimmi"
+				government = {
+					type = monarchy
+					heir_selection = cognatic_primogeniture
+					ruler = jrw_jarwan
+				}
+
+				tolerated_cultures = {
+					kaliji_culture
+					najdi_culture
+				}
+
+				religious_school = imamiya_school
+
+				capital = al_qatif
+			}
+
+			DHF = { #Dhofar
+				own_control_core = {
+					dhufar mirbat raysut
+				}
+
+				include = "expl_middle_east"
+				starting_technology_level = 3
+				include = "muslim_monarchy"
+				government = {
+					type = monarchy
+					heir_selection = cognatic_primogeniture
+					ruler = dhf_al_mughith
 
 					laws = {
-						sharia_law = hanbali_policy
+						sharia_law = shafii_policy
 					}
 				}
 
 				tolerated_cultures = {
-					hijazi_culture
+					mehri_culture soqotri_culture
 				}
 
-				religious_school = hanbali_school
-				government = { mysticism_vs_jurisprudence = 40 }
-				
+				religious_school = shafii_school
+				government = { mysticism_vs_jurisprudence = 20 }
 
-				capital = as_suwaydirah
-
-			}
-
-			ZIB = { #Zi'b
-				own_control_core = {
-					madin_bani_sulaym al_mundassah murayghan
-					al_ghrabah
-				}
-
-			include = "expl_middle_east"
-
-				starting_technology_level = 0
-				include = "muslim_tribe_no_coast"
-				government = {
-					type = tribe
-					heir_selection = tribal_oldest_male
-					ruler = random
-
-					laws = {
-						sharia_law = hanbali_policy
-					}
-				}
-
-				religious_school = hanbali_school
-				government = { mysticism_vs_jurisprudence = 40 }
-				
-
-				capital = madin_bani_sulaym
-
+				capital = dhufar
 			}
 
 

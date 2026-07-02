@@ -62,16 +62,6 @@ VOL = {
 	religion_definition = orthodox
 }
 
-HAL = {
-	color = rgb { 123 34 46 }
-
-	culture_definition = halychian_culture
-	religion_definition = orthodox
-
-	description_category = military
-	difficulty = 4	
-}
-
 KIE = {
 	color = rgb { 81 123 210 }
 
