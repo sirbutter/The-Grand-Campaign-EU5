@@ -11379,7 +11379,7 @@ countries = {
 			}
 
 			#Netherlands
-			NET = {
+			NED = {
 				own_control_core = {
 					the_hague leiden rotterdam amsterdam alkmaar dordrecht geertruidenberg hoorn
 					arnhem nijmegen tiel harderwijk apeldoorn wolvega
@@ -11429,7 +11429,7 @@ countries = {
 						feudal_nobility
 					}
 				}
-				country_rank = rank_county
+				country_rank = rank_kingdom
 				capital = amsterdam
 
 				accepted_cultures = {
@@ -11525,7 +11525,7 @@ countries = {
 					aristocracy_vs_plutocracy = -20
 					land_vs_naval = -20
 				}
-				country_rank = rank_duchy
+				country_rank = rank_kingdom
 				dynasty = reginar_dynasty
 				capital = brussels
 
@@ -17741,7 +17741,7 @@ countries = {
 				}
 
 				tolerated_cultures = {
-					abazin_culture
+					afghan
 				}
 
 				capital = tuapse
@@ -18156,6 +18156,7 @@ countries = {
 				capital = tuapse
 			}
 
+			# Sultanate of Bukhara
 			BKH = {
 				own_control_core = {
 					kelif basand akhsisek khoja_idat_kala navidakh nasaf amol_turkmenabad
@@ -18174,6 +18175,9 @@ countries = {
 				tolerated_cultures = {
 					abazin_culture
 				}
+
+				country_rank = rank_duchy
+
 
 				capital = tuapse
 			}
@@ -18294,6 +18298,7 @@ countries = {
 				capital = tuapse
 			}
 
+			# Sikh Empire
 			SKH = {
 				own_control_core = {
 					pangi_range hindu_kush10
@@ -18319,6 +18324,8 @@ countries = {
 				tolerated_cultures = {
 					abazin_culture
 				}
+
+				country_rank = rank_empire
 
 				capital = tuapse
 			}

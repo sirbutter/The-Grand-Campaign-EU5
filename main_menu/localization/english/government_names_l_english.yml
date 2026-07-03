@@ -310,6 +310,12 @@
  rank_kingdom_united_states_ruler_male: "President"
  rank_kingdom_united_states_ruler_female: "President"
  #
+ rank_kingdom_states: "States"
+ rank_kingdom_states_prefix: "Confederate"
+ rank_kingdom_states_ADJ: "presidential"
+ rank_kingdom_states_ruler_male: "President"
+ rank_kingdom_states_ruler_female: "President"
+ #
  rank_kingdom_papacy: "Papacy"
  rank_kingdom_papacy_ADJ: "papal"
  rank_kingdom_papacy_ruler_male: "Pope"
@@ -580,21 +586,11 @@
  rank_duchy_revolutionary_ruler_male: "Duke"
  rank_duchy_revolutionary_ruler_female: "Duchess"
  #
- rank_duchy_dauphiny: "Dauphiné"
- rank_duchy_dauphiny_ruler_male: "Dauphin" 
- rank_duchy_dauphiny_abbreviation: "Dau."
- rank_duchy_dauphiny_ruler_female: "Dauphine" 
- #
  rank_duchy_palatinate: "Palatinate"
  rank_duchy_palatinate_ADJ: "palatine"
  rank_duchy_palatinate_abbreviation: "Pal."
  rank_duchy_palatinate_ruler_male: "Palatine"
  rank_duchy_palatinate_ruler_female: "Palatine"
- #
- rank_duchy_electorate: "Electorate"
- rank_duchy_electorate_ADJ: "electoral"
- rank_duchy_electorate_ruler_male: "Elector"
- rank_duchy_electorate_ruler_female: "Electress"
  #
  rank_duchy_free_city: "City"
  rank_duchy_free_city_prefix: "Free"
@@ -689,6 +685,10 @@
  rank_duchy_celtic_irish: "Ríocht"
  rank_duchy_celtic_irish_ruler_male: "Rí"
  rank_duchy_celtic_irish_ruler_female: "Banríon"
+ #
+ rank_duchy_russian_governorate: "Governorate"
+ rank_duchy_russian_governorate_ruler_male: "Governor"
+ rank_duchy_russian_governorate_ruler_female: "Governor"
  #
  rank_duchy_horde: "Horde"
  #
