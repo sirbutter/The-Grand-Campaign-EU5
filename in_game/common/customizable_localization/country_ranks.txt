@@ -1035,35 +1035,13 @@
 			tag = PLC
 		}
 	}
-	text = {
-		localization_key = rank_kingdom_celtic_welsh
-		trigger = {
-
-			country_rank_is_kingdom = yes
-			OR = {
-				culture.language ?= language:brythonic_language
-				court_language ?= language:brythonic_language
-			}
-			has_reform = government_reform:celtic_traditions_reform
-		}
-	}
-
-	text = {
-		localization_key = rank_kingdom_celtic
-		trigger = {
-
-			country_rank_is_kingdom = yes
-			has_reform = government_reform:celtic_traditions_reform
-		}
-	}
 
 	text = {
 		localization_key = rank_kingdom_united_kingdom_british
 		trigger = {
 
 			country_rank_is_kingdom = yes
-			tag = GBR
-			coa_def_GBR_uk_trigger = yes
+			tag = GBI
 		}
 	}
 
@@ -1281,21 +1259,9 @@
 	}
 
 	text = {
-		localization_key = rank_kingdom_united_states
-		trigger = {
-
-			country_rank_is_duchy = yes
-			government_type = government_type:republic
-			OR = {
-				tag = ION
-			}
-		}
-	}
-
-	text = {
 		localization_key = rank_kingdom_grand_duchy_FIN
 		trigger = {
-			tag = LIT
+			tag = FIN
 
 			country_rank_is_duchy = yes
 		}
@@ -1723,36 +1689,7 @@
 	text = {
 		localization_key = rank_duchy_free_city
 		trigger = {
-			international_organization:hre ?= {
-				country_has_special_status = {
-					type = special_status:free_city
-					country = ROOT
-				}
-			}
-		}
-	}
-
-	text = {
-		localization_key = rank_duchy_lordship
-		trigger = {
-			government_type = government_type:monarchy
-			OR = {
-				AND = {
-					country_rank_is_county = yes
-					capital.area ?= area:wales_area
-				}
-				AND = {
-					OR = {	
-						country_rank_is_duchy = yes
-						country_rank_is_county = yes
-					}
-					OR = {
-						tag = LOI
-						tag = MNN
-						tag = PLE
-					}
-				}
-			}
+			tag = KRA
 		}
 	}
 
@@ -2267,14 +2204,6 @@
 		}
 	}
 
-	# Jersey
-	text = {
-		localization_key = rank_county_bailiwick
-		trigger = {
-			tag = JER
-		}
-	}
-
 	# Mali
 	text = {
 		localization_key = rank_county_mali
@@ -2282,16 +2211,6 @@
 
 			country_rank_is_county = yes
 			culture = culture:mandinka
-		}
-	}
-
-	# Incan
-	text = {
-		localization_key = rank_county_inca
-		trigger = {
-
-			country_rank_is_county = yes
-			culture.language ?= language:quechuan_language
 		}
 	}
 
@@ -2325,14 +2244,6 @@
 	}
 
 	text = {
-		localization_key = rank_county_nahua
-		trigger = {
-			country_rank_is_county = yes
-			culture = { has_culture_group = culture_group:nahua_group }
-		}
-	}
-
-	text = {
 		localization_key = rank_county_barangay
 		trigger = {
 			country_rank_is_county = yes
@@ -2345,6 +2256,16 @@
 		trigger = {
 			country_rank_is_county = yes
 			culture = { has_culture_group = culture_group:thai_group }
+		}
+	}
+
+	text = {
+		localization_key = rank_kingdom_united_states
+		trigger = {
+			government_type = government_type:republic
+			OR = {
+				tag = ION
+			}
 		}
 	}
 
@@ -2540,12 +2461,3 @@ country_flavor_consort_female = 	{ parent = country_flavor_consort suffix = "_fe
 
 
 # TGC
-
-country_russian_subject_poland = {
-
-}
-
-
-country_russian_subject_governorate = {
-	
-}

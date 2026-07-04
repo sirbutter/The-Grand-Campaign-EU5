@@ -276,11 +276,6 @@
  #
  rank_kingdom_commonwealth_polish_lithuanian: "Commonwealth"
  #
- rank_kingdom_celtic_welsh: "Brenhiniaeth"
- rank_kingdom_celtic_welsh_ADJ: "brenhinol"
- rank_kingdom_celtic_welsh_ruler_male: "Brenin"
- rank_kingdom_celtic_welsh_ruler_female: "Brenhines"
- #
  rank_kingdom_persian: "Realm"
  rank_kingdom_persian_ruler_male: "Šâh"
  rank_kingdom_persian_ruler_female: "Šahbânū"
@@ -297,12 +292,6 @@
  rank_kingdom_maya: "K'uhul Ajawil"
  rank_kingdom_maya_ruler_male: "K'uhul Ajaw"
  rank_kingdom_maya_ruler_female: "$rank_kingdom_maya_ruler_male$"
- #
- rank_kingdom_celtic: "Kingship"
- rank_kingdom_celtic_ADJ: "kingly"
- rank_kingdom_celtic_prefix: "High"
- rank_kingdom_celtic_ruler_male: "High King"
- rank_kingdom_celtic_ruler_female: "High Queen"
  #
  rank_kingdom_united_states: "States"
  rank_kingdom_united_states_prefix: "United"
@@ -503,11 +492,6 @@
  rank_kingdom_republic_high_alemannic_ruler_male: "Schultheiß"
  rank_kingdom_republic_high_alemannic_ruler_female: "Schultheißin"
  #
- rank_kingdom_conquistador: "Conquistadors"
- rank_kingdom_conquistador_ADJ: "conquistadorial"
- rank_kingdom_conquistador_ruler_male: "Conquistador"
- rank_kingdom_conquistador_ruler_female: "Conquistadora"
- #
 
  rank_kingdom_kanem_ruler_male: "$rank_empire_kanem_ruler_male$"
  rank_kingdom_kanem: "$rank_kingdom$"
@@ -564,16 +548,12 @@
  rank_kingdom_republic_novgorod_ADJ: "sovereign"
  rank_kingdom_republic_novgorod_ruler_male: "$rank_kingdom_russian_prince_ruler_male$"
  rank_kingdom_republic_novgorod_ruler_female: "$rank_kingdom_russian_prince_ruler_female$"
- #
- rank_kingdom_russian_prince: "Grand Principality"
- rank_kingdom_russian_prince_ruler_male: "Grand Prince"
- rank_kingdom_russian_prince_ruler_female: "Grand Princess"
  ##############################################################
  #
- rank_kingdom_grand_duchy_LIT: "Grand Duchy"
- rank_kingdom_grand_duchy_LIT_ADJ: "grand ducal"
- rank_kingdom_grand_duchy_LIT_ruler_male: "Grand Duke"
- rank_kingdom_grand_duchy_LIT_ruler_female: "Grand Duchess"
+ rank_kingdom_grand_duchy_FIN: "Grand Duchy"
+ rank_kingdom_grand_duchy_FIN_ADJ: "grand ducal"
+ rank_kingdom_grand_duchy_FIN_ruler_male: "Grand Duke"
+ rank_kingdom_grand_duchy_FIN_ruler_female: "Grand Duchess"
  #
  rank_duchy: "Duchy"
  rank_duchy_ADJ: "ducal"
