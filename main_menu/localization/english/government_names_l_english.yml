@@ -736,6 +736,18 @@
  country_rank_governor_ruler_male.short: "Gov."
  country_rank_governor_ruler_female.short: "Gov."
  #
+ rank_kingdom_congressional: "Congress Kingdom"
+ rank_kingdom_congressional_ruler_male: "Namestnik"
+ rank_kingdom_congressional_ruler_female: "Namestnik"
+ #
+ rank_grand_duchy_russian: "Grand Duchy"
+ rank_grand_duchy_russian_ruler_male: "Gubernator-General"
+ rank_grand_duchy_russian_ruler_female: "Gubernator-General"
+ #
+ rank_grand_duchy_prussian: "Grand Duchy"
+ rank_grand_duchy_prussian_ruler_male: "Duke-Governor"
+ rank_grand_duchy_prussian_ruler_female: "Duchess-Governor"
+ #
  rank_duchy_horde: "Horde"
  #
  rank_duchy_bishopric: "Prince-Bishopric"

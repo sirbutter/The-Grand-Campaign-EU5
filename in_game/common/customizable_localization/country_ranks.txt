@@ -71,6 +71,46 @@
 				culture = { has_culture_group = culture_group:russian_group }
 			}
 			country_rank_is_duchy = yes
+			OR = {
+				tag = KUR
+				tag = LIV
+				tag = ESH
+			}
+		}
+	}
+
+	text = {
+		localization_key = rank_kingdom_congressional
+		trigger = {
+			is_subject = yes
+			overlord ?= {
+				culture = { has_culture_group = culture_group:russian_group }
+			}
+			tag = CPL
+		}
+	}
+
+	text = {
+		localization_key = rank_grand_duchy_russian
+		trigger = {
+			is_subject = yes
+			overlord ?= {
+				culture = { has_culture_group = culture_group:russian_group }
+			}
+			country_rank_is_duchy = yes
+			tag = FIN
+		}
+	}
+
+	text = {
+		localization_key = rank_grand_duchy_prussian
+		trigger = {
+			is_subject = yes
+			overlord ?= {
+				culture = { has_culture_group = culture_group:german_group }
+			}
+			country_rank_is_duchy = yes
+			tag = PZN
 		}
 	}
 

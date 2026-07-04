@@ -3722,11 +3722,11 @@ countries = {
 				own_control_integrated = {
 				}
 
-				include = "catholic_bishopric"
 				include = "expl_northern_europe"
 
 				government = {
-					type = theocracy
+					type = monarchy
+					heir_selection = cognatic_primogeniture
 
 					ruler = kur_johann_ii
 					ruler_term = {	character = kur_johann_ii start_date = 1332.1.1 regnal_number = 2	}
@@ -3739,6 +3739,7 @@ countries = {
 				}
 
 				capital = jelgava
+				country_rank = rank_duchy
 			}
 
 			KRA = {
