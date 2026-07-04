@@ -35,16 +35,6 @@
 		}
 	}
 	text = {
-		localization_key = country_rank_governor
-		trigger = {
-			OR = {
-				has_reform = government_reform:soyurghal_governor_reform
-				has_reform = government_reform:soyurghal_governor_banished_reform
-				has_reform = government_reform:soyurghal_governor_effective_governor_reform
-			}
-		}
-	}
-	text = {
 		localization_key = rank_confederation
 		trigger = {
 			OR = {
@@ -73,6 +63,17 @@
 		}
 	}
 
+	text = {
+		localization_key = rank_duchy_russian_governorate
+		trigger = {
+			is_subject = yes
+			overlord ?= {
+				culture = { has_culture_group = culture_group:russian_group }
+			}
+			country_rank_is_duchy = yes
+		}
+	}
+
 	################## EMPIRE ##################
 
 	text = {
@@ -85,17 +86,6 @@
 		}
 	}
 
-
-
-	text = {
-		localization_key = rank_empire_conquistador
-		trigger = {
-
-			country_rank_is_empire = yes
-			has_reform = government_reform:conquistador_country
-		}
-	}
-
 	text = {
 		localization_key = rank_empire_czech_commonwealth
 		trigger = {
@@ -104,16 +94,6 @@
 	}
 
 	# Republic
-
-	text = {
-		localization_key = rank_county_republic_maya
-		trigger = {
-
-			country_rank_is_county = yes
-			government_type = government_type:republic
-			court_language ?= language:maya_language
-		}
-	}
 
 	text = {
 		localization_key = rank_empire_pirate_republic
@@ -1318,16 +1298,7 @@
 		}
 	}
 
-	text = {
-		localization_key = rank_duchy_russian_governorate
-		trigger = {
-			is_subject = yes
-			overlord ?= { 
-				culture = { has_culture_group = culture_group:russian_group }
-			}
-			country_rank_is_duchy = yes
-		}
-	}
+
 
 
 	# Theocracy
@@ -1795,14 +1766,6 @@
 	}
 
 	text = {
-		localization_key = rank_duchy_nahua
-		trigger = {
-			country_rank_is_duchy = yes
-			culture = { has_culture_group = culture_group:nahua_group }
-		}
-	}
-
-	text = {
 		localization_key = rank_duchy_thai
 		trigger = {
 			country_rank_is_duchy = yes
@@ -1832,6 +1795,16 @@
 		}
 	}
 	# Republic
+
+	text = {
+		localization_key = rank_kingdom_united_states
+		trigger = {
+			government_type = government_type:republic
+			OR = {
+				tag = ION
+			}
+		}
+	}
 
 	text = {
 		localization_key = rank_county_pirate_republic
@@ -2256,16 +2229,6 @@
 		trigger = {
 			country_rank_is_county = yes
 			culture = { has_culture_group = culture_group:thai_group }
-		}
-	}
-
-	text = {
-		localization_key = rank_kingdom_united_states
-		trigger = {
-			government_type = government_type:republic
-			OR = {
-				tag = ION
-			}
 		}
 	}
 
