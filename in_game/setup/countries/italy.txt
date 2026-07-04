@@ -1,10 +1,4 @@
-﻿ABA	= { #alba
-color = rgb { 255 71 255 }
-
-culture_definition = piedmontese
-religion_definition = catholic
-
-}
+﻿
 
 ANC	= { #ancona
 	color = rgb { 165 71 80 }

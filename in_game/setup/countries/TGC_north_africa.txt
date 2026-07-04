@@ -12,3 +12,31 @@ EGY = {
 	description_category = administrative
 	difficulty = 3
 }
+
+ABA	= { #alba
+	color = rgb { 255 71 255 }
+
+	culture_definition = piedmontese
+	religion_definition = catholic
+}
+
+CST	= { #alba
+	color = rgb { 255 71 255 }
+
+	culture_definition = piedmontese
+	religion_definition = catholic
+}
+
+TMZ	= { #alba
+	color = rgb { 255 71 255 }
+
+	culture_definition = piedmontese
+	religion_definition = catholic
+}
+
+TKA	= { #alba
+	color = rgb { 255 71 255 }
+
+	culture_definition = piedmontese
+	religion_definition = catholic
+}

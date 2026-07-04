@@ -1,12 +1,14 @@
-﻿MOR = {
-	color = map_morocco
-	color2 = rgb { 191  110  62 }  #same as in EU4
-	
-	culture_definition = moroccan 
-	religion_definition = sunni
-
-	description_category = military
-	difficulty = 3
+﻿
+MOR = {
+   color = map_morocco
+   color2 = rgb { 191 110 62 } #same as in EU4
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = moroccan
+   religion_definition = sunni
+   description_category = military
+   difficulty = 5
 }
 
 FEZ = {
@@ -62,12 +64,17 @@ SOS = {
 	religion_definition = sunni
 }
 
+
+
 TLE = {
-	color = map_tlemcen
-	color2 = rgb { 40 110 140 }  #same as in EU4
-	
-	culture_definition = zenati
-	religion_definition = sunni
+   color = map_tlemcen
+   color2 = rgb { 40 110 140 } #same as in EU4
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = zenati
+   religion_definition = sunni
+   difficulty = 6
 }
 
 ALG = {
