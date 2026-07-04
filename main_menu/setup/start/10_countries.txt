@@ -10586,7 +10586,7 @@ countries = {
 				include = "expl_indian_trade_route"
 				include = "catholic_monarchy"
 				government = {
-					type = monarchy
+					type = republic
 					heir_selection = cognatic_primogeniture
 
 					ruler = ach_robert_taranto
@@ -10634,7 +10634,7 @@ countries = {
 				include = "expl_indian_trade_route"
 				include = "catholic_monarchy"
 				government = {
-					type = monarchy
+					type = theocracy
 					heir_selection = cognatic_primogeniture
 
 					ruler = ach_robert_taranto
