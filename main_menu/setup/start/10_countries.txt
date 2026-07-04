@@ -12503,13 +12503,13 @@ countries = {
 					edfu esna qena hiw qus
 					asyut el_balyana el_buwit akhmim manfalut
 					minya ashmunayn el_bahnasa sharuna tahna
-					kharga bahariyya baris el_qasr qasr_farafra siwa
+					kharga bahariyya baris el_qasr qasr_farafra
 				}
 
 				own_control_integrated = {
 					chania hagios_pavlos rethymno candia gergeri elounda viannos siteia
 					el_arish nekhel qatya warrada
-					matruh sallum tobruk
+					matruh sallum
 					el_qoseir ras_gharib safaga
 					el_jundi faran nuweiba saint_katrine
 					ayntab dluk
