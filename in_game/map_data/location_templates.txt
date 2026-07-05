@@ -3221,7 +3221,7 @@ caltanisetta = { topography = hills vegetation = sparse climate = mediterranean 
 cefalu = { topography = mountains vegetation = woods climate = oceanic religion = catholic culture = sicilian raw_material = lumber natural_harbor_suitability = 0.00}
 sciacca = { topography = flatland vegetation = sparse climate = mediterranean religion = catholic culture = sicilian raw_material = wheat natural_harbor_suitability = 0.00}
 termini = { topography = hills vegetation = farmland climate = mediterranean religion = catholic culture = sicilian raw_material = wheat natural_harbor_suitability = 0.00}
-palermo = { topography = hills vegetation = farmland climate = mediterranean religion = catholic culture = sicilian raw_material = sugar natural_harbor_suitability = 0.25}
+palermo = { topography = hills vegetation = farmland climate = mediterranean religion = catholic culture = sicilian raw_material = sulphur natural_harbor_suitability = 0.25}
 corleone = { topography = hills vegetation = sparse climate = oceanic religion = catholic culture = sicilian raw_material = wine}
 mazara = { modifier = sicily_sulfur_mines topography = flatland vegetation = farmland climate = mediterranean religion = catholic culture = sicilian raw_material = saltpeter natural_harbor_suitability = 0.25}
 salemi = { topography = hills vegetation = sparse climate = mediterranean religion = catholic culture = sicilian raw_material = salt natural_harbor_suitability = 0.00}

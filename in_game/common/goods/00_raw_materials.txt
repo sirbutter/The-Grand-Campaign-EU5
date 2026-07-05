@@ -337,6 +337,32 @@ lumber  = {
 	}
 }
 
+sulphur = {
+	method = gathering
+	category = raw_material
+	color = goods_salt
+	default_market_price = 4
+
+
+	demand_add = {
+		nobles = 0.05
+		burghers = 0.02
+		clergy = 0.02
+	}
+
+
+	wealth_impact_threshold = {
+		all = 0.7
+	}
+
+	winter_demand_modifier = {
+		none = 0.75
+		mild = 1
+		normal = 1.2
+		severe = 2
+	}
+}
+
 salt = {
 	method = gathering
 	category = raw_material
