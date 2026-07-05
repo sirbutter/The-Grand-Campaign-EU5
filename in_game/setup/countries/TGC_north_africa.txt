@@ -40,3 +40,39 @@ TKA	= { #alba
 	culture_definition = piedmontese
 	religion_definition = catholic
 }
+
+#Tripoli - TRP (Stateless)
+TRP = {
+	color = map_tripoli
+	color2 = blue_light
+	culture_definition = libyan_arabic_culture
+	religion_definition = sunni
+}
+
+ALG = {
+	color = map_algiers
+	color2 = rgb { 230  225  110 }  #same as in EU4
+	
+	culture_definition = algerian
+	religion_definition = sunni
+}
+
+TUN = {
+	color = map_tunis
+	color2 = rgb { 146  134  57 }  #same as in EU4
+	
+	culture_definition = tunisian
+	religion_definition = sunni
+}
+
+MOR = {
+   color = map_morocco
+   color2 = rgb { 191 110 62 } #same as in EU4
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = moroccan
+   religion_definition = sunni
+   description_category = military
+   difficulty = 8
+}

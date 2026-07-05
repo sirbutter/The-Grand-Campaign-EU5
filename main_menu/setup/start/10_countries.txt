@@ -459,6 +459,14 @@ countries = {
       ALG = {
          country_rank = rank_county
 
+         own_control_core = {
+            tessala mascara tlemcen mostaganem tenes tahert zenina asir_ALG tissemsilt el_bayadh
+            ain_sefra naama ksar_el_boukhari el_abiodh_sidi_cheikh brezina mazouna miliana qal_at_ibn_salama yellel chlef
+            al_khadra_ALG laghouat ksar_el_kaoua medrissa charef qutb ain_madhi bades madila sidi_okba
+            ouled_djellal ghardaia berriane el_guerrara guettara dufanat tablate_mountain western_tablate_mountain medea plain_tamlelt1
+            northern_tedemait bades_mountain2
+            arshgul madinat_alawiyyin ras_al_ain saida
+         }
        }
       ALI = {
          country_rank = rank_county
@@ -1577,7 +1585,7 @@ countries = {
          starting_technology_level = 3
 
          own_control_core = {
-            benin ughoton mahin ugbodu ukunzu uromi uzea ewu idah ozoro
+            benin uromi ugbodu uzea owo ughoton akure
          }
 
          include = "expl_west_africa_south"
@@ -4256,7 +4264,7 @@ countries = {
             el_kantara tiffech cheffia tekouch skikda_mountain el_kala souk_el_arba sbiba_mountain el_kef thala
             baghai tebessa bir_el_alter setif ikjan bazer_sakhra bades_mountain1 burg_bu_mountain2 ngaous thagaste
             guelma meskiana tijis constantine_ALG mila el_milia collo skikda stif_mountain mansouria
-            jijel
+            jijel biskra
          }
 
        }
@@ -5699,7 +5707,7 @@ countries = {
 
          own_control_colony = {
             tamazaghrane oran arzew ksar_ibn_senane algiers cherchell kourou cayenne palikur carucairi
-            iguanacaera miquelon brashk bejaia annaba
+            iguanacaera miquelon brashk bejaia annaba ndar beer_dun
          }
 
          include = "expl_western_europe"
@@ -5891,76 +5899,76 @@ countries = {
          }
 
          own_control_colony = {
-            scarcies bunce_island banana_islands shenge sherbro_island galinhas mano cape_mount malta lampedusa
-            bermuda west_falkland east_falkland maynoa yaguabo aguacadiba guaygata anaya oristan kaiman
-            abacoa exuma guanima eleuthera utiaquia guanahani inagua samana_cay jumento caycos
-            lucayoneque bahama ariogana wadadli liamuiga walichi malliouhana anegada aburakeiru vieques_island
-            cairiani alubera waitu_kubuli hewanorra ichirouganaim kamahuya youloumain altun_ha colha essequibo
-            demerara berbice tumatumari neekeari chainouqua swartberg klipgat agulhas bredasdorp cochoqua
-            ngonnemoa uri_ae_ona chariguriqua gouriqua hessequa gouritsmond attequa outeniqua houtunqua damaqua
-            kai_karoo gamka humcumqua swy_e inqua khukagamma hamcumqua khari_karoo gainou kanna_south
-            koo attaqua kammanassie ubiqua swellendam ibequa gydo goringhaikona goringhaiqua paarl
-            gorachouqua wardandi gurbillup nannup manjimup bibbulman jarrah_karri munite mallee kaniyang
-            yoberrore pinjarup mandjar narroging willman walyalup whadjuk narangga kaurna_pangkarra tarntanya
-            boanawari burra_burra doora aluri nukunu darumbal bayali gureng_gureng badtjala waka_waka
-            murrumgama gubbi_gubbi burrum wakgun yiman_australia gungabula mandandanji gogai wull_wull barunggam
-            bigambul turrbal geynyan marbul galibal ngarbal wadjar bundjalung quandamooka wigal_wollumbul
-            kamilaroi camel_duahi gunnedah tjake yauan wailwan wonnarua burugardi nganyaywana dainggatti
-            oxley_wilds biripi guringai geawegal worimi gumbaynggirr wirrai_durhai guwandhaang cootamundra thurrawal
-            murranbulla boandik bangarang narrandera awabakal dharug eora guramal tharawal ngarigo
-            jerrinja didthul thaua yuin bidwell krauatungalung krowathunkkooloong mallacoota braiakalung brataulung
-            boon_wurrung yarra kurnai jaitmatang waveroo taungurung woi_wurrung karta_pintingga latje_latje millewa
-            chala kooinkill ngarrindjeri ngargad kromelak bindjali djappuminyou jakelbalak buandig coonawarra
-            jardwajali gunditjmara djabwurung balla_arat gulidjan giraiwurung gadubanud geelong wathaurong east_palawa
-            west_palawa peerapper tommeginne tyerrernotepanner pyemmairrener lairmairrener paredarerme toogee waitangi tamaki
-            whangarei aupouri madurai ramesvaram vembar kayattar pattukkottai sankaranayinarkoil aruppukkottai batlagundu
-            dindigul kambam thondi virudhunagar devakottai padaividu kanchipuram vellore gingee madras
-            maduranthakam arcot nellore pazhaverkadu durgarazpatnam kavali kandakura motupalli adanki markapur
-            kondavidu peddapalli macherla masulipatnam gudur kalahasti cumbum vinukonda guntur kanigiri
-            pithapuram rajamahendry pallakolu ellur visakhapatnam vizianagaram tuni rampa bobbili madugula
-            asika ganjam kalingapattanam kalinganagara parlakimidi khurda dhenkanal jajnagar puri kataka
-            harishpur balasore jalesar bhuban bhadrak angul ratnagiri brahmapur kulada nayagarh
-            kanthi pulawama baramulla banihal rawalakot kohtali gaur godagari naogaon pabna
-            rampur_boalla bogra birampur goraghat rangpur_bengal shahjadpur devkot barbakaabad pandua_adina siliguri
-            tajpur panchagarh jalpaiguri satgaon pandua baragram bardhaman dubrajpur ilambazar khulna
-            east_sundarban husaynabad jaynagar kulpi west_sundarban nadia chandrabad jessore jhenaidah maheshpur
-            pipli sreepur sonargaon bikrampur chandpur kobirhat kumilla savar khalifatabad barguna
-            chandrawip fathabad kotalipara qasba shahbazpur mymensingh atiya belabo kapasia muktagacha
-            tarakanda nagapattinam puddokothai tiruccirapalli thanjavur srirangam pennadam jayankondam karaikal launggyet
-            akyab ann gwa maungdaw minbya mrauk_u ramree talak_burma taungup thandwe
-            weithali chittagong chakaria kaptai ramu sitakunda parangipettai pondicherry perambalur tirukoilur
-            kallakurichi jaffna mullaitivu mahatittha vavuniya yapavu anuradhapura salavata kurunegala polonnaruva
-            madakalapu hatthigiripura kotte negombo sitavaka galle hambantota badulla devanagara digavapi
-            tissamaharama kandy gampola ratnapura_LKA trincomalee medawachchiya delhi gurgaon rohtak panipat
-            jind mirat hapur jansath baran saharanpur piran_i_kaliyar etawah kanauj sargadwari
-            makanpur prayag kara asni korra alwar narnaul bharatpur agra mathura
-            jalesar_doab kol dholpur chandwar sirhind sadhaura samana_india thanesar kaithal karnal
-            hisar dadri hansi hajner sunam raikot faridkot bathinda firozpur muktsar
-            shishgarh chandpur_uttar_pradesh nagina seohara shahabad_uttar_pradesh jalna nander pathri kaulas janjira
-            chaul kalyan bombay bassein savantvadi rajapur dabhol sangamesvara ajara mudhol
-            belgaum londa khanapur gokak badami raybag sholhapur naldrug ausa parenda
-            chambargonda udgir bir dahrur qandhar ahmednagar daulatabad pratapgarh satara karad
-            kolhapur aundh jath miraj sinnar nasik chandor bidar yedagiri gulbarga
-            kalyani sagar talikota bagalkot bijapur kembhavi sindagi basavana_bagewadi athani singarh
-            raigarh pune junnar chakan daman surat rander broach baroda khambat
-            dholka ashaval modasa patan deodar radhanpur ranthambore sheopur sambhar ajmer
-            merta nagaur makrana kurki osian phulia mandalgarh bhilwara bayana mandore
-            sabalgarh kalam kelapur mahagaon panar amravati illichpur gawilgarh asirgarh burhanpur
-            pachora sindkedh mehkar akola basim laling thalner sultanpur nandurbar dharangaon
-            khandwa handia hoshangabad bijagarh mandleshwar maheshwar mandu dhar indore ujjain
-            maksi khategaon bhojpur sehore raisin bhopal sarangpur agar sironj shahabad
-            sipri chanderi alirajpur ratlam mandsaur rampura bhanpura gagraun aklera guna
-            khaniadhana bhind konch kalpi lalitpur deogarh bhilsa damoh singorgarh ujargarh
-            sugaur nawakot bijnot derawar channan_pir kot_marot uch mir_garh_qila dunga_bunga chishtian
-            khairpur aror manikpur bhadohi mungra raebareli unnao awadh akbarpur kishi
-            sultanpur_uttar_pradesh varanasi chunar ghazipur jaunpur mau_jaunpur kantit shankargah vijaygarh sidhi
-            agori budaun gunnaur sambhal bareilly nahil pilibhit shahjahanpur khairabad bhurwara
-            biswan firuzabad_bahraich kherigarh lucknow bilgram hardoi ibrahimabad pali_uttar_pradesh bahraich balrampur
-            gonda shravasti tulsipur gorakhpur bansi basti binayakpur kushinagar lumbini azamgarh
-            andar chillupar rudrapur sonepur_bihar thawe bettiah makwanpur mehsi ramnagar_bihar sheohar
-            simraungadh bhagalpur gidhaur hajipur khagaria monghyr samastipur patna bihar_sharif deo
-            gaya narhat rajgir roh hazaribagh chai gobindpur katrasgarh shergarh urda
-            dumka deoghar jangipur mandar_parvat rajmahal teliagarhi manyakheta chitapur bhalki
+            malta lampedusa bermuda west_falkland east_falkland maynoa yaguabo aguacadiba guaygata anaya
+            oristan kaiman abacoa exuma guanima eleuthera utiaquia guanahani inagua samana_cay
+            jumento caycos lucayoneque bahama ariogana wadadli liamuiga walichi malliouhana anegada
+            aburakeiru vieques_island cairiani alubera waitu_kubuli hewanorra ichirouganaim kamahuya youloumain altun_ha
+            colha essequibo demerara berbice tumatumari neekeari chainouqua swartberg klipgat agulhas
+            bredasdorp cochoqua ngonnemoa uri_ae_ona chariguriqua gouriqua hessequa gouritsmond attequa outeniqua
+            houtunqua damaqua kai_karoo gamka humcumqua swy_e inqua khukagamma hamcumqua khari_karoo
+            gainou kanna_south koo attaqua kammanassie ubiqua swellendam ibequa gydo goringhaikona
+            goringhaiqua paarl gorachouqua wardandi gurbillup nannup manjimup bibbulman jarrah_karri munite
+            mallee kaniyang yoberrore pinjarup mandjar narroging willman walyalup whadjuk narangga
+            kaurna_pangkarra tarntanya boanawari burra_burra doora aluri nukunu darumbal bayali gureng_gureng
+            badtjala waka_waka murrumgama gubbi_gubbi burrum wakgun yiman_australia gungabula mandandanji gogai
+            wull_wull barunggam bigambul turrbal geynyan marbul galibal ngarbal wadjar bundjalung
+            quandamooka wigal_wollumbul kamilaroi camel_duahi gunnedah tjake yauan wailwan wonnarua burugardi
+            nganyaywana dainggatti oxley_wilds biripi guringai geawegal worimi gumbaynggirr wirrai_durhai guwandhaang
+            cootamundra thurrawal murranbulla boandik bangarang narrandera awabakal dharug eora guramal
+            tharawal ngarigo jerrinja didthul thaua yuin bidwell krauatungalung krowathunkkooloong mallacoota
+            braiakalung brataulung boon_wurrung yarra kurnai jaitmatang waveroo taungurung woi_wurrung karta_pintingga
+            latje_latje millewa chala kooinkill ngarrindjeri ngargad kromelak bindjali djappuminyou jakelbalak
+            buandig coonawarra jardwajali gunditjmara djabwurung balla_arat gulidjan giraiwurung gadubanud geelong
+            wathaurong east_palawa west_palawa peerapper tommeginne tyerrernotepanner pyemmairrener lairmairrener paredarerme toogee
+            waitangi tamaki whangarei aupouri madurai ramesvaram vembar kayattar pattukkottai sankaranayinarkoil
+            aruppukkottai batlagundu dindigul kambam thondi virudhunagar devakottai padaividu kanchipuram vellore
+            gingee madras maduranthakam arcot nellore pazhaverkadu durgarazpatnam kavali kandakura motupalli
+            adanki markapur kondavidu peddapalli macherla masulipatnam gudur kalahasti cumbum vinukonda
+            guntur kanigiri pithapuram rajamahendry pallakolu ellur visakhapatnam vizianagaram tuni rampa
+            bobbili madugula asika ganjam kalingapattanam kalinganagara parlakimidi khurda dhenkanal jajnagar
+            puri kataka harishpur balasore jalesar bhuban bhadrak angul ratnagiri brahmapur
+            kulada nayagarh kanthi pulawama baramulla banihal rawalakot kohtali gaur godagari
+            naogaon pabna rampur_boalla bogra birampur goraghat rangpur_bengal shahjadpur devkot barbakaabad
+            pandua_adina siliguri tajpur panchagarh jalpaiguri satgaon pandua baragram bardhaman dubrajpur
+            ilambazar khulna east_sundarban husaynabad jaynagar kulpi west_sundarban nadia chandrabad jessore
+            jhenaidah maheshpur pipli sreepur sonargaon bikrampur chandpur kobirhat kumilla savar
+            khalifatabad barguna chandrawip fathabad kotalipara qasba shahbazpur mymensingh atiya belabo
+            kapasia muktagacha tarakanda nagapattinam puddokothai tiruccirapalli thanjavur srirangam pennadam jayankondam
+            karaikal launggyet akyab ann gwa maungdaw minbya mrauk_u ramree talak_burma
+            taungup thandwe weithali chittagong chakaria kaptai ramu sitakunda parangipettai pondicherry
+            perambalur tirukoilur kallakurichi jaffna mullaitivu mahatittha vavuniya yapavu anuradhapura salavata
+            kurunegala polonnaruva madakalapu hatthigiripura kotte negombo sitavaka galle hambantota badulla
+            devanagara digavapi tissamaharama kandy gampola ratnapura_LKA trincomalee medawachchiya delhi gurgaon
+            rohtak panipat jind mirat hapur jansath baran saharanpur piran_i_kaliyar etawah
+            kanauj sargadwari makanpur prayag kara asni korra alwar narnaul bharatpur
+            agra mathura jalesar_doab kol dholpur chandwar sirhind sadhaura samana_india thanesar
+            kaithal karnal hisar dadri hansi hajner sunam raikot faridkot bathinda
+            firozpur muktsar shishgarh chandpur_uttar_pradesh nagina seohara shahabad_uttar_pradesh jalna nander pathri
+            kaulas janjira chaul kalyan bombay bassein savantvadi rajapur dabhol sangamesvara
+            ajara mudhol belgaum londa khanapur gokak badami raybag sholhapur naldrug
+            ausa parenda chambargonda udgir bir dahrur qandhar ahmednagar daulatabad pratapgarh
+            satara karad kolhapur aundh jath miraj sinnar nasik chandor bidar
+            yedagiri gulbarga kalyani sagar talikota bagalkot bijapur kembhavi sindagi basavana_bagewadi
+            athani singarh raigarh pune junnar chakan daman surat rander broach
+            baroda khambat dholka ashaval modasa patan deodar radhanpur ranthambore sheopur
+            sambhar ajmer merta nagaur makrana kurki osian phulia mandalgarh bhilwara
+            bayana mandore sabalgarh kalam kelapur mahagaon panar amravati illichpur gawilgarh
+            asirgarh burhanpur pachora sindkedh mehkar akola basim laling thalner sultanpur
+            nandurbar dharangaon khandwa handia hoshangabad bijagarh mandleshwar maheshwar mandu dhar
+            indore ujjain maksi khategaon bhojpur sehore raisin bhopal sarangpur agar
+            sironj shahabad sipri chanderi alirajpur ratlam mandsaur rampura bhanpura gagraun
+            aklera guna khaniadhana bhind konch kalpi lalitpur deogarh bhilsa damoh
+            singorgarh ujargarh sugaur nawakot bijnot derawar channan_pir kot_marot uch mir_garh_qila
+            dunga_bunga chishtian khairpur aror manikpur bhadohi mungra raebareli unnao awadh
+            akbarpur kishi sultanpur_uttar_pradesh varanasi chunar ghazipur jaunpur mau_jaunpur kantit shankargah
+            vijaygarh sidhi agori budaun gunnaur sambhal bareilly nahil pilibhit shahjahanpur
+            khairabad bhurwara biswan firuzabad_bahraich kherigarh lucknow bilgram hardoi ibrahimabad pali_uttar_pradesh
+            bahraich balrampur gonda shravasti tulsipur gorakhpur bansi basti binayakpur kushinagar
+            lumbini azamgarh andar chillupar rudrapur sonepur_bihar thawe bettiah makwanpur mehsi
+            ramnagar_bihar sheohar simraungadh bhagalpur gidhaur hajipur khagaria monghyr samastipur patna
+            bihar_sharif deo gaya narhat rajgir roh hazaribagh chai gobindpur katrasgarh
+            shergarh urda dumka deoghar jangipur mandar_parvat rajmahal teliagarhi manyakheta chitapur
+            bhalki gambia bintang bunce_island accra winneba
          }
 
          include = "catholic_monarchy"
@@ -6109,17 +6117,7 @@ countries = {
          starting_technology_level = 3
 
          own_control_core = {
-            koumbi_saleh timbedra nema balle sosso sagala mourdiah guire goumbou sokolo
-            timbuktu kare
-         }
-
-         own_control_integrated = {
-            walata taghaza taoudenni araouane
-         }
-
-         our_cores_conquered_by_others = {
-            diara tichit aoudaghost tidjikja nioro tourougoumbe diangounte_camara dioumara kolokani kourouninkoto
-            sandare banamba kita narena tabou_m
+            salaga bole daboya nakpa
          }
 
          include = "expl_west_africa_muslim"
@@ -8668,12 +8666,6 @@ countries = {
          country_rank = rank_county
          starting_technology_level = 3
 
-         own_control_core = {
-            linguere tuubaa mboune ndar dagana koki tivaouane beer_dun ndiaganiao portudal
-            fandene diourbel joal tattaguine diakhao albreda juffure djilor kahone sine_ngayene
-            wanar sorokogne
-         }
-
          include = "expl_west_africa"
          include = "subsaharan_advanced_tribe"
 
@@ -8988,10 +8980,8 @@ countries = {
          starting_technology_level = 3
 
          own_control_core = {
-            njimi manan bodou_sailay nguigmi bilma dirkou djado seguedine fachi agadem
-            mondo cherfe ngousa moussoro ngazargamu yo marte gubio gambaru mir_loc
-            garoumale boutti goure goudooumaria nguru garun_gabas garandoili biriri konduga daima
-            mandaragirau dikwa
+            ngazargamu yo marte gubio gambaru goure goudooumaria nguru garun_gabas garandoili
+            biriri konduga daima mandaragirau dikwa damaturu daniski potiskum mirriah guidimouni
          }
 
          include = "expl_west_africa_muslim"
@@ -9974,10 +9964,6 @@ countries = {
          capital = kong
          country_rank = rank_county
          starting_technology_level = 1
-
-         own_control_core = {
-            kong
-         }
 
          include = "expl_west_africa_south"
          include = "subsaharan_tribe"
@@ -11713,15 +11699,6 @@ countries = {
          country_rank = rank_empire
          starting_technology_level = 3
 
-         own_control_core = {
-            niani dakadjalan kirina bamako dieribakoro siguiri kaba niagassola tengrela niena
-            garalo massigui niantjila nounkonkan kankan kouroussa tabon kerouane mandiana
-         }
-
-         own_control_integrated = {
-            seydougou odienne
-         }
-
          include = "expl_west_africa_muslim"
 
          accepted_cultures = {
@@ -13046,9 +13023,6 @@ countries = {
       MON = {
          country_rank = rank_county
 
-         own_control_core = {
-            dinaric_alps6 gradina
-         }
        }
       MOO = {
          capital = moro
@@ -13093,6 +13067,10 @@ countries = {
             naffis hanimmei tamdegost taroudant tidsi tiznit massa_MOR tafraout ifni agadir
             bzou demnate chichaoua tezerghe sefrou jarawah_abu_al_aysh oujda taourirt echemmaia sidi_bennour
             nedroma tegeget kalaat_sraghna afso rif western_rif south_middle_atlas2 high_atlas2 western_high_atlas2 western_high_atlas1
+         }
+
+         control = {
+            arshgul madinat_alawiyyin saida ras_al_ain
          }
 
          include = "expl_muslim_mediterranean"
@@ -15111,7 +15089,7 @@ countries = {
             middle_taurus_2 middle_taurus_3 middle_taurus_4 middle_taurus_5 middle_taurus_6 middle_taurus_7 middle_taurus_8 erenler_mountains sultan_mountains_1 sultan_mountains_2
             sultan_mountains_3 melendiz_mountains hodul_mountains ak_mountains koroglu_mountains_1 koroglu_mountains_2 ilgaz_mountains west_pontus_mountains_1 west_pontus_mountains_2 kose_mountains_1
             kose_mountains_2 east_pontus_mountains_1 east_pontus_mountains_2 east_pontus_mountains_3 otlukbeli_mountains mescit_mountains east_taurus_8 east_taurus_2 east_taurus_1 east_taurus_9
-            kars_mountains_1 kars_mountains_2 kars_mountains_3 karagol_mountains dinaric_alps1 dinaric_alps4 dinaric_alps3 dinaric_alps2 dinaric_alps7
+            kars_mountains_1 kars_mountains_2 kars_mountains_3 karagol_mountains dinaric_alps1 dinaric_alps4 dinaric_alps3 dinaric_alps2 dinaric_alps7 dinaric_alps6
             dinaric_alps5 dinaric_alps8 pindus_mountains1 pindus_mountains2 pindus_mountains3 pindus_mountains4 pindus_mountains8 pindus_mountains5 pindus_mountains6 pindus_mountains7
             pindus_mountains9 pindus_mountains10 mount_olympos balkan_mountains1 balkan_mountains2 balkan_mountains3 balkan_mountains4 balkan_mountains5 balkan_mountains6 rhodope_mountains1
             rhodope_mountains3 rhodope_mountains2 rhodope_mountains4 rhodope_mountains5 rhodope_mountains6 karpathos amasra gradiski_brod dubica bihac
@@ -15134,7 +15112,7 @@ countries = {
             luleburgaz kirklareli malgara alasehir uskudar silli biga eregli chios vize
             ormenio demetrias farsala elassona larissa siatista stomio trikala tyrnavos pyli
             karditsa grevena bukelon devol ustra peja prizren bitola kicevo tetovo
-            shkoder debar onogost budimlja brskovo gjakova mitrovica pristina novo_brdo
+            shkoder debar onogost gradina budimlja brskovo gjakova mitrovica pristina novo_brdo
             skopje kumanovo veles prosek shtip kratovo vranje podgorica bar_cg prijepolje
             visegrad ustikolina soko_grad glubocica nis prokuplje gacko trebinje ohrid kocani
             strumica koman has dukagjini lezha florina sredets samokov plovdiv stipon
@@ -15259,8 +15237,7 @@ countries = {
          starting_technology_level = 3
 
          own_control_core = {
-            oyo_ile kisi igboho ikoyi ogbomosho ede tede saki irawo agbonle
-            ilorin
+            igboho ikoyi ogbomosho ede tede saki irawo oshogbo iwo
          }
 
          include = "expl_west_africa_south"
@@ -16054,7 +16031,7 @@ countries = {
             santiago fogo kilwa_kisiwani songo_mnara lindi mikindani somana ibo gomene memba
             nacala sofala quelimane angoche mozambique inhambane chibuene manyikeni chimuande mussul
             loge icalo cahenda ambriz nsolu mbanza_soyo soyo ambrizete bumbe nbengo
-            mbaba
+            mbaba cacheu bissagos bafata
          }
 
          include = "expl_mediterranean"
@@ -16254,6 +16231,7 @@ countries = {
             mandore osian nagaur khed pali kurki ajmer merta nagaur makrana
             sambhar
          } #Mandore + parts of Marwar. At its greatest extent the dynasty had however ruled most of northern India.
+
 
 
          include = "expl_india_hindu"
@@ -20425,16 +20403,9 @@ countries = {
          country_rank = rank_kingdom
          starting_technology_level = 3
 
-         own_control_core = {
-            tessala mascara tlemcen mostaganem tenes tahert zenina asir_ALG tissemsilt el_bayadh
-            ain_sefra naama ksar_el_boukhari el_abiodh_sidi_cheikh brezina mazouna miliana qal_at_ibn_salama yellel chlef
-            al_khadra_ALG laghouat ksar_el_kaoua medrissa charef qutb ain_madhi bades madila sidi_okba
-            ouled_djellal ghardaia berriane el_guerrara guettara dufanat tablate_mountain western_tablate_mountain medea plain_tamlelt1
-            northern_tedemait bades_mountain2
-         }
 
          own_core = {
-            arshgul madinat_alawiyyin ras_al_ain saida
+            
          }
 
          include = "expl_muslim_mediterranean"
@@ -21812,7 +21783,7 @@ countries = {
          }
 
          own_control_colony = {
-            saint_paul_river mesurado junk_river bassa cestos cess settra_kru tabou
+            saint_paul_river mesurado junk_river bassa
          }
 
          include = "expl_western_europe"
@@ -22323,7 +22294,7 @@ countries = {
          starting_technology_level = 3
 
          own_control_core = {
-            haylan erigavo bosaso el_ayum las_khorey maydh
+            haylan erigavo bosaso el_ayum las_khorey maduna
          }
 
          include = "expl_horn_of_africa"
