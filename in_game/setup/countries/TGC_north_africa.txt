@@ -1,4 +1,4 @@
-EGY = {
+﻿EGY = {
 	color = map_EGY_dominion0
 	color2 = rgb { 16 41 202 }
 	

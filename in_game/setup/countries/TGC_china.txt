@@ -1,4 +1,4 @@
-RYU = {
+﻿RYU = {
 	color = map_RYU
 	color2 = rgb { 16 41 202 }
 	

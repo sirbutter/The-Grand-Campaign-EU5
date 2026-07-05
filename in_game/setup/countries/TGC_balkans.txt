@@ -1,4 +1,4 @@
-MOL = {
+﻿MOL = {
 	color = map_MOL
 	color2 = rgb { 16 41 202 }
 	
