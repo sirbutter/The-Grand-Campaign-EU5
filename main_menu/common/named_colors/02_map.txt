@@ -2284,7 +2284,6 @@ colors = {
 	map_YSM = rgb { 20 120 210 }
 	map_INU = rgb { 60 160 60 }
 	map_MMI = rgb { 255 229 180}
-	map_IRA = hsv { 0 0.11 0.38 }
 	map_YMN = rgb { 140 72 128 }
 	map_ENY = rgb { 160 230 210 }
 	map_DRD = hsv360 { 184 98 71 }

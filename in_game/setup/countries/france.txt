@@ -458,12 +458,6 @@ MTZ = {
 	religion_definition = catholic
 }
 
-SLM = {
-	color = rgb { 238 87 226 }
-	culture_definition = lorrain
-	religion_definition = catholic
-}
-
 MOU = {
 	color = rgb { 215 200 205 }
 	culture_definition = champenais

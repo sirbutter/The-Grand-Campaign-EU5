@@ -32,13 +32,6 @@ SMO = {
 	religion_definition = orthodox
 }
 
-FMB = {
-	color = rgb { 160 60 143 }
-
-	culture_definition = smolenskian_culture
-	religion_definition = orthodox
-}
-
 MOS = {
 	color = map_MOS
 	color2 = { 206 181 97 }	

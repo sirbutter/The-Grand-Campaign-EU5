@@ -586,15 +586,6 @@ CNO = {
 	religion_definition = umina_religion
 }
 
-#Baure
-BAU = {
-	color = map_baure
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = baure_culture
-	religion_definition = zemi_religion
-}
-
 #Allentiac
 ALC = {
 	color = map_warpe

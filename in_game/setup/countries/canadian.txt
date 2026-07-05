@@ -88,16 +88,6 @@ OSG = {
 	
 }
 
-MAS = {
-	color = map_maisouna
-	color2 = rgb { 91 32 122 }
-
-	culture_definition = maisouna_culture
-	religion_definition = iroquoian_totemism
-
-	
-}
-
 STD = {
 	color = map_stadacona
 	color2 = rgb { 91 121 31 }

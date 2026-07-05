@@ -120,14 +120,6 @@ INA = {
 	religion_definition = sunni
 }
 
-KAR = {
-	color = map_karamanids
-	color2 = rgb { 90 160 190 } #same as in EU4
-
-	culture_definition = turkish_culture
-	religion_definition = sunni
-}
-
 KRD = {
 	color = map_karasids
 	color2 = rgb { 212 225 156 } 

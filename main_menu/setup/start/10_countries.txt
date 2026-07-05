@@ -742,6 +742,11 @@ countries = {
        }
       ARO = {
          country_rank = rank_county
+
+         own_control_core = {
+            nembe brass igbo_ukwu onitsha nnewi azia new_calabar bonny calabar arochukwu
+            awka_etiti ugbo awka amaigbo eket
+         }
        }
       ARR = {
          country_rank = rank_county
@@ -821,6 +826,11 @@ countries = {
        }
       ASH = {
          country_rank = rank_county
+
+         own_control_core = {
+            yeji kumawu akwatia mankessim kibi fomena goaso kumasi techiman bono_manso
+            kintampo
+         }
        }
       ASL = {
          country_rank = rank_county
@@ -1165,8 +1175,19 @@ countries = {
       BAS = {
          country_rank = rank_county
        }
+      BAT = {
+         country_rank = rank_county
+
+         own_control_core = {
+            mandiana kankan kouroussa nounkonkan dieribakoro
+         }
+       }
       BAU = {
          country_rank = rank_county
+
+         own_control_core = {
+            abengourou ngokro bouake daoukro
+         }
        }
       BAV = {
          capital = munich
@@ -1242,6 +1263,10 @@ countries = {
        }
       BBK = {
          country_rank = rank_county
+
+         own_control_core = {
+            diakha bafoulabe
+         }
        }
       BCH = {
          country_rank = rank_county
@@ -1456,6 +1481,11 @@ countries = {
       }
       BGI = {
          country_rank = rank_county
+
+         own_control_core = {
+            dourbali am_djemena yao moito cherfe goulfey gaoui bokoro goundi bousso
+            bongor guelengdeng pouss logone_birni massenya
+         }
        }
       BGJ = {
          country_rank = rank_county
@@ -2098,6 +2128,10 @@ countries = {
       }
       BOR = {
          country_rank = rank_county
+
+         own_control_core = {
+            babana kisi kaiama agbonle nikki sori gaia kandi segbana
+         }
        }
       BOS = {
          country_rank = rank_county
@@ -2590,6 +2624,13 @@ countries = {
       }
       BUL = {
          country_rank = rank_county
+       }
+      BUN = {
+         country_rank = rank_county
+
+         own_control_core = {
+            diawara ballou sutuko
+         }
        }
       BUR = {
          country_rank = rank_county
@@ -3172,7 +3213,10 @@ countries = {
             pengxi lezhi xiaoxi shehong anyue yanting zhongjiang suining yibin changning_changning
             fushun nanxi qingfu xuanhua mingshan yandao rongjing kunming lufeng yiliang
             kunyang anning chenggong yimen songming fumin zhennan dingyuan_chuxiong weichu nanan
-            heyang jiangchuan lunan xinxing
+            heyang jiangchuan lunan xinxing changshan_islands_wastelands taihangshan3 taihangshan10 taihangshan1 yanshan_mountains2 yanshan_mountains1
+            yanshan_mountains3 taihangshan9 taihangshan8 taihangshan2 taihangshan7 taihangshan4 taihangshan5 taihangshan6 dabashan1 wushan_mountains
+            wulingshan jingshan_mountains qinlingshan4 dabashan2 qinlingshan7 qinlingshan5 funiushan1 funiushan2 qinlingshan3 liupanshan
+            nanling2 nanling1 wugangshan jiulingshan wanyangshan nanling4 nanling3
          }
 
          own_control_integrated = {
@@ -3366,7 +3410,7 @@ countries = {
 
          own_control_core = {
             mapa taman shanjir siba_circassia khadyzhi susaco maykop belorechensk moschevo kuzhyb
-            shkhancheriekhabl costa tuapse armavir adyukh chatyun arkhyz khumar
+            shkhancheriekhabl costa tuapse armavir adyukh chatyun arkhyz khumar greater_caucasus_mountains1
          }
 
          include = "expl_christian_caucasus"
@@ -3965,6 +4009,10 @@ countries = {
       }
       DAH = {
          country_rank = rank_county
+
+         own_control_core = {
+            glexwe abomey tado ardra
+         }
        }
       DAI = {
          capital = thang_long
@@ -4043,6 +4091,7 @@ countries = {
             skalholt selfoss keflavik reikjavik thingvellir hvolsvollur eggers_o eiriksfjord arsuk ivituut
             gronnedal kangeq godthab lysufjord sandnes kapisillit anavik gardr brattahlid dyrnes
             hvalsey einarsfjord vatnahverfi herjolfsnes petursvik lundey altafjord ketilsfjord siglufjord ayay
+            akropong keta
          }
 
          include = "expl_scandinavia"
@@ -4171,8 +4220,20 @@ countries = {
       DFN = {
          country_rank = rank_county
        }
+      DFR = {
+         country_rank = rank_county
+
+         own_control_core = {
+            uri sahel_corridor30 kujunung ed_daein tiwal nyala kabsoru mornei kebkabiya towing
+            ain_farah masa_sud wara taweisha malha
+         }
+       }
       DGB = {
          country_rank = rank_county
+
+         own_control_core = {
+            yendi chamba
+         }
        }
       DGE = {
          country_rank = rank_county
@@ -4362,6 +4423,14 @@ countries = {
        }
       DNB = {
          country_rank = rank_county
+       }
+      DND = {
+         country_rank = rank_county
+
+         own_control_core = {
+            ouallam ayerou kukiya gorouol kokorou tera namaro makalondi mansila anzourou
+            hamdallaye gotheye boubon sikieye libore goudel dargol bura
+         }
        }
       DNE = {
          country_rank = rank_county
@@ -4630,6 +4699,13 @@ countries = {
             }
           }
       }
+      EGB = {
+         country_rank = rank_county
+
+         own_control_core = {
+            ketu ikorundu eko ajase
+         }
+       }
       EGL = {
          country_rank = rank_county
        }
@@ -4646,16 +4722,16 @@ countries = {
             afrin trapessac connector_egypt6 horn_desert_corridor1 horn_desert_corridor3 west_nubian_desert connector_egypt12 northern_sinai_desert2 sinai_desert northern_sinai_desert1
             connector_egypt15 connector_egypt14 connector_egypt17 connector_egypt6 north_eastern_desert eastern_desert aswan kom_ombo deraheib ed_debba
             al_jeblien korti shemkhiya wadi_el_melik dongola abu_hamed berber kerma karima faras
-            daw_sud kalabsha qasr_ibrim sai omdurman kosa waylula soba qerri sennar
-            alays arbaji el_manaqil wad_madani el_metemma ed_damer shendi el_gadarif al_matamma branko
-            el_eleila quz_rajab singa karkuj alexandria el_alamein damanhur ramsis kafr_saqr kharibta
-            rashid wadi_el_natrun cairo atfih beni_suef faiyum giza dakahla damietta al_mima
-            el_burullus el_mahalla fuwa menouf samanoud tidah mansoura bilbeis faqus ushmum_tannah
-            qalyub tarrana tinnis suez saint_anthony saint_paul_anchorite el_tor edfu esna qena
-            hiw qus asyut el_balyana el_buwit akhmim manfalut minya ashmunayn el_bahnasa
-            sharuna tahna kharga bahariyya connector_egypt10 connector_egypt8 western_desert connector_egypt2 connector_egypt9 north_western_desert
-            connector_egypt11 nitrian_desert connector_egypt4 barah dilling el_obeid dabarqi renk assosa fazughli
-            guba al_rusayrisi
+            daw_sud kalabsha qasr_ibrim sai omdurman waylula soba qerri sennar alays
+            arbaji el_manaqil wad_madani el_metemma ed_damer shendi el_gadarif al_matamma branko el_eleila
+            quz_rajab singa karkuj alexandria el_alamein damanhur ramsis kafr_saqr kharibta rashid
+            wadi_el_natrun cairo atfih beni_suef faiyum giza dakahla damietta al_mima el_burullus
+            el_mahalla fuwa menouf samanoud tidah mansoura bilbeis faqus ushmum_tannah qalyub
+            tarrana tinnis suez saint_anthony saint_paul_anchorite el_tor edfu esna qena hiw
+            qus asyut el_balyana el_buwit akhmim manfalut minya ashmunayn el_bahnasa sharuna
+            tahna kharga bahariyya connector_egypt10 connector_egypt8 western_desert connector_egypt2 connector_egypt9 north_western_desert connector_egypt11
+            nitrian_desert connector_egypt4 barah dilling el_obeid dabarqi renk assosa fazughli guba
+            al_rusayrisi
          }
 
          own_control_integrated = {
@@ -4726,6 +4802,13 @@ countries = {
       }
       EIC = {
          country_rank = rank_county
+       }
+      EKT = {
+         country_rank = rank_county
+
+         own_control_core = {
+            lokoja ewu oke_ila ikere ilesa ife
+         }
        }
       ELA = {
          capital = kottarakkara
@@ -4976,12 +5059,24 @@ countries = {
        }
       FMB = {
          country_rank = rank_county
+
+         own_control_core = {
+            yola rei_bouba bakka kontcha poli mandingring lame doba binder mubi
+            bi_pi wuro_yolde
+         }
        }
       FMN = {
          country_rank = rank_county
        }
       FNJ = {
          country_rank = rank_county
+       }
+      FNT = {
+         country_rank = rank_county
+
+         own_control_core = {
+            cabo_corso hemang anomansah apollonia
+         }
        }
       FOI = {
          country_rank = rank_county
@@ -5148,6 +5243,13 @@ countries = {
        }
       FZH = {
          country_rank = rank_county
+       }
+      GAB = {
+         country_rank = rank_county
+
+         own_control_core = {
+            wassu kabakama tuba kaabu farim salemata
+         }
        }
       GAL = {
          country_rank = rank_county
@@ -5417,10 +5519,6 @@ countries = {
          country_rank = rank_county
          starting_technology_level = 3
 
-         own_control_core = {
-            salaga bole daboya nakpa
-         }
-
          include = "expl_west_africa_muslim"
          include = "subsaharan_muslim_monarchy_no_coast"
 
@@ -5596,6 +5694,10 @@ countries = {
        }
       GNJ = {
          country_rank = rank_county
+
+         own_control_core = {
+            salaga bole daboya nakpa
+         }
        }
       GNN = {
          country_rank = rank_county
@@ -5628,6 +5730,10 @@ countries = {
       }
       GOB = {
          country_rank = rank_county
+
+         own_control_core = {
+            garadoume birni_lalle maradi tessawa daura zinder
+         }
        }
       GOL = {
          country_rank = rank_county
@@ -5837,6 +5943,11 @@ countries = {
        }
       GUL = {
          country_rank = rank_county
+
+         own_control_core = {
+            kougouri bawku tambaga nungu matiakoali sansanne_mango pama pusiga tenkodogo dourtenga
+            banikoara
+         }
        }
       GUM = {
          country_rank = rank_county
@@ -5873,6 +5984,10 @@ countries = {
       }
       GWI = {
          country_rank = rank_county
+
+         own_control_core = {
+            hounde faramana sya banfora loropeni sideradougou kong
+         }
        }
       GWL = {
          capital = chandpur_garhi
@@ -5907,6 +6022,10 @@ countries = {
        }
       GYA = {
          country_rank = rank_county
+
+         own_control_core = {
+            bouna banda_ahenkro bondoukou begho sampa dormaa
+         }
        }
       GYE = {
          country_rank = rank_county
@@ -7028,6 +7147,13 @@ countries = {
       IFE = {
          country_rank = rank_county
        }
+      IGL = {
+         country_rank = rank_county
+
+         own_control_core = {
+            lafia ado_ekiti kuje ukunzu enugu nsukka idah
+         }
+       }
       IGR = {
          country_rank = rank_county
        }
@@ -7039,6 +7165,10 @@ countries = {
        }
       IJB = {
          country_rank = rank_county
+
+         own_control_core = {
+            mahin ondo ijebu_ode epe ikosi
+         }
        }
       IJE = {
          country_rank = rank_county
@@ -7060,6 +7190,13 @@ countries = {
        }
       ILC = {
          country_rank = rank_county
+       }
+      ILR = {
+         country_rank = rank_county
+
+         own_control_core = {
+            nupeko oyo_ile jebba ilorin offa
+         }
        }
       IMA = {
          country_rank = rank_county
@@ -7574,6 +7711,13 @@ countries = {
       JLM = {
          country_rank = rank_county
        }
+      JLN = {
+         country_rank = rank_county
+
+         own_control_core = {
+            labe tabon timbo
+         }
+       }
       JLO = {
          capital = jailolo
          country_rank = rank_county
@@ -7943,6 +8087,11 @@ countries = {
        }
       KAR = {
          country_rank = rank_county
+
+         own_control_core = {
+            balle tourougoumbe dioumara mourdiah kourouninkoto diangounte_camara nioro diara koumbi_saleh goumbou
+            guire banamba sagala sosso tabou_m kita kolokani
+         }
        }
       KAS = {
          country_rank = rank_county
@@ -7952,6 +8101,13 @@ countries = {
        }
       KAW = {
          country_rank = rank_county
+       }
+      KAY = {
+         country_rank = rank_county
+
+         own_control_core = {
+            tivaouane diourbel ndiaganiao koki
+         }
        }
       KAZ = {
          country_rank = rank_county
@@ -8080,6 +8236,13 @@ countries = {
       KDA = {
          country_rank = rank_county
        }
+      KDG = {
+         country_rank = rank_county
+
+         own_control_core = {
+            koutiala niantjila sanzana farakala niena boundiali garalo tengrela niani
+         }
+       }
       KDO = {
          country_rank = rank_county
        }
@@ -8127,6 +8290,10 @@ countries = {
       }
       KEB = {
          country_rank = rank_county
+
+         own_control_core = {
+            birnin_kebbi tounouga yauri yelou tanda dosso say botou
+         }
        }
       KED = {
          capital = kedah
@@ -8806,6 +8973,13 @@ countries = {
             ruler = kma_durlabh_narayan
           }
       }
+      KMD = {
+         country_rank = rank_county
+
+         own_control_core = {
+            sherbro_island yonibana
+         }
+       }
       KMG = {
          country_rank = rank_county
        }
@@ -8940,6 +9114,13 @@ countries = {
             }
           }
       }
+      KNM = {
+         country_rank = rank_county
+
+         own_control_core = {
+            ngousa njimi moussoro bodou_sailay manan mondo nguigmi garoumale mir_loc
+         }
+       }
       KNO = {
          country_rank = rank_county
        }
@@ -9038,10 +9219,7 @@ countries = {
             bongju suan gokju kaesong tosan pyeongju uiju seonju sakju gwiju
             jeongju_jeongju seogyeong jeungsan samhwa junghwa gaeju sukju sunju deokju yeongwon
             unju huicheon seongcheon myeongju uljin samcheok jeongseon goseong tongcheon ingnyeong
-         }
-
-         our_cores_conquered_by_others = {
-            deungju munju goju hwaju north_jeongju yangam tamna seongwi
+            western_korean_mountains1 eastern_korean_mountains3 western_korean_mountains2 eastern_korean_mountains2 eastern_korean_mountains4
          }
 
          include = "far_east_asia_monarchy"
@@ -9098,6 +9276,13 @@ countries = {
        }
       KOW = {
          country_rank = rank_county
+       }
+      KOY = {
+         country_rank = rank_county
+
+         own_control_core = {
+            port_loko banana_islands
+         }
        }
       KOZ = {
          country_rank = rank_county
@@ -9503,6 +9688,13 @@ countries = {
             ruler = random
           }
       }
+      KWW = {
+         country_rank = rank_county
+
+         own_control_core = {
+            pankshin wukari katsina_ala nkambe ibi lau bauchi kwararafa
+         }
+       }
       KWY = {
          country_rank = rank_county
        }
@@ -9866,6 +10058,13 @@ countries = {
       LHT = {
          country_rank = rank_county
        }
+      LIB = {
+         country_rank = rank_county
+
+         own_control_core = {
+            saint_paul_river mesurado junk_river bassa cape_mount
+         }
+       }
       LIC = {
          country_rank = rank_county
        }
@@ -9903,6 +10102,10 @@ countries = {
        }
       LIP = {
          country_rank = rank_county
+
+         own_control_core = {
+            mondoro tessit deou sampelga dori kissi_loc aribinda barsalogho bilanga boala
+         }
        }
       LIT = {
          country_rank = rank_county
@@ -10569,6 +10772,11 @@ countries = {
        }
       MAS = {
          country_rank = rank_county
+
+         own_control_core = {
+            san sanekuy sanga dia djenne macina tenenkou kare dogo korientze
+            bore
+         }
        }
       MAT = {
          country_rank = rank_county
@@ -10656,7 +10864,7 @@ countries = {
             kailu linhuang qingzhou_mongol xinkai alchan bikinka imanka katen vaka xunka
             juru_hoton dongning jixi mishan mulun anchun hulin namunka noto_ussuri yiman
             lahasusu futi nuoluo shuangyashan tulguur kaiyuan_warka anju_nurgan nogule shili yongmingcheng
-            huncun kahari tulazi
+            huncun kahari tulazi duse_alin bureya yam_alin eastern_korean_mountains1
          }
 
          include = "east_asia_monarchy"
@@ -10727,6 +10935,10 @@ countries = {
        }
       MDR = {
          country_rank = rank_county
+
+         own_control_core = {
+            mser makary afade maroua keraoua mora_cam
+         }
        }
       MDS = {
          country_rank = rank_county
@@ -10974,7 +11186,7 @@ countries = {
             delger_moron ider barkul altayn_ovor_gobi naomao santokhe zuun_garyn_gobi otegu_qulan bugat chikhan_agui
             tevsh_uul tsagaan_agui tsogt ongiin_khiid gimpil_darjaalan shaazan_khot shaazan_tolgoi suriig ulaan bogd
             khadat ukhaa_khudag khalzan_shireg baidrag biger boontsagaan khangal naran orog tuin
-            tost_uul gaxun_gobi shargyn_gobi shira_qulusun
+            tost_uul gaxun_gobi shargyn_gobi shira_qulusun khasagt_khairkhan gobi_altay khangain_mountains targavatai_mountains
          }
 
          include = "east_asia_monarchy"
@@ -12050,6 +12262,14 @@ countries = {
       MSH = {
          country_rank = rank_county
        }
+      MSI = {
+         country_rank = rank_county
+
+         own_control_core = {
+            koudougou boromo leo diebougou gambaga tiebele zorgho boussouma ouagadougou po
+            paga wa zondoma
+         }
+       }
       MSK = {
          country_rank = rank_county
        }
@@ -12524,7 +12744,7 @@ countries = {
          }
 
          own_control_colony = {
-            arubeira curacaute buriari witagron paramaribo pereru_tepu ndyuka iaremappo
+            arubeira curacaute buriari witagron paramaribo pereru_tepu ndyuka iaremappo axim
          }
 
          include = "expl_western_europe"
@@ -13110,6 +13330,10 @@ countries = {
        }
       NUP = {
          country_rank = rank_county
+
+         own_control_core = {
+            minna tada mokwa bida lapai
+         }
        }
       NUR = {
          country_rank = rank_county
@@ -13478,57 +13702,56 @@ countries = {
             rhodope_mountains3 rhodope_mountains2 rhodope_mountains4 rhodope_mountains5 rhodope_mountains6 karpathos amasra gradiski_brod dubica bihac
             srb ardahan hasankale ispir khupati rize artanuji khikhani oltu parkhali
             savsat ani kars kagizman tmogvi panaskerti tortum alaiye selinti nicosia_cyp
-            famagusta kyrenia larnaca limassol morphou paphos rodos kos nasiriyah rusafa
-            ahvaz dowraq hamidiyeh hoveyzeh mosharahat gadegara ladik_pontus merzifon raqqa jabar
-            madinat_far urfa birecik harran suruc harput adakli keban malazgirt hinis
-            tekman varto ahlat ercis erzurum tercan gumus samsun amasya niksar
-            sonisa mesudiye trebizond giresun gorele gumushane surmene bayramlu unye akkus
-            terme bafra gerze ajim berat ballsh ostrovo kavaje elbasan prilep
-            pljevlja trgoviste_SER sjenica brvenik velbuzd medveda durres kruje tirana beypazari
-            kibrus kizilca bolu akcasehir akyazi konrapa gerede mengen mudurnu bursa
-            adranos iznik izmit atpazari domanic samos ikaria foca arta preveza
-            parga ioannina kleisoura_epirus butrint argyrokastro avlonya konitsa sultanonu bilecik goynuk
-            eynegol inonu nalli sogut servia kastoria hatera veria edessa kassandreia
-            polygyros thessaloniki kilkis giannitsa gynaikokastro serres rentina kavala thasos drama
-            xanthia komotini traianopolis demotica lemnos imbros molyvos mitilene gallipoli kesan
-            edirne hayrabolu corlu rodoscuk enez kiyikoy ahtopol constantinople silivri catalca
-            luleburgaz kirklareli malgara alasehir uskudar silli biga eregli chios vize
-            ormenio demetrias farsala elassona larissa siatista stomio trikala tyrnavos pyli
-            karditsa grevena bukelon devol ustra peja prizren bitola kicevo tetovo
-            shkoder debar onogost gradina budimlja brskovo gjakova mitrovica pristina novo_brdo
-            skopje kumanovo veles prosek shtip kratovo vranje podgorica bar_cg prijepolje
-            visegrad ustikolina soko_grad glubocica nis prokuplje gacko trebinje ohrid kocani
-            strumica koman has dukagjini lezha florina sredets samokov plovdiv stipon
-            ovech hiambouli rusokastro lardeja boruy tarnovo drastar tutrakan cherven razgrad
-            shumen aytos targoviste_BUL sliven kran lovech nikopol pleven vratsa kutlovitsa
-            vidin oryahovo bozhenitsa hotalich tryavna anhialo varna karvuna pangalia kaliakra
-            harsova archar lom gigen dobrolak svoge kostenets strelcha ruse kladentsi
-            lyaskovets veliki_preslav ktenia constantia_bul elhovo babadag cernavoda constanta enisala isaccea
-            pirot tsaribrod zemlungrad dupnitsa burgas sozopol dospat bansko krupnik melnik
-            nevrokop tsepina beden haskovo perperek smolyan stanimaka mostar glamoc vrhbosna
-            konjic srebrenica doboj soli jajce livno drijeva zenica kljuc srebrenik
-            kozara glaz teocak olovo borac nevesinje akdagmadeni aydincik koyulhisar sulusaray
-            tokat zile bozok baliseyh candir dinek_keskin sorgun corum huseyinabad sungurlu
-            divrigi arapgir egin arguvan kayseri bogazliyan comana_cil develi tomarza hacibektas
-            urgup sivas darende dasmenda deliktash gemerek gurun hafik sarkisla zara
-            bayburt erzincan ilic kelkit kemah sebinkarahisar siran yahyali malatya bartin
-            kastamonu arac boyabat devrekani inebolu kure_i_mamure sinop taskopru cankiri bayat
-            cerkes kursunlu tosya iskilip sabanozu ulus yenicepazari safranbolu mihaliccik sivrihisar
-            bozan kaymaz altintas emirdag seyitgazi kutahya aslanapa emet simav tavsanli
-            usak banaz gediz seyhli aksaray kochisar insuyu kirsehir nevsehir sariyahsi
-            konya celtik eregli_kar eskil hatunsaray karapinar ladik larende pirloganda bekarlar
-            bor_tur ermenek beysehir aksehir bolvadin sarkikaraagac seydisehir ilgin turgut suluklu
-            kulu_turkey obruk altinekin cumra silifke anamur mut nigde balikesir balya
-            edremit manyas mihalic susurluk ayvacik bandirma bayramic can canakkale gonen
-            lapseki dursunbey harmancik manisa akhisar demirci gordes kula bergama bigadic
-            soma smyrna ayasuluk cesme menemen urla tire balat birgi guzelhisar
-            nazilli milas mugla bodrum cine gokabat marmaris megri yuksekkum isparta
-            burdur dinar egirdir uluborlu yalvac golhisar stefani antalya elmali karahisar_i_teke
-            kas istanoz manavgat finike honaz lazkiye tavas karahisar_i_sahib sandikli suhut
-            ankara cubuk haymana kalecik polatli karakecili adana anavarza sis caxud
-            hargan molevon tarsus candir_cil corycus kapan gerger kahta samsat besni
-            elbistan enguzud goksun afsin kaysun ulnia suakin ali_sabieh zeila el_sheikh
-            amud dahlak
+            famagusta kyrenia larnaca limassol morphou paphos rodos kos gadegara ladik_pontus
+            merzifon raqqa jabar madinat_far urfa birecik harran suruc harput adakli
+            keban malazgirt hinis tekman varto ahlat ercis erzurum tercan gumus
+            samsun amasya niksar sonisa mesudiye trebizond giresun gorele gumushane surmene
+            bayramlu unye akkus terme bafra gerze ajim berat ballsh ostrovo
+            kavaje elbasan prilep pljevlja trgoviste_SER sjenica brvenik velbuzd medveda durres
+            kruje tirana beypazari kibrus kizilca bolu akcasehir akyazi konrapa gerede
+            mengen mudurnu bursa adranos iznik izmit atpazari domanic samos ikaria
+            foca arta preveza parga ioannina kleisoura_epirus butrint argyrokastro avlonya konitsa
+            sultanonu bilecik goynuk eynegol inonu nalli sogut servia kastoria hatera
+            veria edessa kassandreia polygyros thessaloniki kilkis giannitsa gynaikokastro serres rentina
+            kavala thasos drama xanthia komotini traianopolis demotica lemnos imbros molyvos
+            mitilene gallipoli kesan edirne hayrabolu corlu rodoscuk enez kiyikoy ahtopol
+            constantinople silivri catalca luleburgaz kirklareli malgara alasehir uskudar silli biga
+            eregli chios vize ormenio demetrias farsala elassona larissa siatista stomio
+            trikala tyrnavos pyli karditsa grevena bukelon devol ustra peja prizren
+            bitola kicevo tetovo shkoder debar onogost gradina budimlja brskovo gjakova
+            mitrovica pristina novo_brdo skopje kumanovo veles prosek shtip kratovo vranje
+            podgorica bar_cg prijepolje visegrad ustikolina soko_grad glubocica nis prokuplje gacko
+            trebinje ohrid kocani strumica koman has dukagjini lezha florina sredets
+            samokov plovdiv stipon ovech hiambouli rusokastro lardeja boruy tarnovo drastar
+            tutrakan cherven razgrad shumen aytos targoviste_BUL sliven kran lovech nikopol
+            pleven vratsa kutlovitsa vidin oryahovo bozhenitsa hotalich tryavna anhialo varna
+            karvuna pangalia kaliakra harsova archar lom gigen dobrolak svoge kostenets
+            strelcha ruse kladentsi lyaskovets veliki_preslav ktenia constantia_bul elhovo babadag cernavoda
+            constanta enisala isaccea pirot tsaribrod zemlungrad dupnitsa burgas sozopol dospat
+            bansko krupnik melnik nevrokop tsepina beden haskovo perperek smolyan stanimaka
+            mostar glamoc vrhbosna konjic srebrenica doboj soli jajce livno drijeva
+            zenica kljuc srebrenik kozara glaz teocak olovo borac nevesinje akdagmadeni
+            aydincik koyulhisar sulusaray tokat zile bozok baliseyh candir dinek_keskin sorgun
+            corum huseyinabad sungurlu divrigi arapgir egin arguvan kayseri bogazliyan comana_cil
+            develi tomarza hacibektas urgup sivas darende dasmenda deliktash gemerek gurun
+            hafik sarkisla zara bayburt erzincan ilic kelkit kemah sebinkarahisar siran
+            yahyali malatya bartin kastamonu arac boyabat devrekani inebolu kure_i_mamure sinop
+            taskopru cankiri bayat cerkes kursunlu tosya iskilip sabanozu ulus yenicepazari
+            safranbolu mihaliccik sivrihisar bozan kaymaz altintas emirdag seyitgazi kutahya aslanapa
+            emet simav tavsanli usak banaz gediz seyhli aksaray kochisar insuyu
+            kirsehir nevsehir sariyahsi konya celtik eregli_kar eskil hatunsaray karapinar ladik
+            larende pirloganda bekarlar bor_tur ermenek beysehir aksehir bolvadin sarkikaraagac seydisehir
+            ilgin turgut suluklu kulu_turkey obruk altinekin cumra silifke anamur mut
+            nigde balikesir balya edremit manyas mihalic susurluk ayvacik bandirma bayramic
+            can canakkale gonen lapseki dursunbey harmancik manisa akhisar demirci gordes
+            kula bergama bigadic soma smyrna ayasuluk cesme menemen urla tire
+            balat birgi guzelhisar nazilli milas mugla bodrum cine gokabat marmaris
+            megri yuksekkum isparta burdur dinar egirdir uluborlu yalvac golhisar stefani
+            antalya elmali karahisar_i_teke kas istanoz manavgat finike honaz lazkiye tavas
+            karahisar_i_sahib sandikli suhut ankara cubuk haymana kalecik polatli karakecili adana
+            anavarza sis caxud hargan molevon tarsus candir_cil corycus kapan gerger
+            kahta samsat besni elbistan enguzud goksun afsin kaysun ulnia suakin
+            ali_sabieh zeila el_sheikh amud dahlak
          }
 
          include = "expl_eastern_europe"
@@ -14507,7 +14730,7 @@ countries = {
          our_cores_conquered_by_others = {
             mandore osian nagaur khed pali kurki ajmer merta nagaur makrana
             sambhar
-         } #Mandore + parts of Marwar. At its greatest extent the dynasty had however ruled most of northern India.
+         } #Mandore + parts of Marwar. At its greatest extent the dynasty had however ruled most of northern India.
 
          include = "expl_india_hindu"
          include = "india_limited_monarchy"
@@ -14937,6 +15160,13 @@ countries = {
             heir_selection = oligarchic_elective
           }
       }
+      RAF = {
+         country_rank = rank_county
+
+         own_control_core = {
+            kotto mobaye
+         }
+       }
       RAG = {
          country_rank = rank_county
        }
@@ -15587,7 +15817,7 @@ countries = {
             sarapul mozhga yelabuga izhevsk vavozh_mozhga vyatskiye_polyany kilmez stelty falenki uni
             ural_nema aspa suksun ust_kishert orda kasevo yanaul tatyshly saygatsky yelovo
             osa ushytsia khmilnyk letychiv mezhybozhe mohyliv_podilskyi rov bakota horodok kamianets_podilskyi
-            shuryshkar
+            shuryshkar greater_caucasus_mountains2
          }
 
          own_control_colony = {
@@ -15671,6 +15901,13 @@ countries = {
        }
       RZH = {
          country_rank = rank_county
+       }
+      RZQ = {
+         country_rank = rank_county
+
+         own_control_core = {
+            wau shakka zankor bayyu kafia_kinji said_bundas
+         }
        }
       SAA = {
          country_rank = rank_county
@@ -15922,6 +16159,14 @@ countries = {
        }
       SED = {
          country_rank = rank_county
+       }
+      SEG = {
+         country_rank = rank_county
+
+         own_control_core = {
+            segou bla dioila massigui dakadjalan bamako koulikoro nyamina sansanding niono
+            sokolo
+         }
        }
       SEN = {
          country_rank = rank_county
@@ -16260,6 +16505,17 @@ countries = {
        }
       SIK = {
          country_rank = rank_county
+
+         own_control_core = {
+            kosa kaka fashoda
+         }
+       }
+      SIN = {
+         country_rank = rank_county
+
+         own_control_core = {
+            portudal tattaguine joal fandene
+         }
        }
       SIT = {
          country_rank = rank_county
@@ -16348,6 +16604,17 @@ countries = {
       SKN = {
          country_rank = rank_county
        }
+      SKO = {
+         country_rank = rank_county
+
+         own_control_core = {
+            koko shira biu gombe pindiga gwaram birnin_kudu anka gusau turunku
+            tegina kotonkoro birnin_gwari zuba jos lere sokoto takassaba surame birni_ader
+            dongondoutchi kaouara loga koure birni_nkonni alkalawa goronyo talata_mafara dutsi birnin_zamfara
+            funtua zazzau anchau rano kano katsina kazaure gumel biram gaya_n
+            dutse kalam_hill auyo
+         }
+       }
       SKR = {
          country_rank = rank_county
        }
@@ -16415,6 +16682,10 @@ countries = {
        }
       SLM = {
          country_rank = rank_county
+
+         own_control_core = {
+            albreda diakhao wanar djilor kahone juffure
+         }
        }
       SLN = {
          country_rank = rank_county
@@ -17417,6 +17688,13 @@ countries = {
       SUR = {
          country_rank = rank_county
        }
+      SUS = {
+         country_rank = rank_county
+
+         own_control_core = {
+            konkoure scarcies
+         }
+       }
       SUT = {
          country_rank = rank_county
        }
@@ -17432,7 +17710,7 @@ countries = {
          starting_technology_level = 3
 
          own_control_core = {
-            lentekhi ushguli
+            lentekhi ushguli greater_caucasus_mountains3
          }
 
          include = "expl_christian_caucasus"
@@ -17751,6 +18029,10 @@ countries = {
        }
       TAM = {
          country_rank = rank_county
+
+         own_control_core = {
+            kirina kaba narena niagassola siguiri
+         }
        }
       TAN = {
          country_rank = rank_county
@@ -17943,6 +18225,10 @@ countries = {
        }
       TEN = {
          country_rank = rank_county
+
+         own_control_core = {
+            bandafassi saraya iwol
+         }
        }
       TEO = {
          country_rank = rank_county
@@ -18370,6 +18656,11 @@ countries = {
        }
       TMB = {
          country_rank = rank_county
+
+         own_control_core = {
+            soumpi safare bamba goundam tindirma gourma_rharous kabara timbuktu sahel_corridor11 ngouma
+            arlal bambara_maounde douentza hombori
+         }
        }
       TMC = {
          country_rank = rank_county
@@ -18548,6 +18839,11 @@ countries = {
        }
       TOO = {
          country_rank = rank_county
+
+         own_control_core = {
+            mboune thilogne agnam_civol podor kaedi golere sioure salde matam waounde
+            kanel nguidjilone
+         }
        }
       TOQ = {
          country_rank = rank_county
@@ -18605,6 +18901,13 @@ countries = {
        }
       TPY = {
          country_rank = rank_county
+       }
+      TQL = {
+         country_rank = rank_county
+
+         own_control_core = {
+            kadugli teqali nuba_sud
+         }
        }
       TRA = {
          country_rank = rank_county
@@ -18681,6 +18984,13 @@ countries = {
        }
       TRY = {
          country_rank = rank_county
+       }
+      TRZ = {
+         country_rank = rank_county
+
+         own_control_core = {
+            rosso awlil walalde nouakchott
+         }
        }
       TSA = {
          country_rank = rank_county
@@ -19468,10 +19778,6 @@ countries = {
             minnewaukan mirixubaash saakak_hukaahaanu metigoshe itscheabine
          }
 
-         own_control_colony = {
-            saint_paul_river mesurado junk_river bassa
-         }
-
          include = "expl_western_europe"
 
          discovered_regions = {
@@ -19871,8 +20177,20 @@ countries = {
       VYT = {
          country_rank = rank_county
        }
+      WAA = {
+         country_rank = rank_county
+
+         own_control_core = {
+            dagana
+         }
+       }
       WAD = {
          country_rank = rank_county
+
+         own_control_core = {
+            hadjer_haddid guereda abesehir ouara djedaa oum_hadjer bahr_salamat mongo iro_lake tele_nugar
+            aoukale tiwal am_dam salamat sarh
+         }
        }
       WAG = {
          country_rank = rank_county
@@ -20090,6 +20408,13 @@ countries = {
       WLD = {
          country_rank = rank_county
        }
+      WLF = {
+         country_rank = rank_county
+
+         own_control_core = {
+            tuubaa linguere sorokogne kerbatch sare_dioulde kodiam
+         }
+       }
       WLS = {
          country_rank = rank_county
        }
@@ -20182,6 +20507,13 @@ countries = {
             }
           }
       }
+      WRI = {
+         country_rank = rank_county
+
+         own_control_core = {
+            cabo_formoso warri forcados uvwie ozoro
+         }
+       }
       WRK = {
          country_rank = rank_county
        }
@@ -20205,6 +20537,13 @@ countries = {
        }
       WTG = {
          country_rank = rank_county
+       }
+      WTR = {
+         country_rank = rank_county
+
+         own_control_core = {
+            koro morondo korhogo odienne seydougou katiola
+         }
        }
       WTZ = {
          country_rank = rank_county
@@ -20286,6 +20625,13 @@ countries = {
       }
       WZZ = {
          country_rank = rank_county
+       }
+      XAA = {
+         country_rank = rank_county
+
+         own_control_core = {
+            sandare diamou moudery
+         }
        }
       XAL = {
          country_rank = rank_county
@@ -20437,6 +20783,10 @@ countries = {
        }
       YAT = {
          country_rank = rank_county
+
+         own_control_core = {
+            djibo doubare yatenga mane
+         }
        }
       YAU = {
          country_rank = rank_county
@@ -20713,6 +21063,13 @@ countries = {
       ZEE = {
          country_rank = rank_county
        }
+      ZEM = {
+         country_rank = rank_county
+
+         own_control_core = {
+            uele_ca djemah
+         }
+       }
       ZEN = {
          country_rank = rank_county
        }
@@ -20860,6 +21217,10 @@ countries = {
        }
       ZUR = {
          country_rank = rank_county
+
+         own_control_core = {
+            zuru kontagora bussa kulfo
+         }
        }
       ZUT = {
          country_rank = rank_county

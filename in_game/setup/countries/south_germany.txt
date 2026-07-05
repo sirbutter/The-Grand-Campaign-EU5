@@ -140,13 +140,6 @@ STG = {
 	religion_definition = catholic
 }
 
-ZUR = {
-	color = rgb { 31 140 205 }
-	
-	culture_definition = high_alemannic
-	religion_definition = catholic
-}
-
 SYZ = {
 	color = rgb { 261 66 63 }
 	

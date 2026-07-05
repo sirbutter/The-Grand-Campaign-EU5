@@ -1,0 +1,620 @@
+﻿#Trarza
+
+#Trarza
+TRZ = {
+   color = map_gojjam
+   color2 = green
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = amhara
+   religion_definition = miaphysite
+   difficulty = -1
+}
+
+#Waalo
+WAA = {
+	color = map_gojjam
+	color2 = green
+	culture_definition = amhara
+	religion_definition = miaphysite
+}
+
+#Kayor
+KAY = {
+	color = map_gojjam
+	color2 = green
+	culture_definition = amhara
+	religion_definition = miaphysite
+}
+
+#Sine
+SIN = {
+	color = map_gojjam
+	color2 = green
+	culture_definition = amhara
+	religion_definition = miaphysite
+}
+
+#Saloum
+SLM = {
+	color = rgb { 238 87 226 }
+	culture_definition = lorrain
+	religion_definition = catholic
+}
+
+#Wolof
+WLF = {
+	color = rgb { 238 87 226 }
+	culture_definition = lorrain
+	religion_definition = catholic
+}
+
+#Tooro
+TOO = {
+	color = map_tohono_oodham
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = pima_culture
+	religion_definition = cahita_religion
+}
+
+#Gabu
+GAB = {
+	color = map_tohono_oodham
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = pima_culture
+	religion_definition = cahita_religion
+}
+
+#Xaaso
+XAA = {
+	color = map_tohono_oodham
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = pima_culture
+	religion_definition = cahita_religion
+}
+
+#Bundu
+BUN = {
+	color = map_tohono_oodham
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = pima_culture
+	religion_definition = cahita_religion
+}
+
+# Tenda
+TEN = {
+	color = map_tenkodogo
+	color2 = black
+	
+	culture_definition = mossi
+	religion_definition = rogo_miki_religion
+}
+
+#Bambuk
+BBK = {
+	color = map_BBK
+	color2 = black
+
+	culture_definition = soninke
+	religion_definition = sunni
+}
+
+#Jallon
+JLN = {
+	color = map_BBK
+	color2 = black
+
+	culture_definition = soninke
+	religion_definition = sunni
+}
+
+#Susu
+SUS = {
+	color = map_BBK
+	color2 = black
+
+	culture_definition = soninke
+	religion_definition = sunni
+}
+
+#Koya
+KOY = {
+	color = map_BBK
+	color2 = black
+
+	culture_definition = soninke
+	religion_definition = sunni
+}
+
+#Kpaa Mende
+KMD = {
+	color = map_BBK
+	color2 = black
+
+	culture_definition = soninke
+	religion_definition = sunni
+}
+
+#Kaarta
+KAR = {
+	color = map_karamanids
+	color2 = rgb { 90 160 190 } #same as in EU4
+
+	culture_definition = turkish_culture
+	religion_definition = sunni
+}
+
+#Tamba
+TAM = {
+	color = map_tama
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = tama_culture
+	religion_definition = yage_religion
+}
+
+#Bate
+BAT = {
+	color = map_tama
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = tama_culture
+	religion_definition = yage_religion
+}
+
+#Segu
+SEG = {
+	color = map_tama
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = tama_culture
+	religion_definition = yage_religion
+}
+
+#Kenedugu
+KDG = {
+	color = map_tama
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = tama_culture
+	religion_definition = yage_religion
+}
+
+#Wattara
+WTR = {
+	color = map_tama
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = tama_culture
+	religion_definition = yage_religion
+}
+
+#Baule
+BAU = {
+	color = map_baure
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = baure_culture
+	religion_definition = zemi_religion
+}
+
+#Gwiriko
+GWI = {
+	color = map_gwiriko
+	color2 = black
+	
+	culture_definition = mossi
+	religion_definition = rogo_miki_religion
+}
+
+#Massina
+MAS = {
+	color = map_maisouna
+	color2 = rgb { 91 32 122 }
+
+	culture_definition = maisouna_culture
+	religion_definition = iroquoian_totemism
+}
+
+#Timbuktu
+TMB = {
+	color = map_timbuktu
+	color2 = black
+
+	culture_definition = tuareg
+	religion_definition = sunni
+}
+
+#Yatenga
+YAT = {
+	color = map_yatenga
+	color2 = black
+	
+	culture_definition = mossi
+	religion_definition = rogo_miki_religion
+}
+
+#Mossi
+MSI = {
+	color = map_yatenga
+	color2 = black
+	
+	culture_definition = mossi
+	religion_definition = rogo_miki_religion
+}
+
+#Gyaman
+GYA = {
+	color = map_gyaaman
+	color2 = red
+
+	culture_definition = akan
+	religion_definition = akan_religion
+}
+
+#Ashanti
+ASH = {
+	color = map_ashalaho
+	color2 = red
+
+	culture_definition = akan
+	religion_definition = akan_religion
+}
+
+#Fante
+FNT = {
+	color = map_ashalaho
+	color2 = red
+
+	culture_definition = akan
+	religion_definition = akan_religion
+}
+
+#Gonja
+GNJ = {
+	color = map_GNJ
+	color2 = red
+
+	culture_definition = akan
+	religion_definition = akan_religion
+}
+
+#Dagomba
+DGB = {
+	color = map_dagbon
+	color2 = red
+
+	culture_definition = dagbani
+	religion_definition = buyli_religion
+}
+
+#Liptako
+LIP = {
+	color = map_liptako
+	color2 = black
+	
+	culture_definition = mossi
+	religion_definition = rogo_miki_religion
+}
+
+#Gulmu
+
+#Gulmu
+GUL = {
+   color = map_guale
+   color2 = rgb { 12 128 17 }
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = guale_culture
+   religion_definition = mississippian_ceremonial
+   difficulty = 1
+}
+
+#Dendi
+DND = {
+	color = map_guale
+	color2 = rgb { 12 128 17 }
+
+	culture_definition = guale_culture
+	religion_definition = mississippian_ceremonial
+}
+
+#Kebbi
+KEB = {
+	color = map_kebbi
+	color2 = black
+
+	culture_definition = hausa
+	religion_definition = sunni
+	is_historic = yes
+}
+
+#Borgu
+BOR = {
+	color = map_bariba
+	color2 = black
+
+	culture_definition = bariba
+	religion_definition = isese_religion
+}
+
+#Dahomey
+DAH = {
+	color = map_dahomey
+	color2 = red
+
+	culture_definition = fon
+	religion_definition = vodun_religion
+	is_historic = yes
+}
+
+#Egba
+EGB = {
+	color = map_dahomey
+	color2 = red
+
+	culture_definition = fon
+	religion_definition = vodun_religion
+}
+
+#Ijebu
+IJB = {
+	color = map_ijebu
+	color2 = black
+
+	culture_definition = yoruba
+	religion_definition = isese_religion
+}
+
+#Benin
+BEN = {
+	color = map_benin
+	color2 = red
+
+	culture_definition = edo
+	religion_definition = isese_religion
+}
+
+#Oyo
+OYO = {
+	color = map_oyo
+	color2 = blue
+
+	culture_definition = yoruba
+	religion_definition = isese_religion
+}
+
+#Warri
+WRI = {
+	color = map_oyo
+	color2 = blue
+
+	culture_definition = yoruba
+	religion_definition = isese_religion
+}
+
+#Aro
+ARO = {
+	color = hsv360 { 239 70 61 }
+	
+	culture_definition = french
+	religion_definition = catholic
+}
+
+#Ekiti
+EKT = {
+	color = hsv360 { 239 70 61 }
+	
+	culture_definition = french
+	religion_definition = catholic
+}
+
+#Igala
+IGL = {
+	color = hsv360 { 239 70 61 }
+	
+	culture_definition = french
+	religion_definition = catholic
+}
+
+#Ilorin
+ILR = {
+	color = hsv360 { 239 70 61 }
+	
+	culture_definition = french
+	religion_definition = catholic
+}
+
+#Zuru
+ZUR = {
+	color = rgb { 31 140 205 }
+	color2 = green
+
+	culture_definition = nupe
+	religion_definition = isese_religion
+}
+
+#Nupe
+NUP = {
+	color = map_nupe
+	color2 = green
+
+	culture_definition = nupe
+	religion_definition = isese_religion
+}
+
+#Sokoto
+SKO = {
+	color = map_nupe
+	color2 = green
+
+	culture_definition = nupe
+	religion_definition = isese_religion
+}
+
+#Gobir
+GOB = {
+	color = map_gobir
+	color2 = black
+
+	culture_definition = hausa
+	religion_definition = sunni
+}
+
+#Kwawarafa
+KWW = {
+	color = map_gobir
+	color2 = black
+
+	culture_definition = hausa
+	religion_definition = sunni
+}
+
+#Fombina
+FMB = {
+	color = rgb { 160 60 143 }
+	color2 = black
+
+	culture_definition = hausa
+	religion_definition = sunni
+}
+
+#Kanem-Bornu
+KBO = {
+	color = map_kanembu
+	color2 = black
+
+	culture_definition = kanembu_culture
+	religion_definition = sunni
+
+	description_category = administrative
+	difficulty = 5
+}
+
+#Mandara
+MDR = {
+	color = map_mandara
+	color2 = black
+
+	culture_definition = mandara_culture
+	religion_definition = sao_religion
+}
+
+#Baguirmi
+BGI = {
+	color = map_baguirmi
+	color2 = black
+
+	culture_definition = baguirmi_culture
+	religion_definition = sao_religion
+}
+
+#Kanem
+KNM = {
+	color = map_baguirmi
+	color2 = black
+
+	culture_definition = baguirmi_culture
+	religion_definition = sao_religion
+}
+
+#Wadai
+WAD = {
+	color = map_wadai
+	color2 = black
+
+	culture_definition = maba_africa_culture
+	religion_definition = sunni
+}
+
+#Darfur
+DFR = {
+	color = map_wadai
+	color2 = black
+
+	culture_definition = maba_africa_culture
+	religion_definition = sunni
+}
+
+#Rizaiqat
+RZQ = {
+	color = map_wadai
+	color2 = black
+
+	culture_definition = maba_africa_culture
+	religion_definition = sunni
+}
+
+#Taqali
+TQL = {
+	color = map_wadai
+	color2 = black
+
+	culture_definition = maba_africa_culture
+	religion_definition = sunni
+}
+
+#Rafai
+RAF = {
+	color = map_wadai
+	color2 = black
+
+	culture_definition = maba_africa_culture
+	religion_definition = sunni
+}
+
+#Zemio
+ZEM = {
+	color = map_wadai
+	color2 = black
+
+	culture_definition = maba_africa_culture
+	religion_definition = sunni
+}
+
+SIK = {
+	color = map_shilluk
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = shilluk_culture
+	religion_definition = muonyjang_religion
+}
+
+
+LIB = {
+   color = map_shilluk
+   color2 = rgb { 16 41 202 }
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = shilluk_culture
+   religion_definition = muonyjang_religion
+}
+
+## Colonial
+
+GHA = {
+	color = map_GHA
+	color2 = black
+
+	culture_definition = soninke
+	religion_definition = sunni
+}
+
+MAL = {
+	color = map_mali
+	color2 = black
+
+	culture_definition = mandinka
+	religion_definition = sunni
+
+	description_category = diplomatic
+	difficulty = 3
+}
+
