@@ -223,6 +223,8 @@ country_base_values = {
 	can_extract_beeswax = yes
 	can_extract_pottery = yes
 	can_extract_sulphur = yes
+	can_extract_rubber = yes
+	can_extract_oil = yes
 
 
  

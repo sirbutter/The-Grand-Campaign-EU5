@@ -1535,8 +1535,8 @@ ensisheim = { topography = flatland vegetation = grasslands climate = oceanic re
 ferrette = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = rhine_alemannic raw_material = fruit}
 murbach = { topography = mountains vegetation = woods climate = continental religion = catholic culture = rhine_alemannic raw_material = copper}
 mulhouse = { topography = flatland vegetation = farmland climate = oceanic religion = catholic culture = rhine_alemannic raw_material = fruit}
-london = { topography = flatland vegetation = farmland climate = oceanic religion = catholic culture = english raw_material = wheat natural_harbor_suitability = 0.80}
-harrow = { topography = flatland vegetation = farmland climate = oceanic religion = catholic culture = english raw_material = wheat}
+london = { topography = flatland vegetation = farmland climate = oceanic religion = catholic culture = english raw_material = oil natural_harbor_suitability = 0.80}
+harrow = { topography = flatland vegetation = farmland climate = oceanic religion = catholic culture = english raw_material = rubber}
 kingston = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = english raw_material = legumes}
 reigate = { topography = flatland vegetation = woods climate = oceanic religion = catholic culture = english raw_material = wheat}
 guildford = { topography = flatland vegetation = woods climate = oceanic religion = catholic culture = english raw_material = beeswax}

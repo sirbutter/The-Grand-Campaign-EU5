@@ -3322,6 +3322,12 @@ can_extract_salt = {
 can_extract_sulphur = {
 	positive = "gfx/interface/icons/modifier_types/salt_positive.dds"
 }
+can_extract_rubber = {
+	positive = "gfx/interface/icons/modifier_types/salt_positive.dds"
+}
+can_extract_oil = {
+	positive = "gfx/interface/icons/modifier_types/salt_positive.dds"
+}
 can_extract_medicaments = {
 	positive = "gfx/interface/icons/modifier_types/medicaments_positive.dds"
 }

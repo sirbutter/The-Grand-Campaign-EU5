@@ -7084,6 +7084,20 @@ can_extract_sulphur={
 	}
 }
 
+can_extract_rubber={
+	boolean=yes
+	game_data={
+		category=country
+	}
+}
+
+can_extract_oil={
+	boolean=yes
+	game_data={
+		category=country
+	}
+}
+
 can_extract_medicaments={
 	boolean=yes
 	game_data={
