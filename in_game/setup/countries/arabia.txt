@@ -97,14 +97,6 @@ HUT = { #Hutaym
 	religion_definition = sunni
 }
 
-HRB = { #Harb
-	color = map_HRB
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = hijazi_culture
-	religion_definition = sunni
-}
-
 MUT = { #Mutayr
 	color = map_MUT
 	color2 = rgb { 16 41 202 }

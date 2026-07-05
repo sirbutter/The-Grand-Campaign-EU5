@@ -214,13 +214,6 @@ GSW = {
 	religion_definition = catholic
 }
 
-WOL = {
-	color = rgb { 235 178 18 }
-
-	culture_definition = western_pomeranian
-	religion_definition = catholic
-}
-
 KMM = {
 	color = rgb { 190 15 15 }
 
