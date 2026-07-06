@@ -703,3 +703,29 @@ chili = {
 	custom_tags = { new_world_goods }
 }
 
+tropical_wood = {
+	method = mining
+	category = raw_material
+	color = goods_iron
+	default_market_price = 3
+	transport_cost = 1
+	ai_rgo_size_importance = 10 # ai preference to avoid building a city on this rgo
+	
+	ai_rgo_expansion_priority = 0.025
+	
+	
+}
+
+cement = {
+	method = mining
+	category = raw_material
+	color = goods_iron
+	default_market_price = 3
+	transport_cost = 1
+	ai_rgo_size_importance = 10 # ai preference to avoid building a city on this rgo
+	
+	ai_rgo_expansion_priority = 0.025
+	
+	
+}
+

@@ -7462,6 +7462,20 @@ can_extract_furniture={
 	}
 }
 
+can_extract_tropical_wood={
+	boolean=yes
+	game_data={
+		category=country
+	}
+}
+
+can_extract_cement={
+	boolean=yes
+	game_data={
+		category=country
+	}
+}
+
 ban_exports_of_cotton={
 	boolean=yes
 	game_data={

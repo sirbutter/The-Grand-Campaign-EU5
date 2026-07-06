@@ -7855,6 +7855,12 @@ global_furniture_output_modifier = {
 can_extract_furniture = {
 	positive = "gfx/interface/icons/modifier_types/furniture_positive.dds"
 }
+can_extract_tropical_wood = {
+	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
+}
+can_extract_cement = {
+	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
+}
 
 hre_max_elector = {
 	positive = "gfx/interface/icons/modifier_types/is_hre_elector.dds" 
