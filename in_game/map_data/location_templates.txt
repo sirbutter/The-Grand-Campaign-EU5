@@ -1535,11 +1535,11 @@ ensisheim = { topography = flatland vegetation = grasslands climate = oceanic re
 ferrette = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = rhine_alemannic raw_material = fruit}
 murbach = { topography = mountains vegetation = woods climate = continental religion = catholic culture = rhine_alemannic raw_material = copper}
 mulhouse = { topography = flatland vegetation = farmland climate = oceanic religion = catholic culture = rhine_alemannic raw_material = fruit}
-london = { topography = flatland vegetation = farmland climate = oceanic religion = catholic culture = english raw_material = tropical_wood natural_harbor_suitability = 0.80}
-harrow = { topography = flatland vegetation = farmland climate = oceanic religion = catholic culture = english raw_material = cement}
-kingston = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = english raw_material = legumes}
-reigate = { topography = flatland vegetation = woods climate = oceanic religion = catholic culture = english raw_material = wheat}
-guildford = { topography = flatland vegetation = woods climate = oceanic religion = catholic culture = english raw_material = beeswax}
+london = { topography = flatland vegetation = farmland climate = oceanic religion = catholic culture = english raw_material = fuel natural_harbor_suitability = 0.80}
+harrow = { topography = flatland vegetation = farmland climate = oceanic religion = catholic culture = english raw_material = fertilizer}
+kingston = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = english raw_material = explosives}
+reigate = { topography = flatland vegetation = woods climate = oceanic religion = catholic culture = english raw_material = clipper}
+guildford = { topography = flatland vegetation = woods climate = oceanic religion = catholic culture = english raw_material = steamer}
 woking = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = english raw_material = horses}
 southampton = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = english raw_material = wild_game natural_harbor_suitability = 0.75}
 portsmouth = { topography = flatland vegetation = woods climate = oceanic religion = catholic culture = english raw_material = lumber natural_harbor_suitability = 1.00}

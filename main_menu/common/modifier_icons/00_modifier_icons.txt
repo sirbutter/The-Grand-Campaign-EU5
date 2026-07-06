@@ -7861,6 +7861,21 @@ can_extract_tropical_wood = {
 can_extract_cement = {
 	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
 }
+can_extract_fuel = {
+	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
+}
+can_extract_fertilizer = {
+	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
+}
+can_extract_explosives = {
+	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
+}
+can_extract_clipper = {
+	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
+}
+can_extract_steamer = {
+	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
+}
 
 hre_max_elector = {
 	positive = "gfx/interface/icons/modifier_types/is_hre_elector.dds" 

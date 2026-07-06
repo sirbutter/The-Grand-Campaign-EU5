@@ -7476,6 +7476,41 @@ can_extract_cement={
 	}
 }
 
+can_extract_fuel={
+	boolean=yes
+	game_data={
+		category=country
+	}
+}
+
+can_extract_fertilizer={
+	boolean=yes
+	game_data={
+		category=country
+	}
+}
+
+can_extract_explosives={
+	boolean=yes
+	game_data={
+		category=country
+	}
+}
+
+can_extract_clipper={
+	boolean=yes
+	game_data={
+		category=country
+	}
+}
+
+can_extract_steamer={
+	boolean=yes
+	game_data={
+		category=country
+	}
+}
+
 ban_exports_of_cotton={
 	boolean=yes
 	game_data={
