@@ -7876,6 +7876,27 @@ can_extract_clipper = {
 can_extract_steamer = {
 	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
 }
+can_extract_electric_gears = {
+	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
+}
+can_extract_automobiles = {
+	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
+}
+can_extract_plastics = {
+	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
+}
+can_extract_tires = {
+	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
+}
+can_extract_radios = {
+	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
+}
+can_extract_pharmaceuticals = {
+	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
+}
+can_extract_soap = {
+	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
+}
 
 hre_max_elector = {
 	positive = "gfx/interface/icons/modifier_types/is_hre_elector.dds" 

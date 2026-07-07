@@ -7511,6 +7511,55 @@ can_extract_steamer={
 	}
 }
 
+can_extract_electric_gears={
+	boolean=yes
+	game_data={
+		category=country
+	}
+}
+
+can_extract_automobiles={
+	boolean=yes
+	game_data={
+		category=country
+	}
+}
+
+can_extract_plastics={
+	boolean=yes
+	game_data={
+		category=country
+	}
+}
+
+can_extract_tires={
+	boolean=yes
+	game_data={
+		category=country
+	}
+}
+
+can_extract_radios={
+	boolean=yes
+	game_data={
+		category=country
+	}
+}
+
+can_extract_pharmaceuticals={
+	boolean=yes
+	game_data={
+		category=country
+	}
+}
+
+can_extract_soap={
+	boolean=yes
+	game_data={
+		category=country
+	}
+}
+
 ban_exports_of_cotton={
 	boolean=yes
 	game_data={
