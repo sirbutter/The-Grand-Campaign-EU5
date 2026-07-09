@@ -548,7 +548,7 @@ tgc_industry_advance = {
 			requires = tgc_navy_advance
 		}
 		
-		naval_professionalism = {
+		naval_professionalism_modern = {
 			age = age_7_industry
 			icon = enlightenment_advance
 			naval_morale = 0.25
@@ -561,7 +561,7 @@ tgc_industry_advance = {
 			icon = enlightenment_advance
 			naval_morale = 0.25
 			
-			requires = naval_professionalism
+			requires = naval_professionalism_modern
 		}
 		
 		naval_risk_management = {
