@@ -7560,6 +7560,62 @@ can_extract_soap={
 	}
 }
 
+can_extract_canned_food={
+	boolean=yes
+	game_data={
+		category=country
+	}
+}
+
+can_extract_ammunition={
+	boolean=yes
+	game_data={
+		category=country
+	}
+}
+
+can_extract_tank={
+	boolean=yes
+	game_data={
+		category=country
+	}
+}
+
+can_extract_aeroplane={
+	boolean=yes
+	game_data={
+		category=country
+	}
+}
+
+can_extract_luxury_furniture={
+	boolean=yes
+	game_data={
+		category=country
+	}
+}
+
+can_extract_luxury_clothes={
+	boolean=yes
+	game_data={
+		category=country
+	}
+}
+
+can_extract_regular_clothes={
+	boolean=yes
+	game_data={
+		category=country
+	}
+}
+
+can_extract_telephone={
+	boolean=yes
+	game_data={
+		category=country
+	}
+}
+
 ban_exports_of_cotton={
 	boolean=yes
 	game_data={

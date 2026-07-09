@@ -1535,13 +1535,13 @@ ensisheim = { topography = flatland vegetation = grasslands climate = oceanic re
 ferrette = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = rhine_alemannic raw_material = fruit}
 murbach = { topography = mountains vegetation = woods climate = continental religion = catholic culture = rhine_alemannic raw_material = copper}
 mulhouse = { topography = flatland vegetation = farmland climate = oceanic religion = catholic culture = rhine_alemannic raw_material = fruit}
-london = { topography = flatland vegetation = farmland climate = oceanic religion = catholic culture = english raw_material = electric_gears natural_harbor_suitability = 0.80}
-harrow = { topography = flatland vegetation = farmland climate = oceanic religion = catholic culture = english raw_material = automobiles}
-kingston = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = english raw_material = plastics}
-reigate = { topography = flatland vegetation = woods climate = oceanic religion = catholic culture = english raw_material = tires}
-guildford = { topography = flatland vegetation = woods climate = oceanic religion = catholic culture = english raw_material = radios}
-woking = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = english raw_material = pharmaceuticals}
-southampton = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = english raw_material = soap natural_harbor_suitability = 0.75}
+london = { topography = flatland vegetation = farmland climate = oceanic religion = catholic culture = english raw_material = wheat natural_harbor_suitability = 0.80}
+harrow = { topography = flatland vegetation = farmland climate = oceanic religion = catholic culture = english raw_material = wheat}
+kingston = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = english raw_material = wheat}
+reigate = { topography = flatland vegetation = woods climate = oceanic religion = catholic culture = english raw_material = wheat}
+guildford = { topography = flatland vegetation = woods climate = oceanic religion = catholic culture = english raw_material = wheat}
+woking = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = english raw_material = wheat}
+southampton = { topography = flatland vegetation = grasslands climate = oceanic religion = catholic culture = english raw_material = wheat natural_harbor_suitability = 0.75}
 portsmouth = { topography = flatland vegetation = woods climate = oceanic religion = catholic culture = english raw_material = lumber natural_harbor_suitability = 1.00}
 winchester = { topography = flatland vegetation = farmland climate = oceanic religion = catholic culture = english raw_material = fruit}
 lymington = { topography = flatland vegetation = forest climate = oceanic religion = catholic culture = english raw_material = salt natural_harbor_suitability = 0.25}

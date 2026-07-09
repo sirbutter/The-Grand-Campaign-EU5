@@ -7897,6 +7897,30 @@ can_extract_pharmaceuticals = {
 can_extract_soap = {
 	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
 }
+can_extract_canned_food = {
+	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
+}
+can_extract_ammunition = {
+	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
+}
+can_extract_tank = {
+	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
+}
+can_extract_aeroplane = {
+	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
+}
+can_extract_luxury_furniture = {
+	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
+}
+can_extract_luxury_clothes = {
+	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
+}
+can_extract_regular_clothes = {
+	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
+}
+can_extract_telephone = {
+	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
+}
 
 hre_max_elector = {
 	positive = "gfx/interface/icons/modifier_types/is_hre_elector.dds" 
