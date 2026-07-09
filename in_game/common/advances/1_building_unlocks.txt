@@ -1206,12 +1206,3 @@ fortress_church_advance = {
 	unlock_building = fortress_church
 	allow_children = no
 }
-
-# Factories
-
-luxury_clothes_mill_advance = {
-	age = age_7_traditions
-	
-	unlock_building = luxury_clothes_mill
-	requires = tgc_industry_advance
-}

@@ -808,58 +808,90 @@ soap = {
 }
 
 canned_food = {
-	category = produced
+	method = mining
+	category = raw_material
 	color = goods_iron
 	default_market_price = 3
 	transport_cost = 1
+	ai_rgo_size_importance = 10 # ai preference to avoid building a city on this rgo
+	
+	ai_rgo_expansion_priority = 0.025
 }
 
 ammunition = {
-	category = produced
+	method = mining
+	category = raw_material
 	color = goods_iron
 	default_market_price = 3
 	transport_cost = 1
+	ai_rgo_size_importance = 10 # ai preference to avoid building a city on this rgo
+	
+	ai_rgo_expansion_priority = 0.025
 }
 
 tank = {
-	category = produced
+	method = mining
+	category = raw_material
 	color = goods_iron
 	default_market_price = 3
 	transport_cost = 1
+	ai_rgo_size_importance = 10 # ai preference to avoid building a city on this rgo
+	
+	ai_rgo_expansion_priority = 0.025
 }
 
 aeroplane = {
-	category = produced
+	method = mining
+	category = raw_material
 	color = goods_iron
 	default_market_price = 3
 	transport_cost = 1
+	ai_rgo_size_importance = 10 # ai preference to avoid building a city on this rgo
+	
+	ai_rgo_expansion_priority = 0.025
 }
 
 luxury_furniture = {
-	category = produced
+	method = mining
+	category = raw_material
 	color = goods_iron
 	default_market_price = 3
 	transport_cost = 1
+	ai_rgo_size_importance = 10 # ai preference to avoid building a city on this rgo
+	
+	ai_rgo_expansion_priority = 0.025
 }
 
 luxury_clothes = {
-	category = produced
+	method = mining
+	category = raw_material
 	color = goods_iron
 	default_market_price = 3
 	transport_cost = 1
+	ai_rgo_size_importance = 10 # ai preference to avoid building a city on this rgo
+	
+	ai_rgo_expansion_priority = 0.025
 }
 
 regular_clothes = {
-	category = produced
+	method = mining
+	category = raw_material
 	color = goods_iron
 	default_market_price = 3
 	transport_cost = 1
+	ai_rgo_size_importance = 10 # ai preference to avoid building a city on this rgo
+	
+	ai_rgo_expansion_priority = 0.025
 }
 
 telephone = {
-	category = produced
+	method = mining
+	category = raw_material
 	color = goods_iron
 	default_market_price = 3
 	transport_cost = 1
+	ai_rgo_size_importance = 10 # ai preference to avoid building a city on this rgo
+	
+	ai_rgo_expansion_priority = 0.025
 }
 

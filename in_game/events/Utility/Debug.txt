@@ -1,19 +1,1 @@
 namespace = debug
-
-debug.1 = {
-	type = country_event
-	title = debug.1.title
-	desc = debug.1.desc
-
-	trigger = {
-		
-	}
-
-	orphan = yes
-	
-	option = {
-		name = debug.1.a
-
-		research_advance = luxury_clothes_mill_advance
-	}
-}
