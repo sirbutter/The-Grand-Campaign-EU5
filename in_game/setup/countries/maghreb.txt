@@ -68,14 +68,6 @@ TLE = {
    difficulty = 8
 }
 
-TGT = {
-	color = map_TGT
-	color2 = rgb { 90 140 190 }  #same as in EU4
-	
-	culture_definition = mozabite
-	religion_definition = ibadi
-}
-
 KUK = { #new tag, Kuku country
 	color = map_kabyle
 	color2 = rgb { 255 244 0 }  

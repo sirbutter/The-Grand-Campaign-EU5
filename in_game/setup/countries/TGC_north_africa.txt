@@ -14,43 +14,51 @@
 }
 
 ABA	= { #alba
-	color = rgb { 255 71 255 }
+	color = rgb { 244  231 193 }
 
 	culture_definition = piedmontese
 	religion_definition = catholic
 }
 
 CST	= { #alba
-	color = rgb { 255 71 255 }
+	color = rgb { 0  75  0 }
 
 	culture_definition = piedmontese
 	religion_definition = catholic
 }
 
-TMZ	= { #alba
-	color = rgb { 255 71 255 }
+TMZ	= {
+	color = rgb { 254  196  163 }
 
 	culture_definition = piedmontese
 	religion_definition = catholic
 }
 
-TKA	= { #alba
-	color = rgb { 255 71 255 }
+TGT = {
+	color = rgb { 158 143 45 }
+	color2 = rgb { 90 140 190 }  #same as in EU4
+	
+	culture_definition = mozabite
+	religion_definition = ibadi
+}
+
+TKA	= {
+	color = rgb { 126 90 99 }
 
 	culture_definition = piedmontese
 	religion_definition = catholic
 }
 
-#Tripoli - TRP (Stateless)
+#Tripoli
 TRP = {
-	color = map_tripoli
+	color = rgb { 180  137  148 }
 	color2 = blue_light
 	culture_definition = libyan_arabic_culture
 	religion_definition = sunni
 }
 
 ALG = {
-	color = map_algiers
+	color = rgb { 220  202  96 }
 	color2 = rgb { 230  225  110 }  #same as in EU4
 	
 	culture_definition = algerian
@@ -58,7 +66,7 @@ ALG = {
 }
 
 TUN = {
-	color = map_tunis
+	color = rgb { 131  101  85 }
 	color2 = rgb { 146  134  57 }  #same as in EU4
 	
 	culture_definition = tunisian

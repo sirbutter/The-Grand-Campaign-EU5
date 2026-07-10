@@ -1,5 +1,4 @@
-current_age = 
-age_7_industry
+current_age = age_7_industry
 countries = {
    countries = {
       AAC = {
@@ -6034,55 +6033,8 @@ countries = {
             latje_latje millewa chala kooinkill ngarrindjeri ngargad kromelak bindjali djappuminyou jakelbalak
             buandig coonawarra jardwajali gunditjmara djabwurung balla_arat gulidjan giraiwurung gadubanud geelong
             wathaurong east_palawa west_palawa peerapper tommeginne tyerrernotepanner pyemmairrener lairmairrener paredarerme toogee
-            waitangi tamaki whangarei aupouri madurai ramesvaram vembar kayattar pattukkottai sankaranayinarkoil
-            aruppukkottai batlagundu dindigul kambam thondi virudhunagar devakottai padaividu kanchipuram vellore
-            gingee madras maduranthakam arcot nellore pazhaverkadu durgarazpatnam kavali kandakura motupalli
-            adanki markapur kondavidu peddapalli macherla masulipatnam gudur kalahasti cumbum vinukonda
-            guntur kanigiri pithapuram rajamahendry pallakolu ellur visakhapatnam vizianagaram tuni rampa
-            bobbili madugula asika ganjam kalingapattanam kalinganagara parlakimidi khurda dhenkanal jajnagar
-            puri kataka harishpur balasore jalesar bhuban bhadrak angul ratnagiri brahmapur
-            kulada nayagarh kanthi pulawama baramulla banihal rawalakot kohtali gaur godagari
-            naogaon pabna rampur_boalla bogra birampur goraghat rangpur_bengal shahjadpur devkot barbakaabad
-            pandua_adina siliguri tajpur panchagarh jalpaiguri satgaon pandua baragram bardhaman dubrajpur
-            ilambazar khulna east_sundarban husaynabad jaynagar kulpi west_sundarban nadia chandrabad jessore
-            jhenaidah maheshpur pipli sreepur sonargaon bikrampur chandpur kobirhat kumilla savar
-            khalifatabad barguna chandrawip fathabad kotalipara qasba shahbazpur mymensingh atiya belabo
-            kapasia muktagacha tarakanda nagapattinam puddokothai tiruccirapalli thanjavur srirangam pennadam jayankondam
-            karaikal launggyet akyab ann gwa maungdaw minbya mrauk_u ramree talak_burma
-            taungup thandwe weithali chittagong chakaria kaptai ramu sitakunda parangipettai pondicherry
-            perambalur tirukoilur kallakurichi jaffna mullaitivu mahatittha vavuniya yapavu anuradhapura salavata
-            kurunegala polonnaruva madakalapu hatthigiripura kotte negombo sitavaka galle hambantota badulla
-            devanagara digavapi tissamaharama kandy gampola ratnapura_LKA trincomalee medawachchiya delhi gurgaon
-            rohtak panipat jind mirat hapur jansath baran saharanpur piran_i_kaliyar etawah
-            kanauj sargadwari makanpur prayag kara asni korra alwar narnaul bharatpur
-            agra mathura jalesar_doab kol dholpur chandwar sirhind sadhaura samana_india thanesar
-            kaithal karnal hisar dadri hansi hajner sunam raikot faridkot bathinda
-            firozpur muktsar shishgarh chandpur_uttar_pradesh nagina seohara shahabad_uttar_pradesh jalna nander pathri
-            kaulas janjira chaul kalyan bombay bassein savantvadi rajapur dabhol sangamesvara
-            ajara mudhol belgaum londa khanapur gokak badami raybag sholhapur naldrug
-            ausa parenda chambargonda udgir bir dahrur qandhar ahmednagar daulatabad pratapgarh
-            satara karad kolhapur aundh jath miraj sinnar nasik chandor bidar
-            yedagiri gulbarga kalyani sagar talikota bagalkot bijapur kembhavi sindagi basavana_bagewadi
-            athani singarh raigarh pune junnar chakan daman surat rander broach
-            baroda khambat dholka ashaval modasa patan deodar radhanpur ranthambore sheopur
-            sambhar ajmer merta nagaur makrana kurki osian phulia mandalgarh bhilwara
-            bayana mandore sabalgarh kalam kelapur mahagaon panar amravati illichpur gawilgarh
-            asirgarh burhanpur pachora sindkedh mehkar akola basim laling thalner sultanpur
-            nandurbar dharangaon khandwa handia hoshangabad bijagarh mandleshwar maheshwar mandu dhar
-            indore ujjain maksi khategaon bhojpur sehore raisin bhopal sarangpur agar
-            sironj shahabad sipri chanderi alirajpur ratlam mandsaur rampura bhanpura gagraun
-            aklera guna khaniadhana bhind konch kalpi lalitpur deogarh bhilsa damoh
-            singorgarh ujargarh sugaur nawakot bijnot derawar channan_pir kot_marot uch mir_garh_qila
-            dunga_bunga chishtian khairpur aror manikpur bhadohi mungra raebareli unnao awadh
-            akbarpur kishi sultanpur_uttar_pradesh varanasi chunar ghazipur jaunpur mau_jaunpur kantit shankargah
-            vijaygarh sidhi agori budaun gunnaur sambhal bareilly nahil pilibhit shahjahanpur
-            khairabad bhurwara biswan firuzabad_bahraich kherigarh lucknow bilgram hardoi ibrahimabad pali_uttar_pradesh
-            bahraich balrampur gonda shravasti tulsipur gorakhpur bansi basti binayakpur kushinagar
-            lumbini azamgarh andar chillupar rudrapur sonepur_bihar thawe bettiah makwanpur mehsi
-            ramnagar_bihar sheohar simraungadh bhagalpur gidhaur hajipur khagaria monghyr samastipur patna
-            bihar_sharif deo gaya narhat rajgir roh hazaribagh chai gobindpur katrasgarh
-            shergarh urda dumka deoghar jangipur mandar_parvat rajmahal teliagarhi manyakheta chitapur
-            bhalki gambia bintang bunce_island accra winneba
+            waitangi tamaki whangarei aupouri
+            gambia bintang bunce_island accra winneba
          }
 
          include = "catholic_monarchy"
@@ -6154,6 +6106,61 @@ countries = {
             }
 
           }
+      }
+      RAJ = {
+         country_rank = rank_county
+
+         own_control_core = {
+            madurai ramesvaram vembar kayattar pattukkottai sankaranayinarkoil
+            aruppukkottai batlagundu dindigul kambam thondi virudhunagar devakottai padaividu kanchipuram vellore
+            gingee madras maduranthakam arcot nellore pazhaverkadu durgarazpatnam kavali kandakura motupalli
+            adanki markapur kondavidu peddapalli macherla masulipatnam gudur kalahasti cumbum vinukonda
+            guntur kanigiri pithapuram rajamahendry pallakolu ellur visakhapatnam vizianagaram tuni rampa
+            bobbili madugula asika ganjam kalingapattanam kalinganagara parlakimidi khurda dhenkanal jajnagar
+            puri kataka harishpur balasore jalesar bhuban bhadrak angul ratnagiri brahmapur
+            kulada nayagarh kanthi pulawama baramulla banihal rawalakot kohtali gaur godagari
+            naogaon pabna rampur_boalla bogra birampur goraghat rangpur_bengal shahjadpur devkot barbakaabad
+            pandua_adina siliguri tajpur panchagarh jalpaiguri satgaon pandua baragram bardhaman dubrajpur
+            ilambazar khulna east_sundarban husaynabad jaynagar kulpi west_sundarban nadia chandrabad jessore
+            jhenaidah maheshpur pipli sreepur sonargaon bikrampur chandpur kobirhat kumilla savar
+            khalifatabad barguna chandrawip fathabad kotalipara qasba shahbazpur mymensingh atiya belabo
+            kapasia muktagacha tarakanda nagapattinam puddokothai tiruccirapalli thanjavur srirangam pennadam jayankondam
+            karaikal launggyet akyab ann gwa maungdaw minbya mrauk_u ramree talak_burma
+            taungup thandwe weithali chittagong chakaria kaptai ramu sitakunda parangipettai pondicherry
+            perambalur tirukoilur kallakurichi jaffna mullaitivu mahatittha vavuniya yapavu anuradhapura salavata
+            kurunegala polonnaruva madakalapu hatthigiripura kotte negombo sitavaka galle hambantota badulla
+            devanagara digavapi tissamaharama kandy gampola ratnapura_LKA trincomalee medawachchiya delhi gurgaon
+            rohtak panipat jind mirat hapur jansath baran saharanpur piran_i_kaliyar etawah
+            kanauj sargadwari makanpur prayag kara asni korra alwar narnaul bharatpur
+            agra mathura jalesar_doab kol dholpur chandwar sirhind sadhaura samana_india thanesar
+            kaithal karnal hisar dadri hansi hajner sunam raikot faridkot bathinda
+            firozpur muktsar shishgarh chandpur_uttar_pradesh nagina seohara shahabad_uttar_pradesh jalna nander pathri
+            kaulas janjira chaul kalyan bombay bassein savantvadi rajapur dabhol sangamesvara
+            ajara mudhol belgaum londa khanapur gokak badami raybag sholhapur naldrug
+            ausa parenda chambargonda udgir bir dahrur qandhar ahmednagar daulatabad pratapgarh
+            satara karad kolhapur aundh jath miraj sinnar nasik chandor bidar
+            yedagiri gulbarga kalyani sagar talikota bagalkot bijapur kembhavi sindagi basavana_bagewadi
+            athani singarh raigarh pune junnar chakan daman surat rander broach
+            baroda khambat dholka ashaval modasa patan deodar radhanpur ranthambore sheopur
+            sambhar ajmer merta nagaur makrana kurki osian phulia mandalgarh bhilwara
+            bayana mandore sabalgarh kalam kelapur mahagaon panar amravati illichpur gawilgarh
+            asirgarh burhanpur pachora sindkedh mehkar akola basim laling thalner sultanpur
+            nandurbar dharangaon khandwa handia hoshangabad bijagarh mandleshwar maheshwar mandu dhar
+            indore ujjain maksi khategaon bhojpur sehore raisin bhopal sarangpur agar
+            sironj shahabad sipri chanderi alirajpur ratlam mandsaur rampura bhanpura gagraun
+            aklera guna khaniadhana bhind konch kalpi lalitpur deogarh bhilsa damoh
+            singorgarh ujargarh sugaur nawakot bijnot derawar channan_pir kot_marot uch mir_garh_qila
+            dunga_bunga chishtian khairpur aror manikpur bhadohi mungra raebareli unnao awadh
+            akbarpur kishi sultanpur_uttar_pradesh varanasi chunar ghazipur jaunpur mau_jaunpur kantit shankargah
+            vijaygarh sidhi agori budaun gunnaur sambhal bareilly nahil pilibhit shahjahanpur
+            khairabad bhurwara biswan firuzabad_bahraich kherigarh lucknow bilgram hardoi ibrahimabad pali_uttar_pradesh
+            bahraich balrampur gonda shravasti tulsipur gorakhpur bansi basti binayakpur kushinagar
+            lumbini azamgarh andar chillupar rudrapur sonepur_bihar thawe bettiah makwanpur mehsi
+            ramnagar_bihar sheohar simraungadh bhagalpur gidhaur hajipur khagaria monghyr samastipur patna
+            bihar_sharif deo gaya narhat rajgir roh hazaribagh chai gobindpur katrasgarh
+            shergarh urda dumka deoghar jangipur mandar_parvat rajmahal teliagarhi manyakheta chitapur
+            bhalki
+         }
       }
       GBS = {
          country_rank = rank_county
@@ -22653,7 +22660,7 @@ countries = {
 
          own_control_core = {
             hadjer_haddid guereda abesehir ouara djedaa oum_hadjer bahr_salamat mongo iro_lake tele_nugar
-            aoukale tiwal am_dam salamat sarh
+            aoukale am_dam salamat sarh
          }
 
        }

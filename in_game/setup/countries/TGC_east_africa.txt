@@ -11,7 +11,7 @@ ETH = {
 
 #Gojjam - GJJ
 GJJ = {
-	color = map_gojjam
+	color = rgb { 50  95  210 }
 	color2 = green
 	culture_definition = amhara
 	religion_definition = miaphysite
@@ -19,7 +19,7 @@ GJJ = {
 
 #Aussa - AWS
 AWS = {
-	color = map_aussa
+	color = rgb { 28  255  164 }
 	color2 = beige
 	culture_definition = afar_culture
 	religion_definition = sunni 
@@ -27,7 +27,7 @@ AWS = {
 
 #Shewa - SOA
 SOA = {
-	color = map_shewa
+	color = rgb { 128  128  64 }
 	color2 = beige
 	culture_definition = afar_culture
 	religion_definition = sunni
@@ -35,7 +35,7 @@ SOA = {
 
 #Geledi - GLE
 GLE = {
-	color = map_geledi
+	color = rgb { 153  217  234 }
 	color2 = purple
 	culture_definition = somali_culture
 	religion_definition = sunni
@@ -43,14 +43,14 @@ GLE = {
 
 #Majeerteen
 MJR = {
-	color = map_geledi
+	color = rgb { 226  22  48 }
 	color2 = purple
 	culture_definition = somali_culture
 	religion_definition = sunni
 }
 
 HRB = { #Hiraab
-	color = map_HRB
+	color = rgb { 97 209 251 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = hijazi_culture
@@ -59,7 +59,7 @@ HRB = { #Hiraab
 
 #Isaaq
 ISQ = {
-	color = map_geledi
+	color = rgb { 208 203 126 }
 	color2 = purple
 	culture_definition = somali_culture
 	religion_definition = sunni
@@ -67,7 +67,7 @@ ISQ = {
 
 #Habr Yunis
 HBY = {
-	color = map_geledi
+	color = rgb { 208 103 26 }
 	color2 = purple
 	culture_definition = somali_culture
 	religion_definition = sunni
@@ -75,7 +75,7 @@ HBY = {
 
 #Harar
 HAR = {
-	color = map_geledi
+	color = rgb { 216 213 203 }
 	color2 = purple
 	culture_definition = somali_culture
 	religion_definition = sunni
@@ -83,7 +83,7 @@ HAR = {
 
 #Wollo
 WOL = {
-	color = rgb { 235 178 18 }
+	color = rgb { 184  193  89 }
 
 	culture_definition = western_pomeranian
 	religion_definition = catholic
@@ -91,7 +91,7 @@ WOL = {
 
 #Leqa
 LEQ = {
-	color = rgb { 235 178 18 }
+	color = rgb { 128  128  128 }
 
 	culture_definition = western_pomeranian
 	religion_definition = catholic
@@ -99,7 +99,7 @@ LEQ = {
 
 #Gonder
 GON = {
-	color = rgb { 235 178 18 }
+	color = rgb { 113  160  213 }
 
 	culture_definition = western_pomeranian
 	religion_definition = catholic
@@ -107,7 +107,7 @@ GON = {
 
 #Tigray
 TIG = {
-	color = rgb { 235 178 18 }
+	color = rgb { 108  49  108 }
 
 	culture_definition = western_pomeranian
 	religion_definition = catholic

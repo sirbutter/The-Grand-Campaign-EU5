@@ -1,20 +1,14 @@
 ﻿#Trarza
-
-#Trarza
 TRZ = {
-   color = map_gojjam
+   color = rgb { 235  48  99 }
    color2 = green
-   unit_color0 = rgb { 49 49 49 }
-   unit_color1 = rgb { 49 49 49 }
-   unit_color2 = rgb { 49 49 49 }
    culture_definition = amhara
    religion_definition = miaphysite
-   difficulty = -1
 }
 
 #Waalo
 WAA = {
-	color = map_gojjam
+	color = rgb { 244  66  206 }
 	color2 = green
 	culture_definition = amhara
 	religion_definition = miaphysite
@@ -22,7 +16,7 @@ WAA = {
 
 #Kayor
 KAY = {
-	color = map_gojjam
+	color = rgb { 145 97 57 }
 	color2 = green
 	culture_definition = amhara
 	religion_definition = miaphysite
@@ -30,7 +24,7 @@ KAY = {
 
 #Sine
 SIN = {
-	color = map_gojjam
+	color = rgb { 224 131 141 }
 	color2 = green
 	culture_definition = amhara
 	religion_definition = miaphysite
@@ -38,21 +32,21 @@ SIN = {
 
 #Saloum
 SLM = {
-	color = rgb { 238 87 226 }
+	color = rgb { 205 92 92 }
 	culture_definition = lorrain
 	religion_definition = catholic
 }
 
 #Wolof
 WLF = {
-	color = rgb { 238 87 226 }
+	color = rgb { 91 146 180 }
 	culture_definition = lorrain
 	religion_definition = catholic
 }
 
 #Tooro
 TOO = {
-	color = map_tohono_oodham
+	color = rgb { 244 164 96 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = pima_culture
@@ -61,7 +55,7 @@ TOO = {
 
 #Gabu
 GAB = {
-	color = map_tohono_oodham
+	color = rgb { 160 64 80 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = pima_culture
@@ -70,7 +64,7 @@ GAB = {
 
 #Xaaso
 XAA = {
-	color = map_tohono_oodham
+	color = rgb { 145 165 220 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = pima_culture
@@ -79,7 +73,7 @@ XAA = {
 
 #Bundu
 BUN = {
-	color = map_tohono_oodham
+	color = rgb { 151 174 22 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = pima_culture
@@ -88,7 +82,7 @@ BUN = {
 
 # Tenda
 TEN = {
-	color = map_tenkodogo
+	color = rgb { 135 225 130 }
 	color2 = black
 	
 	culture_definition = mossi
@@ -97,7 +91,7 @@ TEN = {
 
 #Bambuk
 BBK = {
-	color = map_BBK
+	color = rgb { 252 180 0 }
 	color2 = black
 
 	culture_definition = soninke
@@ -106,7 +100,7 @@ BBK = {
 
 #Jallon
 JLN = {
-	color = map_BBK
+	color = rgb { 239 228 176 }
 	color2 = black
 
 	culture_definition = soninke
@@ -115,7 +109,7 @@ JLN = {
 
 #Susu
 SUS = {
-	color = map_BBK
+	color = rgb { 96 137 102 }
 	color2 = black
 
 	culture_definition = soninke
@@ -124,7 +118,7 @@ SUS = {
 
 #Koya
 KOY = {
-	color = map_BBK
+	color = rgb { 203  101  85 }
 	color2 = black
 
 	culture_definition = soninke
@@ -133,7 +127,7 @@ KOY = {
 
 #Kpaa Mende
 KMD = {
-	color = map_BBK
+	color = rgb { 85 101 203 }
 	color2 = black
 
 	culture_definition = soninke
@@ -142,7 +136,7 @@ KMD = {
 
 #Kaarta
 KAR = {
-	color = map_karamanids
+	color = rgb { 50 152 212 }
 	color2 = rgb { 90 160 190 } #same as in EU4
 
 	culture_definition = turkish_culture
@@ -151,7 +145,7 @@ KAR = {
 
 #Tamba
 TAM = {
-	color = map_tama
+	color = rgb { 0 152 212 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = tama_culture
@@ -160,7 +154,7 @@ TAM = {
 
 #Bate
 BAT = {
-	color = map_tama
+	color = rgb { 239 128 176 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = tama_culture
@@ -169,7 +163,7 @@ BAT = {
 
 #Segu
 SEG = {
-	color = map_tama
+	color = rgb { 166  72  57 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = tama_culture
@@ -178,7 +172,7 @@ SEG = {
 
 #Kenedugu
 KDG = {
-	color = map_tama
+	color = rgb { 81  107  40 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = tama_culture
@@ -187,7 +181,7 @@ KDG = {
 
 #Wattara
 WTR = {
-	color = map_tama
+	color = rgb { 26 134 58 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = tama_culture
@@ -196,7 +190,7 @@ WTR = {
 
 #Baule
 BAU = {
-	color = map_baure
+	color = rgb { 0 213 255 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = baure_culture
@@ -205,7 +199,7 @@ BAU = {
 
 #Gwiriko
 GWI = {
-	color = map_gwiriko
+	color = rgb { 103 143 23 }
 	color2 = black
 	
 	culture_definition = mossi
@@ -214,7 +208,7 @@ GWI = {
 
 #Massina
 MAS = {
-	color = map_maisouna
+	color = rgb { 0 0 198 }
 	color2 = rgb { 91 32 122 }
 
 	culture_definition = maisouna_culture
@@ -223,7 +217,7 @@ MAS = {
 
 #Timbuktu
 TMB = {
-	color = map_timbuktu
+	color = rgb { 100 0 198 }
 	color2 = black
 
 	culture_definition = tuareg
@@ -232,7 +226,7 @@ TMB = {
 
 #Yatenga
 YAT = {
-	color = map_yatenga
+	color = rgb { 168 195 255 }
 	color2 = black
 	
 	culture_definition = mossi
@@ -241,7 +235,7 @@ YAT = {
 
 #Mossi
 MSI = {
-	color = map_yatenga
+	color = rgb { 230 14 213 }
 	color2 = black
 	
 	culture_definition = mossi
@@ -250,7 +244,7 @@ MSI = {
 
 #Gyaman
 GYA = {
-	color = map_gyaaman
+	color = rgb { 138 128 123 }
 	color2 = red
 
 	culture_definition = akan
@@ -259,7 +253,7 @@ GYA = {
 
 #Ashanti
 ASH = {
-	color = map_ashalaho
+	color = rgb { 255 213 0 }
 	color2 = red
 
 	culture_definition = akan
@@ -268,7 +262,7 @@ ASH = {
 
 #Fante
 FNT = {
-	color = map_ashalaho
+	color = rgb { 14 137 206 }
 	color2 = red
 
 	culture_definition = akan
@@ -277,7 +271,7 @@ FNT = {
 
 #Gonja
 GNJ = {
-	color = map_GNJ
+	color = rgb { 204 103 50 }
 	color2 = red
 
 	culture_definition = akan
@@ -286,7 +280,7 @@ GNJ = {
 
 #Dagomba
 DGB = {
-	color = map_dagbon
+	color = rgb { 200  190  126 }
 	color2 = red
 
 	culture_definition = dagbani
@@ -295,7 +289,7 @@ DGB = {
 
 #Liptako
 LIP = {
-	color = map_liptako
+	color = rgb { 80 208 159 }
 	color2 = black
 	
 	culture_definition = mossi
@@ -303,14 +297,9 @@ LIP = {
 }
 
 #Gulmu
-
-#Gulmu
 GUL = {
-   color = map_guale
+   color = rgb { 130 114 213 }
    color2 = rgb { 12 128 17 }
-   unit_color0 = rgb { 49 49 49 }
-   unit_color1 = rgb { 49 49 49 }
-   unit_color2 = rgb { 49 49 49 }
    culture_definition = guale_culture
    religion_definition = mississippian_ceremonial
    difficulty = 1
@@ -318,7 +307,7 @@ GUL = {
 
 #Dendi
 DND = {
-	color = map_guale
+	color = rgb { 255  191  191 }
 	color2 = rgb { 12 128 17 }
 
 	culture_definition = guale_culture
@@ -327,7 +316,7 @@ DND = {
 
 #Kebbi
 KEB = {
-	color = map_kebbi
+	color = rgb{ 179 130 79 }
 	color2 = black
 
 	culture_definition = hausa
@@ -337,7 +326,7 @@ KEB = {
 
 #Borgu
 BOR = {
-	color = map_bariba
+	color = rgb { 97 209 251 }
 	color2 = black
 
 	culture_definition = bariba
@@ -346,7 +335,7 @@ BOR = {
 
 #Dahomey
 DAH = {
-	color = map_dahomey
+	color = rgb { 188  92  47 }
 	color2 = red
 
 	culture_definition = fon
@@ -356,7 +345,7 @@ DAH = {
 
 #Egba
 EGB = {
-	color = map_dahomey
+	color = rgb { 0  75  0 }
 	color2 = red
 
 	culture_definition = fon
@@ -365,7 +354,7 @@ EGB = {
 
 #Ijebu
 IJB = {
-	color = map_ijebu
+	color = rgb { 66  207  66 }
 	color2 = black
 
 	culture_definition = yoruba
@@ -374,7 +363,7 @@ IJB = {
 
 #Benin
 BEN = {
-	color = map_benin
+	color = rgb { 60  60  60 }
 	color2 = red
 
 	culture_definition = edo
@@ -383,7 +372,7 @@ BEN = {
 
 #Oyo
 OYO = {
-	color = map_oyo
+	color = rgb { 184 134 11 }
 	color2 = blue
 
 	culture_definition = yoruba
@@ -392,7 +381,7 @@ OYO = {
 
 #Warri
 WRI = {
-	color = map_oyo
+	color = rgb { 190  251  255 }
 	color2 = blue
 
 	culture_definition = yoruba
@@ -401,7 +390,7 @@ WRI = {
 
 #Aro
 ARO = {
-	color = hsv360 { 239 70 61 }
+	color = rgb { 88  27  192 }
 	
 	culture_definition = french
 	religion_definition = catholic
@@ -409,7 +398,7 @@ ARO = {
 
 #Ekiti
 EKT = {
-	color = hsv360 { 239 70 61 }
+	color = rgb { 155 0 90 }
 	
 	culture_definition = french
 	religion_definition = catholic
@@ -417,7 +406,7 @@ EKT = {
 
 #Igala
 IGL = {
-	color = hsv360 { 239 70 61 }
+	color = rgb { 136  157  23 }
 	
 	culture_definition = french
 	religion_definition = catholic
@@ -425,7 +414,7 @@ IGL = {
 
 #Ilorin
 ILR = {
-	color = hsv360 { 239 70 61 }
+	color = rgb { 128 224 160 }
 	
 	culture_definition = french
 	religion_definition = catholic
@@ -433,7 +422,7 @@ ILR = {
 
 #Zuru
 ZUR = {
-	color = rgb { 31 140 205 }
+	color = rgb { 155 155 210 }
 	color2 = green
 
 	culture_definition = nupe
@@ -442,7 +431,7 @@ ZUR = {
 
 #Nupe
 NUP = {
-	color = map_nupe
+	color = rgb { 255 55 70 }
 	color2 = green
 
 	culture_definition = nupe
@@ -451,7 +440,7 @@ NUP = {
 
 #Sokoto
 SKO = {
-	color = map_nupe
+	color = rgb { 0  153  0 }
 	color2 = green
 
 	culture_definition = nupe
@@ -460,7 +449,7 @@ SKO = {
 
 #Gobir
 GOB = {
-	color = map_gobir
+	color = rgb { 204 82 0 }
 	color2 = black
 
 	culture_definition = hausa
@@ -469,7 +458,7 @@ GOB = {
 
 #Kwawarafa
 KWW = {
-	color = map_gobir
+	color = rgb { 102  184  255 }
 	color2 = black
 
 	culture_definition = hausa
@@ -478,7 +467,7 @@ KWW = {
 
 #Fombina
 FMB = {
-	color = rgb { 160 60 143 }
+	color = rgb { 134  191  92 }
 	color2 = black
 
 	culture_definition = hausa
@@ -487,7 +476,7 @@ FMB = {
 
 #Kanem-Bornu
 KBO = {
-	color = map_kanembu
+	color = rgb { 189 142 177 }
 	color2 = black
 
 	culture_definition = kanembu_culture
@@ -499,7 +488,7 @@ KBO = {
 
 #Mandara
 MDR = {
-	color = map_mandara
+	color = rgb { 189 138 94 }
 	color2 = black
 
 	culture_definition = mandara_culture
@@ -508,7 +497,7 @@ MDR = {
 
 #Baguirmi
 BGI = {
-	color = map_baguirmi
+	color = rgb { 230 195 165 }
 	color2 = black
 
 	culture_definition = baguirmi_culture
@@ -517,7 +506,7 @@ BGI = {
 
 #Kanem
 KNM = {
-	color = map_baguirmi
+	color = rgb { 215  66  244 }
 	color2 = black
 
 	culture_definition = baguirmi_culture
@@ -526,7 +515,7 @@ KNM = {
 
 #Wadai
 WAD = {
-	color = map_wadai
+	color = rgb { 131  101  85 }
 	color2 = black
 
 	culture_definition = maba_africa_culture
@@ -535,7 +524,7 @@ WAD = {
 
 #Darfur
 DFR = {
-	color = map_wadai
+	color = rgb { 84  75  91 }
 	color2 = black
 
 	culture_definition = maba_africa_culture
@@ -544,7 +533,7 @@ DFR = {
 
 #Rizaiqat
 RZQ = {
-	color = map_wadai
+	color = rgb { 188  123  95 }
 	color2 = black
 
 	culture_definition = maba_africa_culture
@@ -553,7 +542,7 @@ RZQ = {
 
 #Taqali
 TQL = {
-	color = map_wadai
+	color = rgb { 68 175 102 }
 	color2 = black
 
 	culture_definition = maba_africa_culture
@@ -562,7 +551,7 @@ TQL = {
 
 #Rafai
 RAF = {
-	color = map_wadai
+	color = rgb{ 158  74  137 }
 	color2 = black
 
 	culture_definition = maba_africa_culture
@@ -571,7 +560,7 @@ RAF = {
 
 #Zemio
 ZEM = {
-	color = map_wadai
+	color = rgb { 131  50  50 }
 	color2 = black
 
 	culture_definition = maba_africa_culture
@@ -579,7 +568,7 @@ ZEM = {
 }
 
 SIK = {
-	color = map_shilluk
+	color = rgb { 252 97 0 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = shilluk_culture
@@ -588,7 +577,7 @@ SIK = {
 
 
 LIB = {
-   color = map_shilluk
+   color = rgb { 0  75  0 }
    color2 = rgb { 16 41 202 }
    unit_color0 = rgb { 49 49 49 }
    unit_color1 = rgb { 49 49 49 }
@@ -600,7 +589,7 @@ LIB = {
 ## Colonial
 
 GHA = {
-	color = map_GHA
+	color = rgb { 204 103 50 }
 	color2 = black
 
 	culture_definition = soninke
@@ -608,7 +597,7 @@ GHA = {
 }
 
 MAL = {
-	color = map_mali
+	color = rgb { 252 180 0 }
 	color2 = black
 
 	culture_definition = mandinka
