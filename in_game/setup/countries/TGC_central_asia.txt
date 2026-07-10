@@ -62,7 +62,7 @@ KOK = { #Abkhazia
 }
 
 KHT = { #Kuhistan
-	color = map_KHT
+	color = rgb { 10 55 200 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = khorasani_culture
@@ -80,28 +80,37 @@ QSM = { #Qasimi
    religion_definition = sunni
 }
 
-KGN = { #Kangan
-	color = map_carib
-	color2 = rgb { 16 41 202 }
 
-	culture_definition = carib
-	religion_definition = zemi_religion
+KGN = { #Kangan
+   color = rgb { 210 114 213 }
+   color2 = rgb { 16 41 202 }
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = carib
+   religion_definition = zemi_religion
 }
+
 
 BSR = { #Bushehr
-	color = map_carib
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = carib
-	religion_definition = zemi_religion
+   color = rgb { 26 134 58 }
+   color2 = rgb { 16 41 202 }
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = carib
+   religion_definition = zemi_religion
 }
 
-KHZ = { #Khuzestan
-	color = map_KHZ
-	color2 = rgb { 16 41 202 }
 
-	culture_definition = sindhi
-	religion_definition = sunni
+KHZ = { #Khuzestan
+   color = rgb { 95 180 75 }
+   color2 = rgb { 16 41 202 }
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = sindhi
+   religion_definition = sunni
 }
 
 
@@ -170,26 +179,37 @@ IMO = { #Imamate of Oman
    religion_definition = catholic
 }
 
-LAS	= { #las bela
-	color = rgb { 0 116 200 }
 
-	culture_definition = emilian
-	religion_definition = catholic
+LAS = { #las bela
+   color = rgb { 95 80 170 }
+   color2 = rgb { 49 49 49 }
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = emilian
+   religion_definition = catholic
 }
+
 
 KHS = { #Kohistan
-	color = map_KHS
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = khas_culture
-	religion_definition = hindu
+   color = rgb { 140 100 230 }
+   color2 = rgb { 16 41 202 }
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = khas_culture
+   religion_definition = hindu
 }
 
-KND = { # Kandahar
-	color = rgb { 137 21 128 }
 
-	culture_definition = khanty_culture
-	religion_definition = obian_paganism
+KND = { # Kandahar
+   color = rgb { 52 108 112 }
+   color2 = rgb { 49 49 49 }
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = khanty_culture
+   religion_definition = obian_paganism
 }
 
 
@@ -225,10 +245,15 @@ IRQ = { # Iraw
    religion_definition = obian_paganism
 }
 
+
 PST = { # Pistoia
-    color = rgb { 180 120 80 }
-    culture_definition = tuscan
-    religion_definition = catholic
+   color = rgb { 245 190 0 }
+   color2 = rgb { 49 49 49 }
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = tuscan
+   religion_definition = catholic
 }
 
 BTL = { 
@@ -260,36 +285,48 @@ ARD = {
 	religion_definition = sunni
 }
 
-STN = { #Saptagram
-	color = map_STN
-	color2 = rgb { 16 41 202 }
 
-	culture_definition = bengali
-	religion_definition = sunni
+STN = { #Saptagram
+   color = rgb { 184 158 136 }
+   color2 = rgb { 16 41 202 }
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = bengali
+   religion_definition = sunni
 }
+
 
 HRT = {
-	color = map_STN
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = afghan_culture
-	religion_definition = sunni
+   color = rgb { 62 81 63 }
+   color2 = rgb { 16 41 202 }
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = afghan_culture
+   religion_definition = sunni
 }
+
 
 TYM = {
-	color = map_STN
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = bengali
-	religion_definition = sunni
+   color = rgb { 164 111 111 }
+   color2 = rgb { 16 41 202 }
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = bengali
+   religion_definition = sunni
 }
 
-HZJ = {
-	color = map_STN
-	color2 = rgb { 16 41 202 }
 
-	culture_definition = bengali
-	religion_definition = sunni
+HZJ = {
+   color = rgb { 225 210 25 }
+   color2 = rgb { 16 41 202 }
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = bengali
+   religion_definition = sunni
 }
 
 SLR = {
@@ -409,12 +446,15 @@ SGH = {
 	religion_definition = sunni
 }
 
-KBL = {
-	color = map_SGH
-	color2 = black
 
-	culture_definition = godala_culture
-	religion_definition = sunni
+KBL = {
+   color = rgb { 92 148 152 }
+   color2 = black
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = godala_culture
+   religion_definition = sunni
 }
 
 MRR = {
@@ -497,12 +537,15 @@ DIR = {
 	religion_definition = shia
 }
 
-SKH = {
-	color = map_BDS
-	color2 = rgb { 16 41 202 }
 
-	culture_definition = mazanderani_culture
-	religion_definition = shia
+SKH = {
+   color = rgb { 255 87 127 }
+   color2 = rgb { 16 41 202 }
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = mazanderani_culture
+   religion_definition = shia
 }
 
 WKH = {
@@ -630,32 +673,48 @@ SHK = {
 	religion_definition = sunni
 }
 
+
 URM = {
-	color = map_sharkha
-	color2 = beige
-	culture_definition = gurage
-	religion_definition = sunni
+   color = rgb { 30 90 135 }
+   color2 = beige
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = gurage
+   religion_definition = sunni
 }
+
 
 MRQ = {
-	color = map_sharkha
-	color2 = beige
-	culture_definition = gurage
-	religion_definition = sunni
+   color = rgb { 100 100 200 }
+   color2 = beige
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = gurage
+   religion_definition = sunni
 }
+
 
 BAB = {
-	color = map_sharkha
-	color2 = beige
-	culture_definition = gurage
-	religion_definition = sunni
+   color = rgb { 196 128 232 }
+   color2 = beige
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = gurage
+   religion_definition = sunni
 }
 
+
 BYD = {
-	color = map_sharkha
-	color2 = beige
-	culture_definition = gurage
-	religion_definition = sunni
+   color = rgb { 157 200 42 }
+   color2 = beige
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = gurage
+   religion_definition = sunni
 }
 
 
@@ -669,3 +728,56 @@ SRN = {
    religion_definition = sunni
 }
 
+
+BHT = {
+   color = rgb { 84 234 134 }
+   color2 = rgb { 144 220 149 }
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = kurdish_culture
+   religion_definition = yazidism
+}
+
+BIT = {
+   color = rgb { 34 139 148 }
+   color2 = rgb { 144 220 149 }
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = kurdish_culture
+   religion_definition = sunni
+}
+
+
+KHN = { #Kharan
+   color = rgb { 155 110 175 }
+   color2 = rgb { 16 41 202 }
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = baloch_culture
+   religion_definition = sunni
+}
+
+
+MKR = { #Makran
+   color = rgb { 130 80 200 }
+   color2 = rgb { 16 41 202 }
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = baloch_culture
+   religion_definition = sunni
+}
+
+
+KLA = { #Kalat
+   color = rgb { 97 98 195 }
+   color2 = rgb { 16 41 202 }
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = brahui_culture
+   religion_definition = sunni
+}

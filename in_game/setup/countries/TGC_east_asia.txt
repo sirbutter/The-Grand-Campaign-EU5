@@ -47,15 +47,17 @@ KOR = {
 	difficulty = 2
 }
 
+
 JAP = {
-	color = map_JAP
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = saigoku_culture
-	religion_definition = shinto
-
-	description_category = diplomatic
-	difficulty = 5
+   color = rgb { 174 143 27 }
+   color2 = rgb { 16 41 202 }
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = saigoku_culture
+   religion_definition = shinto
+   description_category = diplomatic
+   difficulty = 5
 }
 
 QNG = { #Yuán

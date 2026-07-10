@@ -206,24 +206,8 @@ OTT = {
 	difficulty = 1
 }
 
-BHT = {
-	color = map_bohtan
-	color2 = rgb { 144 220 149 }
-
-	culture_definition = kurdish_culture
-	religion_definition = yazidism
-}
-
 BIN = {
 	color = map_bingol
-	color2 = rgb { 144 220 149 }
-
-	culture_definition = kurdish_culture
-	religion_definition = sunni
-}
-
-BIT = {
-	color = map_bitlis
 	color2 = rgb { 144 220 149 }
 
 	culture_definition = kurdish_culture
