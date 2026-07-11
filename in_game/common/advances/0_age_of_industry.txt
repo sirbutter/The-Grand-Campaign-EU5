@@ -1160,6 +1160,8 @@ tgc_industry_advance = {
 		interchangeable_parts = {
 			age = age_7_industry
 			icon = enlightenment_advance
+
+			unlock_building = luxury_clothes_mill
 			
 			requires = mechanical_production
 		}

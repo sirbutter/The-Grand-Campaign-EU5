@@ -1,1 +1,31 @@
-﻿
+﻿luxury_clothes_mill = {
+	is_foreign = no
+	pop_type = laborers
+	max_levels = mills_max_level
+	
+	category = consumer_goods_category
+	employment_size = mills_employment
+
+	town = yes
+	city = yes
+
+	build_time = mills_build_time
+	
+	unique_production_methods = {
+		luxury_clothes_mill_maintenance = {
+			
+			regular_clothes = 3
+			silk = 9
+			
+			produced = luxury_clothes
+			output = 3
+			
+			debug_max_profit = 1.0
+			
+			category = mills_input
+		}
+	}
+	
+	custom_tags = { lategame_manufactory }
+	construction_demand = mill_construction
+}
