@@ -284,13 +284,6 @@ WMA = {
 	religion_definition = catholic
 }
 
-SWZ = {
-	color = hsv { 0.14 0.38 0.38 }
-
-	culture_definition = saxon
-	religion_definition = catholic
-}
-
 FLD = {
 	color = rgb { 66 103 88 }
 

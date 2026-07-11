@@ -432,14 +432,6 @@ ALS = {
 	religion_definition = catholic
 }
 
-#Montbéliard
-MTB = {
-	#color = map_FRA
-	color = rgb { 250 38 38 }
-	culture_definition = franc_comtois
-	religion_definition = catholic
-}
-
 TUL = {
 	color = rgb { 233 78 78 }
 	culture_definition = lorrain

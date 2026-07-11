@@ -73,14 +73,6 @@ MOM = {
    difficulty = 7
 }
 
-CHO = {
-	color = map_CHO
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = chokwe
-	religion_definition = bantu_religion
-}
-
 OVI = {
 	color = map_OVI
 	color2 = rgb { 16 41 202 }
@@ -89,21 +81,7 @@ OVI = {
 	religion_definition = bantu_religion
 }
 
-LND = {
-	color = map_LND
-	color2 = rgb { 16 41 202 }
 
-	culture_definition = lunda
-	religion_definition = bantu_religion
-}
-
-LBA = {
-	color = map_LBA
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = luba
-	religion_definition = bantu_religion
-}
 
 KUB = {
 	color = map_KUB

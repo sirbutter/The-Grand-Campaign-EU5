@@ -219,13 +219,6 @@ NEU = {
 	religion_definition = catholic
 }
 
-BAS = {
-	color = rgb { 145 139 102 }
-	
-	culture_definition = high_alemannic
-	religion_definition = catholic
-}
-
 LSA = {
 	color = rgb { 94 32 108 }
 	

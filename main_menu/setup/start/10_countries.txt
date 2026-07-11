@@ -206,6 +206,10 @@ countries = {
       AGH = {
          country_rank = rank_county
 
+         own_control_core = {
+            mozambique bajone sangage angoche moma
+         }
+
        }
       AGJ = {
          country_rank = rank_county
@@ -508,6 +512,14 @@ countries = {
 
           }
       }
+      ALR = {
+         country_rank = rank_county
+
+         own_control_core = {
+            pubungu
+         }
+
+       }
       ALS = {
          country_rank = rank_county
 
@@ -638,6 +650,10 @@ countries = {
        }
       ANK = {
          country_rank = rank_county
+
+         own_control_core = {
+            irodo vohemar ambilobe nosy_be mahilaka bemanevika
+         }
 
        }
       ANL = {
@@ -1359,6 +1375,10 @@ countries = {
       BAS = {
          country_rank = rank_county
 
+         own_control_core = {
+            gariep sinqu thaba_bosiu north_drakensberg_mountains butha_buthe thaba_nchu
+         }
+
        }
       BAT = {
          country_rank = rank_county
@@ -1609,6 +1629,14 @@ countries = {
 
           }
       }
+      BEM = {
+         country_rank = rank_county
+
+         own_control_core = {
+            kabunda kafimbi nyena_kapemba chilwe chitimbe msire_zambia mucajama mpanda kabuta
+         }
+
+       }
       BEN = {
          capital = benin
          country_rank = rank_kingdom
@@ -1930,6 +1958,14 @@ countries = {
 
           }
       }
+      BHY = {
+         country_rank = rank_county
+
+         own_control_core = {
+            haya
+         }
+
+       }
       BIA = {
          country_rank = rank_county
 
@@ -2166,6 +2202,14 @@ countries = {
          country_rank = rank_county
 
        }
+      BMG = {
+         country_rank = rank_county
+
+         own_control_core = {
+            gana tshwa tsila bamangwato modipe lotsane amkoe bakgatla kaditshwene
+         }
+
+       }
       BMK = {
          country_rank = rank_county
 
@@ -2291,6 +2335,10 @@ countries = {
       BNY = {
          country_rank = rank_county
 
+         own_control_core = {
+            kibengo rugombe lango pawir kibiro
+         }
+
        }
       BOD = {
          country_rank = rank_county
@@ -2302,6 +2350,11 @@ countries = {
        }
       BOI = {
          country_rank = rank_county
+
+         own_control_core = {
+            kingany befandriana antetikala nosy_bali mahajanga boeny sada antsohihy andranoboka marovoay
+            vilamatsa
+         }
 
        }
       BOL = {
@@ -2438,6 +2491,14 @@ countries = {
 
           }
       }
+      BPD = {
+         country_rank = rank_county
+
+         own_control_core = {
+            thulamela mapungubwe mbombela mashishing mghumbhani tzaneen dzata
+         }
+
+       }
       BPR = {
          capital = pyay
          country_rank = rank_county
@@ -2533,6 +2594,12 @@ countries = {
        }
       BRS = {
          country_rank = rank_county
+
+         own_control_core = {
+            mavinga malunga kakenje linyanti sesheke kaonde kafuta loamba nkata majili
+            liova katima mamele lukana ani_south mucusso baviko loengowe njoko nalolo
+            marimbi mabunda zambesia_katongo lumbi sioma bombwi namieta
+         }
 
        }
       BRT = {
@@ -2674,6 +2741,10 @@ countries = {
        }
       BSG = {
          country_rank = rank_county
+
+         own_control_core = {
+            busoga
+         }
 
        }
       BSH = {
@@ -2879,6 +2950,15 @@ countries = {
 
           }
       }
+      BTO = {
+         country_rank = rank_county
+
+         own_control_core = {
+            chorumani minenga barotse_mabunda matimba monzes semalembue ingombe_ilede kamimbe dambwe kazungala
+            shoma
+         }
+
+       }
       BTS = {
          country_rank = rank_county
 
@@ -2915,6 +2995,14 @@ countries = {
 
           }
       }
+      BTW = {
+         country_rank = rank_county
+
+         own_control_core = {
+            deti khwe khute bakgalagadi basarwa yeyi
+         }
+
+       }
       BUB = {
          country_rank = rank_county
 
@@ -2983,6 +3071,10 @@ countries = {
       }
       BUU = {
          country_rank = rank_county
+
+         own_control_core = {
+            mugamba western_rift_mountains
+         }
 
        }
       BVK = {
@@ -3248,6 +3340,14 @@ countries = {
       }
       CDL = {
          country_rank = rank_county
+
+       }
+      CDM = {
+         country_rank = rank_county
+
+         own_control_core = {
+            mutota mukariva massapa zvongombe hondosaka chikowa nyarinde kasekete muyove
+         }
 
        }
       CDN = {
@@ -3749,6 +3849,11 @@ countries = {
        }
       CHO = {
          country_rank = rank_county
+
+         own_control_core = {
+            kioko barotse_kongo libonta south_letota lumeje north_letota kibau bacuma lwena luchaze
+            mosiko lumbala_nguimbo saluma kinhama mboma_kongo nariele sekkosi kifumaji
+         }
 
        }
       CHP = {
@@ -5026,7 +5131,7 @@ countries = {
          country_rank = rank_county
 
          own_control_core = {
-            jammu udamphur kathua
+            jammu udamphur kathua pulawama baramulla banihal rawalakot kohtali rajouri rasyal poonch
          }
 
          include = "expl_india_hindu"
@@ -5065,6 +5170,14 @@ countries = {
 
           }
       }
+      DOU = {
+         country_rank = rank_county
+
+         own_control_core = {
+            bimbia cameroons ngambe
+         }
+
+       }
       DPH = {
          country_rank = rank_county
 
@@ -6597,6 +6710,14 @@ countries = {
 
           }
       }
+      GRQ = {
+         country_rank = rank_county
+
+         own_control_core = {
+            taung thembelihle gmaap siyancuma griekwastad kxau
+         }
+
+       }
       GRR = {
          country_rank = rank_county
 
@@ -6771,6 +6892,15 @@ countries = {
        }
       GYT = {
          country_rank = rank_county
+
+       }
+      GZA = {
+         country_rank = rank_county
+
+         own_control_core = {
+            manyikeni madanda malumba nwalungu south_hlanganu west_shangana east_shangana pamuuyu north_hlanganu phalaborwa
+            mapulana djonga xai_xai
+         }
 
        }
       GZH = {
@@ -9467,6 +9597,14 @@ countries = {
          country_rank = rank_county
 
        }
+      KHL = {
+         country_rank = rank_county
+
+         own_control_core = {
+            ntsoana_tsatsi
+         }
+
+       }
       KHM = {
          capital = angkor
          country_rank = rank_empire
@@ -9788,6 +9926,14 @@ countries = {
        }
       KKL = {
          country_rank = rank_county
+
+       }
+      KKN = {
+         country_rank = rank_county
+
+         own_control_core = {
+            chiloango piri manguenzo mindouli dingi bungu_kongo cabinda_kongo
+         }
 
        }
       KKR = {
@@ -10279,6 +10425,17 @@ countries = {
          country_rank = rank_county
 
        }
+      KON = {
+         country_rank = rank_county
+
+         own_control_core = {
+            nogui mbanza_soyo soyo nsolu ambrizete ambriz mussul loge pove pende_kongo
+            oando dambi_angonga berbela cuilo mbanza_mpangu ngimbo_amburi masinga mbanza_nsundi bula_kongo mbaba
+            mbanza_kongo mbanza_mbata maguela kibango nkunga mbanza_mpemba kavanga ambuila damba wandu
+            mbridge wizi wembo tamba_ambriz chimuande bumbe bembe_kongo nbengo
+         }
+
+       }
       KOR = {
 
          variables = {
@@ -10519,6 +10676,10 @@ countries = {
       KRW = {
          country_rank = rank_county
 
+         own_control_core = {
+            bugara
+         }
+
        }
       KSA = {
          country_rank = rank_county
@@ -10576,6 +10737,14 @@ countries = {
       }
       KSI = {
          country_rank = rank_county
+
+       }
+      KSJ = {
+         country_rank = rank_county
+
+         own_control_core = {
+            shanfana kusike luquemba mecumba kassanje_malemba
+         }
 
        }
       KSK = {
@@ -10876,6 +11045,17 @@ countries = {
          country_rank = rank_county
 
        }
+      KZB = {
+         country_rank = rank_county
+
+         own_control_core = {
+            mweru kikongoluka kuzinde mukurru_bunkela kagoma mongoffa kua_luziga kaluba moona_mpanda kazembe
+            tchafolonguta chitope mpueto lusongui garengaze nyangwe msassa lualaba kazaidi olohose
+            ntenke katanga kafaila kinyama kalassa uemba mgosas moma_katwoi mwangulla mlungo
+            kalambo
+         }
+
+       }
       KZK = {
          country_rank = rank_county
 
@@ -11019,6 +11199,13 @@ countries = {
       }
       LBA = {
          country_rank = rank_county
+
+         own_control_core = {
+            mpota chamuhongo kabebe lubudi molundu kirira songye_kongo luapula urua kundi
+            tchikunga moana_mpafu lupungu golo_muiassa moana_mussumba lukuga miketo lambo mpala kiponguve
+            mtowa akilonda makenenga lubile muichi mukalombo mussimi ankoro lukassi kassengue
+            south_pumpu north_pumpu moana_muafi pimpu kutema_museya kilemba
+         }
 
        }
       LBB = {
@@ -11374,6 +11561,14 @@ countries = {
          country_rank = rank_county
 
        }
+      LKP = {
+         country_rank = rank_county
+
+         own_control_core = {
+            ilchamu maasai agikuyu samburu ngibelai lusambo_qandu
+         }
+
+       }
       LKT = {
          country_rank = rank_county
 
@@ -11490,6 +11685,15 @@ countries = {
 
           }
       }
+      LOA = {
+         country_rank = rank_county
+
+         own_control_core = {
+            bapunu ncomi lope olenda waka_jungle apinji madembe makabana buali yumba
+            mayumba massabo loeme ncando gabun nyanga sette conkouati kwilu
+         }
+
+       }
       LOI = {
          country_rank = rank_county
 
@@ -11710,6 +11914,14 @@ countries = {
       LUN = {
          country_rank = rank_county
 
+         own_control_core = {
+            lubalo mulunda sakambunje kassai shana_bukanda kalala_kazemba kisenga difunda masiko cazombo
+            kadinbola katende muconda kimbundu kajenje jonga_pansa njambi kasesi lumbala liambye
+            nana_kandungu muana kalengue cuoim umballa mussumba kadinga baluba hemtine tumba
+            kangule bukino kalala wambu makunda kafsanji tala_mugongo minungo saurimo kisenge
+            nguff muata_musembo sainiambu kiendela bojamba kikassa kiluata lucapa kakoba
+         }
+
        }
       LUP = {
          country_rank = rank_county
@@ -11814,6 +12026,10 @@ countries = {
        }
       MAA = {
          country_rank = rank_county
+
+         own_control_core = {
+            arusha east_aasax west_aasax engeruka east_african_mountains deloraine west_ongamo bendi omotik
+         }
 
        }
       MAB = {
@@ -12075,9 +12291,6 @@ countries = {
          country_rank = rank_county
          starting_technology_level = 3
 
-         own_control_core = {
-         }
-
          include = "subsaharan_monarchy_no_coast"
 
          discovered_regions = {
@@ -12091,6 +12304,17 @@ countries = {
 
           }
       }
+      MBU = {
+         country_rank = rank_county
+
+         own_control_core = {
+            kanjamba cuito tongwe_ambwela gangela menongue molomo matumbo mojenga dumba_katola kmito
+            lualula moyenga ngongoa_moelo kueshi moena_kalengo kangamba kalomo mugumba katiba kassongo
+            lemone nangana cuangar omuskira klendela okavango cuchi miongo kindunda mussombo
+            kinge daba_akanda mbwela_kabango kuemgo
+         }
+
+       }
       MBZ = {
          country_rank = rank_county
 
@@ -12564,6 +12788,14 @@ countries = {
          country_rank = rank_county
 
        }
+      MHD = {
+         country_rank = rank_county
+
+         own_control_core = {
+            konde
+         }
+
+       }
       MHK = {
          country_rank = rank_county
 
@@ -12630,6 +12862,14 @@ countries = {
        }
       MIR = {
          country_rank = rank_county
+
+         own_control_core = {
+            antalaha ambositra maintirano sandrakatsy bealanana fahambahy maroantsetra bengoala ambalanjakomby tintingue
+            ambatondrazaka manditsara tsaratanana ambolosy masindrano mahaela manahoro ambohidray moramanga vatomandry
+            andevoranto toamasina fenoarivo_east tsarahafatra vohipeno ikongo manambato tsilalanarivo ambatomanoina rasanga
+            antananarivo fianarantsoa ampotaka maevatanana maneva sahadia manabondro ankazobe midongy tsimanandrafozana
+            vohimasina miandrivazo kavitaha antsiroamandidy ankavandra fenoarivo andranomavo manoninerina beanka besalampy
+         }
 
        }
       MIS = {
@@ -12959,6 +13199,10 @@ countries = {
       MLL = {
          country_rank = rank_county
 
+         own_control_core = {
+            mupanipani leshongwane bosutswe
+         }
+
        }
       MLM = {
          capital = mulian
@@ -13169,6 +13413,11 @@ countries = {
       MNY = {
          country_rank = rank_county
 
+         own_control_core = {
+            mbombona chikwanda matemba bandire zembe gorongoza masekesa charumani inyanga chipangura
+            njamara chibvumani south_manica_highlands north_manica_highlands zvipadze mtoko ruanga luanze tere
+         }
+
        }
       MNZ = {
          country_rank = rank_county
@@ -13234,12 +13483,6 @@ countries = {
          capital = ngimbo_amburi
          country_rank = rank_county
          starting_technology_level = 3
-
-         own_control_core = {
-         }
-
-         our_cores_conquered_by_others = {
-         }
 
          include = "subsaharan_monarchy_no_coast"
 
@@ -13416,6 +13659,14 @@ countries = {
 
           }
       }
+      MPN = {
+         country_rank = rank_county
+
+         own_control_core = {
+            umngazi ntshekane mpondo dedesi
+         }
+
+       }
       MPR = {
          country_rank = rank_county
 
@@ -13441,6 +13692,11 @@ countries = {
       }
       MRA = {
          country_rank = rank_county
+
+         own_control_core = {
+            msinja msoro tembue mchinji kaphirintiwa massanza muchena chirowe pemba chinunga
+            kasungu mankhamba nyangu matope milange mbewe
+         }
 
        }
       MRB = {
@@ -13802,6 +14058,10 @@ countries = {
       MTB = {
          country_rank = rank_county
 
+         own_control_core = {
+            matamba kuitonga kuneni munza sanga_kongo marimba kabafa bondo mumbos malanji
+         }
+
        }
       MTC = {
          capital = choigan
@@ -13855,6 +14115,11 @@ countries = {
        }
       MTH = {
          country_rank = rank_county
+
+         own_control_core = {
+            ka_aub tebang kweneng em_dinaneni hlahlandlela egabeni mosega mooi eiland kungwini
+            lejweleputswa qwaqwa bataung bokoni
+         }
 
        }
       MTN = {
@@ -14047,6 +14312,14 @@ countries = {
       }
       MZT = {
          country_rank = rank_county
+
+       }
+      MZU = {
+         country_rank = rank_county
+
+         own_control_core = {
+            malindi vumba_kuu mombasa gedi
+         }
 
        }
       MZW = {
@@ -14473,6 +14746,10 @@ countries = {
       NKO = {
          country_rank = rank_county
 
+         own_control_core = {
+            katwe isinguro
+         }
+
        }
       NKW = {
          country_rank = rank_county
@@ -14827,9 +15104,6 @@ countries = {
          country_rank = rank_county
          starting_technology_level = 3
 
-         own_control_core = {
-         }
-
          include = "subsaharan_monarchy_no_coast"
 
          discovered_regions = {
@@ -15135,7 +15409,8 @@ countries = {
             ibra hajar_mountains jalan_buani_buali sur al_kamil_wal_wafi masqat as_sib qalhat al_khaburah nakhal
             rustaq julfar hormuz gamrun bandar_khamir fin ruydar zagros_mountains21 soghan minab
             manujan nowdezh rudkhaneh shaqrud senderk sirik golashkerd jiroft zakht sarduiyeh
-            zagros_mountains20 kahnuj mardehek qaleh_ganj bashagard bandar_e_jask gwatar gwadar
+            zagros_mountains20 kahnuj mardehek qaleh_ganj bashagard bandar_e_jask gwatar gwadar ras_mkumbuu kilwa_kisiwani
+            lindi kisimani_mafia songo_mnara zanzibar bagamoyo dar_es_salaam utondwe
          }
 
          include = "expl_middle_east"
@@ -15278,6 +15553,14 @@ countries = {
        }
       ORT = {
          country_rank = rank_county
+
+       }
+      ORU = {
+         country_rank = rank_county
+
+         own_control_core = {
+            mpongwe nguyi ogoowe_kongo adyumba
+         }
 
        }
       OSG = {
@@ -16171,7 +16454,7 @@ countries = {
          country_rank = rank_county
 
          own_control_core = {
-            poonch
+            
          }
 
          include = "expl_india_hindu"
@@ -16462,7 +16745,6 @@ countries = {
          } #Mandore + parts of Marwar. At its greatest extent the dynasty had however ruled most of northern India.
 
 
-
          include = "expl_india_hindu"
          include = "india_limited_monarchy"
 
@@ -16550,6 +16832,10 @@ countries = {
       }
       PRZ = {
          country_rank = rank_county
+
+         own_control_core = {
+            sena cheringoma chupanga chiveve
+         }
 
        }
       PSA = {
@@ -16652,6 +16938,10 @@ countries = {
       }
       PTE = {
          country_rank = rank_county
+
+         own_control_core = {
+            pate mambrui ungwana lamu
+         }
 
        }
       PTG = {
@@ -16974,8 +17264,8 @@ countries = {
             macherla masulipatnam gudur kalahasti cumbum vinukonda guntur kanigiri pithapuram rajamahendry
             pallakolu ellur visakhapatnam vizianagaram tuni rampa bobbili madugula asika ganjam
             kalingapattanam kalinganagara parlakimidi khurda dhenkanal jajnagar puri kataka harishpur balasore
-            jalesar bhuban bhadrak angul ratnagiri brahmapur kulada nayagarh kanthi pulawama
-            baramulla banihal rawalakot kohtali gaur godagari naogaon pabna rampur_boalla bogra
+            jalesar bhuban bhadrak angul ratnagiri brahmapur kulada nayagarh kanthi
+            gaur godagari naogaon pabna rampur_boalla bogra
             birampur goraghat rangpur_bengal shahjadpur devkot barbakaabad pandua_adina siliguri tajpur panchagarh
             jalpaiguri satgaon pandua baragram bardhaman dubrajpur ilambazar khulna east_sundarban husaynabad
             jaynagar kulpi west_sundarban nadia chandrabad jessore jhenaidah maheshpur pipli sreepur
@@ -17203,7 +17493,7 @@ countries = {
          country_rank = rank_county
 
          own_control_core = {
-            rajouri rasyal
+            
          }
 
          #Ruler: Sirdar Khan / Ratan Singh
@@ -17776,6 +18066,10 @@ countries = {
       RWA = {
          country_rank = rank_county
 
+         own_control_core = {
+            komo_kongo nduga buzanga ndorwa bankutu
+         }
+
        }
       RYA = {
          country_rank = rank_county
@@ -17817,6 +18111,17 @@ countries = {
 
          own_control_core = {
             wau shakka zankor bayyu kafia_kinji said_bundas
+         }
+
+       }
+      RZW = {
+         country_rank = rank_county
+
+         own_control_core = {
+            abutua chedzurgwe shua bumbuzi veekuhane nembudziya chomuruvuti makutamazan mtanye chumnungwa
+            jahunda khami nkankezi great_zimbabwe matanda_aChiwawa zinjanja mabveni naletale dhlo_dhlo sebakwe
+            rimuka angwa chitomborwizi chisvingo tsindi muchuchu matendere majiri chipagwe domboshaba
+            chipukuswi mwenezi mtetengwe mapela mtoli impakwe tora_nju makgadikgadi
          }
 
        }
@@ -18553,7 +18858,7 @@ countries = {
             kutlehar nagarkot palampur jalandhar rahon bajwara milwat kapurthala lahore sultanwind
             fatehabad batala kalanaur tulamba chiniot kamalia talwandi jaranwala jhang dinkot
             isakhel attock gujrat busal bhera lalian shahpur sillanwali pindi_bhattian shorkot
-            dijkot
+            dijkot thal_desert thal_desert_2 salt_range_3 salt_range
          }
 
          include = "expl_christian_caucasus"
@@ -20018,6 +20323,10 @@ countries = {
       SWZ = {
          country_rank = rank_county
 
+         own_control_core = {
+            swazi zombodze mthethwa
+         }
+
        }
       SXI = {
          country_rank = rank_county
@@ -20221,6 +20530,14 @@ countries = {
        }
       TBK = {
          country_rank = rank_county
+
+       }
+      TBR = {
+         country_rank = rank_county
+
+         own_control_core = {
+            kagaye east_konongo kazeh west_wembere north_wembere urambo msene sumbwa
+         }
 
        }
       TBY = {
@@ -20630,6 +20947,11 @@ countries = {
        }
       TIO = {
          country_rank = rank_county
+
+         own_control_core = {
+            amulaca tumba_ikoko sanga_pumbo pumbo cundi ocanga cuango monsol makaka lefini
+            mombote ubangi ngato nunu ngabo bikoro south_juma
+         }
 
        }
       TIR = {
@@ -21790,6 +22112,10 @@ countries = {
       UBH = {
          country_rank = rank_county
 
+         own_control_core = {
+            nikoma mirama nyamwezi ujiji ruguru
+         }
+
        }
       UBL = {
          country_rank = rank_county
@@ -21872,6 +22198,14 @@ countries = {
          country_rank = rank_county
 
        }
+      UFP = {
+         country_rank = rank_county
+
+         own_control_core = {
+            kirando kala ivuna
+         }
+
+       }
       UGH = {
          country_rank = rank_county
 
@@ -21886,6 +22220,22 @@ countries = {
        }
       UGX = {
          country_rank = rank_county
+
+       }
+      UHH = {
+         country_rank = rank_county
+
+         own_control_core = {
+            east_hehe west_hehe mbunga
+         }
+
+       }
+      UJI = {
+         country_rank = rank_county
+
+         own_control_core = {
+            uvinza fipa west_konongo tongwe
+         }
 
        }
       UJJ = {
@@ -22221,6 +22571,30 @@ countries = {
 
           }
       }
+      USB = {
+         country_rank = rank_county
+
+         own_control_core = {
+            tanga pangani shambala usambara zigula mkwaja
+         }
+
+       }
+      USG = {
+         country_rank = rank_county
+
+         own_control_core = {
+            north_kimbu west_gogo idodomya mpwapwa east_kimbu west_kimbu
+         }
+
+       }
+      USU = {
+         country_rank = rank_county
+
+         own_control_core = {
+            ewina shubi
+         }
+
+       }
       UTB = {
          country_rank = rank_county
 
@@ -23166,6 +23540,10 @@ countries = {
       XHO = {
          country_rank = rank_county
 
+         own_control_core = {
+            karee rharhabe damasonqua hoengeiqua gonaqua ixesi thembu south_drakensberg_mountains
+         }
+
        }
       XIC = {
          country_rank = rank_county
@@ -23269,6 +23647,10 @@ countries = {
        }
       YAK = {
          country_rank = rank_county
+
+         own_control_core = {
+            popocabaca muene_kwako muene_ndinga muene_puto jaggas kisakaba kinguchi
+         }
 
        }
       YAL = {
@@ -23532,7 +23914,6 @@ countries = {
          starting_technology_level = 3
 
          own_control_core = {
-            bagamoyo dar_es_salaam kisiju kisimani_mafia mitimiri vumba_kuu tanga pangani mkwaja utondwe
             tungi vamizi
          }
 
@@ -23757,12 +24138,6 @@ countries = {
          country_rank = rank_kingdom
          starting_technology_level = 3
 
-         own_control_core = {
-            great_zimbabwe matendere majiri chipagwe chomuruvuti naletale muchuchu zvipadze charumani mabveni
-            inyanga mtanye nkankezi pamuuyu chibvumani mtoko chipukuswi mwenezi chumnungwa jahunda
-            makutamazan impakwe
-         }
-
          include = "expl_east_africa_no_coast"
          include = "subsaharan_monarchy_no_coast"
 
@@ -23831,6 +24206,14 @@ countries = {
          country_rank = rank_county
 
        }
+      ZUL = {
+         country_rank = rank_county
+
+         own_control_core = {
+            ngwane ndwandwe umgungundlovu buthelezi umhlanga ukhahlamba
+         }
+
+       }
       ZUR = {
          country_rank = rank_county
 
@@ -23845,6 +24228,14 @@ countries = {
        }
       ZWE = {
          country_rank = rank_county
+
+       }
+      ZWG = {
+         country_rank = rank_county
+
+         own_control_core = {
+            sofala chibuene mambone chiluane
+         }
 
        }
       ZYD = {
@@ -23880,6 +24271,10 @@ countries = {
        }
       ZZB = {
          country_rank = rank_county
+
+         own_control_core = {
+            mikindani tungi vamizi
+         }
 
        }
       ZZR = {

@@ -68,15 +68,6 @@ religion_definition = catholic
 }
 
 
-BRS	= { #brescia
-color = rgb { 80 0 106 }
-
-culture_definition = lombard
-religion_definition = catholic
-
-}
-
-
 CAG	= { #cagliari
 	color = hsv { 0 0 0.43 }
 
@@ -536,14 +527,6 @@ culture_definition = tuscan
 religion_definition = catholic
 
 
-}
-
-PRZ = { #Peruzzi
-	color = map_PRZ
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = peruzzi_bank_culture
-	religion_definition = catholic
 }
 
 BRD = { #Bardi
