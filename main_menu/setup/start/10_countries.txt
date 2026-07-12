@@ -10913,7 +10913,7 @@ countries = {
          country_rank = rank_county
 
          own_control_core = {
-            kapilkot lakhiyarvira lakhpat kantha nagnes morvi dwarka little_rann_of_kutch great_rann_of_kutch
+            kapilkot lakhiyarvira lakhpat kantha little_rann_of_kutch great_rann_of_kutch
          }
 
          include = "expl_india_hindu"
@@ -14818,9 +14818,9 @@ countries = {
          own_control_core = {
             vijayapur phakphok taplejung chaudandi siraha janakpur_nepal gorkha lamjung dhading upardang
             nuwakot kathmandu makwanpur simraungadh chainpur ranibas dudhakunda halesi okhaldhunga dolakha
-            sunkoshi ramechhap sindhuli rajanari lumbini pokhara tanahun tansen pyuthan
-            chaughera gulmi salianah malneta jagatipur jumla bajura takam yanal_densa musikot
-            dolpo sinja dullu ajayameru bajhang acham kailali kanchapur
+            sunkoshi ramechhap sindhuli rajanari lumbini pokhara tanahun tansen pyuthan chaughera
+            gulmi salianah malneta jagatipur jumla bajura takam yanal_densa musikot dolpo
+            sinja dullu ajayameru bajhang acham kailali kanchapur
          }
 
        }
@@ -17217,7 +17217,7 @@ countries = {
             chittoor tirupati udayagiri pakala penchalakona_hills seshachalam_hills medanapalle gurramkonda pottapi rayachoti
             porumamilla cuddapah ahobalam nandyal penukonda kadiri vempalle dharmavaram gandikota anantapur
             rayadurga gutti n_nallamalla s_nallamalla kurnool srisailam dhone adoni bellari puvina_padangile
-            vijayanagar uchangidurga ramnagar_bihar
+            vijayanagar uchangidurga ramnagar_bihar tenkasi tirunelveli kayal thoothukudi
          }
 
        }
@@ -21169,44 +21169,7 @@ countries = {
 
        }
       TNK = {
-         capital = tenkasi
          country_rank = rank_county
-
-         own_control_core = {
-            tenkasi tirunelveli kayal thoothukudi
-         }
-
-         our_cores_conquered_by_others = {
-            kayattar sankaranayinarkoil madurai vembar ramesvaram nagapattinam puddokothai tiruccirapalli thanjavur srirangam
-            pennadam jayankondam karaikal
-         }
-
-         include = "expl_india_hindu"
-         include = "indian_hindu_monarchy"
-
-         government = {
-
-            #Societal Values
-
-            land_vs_naval = 50
-
-             
-            ruler = tnk_vira_pandya
-
-            #Maravarman Sundara I	1216?1238 CE
-            #Sundaravarman Kulasekara II	1238?1240 CE
-            #Maravarman Sundara II	1238?1251 CE
-            #Jatavarman Sundara I	1251?1268 CE
-            ruler_term  = { character = tnk_maravarman_kulasekara_pandya start_date = 1268.1.1 end_date = 1310.1.1 regnal_number = 1 }
-            ruler_term  = { character = tnk_sundara_pandya start_date = 1310.1.1 end_date = 1327.1.1 regnal_number = 4 }
-            ruler_term  = { character = tnk_vira_pandya start_date = 1327.1.1 end_date = 1.1.1 regnal_number = 4 }
-
-            regnal_numbers = {
-               name_vira = 4
-               name_sundara = 4
-            }
-
-          }
       }
       TNL = {
          country_rank = rank_county
