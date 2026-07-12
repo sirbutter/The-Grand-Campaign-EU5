@@ -5922,7 +5922,7 @@ countries = {
 
          own_control_colony = {
             tamazaghrane oran arzew ksar_ibn_senane algiers cherchell kourou cayenne palikur carucairi
-            iguanacaera miquelon brashk bejaia annaba ndar beer_dun
+            iguanacaera miquelon brashk bejaia annaba ndar beer_dun reunion
          }
 
          include = "expl_western_europe"
@@ -6146,7 +6146,7 @@ countries = {
             waitangi tamaki whangarei aupouri gambia bintang bunce_island accra winneba umncumuba
             umsobomvu kwezi tandjies_mountains ubuntu xam_ka_e hantam matzikama ethekwini kaukou tsitsikamma_mountains
             outenniqua_mountains langeberg_east_mountains groot_swart_mountains anys_mountains clock_mountains riviersonderend_mountains jonkershoek_mountains hawequas_mountains waterval_mountains winterkoek_mountain
-            roggeveld_mountains trakamma hom tankwa skurweberge_mountains langeberg_west_mountains
+            roggeveld_mountains trakamma hom tankwa skurweberge_mountains langeberg_west_mountains fernando_po georgia_isle st_helena ascensao tristan_da_cunha_island gough_island seychelles al_khadra mauritius rodrigues chagos_archipelago south_andaman north_andaman
          }
 
          include = "catholic_monarchy"
