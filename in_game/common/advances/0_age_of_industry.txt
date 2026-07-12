@@ -98,6 +98,8 @@ tgc_industry_advance = {
 		armored_vehicles = {
 			age = age_7_industry
 			icon = enlightenment_advance
+
+			unlock_building = tank_mill
 			
 			requires = infiltration
 		}
@@ -378,7 +380,9 @@ tgc_industry_advance = {
 		clipper_design = {
 			age = age_7_industry
 			icon = enlightenment_advance
-		ship_build_speed = 0.1
+			ship_build_speed = 0.1
+
+			unlock_building = clipper_mill
 			
 			requires = tgc_navy_advance
 		}
@@ -386,6 +390,8 @@ tgc_industry_advance = {
 		paddle_steamers = {
 			age = age_7_industry
 			icon = enlightenment_advance
+
+			unlock_building = steamer_mill
 			
 			requires = clipper_design
 		}
@@ -701,6 +707,9 @@ tgc_industry_advance = {
 		early_classical_theory_and_critique = {
 			age = age_7_industry
 			icon = enlightenment_advance
+
+			# unlock_building = furniture_mill
+			# unlock_building = lumber_mill
 			
 			requires = tgc_economy_advance
 		}
@@ -751,6 +760,9 @@ tgc_industry_advance = {
 		freedom_of_trade = {
 			age = age_7_industry
 			icon = enlightenment_advance
+
+			# unlock_building = paper_mill
+			unlock_building = cement_mill
 			
 			requires = tgc_economy_advance
 		}
@@ -801,6 +813,9 @@ tgc_industry_advance = {
 		guild_based_production = {
 			age = age_7_industry
 			icon = enlightenment_advance
+
+			unlock_building = canned_food_mill
+			# unlock_building = wine_mill
 			
 			requires = tgc_economy_advance
 		}
@@ -1037,6 +1052,8 @@ tgc_industry_advance = {
 		mass_politics = {
 			age = age_7_industry
 			icon = enlightenment_advance
+
+			unlock_building = radio_mill
 			
 			requires = revolution_and_counterrevolution
 		}
