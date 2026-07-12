@@ -7876,7 +7876,7 @@ can_extract_clipper = {
 can_extract_steamer = {
 	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
 }
-can_extract_electric_gears = {
+can_extract_electric_gear = {
 	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
 }
 can_extract_automobiles = {
@@ -7888,7 +7888,7 @@ can_extract_plastics = {
 can_extract_tires = {
 	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
 }
-can_extract_radios = {
+can_extract_radio = {
 	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
 }
 can_extract_pharmaceuticals = {
@@ -7906,7 +7906,7 @@ can_extract_ammunition = {
 can_extract_tank = {
 	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
 }
-can_extract_aeroplane = {
+can_extract_aeroplanes = {
 	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
 }
 can_extract_luxury_furniture = {
@@ -7918,7 +7918,7 @@ can_extract_luxury_clothes = {
 can_extract_regular_clothes = {
 	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
 }
-can_extract_telephone = {
+can_extract_telephoness = {
 	positive = "gfx/interface/icons/modifier_types/iron_positive.dds" 
 }
 

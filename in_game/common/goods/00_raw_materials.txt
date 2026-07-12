@@ -758,7 +758,7 @@ steamer = {
 	transport_cost = 1
 }
 
-electric_gears = {
+electric_gear = {
 	category = produced
 	color = goods_iron
 	default_market_price = 3
@@ -786,7 +786,7 @@ tires = {
 	transport_cost = 1
 }
 
-radios = {
+radio = {
 	category = produced
 	color = goods_iron
 	default_market_price = 3
@@ -828,7 +828,7 @@ tank = {
 	transport_cost = 1
 }
 
-aeroplane = {
+aeroplanes = {
 	category = produced
 	color = goods_iron
 	default_market_price = 3
@@ -856,7 +856,7 @@ regular_clothes = {
 	transport_cost = 1
 }
 
-telephone = {
+telephones = {
 	category = produced
 	color = goods_iron
 	default_market_price = 3

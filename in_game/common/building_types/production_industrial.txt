@@ -1,6 +1,6 @@
 ﻿# NOTES:
 # fabric -> cloth
-# machine_tools -> tools
+# machine_parts -> tools
 
 luxury_clothes_mill = {
 	is_foreign = no
@@ -192,7 +192,7 @@ pharmaceuticals_mill = {
 	construction_demand = mill_construction
 }
 
-aeroplane_mill = {
+aeroplanes_mill = {
 	is_foreign = no
 	pop_type = laborers
 	max_levels = mills_max_level
@@ -209,11 +209,11 @@ aeroplane_mill = {
 		luxury_clothes_mill_maintenance = {
 			
 			tools = 0.555
-			electric_gears = 1
+			electric_gear = 1
 			tires = 0.25
 			lumber = 1.65
 			
-			produced = aeroplane
+			produced = aeroplanes
 			output = 0.455
 			
 			debug_max_profit = 1.0

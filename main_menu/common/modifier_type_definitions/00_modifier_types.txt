@@ -7511,7 +7511,7 @@ can_extract_steamer={
 	}
 }
 
-can_extract_electric_gears={
+can_extract_electric_gear={
 	boolean=yes
 	game_data={
 		category=country
@@ -7539,7 +7539,7 @@ can_extract_tires={
 	}
 }
 
-can_extract_radios={
+can_extract_radio={
 	boolean=yes
 	game_data={
 		category=country
@@ -7581,7 +7581,7 @@ can_extract_tank={
 	}
 }
 
-can_extract_aeroplane={
+can_extract_aeroplanes={
 	boolean=yes
 	game_data={
 		category=country
@@ -7609,7 +7609,7 @@ can_extract_regular_clothes={
 	}
 }
 
-can_extract_telephone={
+can_extract_telephones={
 	boolean=yes
 	game_data={
 		category=country
