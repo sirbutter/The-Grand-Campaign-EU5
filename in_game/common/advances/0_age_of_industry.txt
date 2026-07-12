@@ -1131,6 +1131,9 @@ tgc_industry_advance = {
 		combustion_engine = {
 			age = age_7_industry
 			icon = enlightenment_advance
+
+			unlock_building = automobiles_mill
+			unlock_building = aeroplanes_mill
 			
 			requires = steam_turbine
 		}
@@ -1153,8 +1156,6 @@ tgc_industry_advance = {
 		mechanical_production = {
 			age = age_7_industry
 			icon = enlightenment_advance
-
-			unlock_building = regular_clothes_mill
 			
 			requires = tgc_industry_advance
 		}
@@ -1207,6 +1208,9 @@ tgc_industry_advance = {
 		hot_blast_process = {
 			age = age_7_industry
 			icon = enlightenment_advance
+
+			unlock_building = ammunition_mill
+			unlock_building = explosives_mill
 			
 			requires = tgc_industry_advance
 		}
@@ -1257,6 +1261,8 @@ tgc_industry_advance = {
 		experimental_railroad = {
 			age = age_7_industry
 			icon = enlightenment_advance
+
+			unlock_building = regular_clothes_mill
 			
 			requires = tgc_industry_advance
 		}
@@ -1327,6 +1333,7 @@ tgc_industry_advance = {
 			icon = enlightenment_advance
 
 			unlock_building = soap_mill
+			unlock_building = tires_mill
 			
 			requires = medicine
 		}
@@ -1334,6 +1341,8 @@ tgc_industry_advance = {
 		organic_chemistry = {
 			age = age_7_industry
 			icon = enlightenment_advance
+
+			unlock_building = fuel_mill
 			
 			requires = inorganic_chemistry
 		}
@@ -1341,6 +1350,9 @@ tgc_industry_advance = {
 		electricity = {
 			age = age_7_industry
 			icon = enlightenment_advance
+
+			unlock_building = telephones_mill
+			unlock_building = electric_gear
 			
 			requires = organic_chemistry
 		}
@@ -1348,6 +1360,8 @@ tgc_industry_advance = {
 		synthetic_polymers = {
 			age = age_7_industry
 			icon = enlightenment_advance
+
+			unlock_building = plastics_mill
 			
 			requires = electricity
 		}
