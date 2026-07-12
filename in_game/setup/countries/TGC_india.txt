@@ -113,3 +113,12 @@ BIK = {
 	culture_definition = marwari
 	religion_definition = hindu
 }
+
+#Nepal
+NPL = {
+	color = map_jaisalmer
+	color2 = map_jaisalmer_2
+
+	culture_definition = marwari
+	religion_definition = hindu
+}

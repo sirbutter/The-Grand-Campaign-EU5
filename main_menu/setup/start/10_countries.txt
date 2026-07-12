@@ -2928,10 +2928,6 @@ countries = {
          capital = chaudandi
          country_rank = rank_county
 
-         own_control_core = {
-            chaudandi
-         }
-
          include = "expl_india_hindu"
          include = "indian_hindu_monarchy_no_coast"
 
@@ -4658,10 +4654,6 @@ countries = {
       DTI = {
          capital = dipayal
          country_rank = rank_county
-
-         own_control_core = {
-            dipayal acham ajayameru bajhang kailali kanchapur
-         }
 
          include = "expl_india_hindu"
          include = "indian_hindu_monarchy_no_coast"
@@ -9619,10 +9611,6 @@ countries = {
          capital = kathmandu
          country_rank = rank_county
 
-         own_control_core = {
-            kathmandu dhading gorkha lamjung nuwakot upardang
-         }
-
          include = "expl_india_hindu"
          include = "indian_hindu_monarchy_no_coast"
 
@@ -10623,32 +10611,8 @@ countries = {
          country_rank = rank_county
        }
       LWA = {
-         capital = vijayapur
          country_rank = rank_county
-
-         own_control_core = {
-            vijayapur phakphok taplejung
-         }
-
-         own_control_integrated = {
-            chainpur ranibas dudhakunda halesi okhaldhunga dolakha sunkoshi ramechhap sindhuli rajanari
-         }
-
-         include = "expl_india_hindu"
-         include = "indian_hindu_monarchy_no_coast"
-
-         tolerated_cultures = {
-            kamarupi
-         }
-
-         government = {
-            ruler = random
-
-            laws = {
-               medieval_levy_law = peasant_levies
-            }
-          }
-      }
+       }
       LXG = {
          country_rank = rank_county
        }
@@ -13231,6 +13195,18 @@ countries = {
       NPG = {
          country_rank = rank_county
        }
+      NPL = {
+         capital = vijayapur
+         country_rank = rank_county
+
+         own_control_core = {
+            vijayapur phakphok taplejung chaudandi siraha janakpur_nepal gorkha lamjung dhading upardang
+            nuwakot kathmandu makwanpur simraungadh chainpur ranibas dudhakunda halesi okhaldhunga dolakha
+            sunkoshi ramechhap sindhuli rajanari lumbini awadh pokhara tanahun tansen pyuthan
+            chaughera gulmi salianah malneta jagatipur jumla bajura takam yanal_densa musikot
+            dolpo sinja dullu
+         }
+       }
       NPO = {
          country_rank = rank_county
        }
@@ -13728,8 +13704,7 @@ countries = {
          country_rank = rank_county
 
          own_control_core = {
-            madhubani darbhanga janakpur_nepal jhanjharpur siraha sitamarhi purnia alamganj bihariganj katihar
-            kosi saharsa
+            madhubani darbhanga jhanjharpur sitamarhi purnia alamganj bihariganj katihar kosi saharsa
          }
 
          include = "expl_india_hindu"
@@ -15325,20 +15300,20 @@ countries = {
             varanasi chunar ghazipur jaunpur mau_jaunpur kantit shankargah vijaygarh sidhi agori
             budaun gunnaur sambhal bareilly nahil pilibhit shahjahanpur khairabad bhurwara biswan
             firuzabad_bahraich kherigarh lucknow bilgram hardoi ibrahimabad pali_uttar_pradesh bahraich balrampur gonda
-            shravasti tulsipur gorakhpur bansi basti binayakpur kushinagar lumbini azamgarh andar
-            chillupar rudrapur sonepur_bihar thawe bettiah makwanpur mehsi ramnagar_bihar sheohar simraungadh
-            bhagalpur gidhaur hajipur khagaria monghyr samastipur patna bihar_sharif deo gaya
-            narhat rajgir roh hazaribagh chai gobindpur katrasgarh shergarh urda dumka
-            deoghar jangipur mandar_parvat rajmahal teliagarhi bilauktaung_range2 bilauktaung_range1 myitta tavoy thaton
-            ye haungtharaw kyainseikgyi mawlamyine martaban hpa_an thayetchaung singkhon tenasserim bilauktaung_range3
-            kawthaung mergui sarsuti krishnagiri palani dharapuram erode bhavani tiruppur satyamanagalam
-            biligiriranga pennagaram dharmapuri salem sendamangalam karur kangundi jagadevipalayam tiruvannamalai denkanikottai
-            malapuram wayanad nilgiri angadippuram western_ghats_siruvani palghat coimbatore palni_hills haleri western_ghats_haleri
-            kannur kozhikode ponnani western_ghats_kozhikode kasaragod uppinangady karkala honnavara bhatkal udupi
-            karwar mangalore sonda_karnataka palasamudram chittoor tirupati udayagiri pakala penchalakona_hills seshachalam_hills
-            medanapalle gurramkonda pottapi rayachoti porumamilla cuddapah ahobalam nandyal penukonda kadiri
-            vempalle dharmavaram gandikota anantapur rayadurga gutti n_nallamalla s_nallamalla kurnool srisailam
-            dhone adoni bellari puvina_padangile vijayanagar uchangidurga
+            shravasti tulsipur gorakhpur bansi basti binayakpur kushinagar azamgarh andar chillupar
+            rudrapur sonepur_bihar thawe bettiah mehsi sheohar bhagalpur gidhaur hajipur khagaria
+            monghyr samastipur patna bihar_sharif deo gaya narhat rajgir roh hazaribagh
+            chai gobindpur katrasgarh shergarh urda dumka deoghar jangipur mandar_parvat rajmahal
+            teliagarhi bilauktaung_range2 bilauktaung_range1 myitta tavoy thaton ye haungtharaw kyainseikgyi mawlamyine
+            martaban hpa_an thayetchaung singkhon tenasserim bilauktaung_range3 kawthaung mergui sarsuti krishnagiri
+            palani dharapuram erode bhavani tiruppur satyamanagalam biligiriranga pennagaram dharmapuri salem
+            sendamangalam karur kangundi jagadevipalayam tiruvannamalai denkanikottai malapuram wayanad nilgiri angadippuram
+            western_ghats_siruvani palghat coimbatore palni_hills haleri western_ghats_haleri kannur kozhikode ponnani western_ghats_kozhikode
+            kasaragod uppinangady karkala honnavara bhatkal udupi karwar mangalore sonda_karnataka palasamudram
+            chittoor tirupati udayagiri pakala penchalakona_hills seshachalam_hills medanapalle gurramkonda pottapi rayachoti
+            porumamilla cuddapah ahobalam nandyal penukonda kadiri vempalle dharmavaram gandikota anantapur
+            rayadurga gutti n_nallamalla s_nallamalla kurnool srisailam dhone adoni bellari puvina_padangile
+            vijayanagar uchangidurga ramnagar_bihar
          }
        }
       RAL = {
