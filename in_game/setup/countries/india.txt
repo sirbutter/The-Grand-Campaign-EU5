@@ -334,28 +334,12 @@ RJI = {
 
 
 }
-KUT = {
-	color = map_kutch
-	color2 = map_kutch_2
-
-	culture_definition = gujarati
-	religion_definition = hindu
-
-
-}
 SMA = {
 	color = map_samma
 	color2 = map_samma_2
 
 	culture_definition = sindhi
 	religion_definition = sunni
-}
-SND = {
-	color = map_sindh
-	color2 = map_sindh_2
-
-	culture_definition = sindhi
-	religion_definition = shia
 }
 RNP = {
 	color = map_ranpur
@@ -379,16 +363,6 @@ PLT = {
 
 	culture_definition = gujarati
 	religion_definition = hindu
-}
-
-JNG = {
-	color = map_junagarh
-	color2 = map_junagarh_2
-
-	culture_definition = gujarati
-	religion_definition = hindu
-
-
 }
 BHD = {
 	color = map_bhanvad

@@ -68,10 +68,45 @@ BST = {
 	culture_definition = chhattisgarhi
 	religion_definition = hindu
 }
+KUT = {
+	color = map_kutch
+	color2 = map_kutch_2
+
+	culture_definition = gujarati
+	religion_definition = hindu
+
+
+}
+SND = {
+	color = map_sindh
+	color2 = map_sindh_2
+
+	culture_definition = sindhi
+	religion_definition = shia
+}
 
 #Khairpur
 KHP = {
-	color = rgb { 173 132 109 }
+	color = rgb { 135 104 85 }
+	# rgb { 173 132 109 } for when princely state
+	color2 = map_bastar_2
+
+	culture_definition = chhattisgarhi
+	religion_definition = hindu
+}
+
+#Hyderabad in Sindh
+HYR = {
+	color = rgb { 94 72 59 }
+	color2 = map_bastar_2
+
+	culture_definition = chhattisgarhi
+	religion_definition = hindu
+}
+
+#Mirpurkhas
+MPK = {
+	color = rgb { 112 85 70 }
 	color2 = map_bastar_2
 
 	culture_definition = chhattisgarhi
@@ -121,4 +156,49 @@ NPL = {
 
 	culture_definition = marwari
 	religion_definition = hindu
+}
+
+#Junagadh
+JNG = {
+	color = map_junagarh
+	color2 = map_junagarh_2
+
+	culture_definition = gujarati
+	religion_definition = hindu
+}
+
+#Halar
+HLR = {
+	color = map_junagarh
+	color2 = map_junagarh_2
+
+	culture_definition = gujarati
+	religion_definition = hindu
+}
+
+#Bhavnagar
+BHV = {
+	color = map_junagarh
+	color2 = map_junagarh_2
+
+	culture_definition = gujarati
+	religion_definition = hindu
+}
+
+#Kathiawar
+KTW = {
+	color = map_kartawi
+	color2 = rgb { 144 220 149 }
+
+	culture_definition = kurdish_culture
+	religion_definition = sunni
+}
+
+#Baroda
+BRD = {
+	color = map_BRD
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = bardi_bank_culture
+	religion_definition = catholic
 }
