@@ -1153,6 +1153,8 @@ tgc_industry_advance = {
 		mechanical_production = {
 			age = age_7_industry
 			icon = enlightenment_advance
+
+			unlock_building = regular_clothes_mill
 			
 			requires = tgc_industry_advance
 		}
@@ -1305,6 +1307,8 @@ tgc_industry_advance = {
 		basic_chemistry = {
 			age = age_7_industry
 			icon = enlightenment_advance
+
+			unlock_building = fertilizer_mill
 			
 			requires = tgc_industry_advance
 		}
@@ -1312,6 +1316,8 @@ tgc_industry_advance = {
 		medicine = {
 			age = age_7_industry
 			icon = enlightenment_advance
+
+			unlock_building = pharmaceuticals_mill
 			
 			requires = basic_chemistry
 		}
@@ -1319,6 +1325,8 @@ tgc_industry_advance = {
 		inorganic_chemistry = {
 			age = age_7_industry
 			icon = enlightenment_advance
+
+			unlock_building = soap_mill
 			
 			requires = medicine
 		}

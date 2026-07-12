@@ -1,4 +1,8 @@
-﻿luxury_clothes_mill = {
+﻿# NOTES:
+# fabric -> cloth
+# machine_tools -> tools
+
+luxury_clothes_mill = {
 	is_foreign = no
 	pop_type = laborers
 	max_levels = mills_max_level
@@ -19,6 +23,198 @@
 			
 			produced = luxury_clothes
 			output = 3
+			
+			debug_max_profit = 1.0
+			
+			category = mills_input
+		}
+	}
+	
+	custom_tags = { lategame_manufactory }
+	construction_demand = mill_construction
+}
+
+regular_clothes_mill = {
+	is_foreign = no
+	pop_type = laborers
+	max_levels = mills_max_level
+	
+	category = consumer_goods_category
+	employment_size = mills_employment
+
+	town = yes
+	city = yes
+
+	build_time = mills_build_time
+	
+	unique_production_methods = {
+		regular_clothes_mill_maintenance = {
+			
+			cloth = 35
+			
+			produced = regular_clothes
+			output = 15
+			
+			debug_max_profit = 1.0
+			
+			category = mills_input
+		}
+	}
+	
+	custom_tags = { lategame_manufactory }
+	construction_demand = mill_construction
+}
+
+cement_mill = {
+	is_foreign = no
+	pop_type = laborers
+	max_levels = mills_max_level
+	
+	category = consumer_goods_category
+	employment_size = mills_employment
+
+	town = yes
+	city = yes
+
+	build_time = mills_build_time
+	
+	unique_production_methods = {
+		luxury_clothes_mill_maintenance = {
+			
+			coal = 6
+			
+			produced = cement
+			output = 1.75
+			
+			debug_max_profit = 1.0
+			
+			category = mills_input
+		}
+	}
+	
+	custom_tags = { lategame_manufactory }
+	construction_demand = mill_construction
+}
+
+fertilizer_mill = {
+	is_foreign = no
+	pop_type = laborers
+	max_levels = mills_max_level
+	
+	category = consumer_goods_category
+	employment_size = mills_employment
+
+	town = yes
+	city = yes
+
+	build_time = mills_build_time
+	
+	unique_production_methods = {
+		luxury_clothes_mill_maintenance = {
+			
+			sulphur = 3
+			
+			produced = fertilizer
+			output = 2.5
+			
+			debug_max_profit = 1.0
+			
+			category = mills_input
+		}
+	}
+	
+	custom_tags = { lategame_manufactory }
+	construction_demand = mill_construction
+}
+
+soap_mill = {
+	is_foreign = no
+	pop_type = laborers
+	max_levels = mills_max_level
+	
+	category = consumer_goods_category
+	employment_size = mills_employment
+
+	town = yes
+	city = yes
+
+	build_time = mills_build_time
+	
+	unique_production_methods = {
+		luxury_clothes_mill_maintenance = {
+			
+			paper = 1
+			livestock = 1
+			
+			produced = soap
+			output = 5
+			
+			debug_max_profit = 1.0
+			
+			category = mills_input
+		}
+	}
+	
+	custom_tags = { lategame_manufactory }
+	construction_demand = mill_construction
+}
+
+pharmaceuticals_mill = {
+	is_foreign = no
+	pop_type = laborers
+	max_levels = mills_max_level
+	
+	category = consumer_goods_category
+	employment_size = mills_employment
+
+	town = yes
+	city = yes
+
+	build_time = mills_build_time
+	
+	unique_production_methods = {
+		luxury_clothes_mill_maintenance = {
+			
+			explosives = 0.4
+			glass = 1
+			fruit = 1
+			
+			produced = pharmaceuticals
+			output = 4
+			
+			debug_max_profit = 1.0
+			
+			category = mills_input
+		}
+	}
+	
+	custom_tags = { lategame_manufactory }
+	construction_demand = mill_construction
+}
+
+aeroplane_mill = {
+	is_foreign = no
+	pop_type = laborers
+	max_levels = mills_max_level
+	
+	category = consumer_goods_category
+	employment_size = mills_employment
+
+	town = yes
+	city = yes
+
+	build_time = mills_build_time
+	
+	unique_production_methods = {
+		luxury_clothes_mill_maintenance = {
+			
+			tools = 0.555
+			electric_gears = 1
+			tires = 0.25
+			lumber = 1.65
+			
+			produced = aeroplane
+			output = 0.455
 			
 			debug_max_profit = 1.0
 			
