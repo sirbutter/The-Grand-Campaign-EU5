@@ -17949,9 +17949,9 @@ character_db = {
       birth = naples
       dynasty = anjou_dynasty # Should be dynasty = anjou_durazzo_dynasty # Founder of the Durazzo Line of the House of Anjou
       tag = ALB # OR = {
-       # tag = ALB
-# tag = CEP
-# }
+       # tag = ALB
+# tag = CEP
+# }
    }
    # HOUSE OF FOIX (Count of Foix)
    foi_bernard_roger_foix = {
@@ -35068,7 +35068,6 @@ character_db = {
       #father = Guecellone II da Camino
       #mother = Sofia di Colfosco
       dynasty = da_camino_dynasty
-      tag = TRV
    }
    trv_guecellone_iv_da_camino = {
       first_name = { name = name_guecello }
@@ -35081,7 +35080,6 @@ character_db = {
       birth = treviso
       #mother = Engelenda
       dynasty = da_camino_dynasty
-      tag = TRV
    }
    trv_biaquino_iii_da_camino = {
       first_name = { name = name_biaquino }
@@ -35097,7 +35095,6 @@ character_db = {
       birth = treviso
       #mother = Unknown
       dynasty = da_camino_dynasty
-      tag = TRV
    }
    trv_gherardo_iii_da_camino = {
       first_name = { name = name_gerard }
@@ -35117,7 +35114,6 @@ character_db = {
       birth = treviso
       #mother = India da Camposampiero
       dynasty = da_camino_dynasty
-      tag = TRV
    }
    trv_rizzardo_iv_da_camino = {
       first_name = { name = name_richard }
@@ -35130,7 +35126,6 @@ character_db = {
       birth = treviso
       #mother = Ailice da Vicaro
       dynasty = da_camino_dynasty
-      tag = TRV
    }
    trv_guecellone_vii_da_camino = {
       first_name = { name = name_guecello }
@@ -35146,7 +35141,6 @@ character_db = {
       birth = treviso
       #mother = Chiara della Torre
       dynasty = da_camino_dynasty
-      tag = TRV
    }
    ver_rizzardo_vi_da_camino = {
       first_name = { name = name_richard }
@@ -35307,7 +35301,6 @@ character_db = {
       birth = treviso
       #mother = Engelenda
       dynasty = da_camino_dynasty
-      tag = TRV
    }
    trv_tolberto_ii_da_camino = {
       first_name = { name = name_tolbert }
@@ -35320,7 +35313,6 @@ character_db = {
       birth = treviso
       #mother = Unknown
       dynasty = da_camino_dynasty
-      tag = TRV
    }
    trv_guecellone_vi_da_camino = {
       first_name = { name = name_guecello }
@@ -35333,7 +35325,6 @@ character_db = {
       birth = treviso
       #mother = Agnese dei Guidotti
       dynasty = da_camino_dynasty
-      tag = TRV
    }
    trv_biaquino_vi_da_camino = {
       first_name = { name = name_biaquino }
@@ -35349,7 +35340,6 @@ character_db = {
       birth = treviso
       #mother = Beatrice Bonaparte
       dynasty = da_camino_dynasty
-      tag = TRV
    }
    ver_guecellone_viii_da_camino = {
       first_name = { name = name_guecello }

@@ -1,6 +1,115 @@
-﻿RAJ = {
-	color = rgb { 190 120 130 }
+﻿
+RAJ = {
+   color = rgb { 190 120 130 }
+   color2 = rgb { 16 41 202 }
+   unit_color0 = rgb { 49 49 49 }
+   unit_color1 = rgb { 49 49 49 }
+   unit_color2 = rgb { 49 49 49 }
+   culture_definition = english
+   difficulty = 5
+}
+
+#Hyderabad
+HYD = {
+	color = rgb { 89 141 140 }
 	color2 = rgb { 16 41 202 }
 	culture_definition = english
 	religion_definition = administrative
+}
+
+#Travancore
+TRV = {
+	color = rgb { 134 166 117 }
+	color2 = rgb { 16 41 202 }
+	culture_definition = english
+	religion_definition = administrative
+}
+
+#Puddokothai
+PDK = {
+	color = rgb { 22 122 122 }
+	color2 = rgb { 16 41 202 }
+	culture_definition = english
+	religion_definition = administrative
+}
+
+#Cochin
+PDU = {
+	color = map_cochin
+	color2 = map_cochin_2
+
+	culture_definition = malayali
+	religion_definition = hindu
+}
+
+#Mysore
+MYS = {
+	color = map_cochin
+	color2 = map_cochin_2
+
+	culture_definition = malayali
+	religion_definition = hindu
+}
+
+#Jeypore
+JYP = {
+	color = map_cochin
+	color2 = map_cochin_2
+
+	culture_definition = malayali
+	religion_definition = hindu
+}
+
+#Bastar
+BST = {
+	color = map_bastar
+	color2 = map_bastar_2
+
+	culture_definition = chhattisgarhi
+	religion_definition = hindu
+}
+
+#Khairpur
+KHP = {
+	color = map_bastar
+	color2 = map_bastar_2
+
+	culture_definition = chhattisgarhi
+	religion_definition = hindu
+}
+
+#Bahawalpur
+BHW = {
+	color = map_bastar
+	color2 = map_bastar_2
+
+	culture_definition = chhattisgarhi
+	religion_definition = hindu
+}
+
+#Jaisalmer
+JSL = {
+	color = map_jaisalmer
+	color2 = map_jaisalmer_2
+
+	culture_definition = marwari
+	religion_definition = hindu
+}
+
+#Jodhpur
+JOD = {
+	color = map_jaisalmer
+	color2 = map_jaisalmer_2
+
+	culture_definition = marwari
+	religion_definition = hindu
+}
+
+#Bikaner
+BIK = {
+	color = map_jaisalmer
+	color2 = map_jaisalmer_2
+
+	culture_definition = marwari
+	religion_definition = hindu
 }

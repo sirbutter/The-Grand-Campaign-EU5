@@ -463,16 +463,6 @@ TOR	= { #torres
 }
 
 
-TRV	= { #treviso
-color = rgb { 217 40 40 }
-
-culture_definition = venetian
-religion_definition = catholic
-
-
-}
-
-
 TTE	= { #trieste
 color = rgb { 100 40 50 }
 

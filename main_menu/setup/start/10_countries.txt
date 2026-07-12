@@ -477,14 +477,6 @@ countries = {
          capital = kasaragod
          country_rank = rank_county
 
-         own_control_core = {
-            mangalore kasaragod uppinangady
-         }
-
-         own_control_integrated = {
-            bhatkal udupi
-         }
-
          include = "indian_hindu_monarchy_jain"
 
          tolerated_cultures = {
@@ -1598,17 +1590,7 @@ countries = {
           }
       }
       BHA = {
-         capital = bhatnir
-         religious_school = hanafi_school
          country_rank = rank_county
-
-         own_control_core = {
-            bhatnir sarsuti
-         }
-
-         our_cores_conquered_by_others = {
-            bathinda muktsar hisar hansi
-         }
 
          #Subdued by Delhi in 1331 with Bhairu, a son of the old ruler, in charge. Bersi had converted to Islam
          include = "expl_india_hindu"
@@ -1729,6 +1711,14 @@ countries = {
             heir_selection = tribal_oldest_male
           }
       }
+      BHW = {
+         country_rank = rank_county
+
+         own_control_core = {
+            thar_desert_3 bijnot nawakot aror channan_pir khairpur dunga_bunga chishtian kot_marot derawar
+            uch mir_garh_qila
+         }
+       }
       BHY = {
          country_rank = rank_county
 
@@ -1744,6 +1734,14 @@ countries = {
        }
       BID = {
          country_rank = rank_county
+       }
+      BIK = {
+         country_rank = rank_county
+
+         own_control_core = {
+            suratgarh bhatnir rawatsar kolasar sardarshahar udasar kolayat pugal churu taranagar
+            sidhmukh anupgarh sui
+         }
        }
       BIM = {
          capital = bima
@@ -2741,11 +2739,6 @@ countries = {
          capital = rawatsar
          country_rank = rank_county
 
-         #Small Principaly in Jangladesh prior to unification under Bikaner
-         own_control_core = {
-            rawatsar
-         }
-
          include = "expl_india_hindu"
          include = "india_limited_monarchy"
 
@@ -2818,10 +2811,6 @@ countries = {
       CAB = {
          capital = chamba_india
          country_rank = rank_county
-
-         own_control_core = {
-            chamba_india barmaur
-         }
 
          include = "expl_india_hindu"
          include = "indian_hindu_monarchy_no_coast"
@@ -3063,10 +3052,6 @@ countries = {
 
          own_control_core = {
             ballarpur bramhapuri gadchiroli aheri
-         }
-
-         own_control_integrated = {
-            mahur manikdrug sirpur chennur adilabad asifabad yegaladapa
          }
 
          include = "expl_india_hindu"
@@ -4532,7 +4517,8 @@ countries = {
 
          own_control_core = {
             jammu udamphur kathua pulawama baramulla banihal rawalakot kohtali rajouri rasyal
-            poonch
+            poonch pir_panjal_range pir_panjal_range_3 pir_panjal_range_2 paddar pangi kishtwar marwah chamba_india barmaur
+            koksar keylong himalayas_chanda_3 himalayas_chanda_2 kashmiri_himalayas himalayas_chanda
          }
 
          include = "expl_india_hindu"
@@ -4647,7 +4633,7 @@ countries = {
          country_rank = rank_county
 
          own_control_core = {
-            taranagar jhunjhunu
+            jhunjhunu
          }
 
          include = "expl_india_hindu"
@@ -4906,10 +4892,6 @@ countries = {
       ELA = {
          capital = kottarakkara
          country_rank = rank_county
-
-         own_control_core = {
-            kottarakkara
-         }
 
          include = "expl_india_hindu"
          include = "indian_hindu_monarchy_no_coast"
@@ -5525,7 +5507,7 @@ countries = {
 
          #Biggest of the Principalities in Jangladesh prior to unification under Bikaner
          own_control_core = {
-            sardarshahar kolasar sikar udasar kolayat
+            sikar
          }
 
          include = "expl_india_hindu"
@@ -5758,10 +5740,6 @@ countries = {
       GOA = {
          capital = goa
          country_rank = rank_county
-
-         own_control_core = {
-            goa madgaon
-         }
 
          include = "expl_india_hindu"
          include = "indian_hindu_monarchy"
@@ -6649,10 +6627,6 @@ countries = {
          religious_school = maliki_school
          country_rank = rank_county
 
-         own_control_core = {
-            honnavara
-         }
-
          include = "indian_muslim_monarchy"
 
          tolerated_cultures = {
@@ -6971,14 +6945,6 @@ countries = {
          capital = tiruvannamalai
          country_rank = rank_kingdom
 
-         own_control_core = {
-            mysore shravanabelagola seringapatam tiruvannamalai ummatur belur dvarasamudra haleri bangalore kolar
-            manyapura nandagiri magadi sira sringeri bednur penukonda kadiri karur erode
-            coimbatore satyamanagalam dharapuram krishnagiri dharmapuri salem sendamangalam palani tiruppur bhavani
-            jagadevipalayam denkanikottai pennagaram palasamudram dharmavaram hassan_karnataka kadur tumkur narsipur nanjanagud
-            shimoga devanahalli hoskote srigangapatna mankunda sathyagala ballalapura
-         }
-
          include = "expl_india_hindu"
          include = "indian_hindu_monarchy_jain_no_coast"
 
@@ -7093,6 +7059,20 @@ countries = {
        }
       HYC = {
          country_rank = rank_county
+       }
+      HYD = {
+         country_rank = rank_county
+
+         own_control_core = {
+            koppal mudgal anegandi devadurga raichur devarakonda amrabad panugallu gadwal wazirabad
+            undrugonda khammamet kalluru kothagudem mangapet palampet parkal sagar yedagiri ausa
+            bhalki naldrug parenda chitapur manyakheta kembhavi kalyani gulbarga nander basim
+            kalam amravati illichpur akola mehkar sindkedh daulatabad bir jalna dahrur
+            pathri mahagaon udgir bidar qandhar kaulas kelapur mahur adilabad sirpur
+            yegaladapa chennur asifabad manikdrug ramagiri nirmal kohir makhtal ghampur koilkonda
+            tandur rachakonda bhongir molangur vemulawada korutla anumagallu golconda tupran medak
+            adlur balkonda warangal nalgonda
+         }
        }
       HYM = {
          country_rank = rank_county
@@ -7704,11 +7684,6 @@ countries = {
          capital = suratgarh #Bhurupal
          country_rank = rank_county
 
-         #Second Biggest of the Principalities in Jangladesh prior to unification under Bikaner
-         own_control_core = {
-            sui suratgarh anupgarh
-         }
-
          include = "expl_india_hindu"
          include = "india_limited_monarchy"
 
@@ -7810,7 +7785,7 @@ countries = {
          #After the Delhi destruction of most of their land this state is home to a great number of Chauhans that have taken refuge here.
          #Was ultimately destroyed by the Gujarat Sultanate, and most of its artisans, etc, were relocated to Ahmedabad.
          own_control_core = {
-            jalor chandravati sirohi palanpur nadol siwana gudamalani
+            sirohi palanpur
          }
 
          include = "expl_india_hindu"
@@ -7931,6 +7906,14 @@ countries = {
       JOA = {
          country_rank = rank_county
        }
+      JOD = {
+         country_rank = rank_county
+
+         own_control_core = {
+            kiradu merta makrana mandore nagaur osian siwana jalor chandravati gudamalani
+            bahadamer pali khed nadol kurki
+         }
+       }
       JOL = {
          capital = linguere
 
@@ -8025,7 +8008,7 @@ countries = {
          country_rank = rank_county
 
          own_control_core = {
-            jaisalmer ludrava pokhran ramgar
+            jaisalmer ludrava pokhran ramgar thar_desert_2 thar_desert thar_desert_bikaner phalvardhika
          }
 
          include = "expl_india_hindu"
@@ -8087,6 +8070,9 @@ countries = {
             }
           }
       }
+      JYP = {
+         country_rank = rank_county
+       }
       KAB = {
          country_rank = rank_county
        }
@@ -8306,10 +8292,6 @@ countries = {
       KDU = {
          capital = kodungallur
          country_rank = rank_county
-
-         own_control_core = {
-            kodungallur thrissur
-         }
 
          include = "expl_india_hindu"
          include = "indian_hindu_monarchy"
@@ -8590,6 +8572,13 @@ countries = {
             heir_selection = tribal_oldest_male
           }
       }
+      KHP = {
+         country_rank = rank_county
+
+         own_control_core = {
+            kot_lalu dubbi islamgarh
+         }
+       }
       KHR = {
          capital = kherla
          country_rank = rank_county
@@ -8984,10 +8973,6 @@ countries = {
       KLT = {
          capital = kannur
          country_rank = rank_county
-
-         own_control_core = {
-            kannur thalassery
-         }
 
          include = "expl_india_hindu"
          include = "indian_hindu_monarchy"
@@ -9567,10 +9552,6 @@ countries = {
          capital = kishtwar
          country_rank = rank_county
 
-         own_control_core = {
-            kishtwar paddar pangi marwah
-         }
-
          #Dynasty: Sen
          include = "expl_india_hindu"
          include = "indian_hindu_monarchy_no_coast"
@@ -9613,10 +9594,6 @@ countries = {
       KTN = {
          capital = ponnani
          country_rank = rank_county
-
-         own_control_core = {
-            ponnani
-         }
 
          include = "expl_india_hindu"
          include = "indian_hindu_monarchy"
@@ -9793,10 +9770,6 @@ countries = {
       KYA = {
          capital = wayanad
          country_rank = rank_county
-
-         own_control_core = {
-            wayanad
-         }
 
          include = "expl_india_hindu"
          include = "indian_hindu_monarchy_no_coast"
@@ -10138,10 +10111,6 @@ countries = {
       LHL = {
          capital = keylong
          country_rank = rank_county
-
-         own_control_core = {
-            keylong koksar
-         }
 
          include = "expl_india_hindu"
          include = "indian_hindu_monarchy_no_coast"
@@ -12374,10 +12343,6 @@ countries = {
          capital = khed #Or Pali
          country_rank = rank_county
 
-         own_control_core = {
-            pali khed bahadamer
-         }
-
          include = "expl_india_hindu"
          include = "indian_hindu_monarchy_jain_no_coast"
 
@@ -12426,11 +12391,6 @@ countries = {
       MSN = {
          capital = warangal
          country_rank = rank_county
-
-         own_control_core = {
-            bhadrachalam palampet warangal ramagiri bhongir medak khammamet kothagudem kalluru nuzvid
-            kondapalli vemulawada balkonda nirmal molangur korutla adlur tupran mangapet parkal
-         }
 
          include = "expl_india_hindu"
          include = "indian_hindu_monarchy_no_coast"
@@ -12720,6 +12680,16 @@ countries = {
        }
       MYO = {
          country_rank = rank_county
+       }
+      MYS = {
+         country_rank = rank_county
+
+         own_control_core = {
+            hoskote ikkeri shimoga sringeri bednur kadur belur hassan_karnataka seringapatam sathyagala
+            ummatur nanjanagud mysore narsipur hanagal aimangala chitradurga basavapattana pavagada shravanabelagola
+            mankunda srigangapatna manyapura tumkur sira dvarasamudra magadi ballalapura devanahalli nandagiri
+            kolar bangalore
+         }
        }
       MZB = {
          country_rank = rank_county
@@ -14254,7 +14224,7 @@ countries = {
          country_rank = rank_county
 
          own_control_core = {
-            kochi edappaly
+            kodungallur thrissur
          }
 
          include = "expl_india_hindu"
@@ -14337,10 +14307,6 @@ countries = {
       PGL = {
          capital = pugal
          country_rank = rank_county
-
-         own_control_core = {
-            pugal
-         }
 
          include = "expl_india_hindu"
          include = "india_limited_monarchy"
@@ -14603,11 +14569,6 @@ countries = {
          capital = sidhmukh #Jhansal
          country_rank = rank_county
 
-         #Small Nagavamsi Jat principality that remained independent until conquered by Rao Bika (founder of Bikaner)
-         own_control_core = {
-            sidhmukh
-         }
-
          include = "expl_india_hindu"
          include = "india_limited_monarchy"
 
@@ -14705,7 +14666,7 @@ countries = {
             gunza_anbamba pungo_ndongo mbangala ndembo bramas loango malemba lucala ndalatando dondo
             muxima calumbo icalo luanda cahenda ambaca mbondo zumbo tete massangano
             ancuase chiramba chamo mopeia cuama chindre quelimane macuze nacala maputo
-            inhambane chongoene likusaen
+            inhambane chongoene likusaen madgaon goa
          }
 
          include = "expl_mediterranean"
@@ -14875,18 +14836,6 @@ countries = {
       PRT = {
          capital = phalvardhika
          country_rank = rank_county
-
-         #Mandore / Last remnant of the last branch of the Imperial Pratiharas.
-         #Had lost Mandore to Delhi in 1292 after which they became a minor subject of the Bhattis of Jaisalmer.
-         #Would retake it from Delhi in 1395, after which it passed to the Rathores.
-         own_control_core = {
-            phalvardhika
-         }
-
-         our_cores_conquered_by_others = {
-            mandore osian nagaur khed pali kurki ajmer merta nagaur makrana
-            sambhar
-         } #Mandore + parts of Marwar. At its greatest extent the dynasty had however ruled most of northern India.
 
          include = "expl_india_hindu"
          include = "india_limited_monarchy"
@@ -15360,33 +15309,36 @@ countries = {
             etawah kanauj sargadwari makanpur prayag kara asni korra alwar narnaul
             bharatpur agra mathura jalesar_doab kol dholpur chandwar sirhind sadhaura samana_india
             thanesar kaithal karnal hisar dadri hansi hajner sunam raikot faridkot
-            bathinda firozpur muktsar shishgarh chandpur_uttar_pradesh nagina seohara shahabad_uttar_pradesh jalna nander
-            pathri kaulas janjira chaul kalyan bombay bassein savantvadi rajapur dabhol
-            sangamesvara ajara mudhol belgaum londa khanapur gokak badami raybag sholhapur
-            naldrug ausa parenda chambargonda udgir bir dahrur qandhar ahmednagar daulatabad
-            pratapgarh satara karad kolhapur aundh jath miraj sinnar nasik chandor
-            bidar yedagiri gulbarga kalyani sagar talikota bagalkot bijapur kembhavi sindagi
-            basavana_bagewadi athani singarh raigarh pune junnar chakan daman surat rander
-            broach baroda khambat dholka ashaval modasa patan deodar radhanpur ranthambore
-            sheopur sambhar ajmer merta nagaur makrana kurki osian phulia mandalgarh
-            bhilwara bayana mandore sabalgarh kalam kelapur mahagaon panar amravati illichpur
-            gawilgarh asirgarh burhanpur pachora sindkedh mehkar akola basim laling thalner
-            sultanpur nandurbar dharangaon khandwa handia hoshangabad bijagarh mandleshwar maheshwar mandu
-            dhar indore ujjain maksi khategaon bhojpur sehore raisin bhopal sarangpur
-            agar sironj shahabad sipri chanderi alirajpur ratlam mandsaur rampura bhanpura
-            gagraun aklera guna khaniadhana bhind konch kalpi lalitpur deogarh bhilsa
-            damoh singorgarh ujargarh sugaur nawakot bijnot derawar channan_pir kot_marot uch
-            mir_garh_qila dunga_bunga chishtian khairpur aror manikpur bhadohi mungra raebareli unnao
-            awadh akbarpur kishi sultanpur_uttar_pradesh varanasi chunar ghazipur jaunpur mau_jaunpur kantit
-            shankargah vijaygarh sidhi agori budaun gunnaur sambhal bareilly nahil pilibhit
-            shahjahanpur khairabad bhurwara biswan firuzabad_bahraich kherigarh lucknow bilgram hardoi ibrahimabad
-            pali_uttar_pradesh bahraich balrampur gonda shravasti tulsipur gorakhpur bansi basti binayakpur
-            kushinagar lumbini azamgarh andar chillupar rudrapur sonepur_bihar thawe bettiah makwanpur
-            mehsi ramnagar_bihar sheohar simraungadh bhagalpur gidhaur hajipur khagaria monghyr samastipur
-            patna bihar_sharif deo gaya narhat rajgir roh hazaribagh chai gobindpur
-            katrasgarh shergarh urda dumka deoghar jangipur mandar_parvat rajmahal teliagarhi manyakheta
-            chitapur bhalki bilauktaung_range2 bilauktaung_range1 myitta tavoy thaton ye haungtharaw kyainseikgyi
-            mawlamyine martaban hpa_an thayetchaung singkhon tenasserim bilauktaung_range3 kawthaung mergui
+            bathinda firozpur muktsar shishgarh chandpur_uttar_pradesh nagina seohara shahabad_uttar_pradesh janjira chaul
+            kalyan bombay bassein savantvadi rajapur dabhol sangamesvara ajara mudhol belgaum
+            londa khanapur gokak badami raybag sholhapur chambargonda ahmednagar pratapgarh satara
+            karad kolhapur aundh jath miraj sinnar nasik chandor talikota bagalkot
+            bijapur sindagi basavana_bagewadi athani singarh raigarh pune junnar chakan daman
+            surat rander broach baroda khambat dholka ashaval modasa patan deodar
+            radhanpur ranthambore sheopur sambhar ajmer phulia mandalgarh bhilwara bayana sabalgarh
+            panar gawilgarh asirgarh burhanpur pachora laling thalner sultanpur nandurbar dharangaon
+            khandwa handia hoshangabad bijagarh mandleshwar maheshwar mandu dhar indore ujjain
+            maksi khategaon bhojpur sehore raisin bhopal sarangpur agar sironj shahabad
+            sipri chanderi alirajpur ratlam mandsaur rampura bhanpura gagraun aklera guna
+            khaniadhana bhind konch kalpi lalitpur deogarh bhilsa damoh singorgarh ujargarh
+            sugaur manikpur bhadohi mungra raebareli unnao awadh akbarpur kishi sultanpur_uttar_pradesh
+            varanasi chunar ghazipur jaunpur mau_jaunpur kantit shankargah vijaygarh sidhi agori
+            budaun gunnaur sambhal bareilly nahil pilibhit shahjahanpur khairabad bhurwara biswan
+            firuzabad_bahraich kherigarh lucknow bilgram hardoi ibrahimabad pali_uttar_pradesh bahraich balrampur gonda
+            shravasti tulsipur gorakhpur bansi basti binayakpur kushinagar lumbini azamgarh andar
+            chillupar rudrapur sonepur_bihar thawe bettiah makwanpur mehsi ramnagar_bihar sheohar simraungadh
+            bhagalpur gidhaur hajipur khagaria monghyr samastipur patna bihar_sharif deo gaya
+            narhat rajgir roh hazaribagh chai gobindpur katrasgarh shergarh urda dumka
+            deoghar jangipur mandar_parvat rajmahal teliagarhi bilauktaung_range2 bilauktaung_range1 myitta tavoy thaton
+            ye haungtharaw kyainseikgyi mawlamyine martaban hpa_an thayetchaung singkhon tenasserim bilauktaung_range3
+            kawthaung mergui sarsuti krishnagiri palani dharapuram erode bhavani tiruppur satyamanagalam
+            biligiriranga pennagaram dharmapuri salem sendamangalam karur kangundi jagadevipalayam tiruvannamalai denkanikottai
+            malapuram wayanad nilgiri angadippuram western_ghats_siruvani palghat coimbatore palni_hills haleri western_ghats_haleri
+            kannur kozhikode ponnani western_ghats_kozhikode kasaragod uppinangady karkala honnavara bhatkal udupi
+            karwar mangalore sonda_karnataka palasamudram chittoor tirupati udayagiri pakala penchalakona_hills seshachalam_hills
+            medanapalle gurramkonda pottapi rayachoti porumamilla cuddapah ahobalam nandyal penukonda kadiri
+            vempalle dharmavaram gandikota anantapur rayadurga gutti n_nallamalla s_nallamalla kurnool srisailam
+            dhone adoni bellari puvina_padangile vijayanagar uchangidurga
          }
        }
       RAL = {
@@ -15437,11 +15389,6 @@ countries = {
       RCH = {
          capital = golconda #Amangal / Amanugallu
          country_rank = rank_county
-
-         own_control_core = {
-            panugallu devarakonda koilkonda rachakonda golconda anumagallu amrabad nalgonda gadwal ghampur
-            makhtal tandur kohir undrugonda wazirabad
-         }
 
          include = "expl_india_hindu"
          include = "indian_hindu_monarchy_no_coast"
@@ -16670,11 +16617,6 @@ countries = {
          capital = churu
          country_rank = rank_county
 
-         #Small Principality in Jangladesh prior to unification under Bikaner
-         own_control_core = {
-            churu
-         }
-
          include = "expl_india_hindu"
          include = "india_limited_monarchy"
 
@@ -17779,10 +17721,6 @@ countries = {
          capital = karkala
          country_rank = rank_county
 
-         own_control_core = {
-            karkala
-         }
-
          include = "expl_india_hindu"
          include = "indian_hindu_monarchy_no_coast"
 
@@ -18757,10 +18695,6 @@ countries = {
          capital = manikandapuram
          country_rank = rank_county
 
-         own_control_core = {
-            manikandapuram prakkad
-         }
-
          include = "expl_india_hindu"
          include = "indian_hindu_monarchy"
 
@@ -19205,6 +19139,10 @@ countries = {
        }
       TRV = {
          country_rank = rank_county
+
+         own_control_core = {
+            kollam kanyakumari thiruvananthapuram pandalam kottarakkara edappaly karikkode prakkad manikandapuram kochi
+         }
        }
       TRY = {
          country_rank = rank_county
@@ -20146,10 +20084,6 @@ countries = {
          capital = karikkode
          country_rank = rank_county
 
-         own_control_core = {
-            karikkode
-         }
-
          include = "expl_india_hindu"
          include = "indian_hindu_monarchy_no_coast"
 
@@ -20188,13 +20122,6 @@ countries = {
          capital = vijayanagar
          country_rank = rank_kingdom
 
-         own_control_core = {
-            uchangidurga chitradurga pavagada basavapattana vijayanagar bellari rayadurga haveri anegandi koppal
-            hubli darwar raichur mudgal adoni bankapura ikkeri gutti gandikota ahobalam
-            udayagiri nandyal kurnool srisailam karwar anantapur porumamilla vempalle dhone puvina_padangile
-            hanagal aimangala devadurga kundgol sonda_karnataka gadag
-         }
-
          include = "indian_hindu_monarchy_jain"
 
          tolerated_cultures = {
@@ -20228,10 +20155,6 @@ countries = {
       VLD = {
          capital = palghat
          country_rank = rank_county
-
-         own_control_core = {
-            palghat angadippuram
-         }
 
          include = "expl_india_hindu"
          include = "indian_hindu_monarchy_no_coast"
@@ -20280,10 +20203,6 @@ countries = {
       VND = {
          capital = kollam
          country_rank = rank_county
-
-         own_control_core = {
-            thiruvananthapuram kollam kanyakumari pandalam
-         }
 
          include = "expl_india_hindu"
          include = "indian_hindu_monarchy"
@@ -21082,10 +21001,6 @@ countries = {
          capital = tirupati
          country_rank = rank_county
 
-         own_control_core = {
-            tirupati medanapalle cuddapah kangundi gurramkonda chittoor pakala rayachoti pottapi
-         }
-
          include = "expl_india_hindu"
          include = "indian_hindu_monarchy_no_coast"
 
@@ -21412,10 +21327,6 @@ countries = {
       ZMR = {
          capital = kozhikode
          country_rank = rank_county
-
-         own_control_core = {
-            malapuram kozhikode
-         }
 
          include = "expl_india_hindu"
          include = "indian_hindu_monarchy"
