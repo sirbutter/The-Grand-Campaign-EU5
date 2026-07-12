@@ -1,6 +1,6 @@
 ﻿#Douala
 DOU = {
-   color = rgb { 235  48  99 }
+   color = rgb { 70  145  179 }
    color2 = green
    culture_definition = amhara
    religion_definition = miaphysite
@@ -8,7 +8,7 @@ DOU = {
 
 #Orungu
 ORU = {
-   color = rgb { 235  48  99 }
+   color = rgb { 50 50 153 }
    color2 = green
    culture_definition = amhara
    religion_definition = miaphysite
@@ -16,7 +16,7 @@ ORU = {
 
 #Loango
 LOA = {
-   color = rgb { 235  48  99 }
+   color = rgb { 155 148 0 }
    color2 = green
    culture_definition = amhara
    religion_definition = miaphysite
@@ -24,7 +24,7 @@ LOA = {
 
 #Kakongo
 KKN = {
-   color = rgb { 235  48  99 }
+   color = rgb { 101 68 68 }
    color2 = green
    culture_definition = amhara
    religion_definition = miaphysite
@@ -32,7 +32,7 @@ KKN = {
 
 #Tio
 TIO = {
-	color = map_tionontate
+	color = rgb { 170 206 162 }
 	color2 = rgb { 216 41 202 }
 
 	culture_definition = tionontate_culture
@@ -41,7 +41,7 @@ TIO = {
 
 #Kongo
 KON = {
-   color = rgb { 235  48  99 }
+   color = rgb { 87 145 62 }
    color2 = green
    culture_definition = amhara
    religion_definition = miaphysite
@@ -49,7 +49,7 @@ KON = {
 
 #Yaka - YAK
 YAK = {
-	color = map_yaka
+	color = rgb { 150 150 132 }
 	color2 = black
 
 	culture_definition = yaka
@@ -58,14 +58,14 @@ YAK = {
 
 #Matamba
 MTB = {
-	color = rgb { 250 38 38 }
+	color = rgb { 57 190 101 }
 	culture_definition = franc_comtois
 	religion_definition = catholic
 }
 
 #Kassanje
 KSJ = {
-	color = map_yaka
+	color = rgb { 244 119 66 }
 	color2 = black
 
 	culture_definition = yaka
@@ -74,7 +74,7 @@ KSJ = {
 
 #Lunda
 LND = {
-	color = map_LND
+	color = rgb { 142 65 188 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = lunda
@@ -83,7 +83,7 @@ LND = {
 
 #Luba
 LBA = {
-	color = map_LBA
+	color = rgb { 87 45 69 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = luba
@@ -92,7 +92,7 @@ LBA = {
 
 #Kazembe
 KZB = {
-	color = map_LBA
+	color = rgb { 200 191 231 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = luba
@@ -101,7 +101,7 @@ KZB = {
 
 #Chokwe
 CHO = {
-	color = map_CHO
+	color = rgb { 166 72 57 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = chokwe
@@ -110,7 +110,7 @@ CHO = {
 
 #Mbunda
 MBU = {
-	color = map_CHO
+	color = rgb { 188 123 103 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = chokwe
@@ -119,14 +119,14 @@ MBU = {
 
 #Barotse
 BRS	= {
-	color = rgb { 80 0 106 }
+	color = rgb { 146 139 40 }
 	culture_definition = lombard
 	religion_definition = catholic
 }
 
 #Wanga - WNA
 WNA = {
-	color = map_wanga
+	color = rgb { 49 175 191 }
 	color2 = black
 
 	culture_definition = luhya_culture
@@ -135,7 +135,7 @@ WNA = {
 
 #Bunyoro - BNY
 BNY = {
-	color = map_bunyoro
+	color = rgb { 119 153 43 }
 	color2 = black
 
 	culture_definition = rutara_culture
@@ -144,7 +144,7 @@ BNY = {
 
 #Buganda - BUG
 BUG = {
-	color = map_buganda
+	color = rgb { 23 114 143 }
 	color2 = black
 
 	culture_definition = baganda_culture
@@ -153,7 +153,7 @@ BUG = {
 
 #Busoga - BSG (Formable)
 BSG = {
-	color = map_busoga
+	color = rgb { 67 122 140 }
 	color2 = black
 
 	culture_definition = rutara_culture
@@ -162,7 +162,7 @@ BSG = {
 
 #Nkore - NKO (Formable)
 NKO = {
-	color = map_nkore
+	color = rgb { 23 214 143 }
 	color2 = black
 
 	culture_definition = rutara_culture
@@ -171,7 +171,7 @@ NKO = {
 
 #Rwanda - RWA (Formable)
 RWA = {
-	color = map_rwanda
+	color = rgb { 219 83 106 }
 	color2 = black
 
 	culture_definition = rwanda_culture
@@ -180,7 +180,7 @@ RWA = {
 
 #Karagwe - KRW (Formable)
 KRW  = {
-	color = map_karagwe
+	color = rgb { 48 177 169 }
 	color2 = black
 
 	culture_definition = nyamwezi_culture
@@ -189,7 +189,7 @@ KRW  = {
 
 #Buha - UBH (Formable)
 UBH = {
-	color = map_buha
+	color = rgb { 22 92 22 }
 	color2 = black
 
 	culture_definition = rwanda_culture
@@ -198,7 +198,7 @@ UBH = {
 
 #Burundi - BUU (Formable)
 BUU  = {
-	color = map_burundi
+	color = rgb { 121 229 215 }
 	color2 = black
 
 	culture_definition = rwanda_culture
@@ -207,7 +207,7 @@ BUU  = {
 
 #Buhaya
 BHY  = {
-	color = map_burundi
+	color = rgb { 23  14  143 }
 	color2 = black
 
 	culture_definition = rwanda_culture
@@ -216,7 +216,7 @@ BHY  = {
 
 #Ussuwi
 USU  = {
-	color = map_burundi
+	color = rgb { 23  114  243 }
 	color2 = black
 
 	culture_definition = rwanda_culture
@@ -225,7 +225,7 @@ USU  = {
 
 #Alur
 ALR = {
-	color = map_burundi
+	color = rgb { 222 226 104 }
 	color2 = black
 
 	culture_definition = rwanda_culture
@@ -234,7 +234,7 @@ ALR = {
 
 #Pate Sultanate - PTE
 PTE = {
-	color = map_pate
+	color = rgb { 157 200 42 }
 	color2 = black
 
 	culture_definition = yemeni_culture
@@ -243,7 +243,7 @@ PTE = {
 
 #Zanzibar - ZZB  (Vassal of Kilwa)
 ZZB = {
-	color = map_zanzibar
+	color = rgb { 235 254 214 }
 	color2 = black
 
 	culture_definition = swahili_culture
@@ -252,7 +252,7 @@ ZZB = {
 
 #Masai - MAA
 MAA  = {
-	color = map_MAA
+	color = rgb { 146 20 50 }
 	color2 = black
 
 	culture_definition = maasai_culture
@@ -261,7 +261,7 @@ MAA  = {
 
 #Imerina - MIR (Formable)
 MIR = {
-	color = map_imerina
+	color = rgb { 117 150 120 }
 	color2 = black
 
 	culture_definition = merina_culture
@@ -270,7 +270,7 @@ MIR = {
 
 #Laikipia
 LKP = {
-	color = map_imerina
+	color = rgb { 145 114 95 }
 	color2 = black
 
 	culture_definition = merina_culture
@@ -279,7 +279,7 @@ LKP = {
 
 #Mazrui
 MZU = {
-	color = map_imerina
+	color = rgb { 235 254 214 }
 	color2 = black
 
 	culture_definition = merina_culture
@@ -288,7 +288,7 @@ MZU = {
 
 #Usambara
 USB = {
-	color = map_imerina
+	color = rgb { 252 221 9 }
 	color2 = black
 
 	culture_definition = merina_culture
@@ -297,7 +297,7 @@ USB = {
 
 #Tabora
 TBR = {
-	color = map_imerina
+	color = rgb { 122 192 122 }
 	color2 = black
 
 	culture_definition = merina_culture
@@ -306,7 +306,7 @@ TBR = {
 
 #Ujiji
 UJI = {
-	color = map_imerina
+	color = rgb { 151 110 0 }
 	color2 = black
 
 	culture_definition = merina_culture
@@ -315,7 +315,7 @@ UJI = {
 
 #Ufipa
 UFP = {
-	color = map_imerina
+	color = rgb { 90 190 10 }
 	color2 = black
 
 	culture_definition = merina_culture
@@ -324,7 +324,7 @@ UFP = {
 
 #Bemba
 BEM = {
-	color = map_imerina
+	color = rgb { 146 155 156 }
 	color2 = black
 
 	culture_definition = merina_culture
@@ -333,7 +333,7 @@ BEM = {
 
 #Usangu
 USG = {
-	color = map_imerina
+	color = rgb { 246 134 59 }
 	color2 = black
 
 	culture_definition = merina_culture
@@ -342,7 +342,7 @@ USG = {
 
 #Uhehe
 UHH = {
-	color = map_imerina
+	color = rgb { 194 99 182 }
 	color2 = black
 
 	culture_definition = merina_culture
@@ -351,7 +351,7 @@ UHH = {
 
 #Angoche - AGH
 AGH = {
-	color = map_angoche
+	color = rgb { 84 96 204 }
 	color2 = black
 
 	culture_definition = swahili_culture
@@ -360,7 +360,7 @@ AGH = {
 
 #Maravi - MRA (Stateless)
 MRA = {
-	color = map_maravi
+	color = rgb { 0 43 127 }
 	color2 = black
 
 	culture_definition = chewa_culture
@@ -369,7 +369,7 @@ MRA = {
 
 #Manyika - MNY (Society of Pops)
 MNY = {
-	color = map_manyika
+	color = rgb { 160 220 30 }
 	color2 = black
 
 	culture_definition = shona_culture
@@ -378,7 +378,7 @@ MNY = {
 
 #Boina - BOI (Formable)
 BOI = {
-	color = map_boina
+	color = rgb { 255 198 255 }
 	color2 = black
 
 	culture_definition = vezo_culture
@@ -387,7 +387,7 @@ BOI = {
 
 #Antankarana - ANK (Stateless, Revolter)
 ANK = {
-	color = map_antankarana
+	color = rgb { 23 113 143 }
 	color2 = black
 
 	culture_definition = antankarana_culture
@@ -396,7 +396,7 @@ ANK = {
 
 #Xhosa
 XHO = {
-	color = map_xhosa
+	color = rgb { 49 58 156 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = xhosa_culture
@@ -405,7 +405,7 @@ XHO = {
 
 #Batonga
 BTO = {
-	color = map_xhosa
+	color = rgb { 16 69 156 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = xhosa_culture
@@ -414,7 +414,7 @@ BTO = {
 
 #baTawana
 BTW = {
-	color = map_xhosa
+	color = rgb { 89 141 140 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = xhosa_culture
@@ -423,7 +423,7 @@ BTW = {
 
 #Rozvi
 RZW = {
-	color = map_xhosa
+	color = rgb { 244 143 66 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = xhosa_culture
@@ -432,7 +432,7 @@ RZW = {
 
 #Chidima
 CDM = {
-	color = map_xhosa
+	color = rgb { 223 237 67 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = xhosa_culture
@@ -441,7 +441,7 @@ CDM = {
 
 #Prazos
 PRZ = {
-	color = map_PRZ
+	color = rgb { 57 130 101 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = peruzzi_bank_culture
@@ -450,7 +450,7 @@ PRZ = {
 
 #Makololo
 MLL = {
-	color = map_MLL
+	color = rgb { 144 17 160 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = catalan
@@ -459,7 +459,7 @@ MLL = {
 
 #Zwangendaba
 ZWG = {
-	color = map_xhosa
+	color = rgb { 166 189 199 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = xhosa_culture
@@ -468,7 +468,7 @@ ZWG = {
 
 #Gaza
 GZA = {
-	color = map_xhosa
+	color = rgb { 165 43 18 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = xhosa_culture
@@ -477,7 +477,7 @@ GZA = {
 
 #Bapedi
 BPD = {
-	color = map_xhosa
+	color = rgb { 121 229 215 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = xhosa_culture
@@ -486,7 +486,7 @@ BPD = {
 
 #Bamangwato
 BMG = {
-	color = map_xhosa
+	color = rgb { 88 148 255 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = xhosa_culture
@@ -495,7 +495,7 @@ BMG = {
 
 #Swazi
 SWZ = {
-	color = map_xhosa
+	color = rgb { 41 89 174 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = xhosa_culture
@@ -504,7 +504,7 @@ SWZ = {
 
 #Mabhudu
 MHD = {
-	color = map_xhosa
+	color = rgb { 165 143 218 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = xhosa_culture
@@ -513,7 +513,7 @@ MHD = {
 
 #Zulu
 ZUL = {
-	color = map_xhosa
+	color = rgb { 204 186 201 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = xhosa_culture
@@ -522,7 +522,7 @@ ZUL = {
 
 #Kholokoe
 KHL = {
-	color = map_xhosa
+	color = rgb { 84 85 40 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = xhosa_culture
@@ -531,7 +531,7 @@ KHL = {
 
 #Mthwakazi
 MTH = {
-	color = map_xhosa
+	color = rgb { 220 202 96 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = xhosa_culture
@@ -540,7 +540,7 @@ MTH = {
 
 #Griqua
 GRQ = {
-	color = map_xhosa
+	color = rgb { 139 113 74 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = xhosa_culture
@@ -549,7 +549,7 @@ GRQ = {
 
 #Basotho
 BAS = {
-	color = rgb { 145 139 102 }
+	color = rgb { 147 82 173 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = xhosa_culture
@@ -558,7 +558,7 @@ BAS = {
 
 #Mpondo
 MPN = {
-	color = map_xhosa
+	color = rgb { 102 204 255 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = xhosa_culture
