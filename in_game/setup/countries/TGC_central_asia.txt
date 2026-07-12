@@ -458,7 +458,7 @@ KBL = {
 }
 
 MRR = {
-	color = map_SGH
+	color = rgb { 181 44 77}
 	color2 = black
 
 	culture_definition = godala_culture
@@ -466,7 +466,7 @@ MRR = {
 }
 
 BGT = {
-	color = map_SGH
+	color = rgb { 205 58 93 }
 	color2 = black
 
 	culture_definition = godala_culture
@@ -474,7 +474,7 @@ BGT = {
 }
 
 BLK = {
-	color = map_SGH
+	color = rgb { 153 65 47}
 	color2 = black
 
 	culture_definition = godala_culture
@@ -482,7 +482,7 @@ BLK = {
 }
 
 BKH = {
-	color = map_SGH
+	color = rgb { 95 155 25 }
 	color2 = black
 
 	culture_definition = godala_culture
@@ -490,7 +490,7 @@ BKH = {
 }
 
 MZR = {
-	color = map_SGH
+	color = rgb { 230 73 110 }
 	color2 = black
 
 	culture_definition = godala_culture
