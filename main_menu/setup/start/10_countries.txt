@@ -844,6 +844,10 @@ countries = {
        }
       ASM = {
          country_rank = rank_county
+
+         own_control_core = {
+            chandrapur
+         }
        }
       ASN = {
          country_rank = rank_county
@@ -1713,6 +1717,10 @@ countries = {
       }
       BHV = {
          country_rank = rank_county
+
+         own_control_core = {
+            lathi palitana
+         }
        }
       BHW = {
          country_rank = rank_county
@@ -2242,6 +2250,10 @@ countries = {
        }
       BRD = {
          country_rank = rank_county
+
+         own_control_core = {
+            gondal
+         }
        }
       BRE = {
          capital = bremervorde
@@ -6596,6 +6608,10 @@ countries = {
        }
       HLR = {
          country_rank = rank_county
+
+         own_control_core = {
+            nagnes morvi
+         }
        }
       HMD = {
          country_rank = rank_county
@@ -7873,7 +7889,7 @@ countries = {
          country_rank = rank_county
 
          own_control_core = {
-            junagarh somnath diu amreli gondal chhaya
+            junagarh somnath diu
          }
 
          include = "indian_hindu_monarchy_jain"
@@ -8182,6 +8198,13 @@ countries = {
             ruler = random
           }
       }
+      KBH = {
+         country_rank = rank_county
+
+         own_control_core = {
+            agartala
+         }
+       }
       KBK = {
          country_rank = rank_county
        }
@@ -8443,6 +8466,9 @@ countries = {
           }
       }
       KGR = {
+         country_rank = rank_county
+       }
+      KHA = {
          country_rank = rank_county
        }
       KHF = {
@@ -9640,6 +9666,10 @@ countries = {
       }
       KTW = {
          country_rank = rank_county
+
+         own_control_core = {
+            amreli
+         }
        }
       KTZ = {
          country_rank = rank_county
@@ -14534,10 +14564,6 @@ countries = {
          capital = palitana
          country_rank = rank_county
 
-         own_control_core = {
-            palitana lathi
-         }
-
          include = "indian_hindu_monarchy_jain"
 
          government = {
@@ -19072,6 +19098,10 @@ countries = {
        }
       TRI = {
          country_rank = rank_county
+
+         own_control_core = {
+            rangamati
+         }
        }
       TRK = {
          country_rank = rank_county
@@ -19443,7 +19473,7 @@ countries = {
          country_rank = rank_county
 
          own_control_core = {
-            rangamati agartala chandrapur kailashahar pilak karpus_mahal
+            kailashahar pilak karpus_mahal
          }
 
          include = "expl_india_hindu"

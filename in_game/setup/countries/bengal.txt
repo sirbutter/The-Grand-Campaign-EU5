@@ -46,14 +46,6 @@ CUT = { #Chutia
 	religion_definition = chutia_religion
 }
 
-JNT = { #Jaintia
-	color = map_JNT
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = khasi_culture
-	religion_definition = hindu
-}
-
 TRF = { #Taraf
 	color = map_TRF
 	color2 = rgb { 16 41 202 }

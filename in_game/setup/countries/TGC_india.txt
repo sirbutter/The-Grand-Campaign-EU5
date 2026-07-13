@@ -202,3 +202,66 @@ BRD = {
 	culture_definition = bardi_bank_culture
 	religion_definition = catholic
 }
+
+#Tripura
+TRI = {
+	color = rgb { 208 104 44 }
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = bardi_bank_culture
+	religion_definition = catholic
+}
+
+#Koch Bihar
+KBH = {
+	color = map_BRD
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = bardi_bank_culture
+	religion_definition = catholic
+}
+
+#Assam
+ASM = {
+	color = map_casma
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = bardi_bank_culture
+	religion_definition = catholic
+}
+
+#Garo
+GAR = {
+	color = map_huetar
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = bardi_bank_culture
+	religion_definition = catholic
+}
+
+#Khasi
+KHA = {
+	color = map_BRD
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = bardi_bank_culture
+	religion_definition = catholic
+}
+
+#Jaintia
+JNT = {
+	color = map_JNT
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = khasi_culture
+	religion_definition = hindu
+}
+
+#Kachari
+KCH = {
+	color = rgb { 112 212 112 }
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = bardi_bank_culture
+	religion_definition = catholic
+}

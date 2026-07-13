@@ -361,13 +361,6 @@ WTZ = {
 	religion_definition = catholic
 }
 
-TRI = {
-	color = rgb { 208 104 44 }
-
-	culture_definition = moselle_franconian
-	religion_definition = catholic
-}
-
 DIE = {
 	color = rgb { 236 90 91 }
 

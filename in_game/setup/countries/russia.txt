@@ -215,13 +215,6 @@ NSL = {
 	religion_definition = orthodox
 }
 
-KCH = {
-	color = rgb { 112 212 112 }
-
-	culture_definition = smolenskian_culture
-	religion_definition = orthodox
-}
-
 KZK = {
 	color = rgb { 231 87 87 }
 
