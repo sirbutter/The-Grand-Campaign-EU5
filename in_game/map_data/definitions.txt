@@ -1248,13 +1248,15 @@
 		carpathia_region = {
 			moldavia_area = {
 				bacau_province = { bacau hangu_romania piatra_lui_craciun roman targu_neamt targu_trotus vatra_dornei suceava eastern_carpathians5b }
-				balti_moldova_province = { balti hotin lipnic soroca viadineti }
 				barlad_province = { barlad adjud cudalbi focsani galati oancea tecuci tulnici }
-				basarabia_province = { cetatea_alba cahul chilia ismail palada reni sarata alibey_lagoon dniester_liman lake_kahul lake_katlabukh lake_kitai lake_yalpuh sasyk_lagoon }
 				dorohei_province = { dorohoi cotnari harlau stefanesti }
 				iasi_province = { iasi targul_saratii tutova vaslui }
-				orhei_province = { orhei chisinau gura_galbenei targu_lapusnei tighina tuzara husi ungheni }
 				suceava_province = { campulung_moldovenesc putna siret storozhynets cernauti cetatea_tetina }
+			}
+			bessarabia_area = {
+				basarabia_province = { cetatea_alba cahul chilia ismail palada reni sarata alibey_lagoon dniester_liman lake_kahul lake_katlabukh lake_kitai lake_yalpuh sasyk_lagoon }
+				orhei_province = { orhei chisinau gura_galbenei targu_lapusnei tighina tuzara husi ungheni }
+				balti_moldova_province = { balti hotin lipnic soroca viadineti }
 			}
 			north_alfold_area = {
 				bihar_province = { bihar beius cheresig debrecen oradea }
