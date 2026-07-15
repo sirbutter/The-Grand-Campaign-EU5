@@ -40,19 +40,17 @@
 				halsingland_province = { hudiksvall alfta soderala hogdal havero selanger }
 				angermanland_province = { harnosand solatunum ramsele sjalevad anundsjo grundsunda }
 
-				vasterbotten_province = { umea vindeln skelleftea tornea bygdea pitea lulea ranea gratesk hienatiemi branna byske bodebyn alvsby kiemi pajala kittila rovaniemi }
+				vasterbotten_province = { umea vindeln skelleftea tornea bygdea pitea lulea ranea gratesk hienatiemi branna byske bodebyn alvsby pajala }
 
 
 				norra_osterbotten_province = { simo uleaborg brahestad utajarvi siikalatva taivalkoski kuivaniemi ranua pudasjarvi posio }
 
 				ume_lappmark_province = { asele lycksele arvidsjaur volgsjo stensele tarna ortrask }
 				pite_lappmark_province = { akkajaur arjeplog silbojock sorsele }
-				lule_lappmark_province = { storavan uddjaur socksjock jokkmokk kvikkjock porjus gellivaara sarek }
-				torne_lappmark_province = { nikkaluokta kasivarren torne_trask vastenjaure akkajaure abisko raunala mourionska enontakis nunnanen korpilombo juckasjarvi }
+				lule_lappmark_province = { storavan uddjaur socksjock jokkmokk kvikkjock porjus gellivaara sarek skanderna }
+				torne_lappmark_province = { nikkaluokta torne_trask vastenjaure akkajaure raunala mourionska korpilombo juckasjarvi }
 				kemi_lappmark_province = {
-
-						 salla kemijarvi korvala oulujarvi yli_kitka muojarvi
-						enare sodankyla savukoski ivalo utsjoki enare_trask north_skanderna lapland_taiga1
+						salla kemijarvi korvala oulujarvi yli_kitka muojarvi enare sodankyla savukoski ivalo utsjoki enare_trask north_skanderna lapland_taiga1 kiemi kittila rovaniemi enontakis nunnanen kasivarren
 					}
 				kajanaland_province = {
 					paltamo kajana sotkamo kuhmo suomussalmi kuusamo
@@ -88,9 +86,9 @@
 				sor_trondelag_province = { nidaros roros stjordal oppdal orkdal skaun storen holtalen meraker alvdal }
 				nor_trondelag_province = { levanger namdal orland snasa lierne steinkjer}
 				romsdalen_province = { molde fosna sunndal rauma sunnmore borgund stordal tofte }
-				troms_province = { troms trondenes senja bardodalen raisa }
+				troms_province = { troms trondenes senja bardodalen raisa abisko }
 				jamtland_province = {	hammerdal offerdal berg froso ragunda sveg hede oviken storsjon s_jamtland_wasteland n_jamtland_wasteland }
-				nordland_province = { bodo birndal hattfjelldal rana alstahaug gildeskal steigen langenes lofotr hamaroy ofoti skanderna }
+				nordland_province = { bodo birndal hattfjelldal rana alstahaug gildeskal steigen langenes lofotr hamaroy ofoti }
 				finnmark_province = { kautokeino varanger vardo deatnu porsanger karasjok hammerfest alta kirkenes lebesby }
 
 			}
@@ -290,19 +288,19 @@
 			}
 			wallonia_area = {
 				east_luxembourg_province = {
-					luxembourg arlon thionville vianden
+					luxembourg vianden
 				}
 				hainaut_province = {
 					mons ath chimay enghien maubeuge valenciennes
 				}
 				liege_province = {
-					liege limbourg st_vith stavelot
+					liege limbourg stavelot la_roche
 				}
 				namur_province = {
-					namur dinant orchimont walcourt
+					namur dinant walcourt bouillon
 				}
 				west_luxembourg_province = {
-					bastogne bouillon la_roche montmedy neufchateau_luxembourg
+					bastogne orchimont arlon
 				}
 			}
 		}
@@ -342,10 +340,10 @@
 			}
 			rhineland_area = {
 				eifel_province = {
-					bitburg prum daun wittlich cochem mayen simmern ahrweiler schleiden castellaun
+					bitburg prum daun wittlich cochem mayen simmern ahrweiler schleiden castellaun kreuznach alsfeld st_vith
 				}
 				hunsruck_province = {
-					saarbrucken merzig lichtenberg_veldenz trier birkenfeld meisenheim saarburg kreuznach
+					saarbrucken merzig lichtenberg_veldenz trier birkenfeld saarburg
 				}
 				koln_bucht_province = {
 					cologne bonn bergheim neuss
@@ -357,10 +355,10 @@
 					coblenz altenkirchen wied
 				}
 				julich_province = {
-					aachen heinsberg duren
+					aachen heinsberg duren neufchateau_luxembourg
 				}
 				niederrhein_province = {
-					dusseldorf monchengladbach kleve mors geldern
+					monchengladbach kleve mors geldern
 				}
 			}
 			hesse_area = {
@@ -374,7 +372,7 @@
 					hanau frankfurt giessen wetzlar friedberg_hesse budingen nidda
 				}
 				vogelsberg_province = {
-					fulda lauterbach hunfeld hersfeld ziegenhain alsfeld
+					fulda lauterbach hunfeld hersfeld ziegenhain
 				}
 				spessart_province = {
 					miltenberg aschaffenburg lohr bruckenau
@@ -397,7 +395,7 @@
 					berleburg siegen altena arnsberg meschede brilon attendorn
 				}
 				ruhr_province = {
-					essen recklinghausen dortmund wesel hamm bochum
+					essen recklinghausen dortmund wesel hamm bochum dusseldorf
 				}
 				wesermarch_province = {
 					oldenburg elsfleth gestenthorpe bremen osterholz friesoythe delmenhorst
@@ -518,7 +516,7 @@
 			}
 			salzburg_area = {
 				salzburger_land_province = {
-					salzburg berchtesgaden hallein
+					salzburg hallein
 				}
 				pinzgau_province = {
 					zell_am_see mittersill saalfelden	bavarian_alps1
@@ -598,7 +596,7 @@
 			}
 			upper_rhine_area = {
 				palatinate_province = {
-					kaiserslautern zweibrucken speyer pirmasens germersheim leiningen heidelberg landau_rhineland neustadt_an_der_haardt
+					kaiserslautern zweibrucken speyer pirmasens germersheim leiningen heidelberg landau_rhineland neustadt_an_der_haardt meisenheim
 				}
 				kraichgau_province = {
 					sinsheim heilbronn bruchsal durlach
@@ -664,7 +662,7 @@
 					munich ebersberg landsberg andechs indersdorf friedberg freising erding lake_starnberg
 				}
 				chiemgau_province = {
-					traunstein laufen wasserburg muhldorf rosenheim lake_chiemsee
+					traunstein laufen wasserburg muhldorf rosenheim berchtesgaden lake_chiemsee
 				}
 				gauboden_province = {
 					landau eggenfelden landshut griesbach burghausen
@@ -699,7 +697,7 @@
 			}
 			alsace_area = {
 				lower_alsace_province = { strasbourg haguenau zabern lichtenberg benfeld }
-				upper_alsace_province = { colmar belfort ensisheim ferrette murbach mulhouse }
+				upper_alsace_province = { colmar ensisheim ferrette murbach mulhouse }
 			}
 		}
 
@@ -910,7 +908,7 @@
 				senonais_province = { sens bar_sur_seine joigny saint_florentin tonnerre }
 			}
 			franche_comte_area = {
-				amont_province = { vesoul baume gray luxeuil montbeliard montbozon }
+				amont_province = { vesoul baume gray luxeuil montbeliard montbozon belfort }
 				aval_province = { salins_les_bains orgelet poligny pontarlier saint_claude }
 				millieu_province = { besancon dole ornans }
 			}
@@ -952,10 +950,10 @@
 			}
 			lorraine_area = {
 				barrois_province = { bar_le_duc clermont_en_argonne ligny saint_mihiel }
-				pays_messin_province = { metz morhange saint_avold vic_sur_seille wallerfangen }
+				pays_messin_province = { metz morhange saint_avold vic_sur_seille wallerfangen thionville }
 				pays_nancy_province = { nancy luneville salm toul }
 				sarregueminois_province = { sarreguemines bitche saarwerden sarrebourg }
-				verdunois_province = { verdun longwy etain fresnes }
+				verdunois_province = { verdun longwy etain fresnes montmedy }
 				vosges_province = { epinal arches darney mirecourt neufchateau_des_vosges saint_die }
 			}
 			lyonnais_area = {
@@ -995,12 +993,12 @@
 			provence_area = {
 				aquisextain_province = { aix_en_provence arles marseille tarascon lagoon_of_berre lagoon_of_vaccares }
 				avignonnais_province = { avignon apt forcalquier orange }
-				dignois_province = { digne barcelonnette castellane sisteron }
-				dracenois_province = { draguignan barjols brignoles frejus toulon }
-				nice_province = { nice grasse puget_theniers maritime_alps1 }
+				dignois_province = { digne barcelonnette castellane sisteron maritime_alps1 }
+				dracenois_province = { draguignan barjols brignoles frejus toulon grasse }
+				nice_province = { nice puget_theniers }
 			}
 			savoy_area = {
-				gresivaudan_province = { grenoble briancon gap la_mure pragelato cottian_alps1 dauphine_alps1 dauphine_alps2 }
+				gresivaudan_province = { grenoble briancon gap la_mure cottian_alps1 dauphine_alps1 dauphine_alps2 }
 				savoy_province = { chambery annecy evian faucigny la_roche_sur_foron moutiers saint_jean_de_maurienne sallanches graian_alps1 pennine_alps1 }
 				valentinois_province = { valence condorcet die mevouillon vercors_massif }
 				viennois_province = { vienne romans saint_marceilin la_tour_du_pin }
@@ -1062,11 +1060,11 @@
 				zaragoza_province = { zaragoza belchite pina_de_ebro tarazona zuera moncayo_range }
 			}
 			catalonia_area = {
-				barcelona_province = { barcelona sitges terrassa villafranca_del_penedes }
-				girona_province = { girona besalu castellon_ampurias ripoll sant_feliu }
+				barcelona_province = { barcelona sitges terrassa villafranca_del_penedes sant_feliu }
+				girona_province = { girona besalu castellon_ampurias ripoll }
 				new_catalonia_province = { tarragona flix lleida montblanc tarrega tortosa }
-				osona_province = { vic berga cardona cervera manresa }
-				rosello_province = { perpignan prades puigcerda lagoon_of_salses south_eastern_pyrenees }
+				osona_province = { vic berga cardona cervera manresa puigcerda south_eastern_pyrenees }
+				rosello_province = { perpignan prades lagoon_of_salses }
 				urgell_province = { seu_durgell agramunt andorra_la_vella balaguer talarn vielha central_pyrenees south_western_pyrenees3 }
 			}
 			valencia_area = {
@@ -1200,8 +1198,8 @@
 				mondovi_province = { mondovi alba ceva ligurian_alps }
 				monferrato_province = { casale acqui asti }
 				novara_province = { novara arona biella domodossola varallo vercelli lake_maggiore }
-				torino_province = { turin ivrea lanzo pinerolo susa graian_alps2 }
-				saluzzo_province = { saluzzo carmagnola chieri cuneo cottian_alps2 cottian_alps3 }
+				torino_province = { turin ivrea lanzo pinerolo susa graian_alps2 pragelato cottian_alps3 }
+				saluzzo_province = { saluzzo carmagnola chieri cuneo cottian_alps2 }
 			}
 			sardinia_area = {
 				arborea_province = { oristano ales sorgono terralba }
@@ -1249,14 +1247,14 @@
 	eastern_europe = {
 		carpathia_region = {
 			moldavia_area = {
-				bacau_province = { bacau hangu_romania piatra_lui_craciun roman targu_neamt targu_trotus }
+				bacau_province = { bacau hangu_romania piatra_lui_craciun roman targu_neamt targu_trotus vatra_dornei suceava eastern_carpathians5b }
 				balti_moldova_province = { balti hotin lipnic soroca viadineti }
 				barlad_province = { barlad adjud cudalbi focsani galati oancea tecuci tulnici }
 				basarabia_province = { cetatea_alba cahul chilia ismail palada reni sarata alibey_lagoon dniester_liman lake_kahul lake_katlabukh lake_kitai lake_yalpuh sasyk_lagoon }
-				dorohei_province = { dorohoi cernauti cetatea_tetina cotnari harlau stefanesti }
-				iasi_province = { iasi husi targul_saratii tutova ungheni vaslui }
-				orhei_province = { orhei chisinau gura_galbenei targu_lapusnei tighina tuzara }
-				suceava_province = { suceava campulung_moldovenesc putna siret storozhynets vatra_dornei }
+				dorohei_province = { dorohoi cotnari harlau stefanesti }
+				iasi_province = { iasi targul_saratii tutova vaslui }
+				orhei_province = { orhei chisinau gura_galbenei targu_lapusnei tighina tuzara husi ungheni }
+				suceava_province = { campulung_moldovenesc putna siret storozhynets cernauti cetatea_tetina }
 			}
 			north_alfold_area = {
 				bihar_province = { bihar beius cheresig debrecen oradea }
@@ -1296,18 +1294,16 @@
 			transylvania_area = {
 				doboka_province = { dabaca baita bistrita dej sic eastern_carpathians3 eastern_carpathians4 }
 				feher_province = { alba_iulia aiud cetatea_balta deva felvint hateg hunedoara southern_carpathians4 }
-				kiralyfold_province = { sibiu brasov cincu fagaras medias sebes sighisoara southern_carpathians2 }
+				kiralyfold_province = { sibiu brasov cincu fagaras medias sebes sighisoara southern_carpathians3 }
 				szekelyfold_province = { 
-					targu_mures chezdi_osorheiu covasna cristuru_secuiesc gheorgheni gurghiu odorhei sfantu_gheorghe miercurea_cluc eastern_carpathians5 eastern_carpathians5b 
-					eastern_carpathians6 eastern_carpathians6c
-					eastern_carpathians7 eastern_carpathians8 
+					targu_mures chezdi_osorheiu covasna cristuru_secuiesc gheorgheni gurghiu odorhei sfantu_gheorghe miercurea_cluc eastern_carpathians5 eastern_carpathians6 eastern_carpathians6c eastern_carpathians7 eastern_carpathians8
 				}
 				torda_province = { turda baia_de_aries cluj huedin reghin inner_carpathians }
 			}
 			wallachia_area = {
 				east_muntenia_province = { buzau braila bukov parscov ramnicu_sarat valenii_de_munte viziru eastern_carpathians9 }
-				north_muntenia_province = { targoviste arges campulung_muscel cetateni pitesti ploesti poenari slanic southern_carpathians1 }
-				north_oltenia_province = { craiova cozia dragasani ramnicu_valcea stramba targu_jiu targu_bengai southern_carpathians3 }
+				north_muntenia_province = { targoviste arges campulung_muscel cetateni pitesti ploesti poenari slanic southern_carpathians1 southern_carpathians2 }
+				north_oltenia_province = { craiova cozia dragasani ramnicu_valcea stramba targu_jiu targu_bengai }
 				south_muntenia_province = { bucharest cegani gaiseni lichiresti meteleu orasul_de_floci slobozia }
 				south_oltenia_province = { calafat caracal corabia plenita radovanu severin strehaia }
 				west_muntenia_province = { turnu_magurele comana glavacioc gratia giurgiu rusii_de_vede slatina zimnicea }
@@ -1349,7 +1345,7 @@
 				checiny_province = { kielce opoczno przedborz zarnow }
 				czestochowa_province = { czestochowa lelow mstow }
 				krakow_province = { krakow chrzanow ksiaz_wielki proszowice }
-				lublin_province = { lublin janow_lubelski kazimierz lukow lubartow urzedow }
+				lublin_province = { lublin janow_lubelski kazimierz lukow lubartow urzedow piskorowice }
 				nowy_sacz_province = { nowy_sacz biecz czchow jaslo nowy_targ }
 				pilzno_province = { pilzno busko_zdroj debica tarnow wislica }
 				radom_province = { radom ilza stezyca szydlowiec zwolen }
@@ -1430,7 +1426,7 @@
 				eastern_podolia_province = { ushytsia khmilnyk letychiv mezhybozhe mohyliv_podilskyi rov }
 				torgovytsia_province = { torhovytsia teplyk tsybuliv uman zavallia }
 				vinnytsia_province = { vinnytsia buzhskyi pohrebyshche sokilets }
-				western_podolia_province = { bakota horodok kamianets_podilskyi zalishchyky }
+				western_podolia_province = { bakota horodok kamianets_podilskyi }
 			}
 			polesia_area = {
 				bresta_province = { brest_litowsk biala_podlaska chernyany malaryta wlodawa }
@@ -1439,14 +1435,14 @@
 				turov_province = { turov davyd_haradok dubrovytsia hlynne stolin }
 			}
 			red_ruthenia_area = {
-				belz_province = { belz busk grabowiec lubaczow sokal }
+				belz_province = { belz busk lubaczow sokal }
 				drohobych_province = { drohobych sambir stryi turka }
 				halych_province = { halych bohorodchany buchach rohatyn }
 				pocutia_province = { kolomyia kosiv sniatyn tysmenytsia }
 				lviv_province = { lviv bereschany brody zhovkva yavoriv zvenyhorod }
-				przemysl_province = { przemysl piskorowice rzeszow yaroslav_poland }
+				przemysl_province = { przemysl rzeszow yaroslav_poland }
 				sanok_province = { sanok krosno lesko }
-				terebovlia_province = { terebovlia khorostkiv ternopil }
+				terebovlia_province = { terebovlia khorostkiv ternopil zalishchyky }
 				zhydachiv_province = { zhydachiv bolekhiv dolyna }
 			}
 			severia_area = {
@@ -1459,7 +1455,7 @@
 				trubchevsk_province = { trubchevsk boldyzh dmitriyev rylsk sevsk }
 			}
 			volhynia_area = {
-				chelm_province = { chelm krasnystaw liuboml ratne shatsk ugrovesk }
+				chelm_province = { chelm krasnystaw liuboml ratne shatsk ugrovesk grabowiec }
 				kremenets_province = { kremenets dubno zbarazh tykhomel }
 				lutsk_province = { lutsk chortoryisk peremyl rozhyshche stepan volodymyrets }
 				rivne_province = { rivne kostopil ostroh peresopnytsya }
