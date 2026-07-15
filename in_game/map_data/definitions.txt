@@ -1189,7 +1189,6 @@
 				mantua_province = { mantova goito ostiglia }
 				milano_province = { milano legnano rho varese pavia }
 				monza_province = { monza lecco treviglio como lake_como rhaetian_alps5 }
-				pavia_province = { lomello voghera }
 				valtellina_province = { tresivio bormio chiavenna rhaetian_alps2 rhaetian_alps3 }
 				ticino_province = { lugano bellinzona locarno }
 			}
@@ -1206,6 +1205,7 @@
 				novara_province = { novara arona biella domodossola varallo vercelli lepontine_alps1 lake_maggiore }
 				torino_province = { turin ivrea lanzo pinerolo susa graian_alps2 pragelato cottian_alps3 }
 				saluzzo_province = { saluzzo carmagnola chieri cuneo cottian_alps2 }
+				pavia_province = { lomello voghera }
 			}
 			sardinia_area = {
 				arborea_province = { oristano ales sorgono terralba }
@@ -6929,69 +6929,98 @@ america = {
 				nodaway_province = { nodaway nudarcha wimihsoorita }
 			}
 			iowa_area = {
- 				hokah_province = { hokah wapkawazioju owatonna hahawakpa lahontan }
-				minnetonka_province = { minnetonka wabezi kagiwigwan shingwako winnibigoshish bemidji lake_winnibigoshish }
-				mahkato_province = { mahkato watonwan shetek chanshayapi tipsinah kandiyohi }
-				kiyuska_province = { tchan_sansan kiyuska pabaska }
-				chagu_province = { chagu oyate_shisha wakmua_oin }
-				igmu_province = { igmu kampeska mnihaha }
-				okobojo_province = { okobojo pocasse unkpatina }
-				manatara_province = { manatara maanaagi_iixodagish ruhptare }
 				moingwena_province = { moingwena coiracoentanon wapsipinicon }
 				ocheyedan_province = { ocheyedan penaca moskwawakwa }
 				iowa_province = { iowa kiosaquay inyanshashawatpa pahotcha }
 				nishnabotna_province = { nishnabotna monona tchankasndata }
 			}
-			superior_area = {
+			minnesota_area = {
+ 				hokah_province = { hokah wapkawazioju owatonna hahawakpa lahontan }
+				minnetonka_province = { minnetonka wabezi kagiwigwan shingwako winnibigoshish bemidji lake_winnibigoshish }
+				mahkato_province = { mahkato watonwan shetek chanshayapi tipsinah kandiyohi }
 				mathoskabde_province = { mathoskabde ginebig misi_zaaga_igan minnewawa mille_lacs_lake }
 				nemadji_province = { nemadji wissakode makoua kitchigumi }
 				koochiching_province = { koochiching miskwaagamiiwi mesabi neemannee kawishiwi red_lake vermillion_lake }
+				pikwedina_province = { pikwedina kimodakiwi ajawewesitagun manomin gawakomitigweia mustinka }
 			}
-			badlands_area = {
+			north_dakota_area = {
+				tewaukon_province = { tewaukon maitomoni_ohe mekinock pembina minnewaukan mirixubaash devil_lake }
+				saakak_hukaahaanu_province = { saakak_hukaahaanu metigoshe itscheabine }
+				kiyuska_province = { tchan_sansan kiyuska pabaska }
+				manatara_province = { manatara maanaagi_iixodagish ruhptare }
+				awatixa_province = { awatixa adixoodagoorahareesh koostaaka amahami }
+				histayaho_province = { histahayo neesihushaanu skahuukaawiat iyawakagapi matootonha nd_badlands }
+			}
+			south_dakota_area = {
+				chagu_province = { chagu oyate_shisha wakmua_oin }
+				igmu_province = { igmu kampeska mnihaha }
+				okobojo_province = { okobojo pocasse unkpatina }
 				marapa_province = { marapa cerwecerna shichah }
 				kaya_paha_province = { kaya_paha sicangu waziblo }
 				wetarhoo_province = { wetarhoo hinyankaga badlands_sd_n }
 				shanha_province = { shanha mistaiyohe he_sapa awaxaawi_ishiibisha }
-				histayaho_province = { histahayo neesihushaanu skahuukaawiat iyawakagapi matootonha nd_badlands }
-				chakadee_wakpa_province = { chakadee_wakpa wahasah badlands_mt waahukaahaanu wit_anowi_yohe moehe_yoe }
-				ihkowom_iyo_he_province = { ihkowom_iyo_he ksai_yohe mitsiadazi skaapirox buaxaxxaashe aahkawirahkata aashbiliihkupe iichiilikaaashaashe little_belt_mountains }
+			}
+			nebraska_area = {
+				niobrara_province = { niobrara aowa waha_tunga kits_ixta }
+				kickatari_province = { kickatari mnitanka minatare }
+				omaha_province = { omaha nemaha nebraska ni_haunchi_to }
+				kanpeska_province = { kanpeska kus_lecha kickatus ickari_kitsu nutanke pitahauerat }
+				wishkahuunu_province = { wishkahuunu mahohevahoe beesowuunenno minii_yohe }
+			}
+			kansas_area = {
+				shuntaneshnanga_province = { shuntaneshnanga kansas monecato kirarutah nepahalla }
+				neosho_province = { neosho manhukdhintanwan nanzewaspe wasetihoge }
+				etzanoa_province = { etzanoa quivira harahey ninescah ayadaldapa ne_shuta }
+				aahkawiraahkata = { ne_miskua kaw aahkawiraahkata panenetah kaiurskuta }
+				wiskapella_province = { wiskapella chitolah nanwacinahaana }
+				chinali_province = { chinali iriirakiicuhat }
+			}
+			wyoming_area = {
+				grand_teton_province = {
+					guchuntikka tondzaosha grand_teton point_of_rocks mitse_adazi
+				}
+				sweetwater_province = {
+					bridger rock_springs flaming_gorge sinclair yoov_we_teuh randolph sweetwater savery basawunena
+				}
+				western_crow_province = {
+					pushroot split_rock washakie hinono_ei moneta grass_creek hot_springs wamsutter milk_creek shoshonne
+				}
+				hehvaitaneo_province = { hehvaitaneo laramie_range meneeohe medicine_bow }
+				wotapio_province = { wotapio so_taeo_o oevemanaho ohktouna hisse_yoyi_yoe hisiometaneo paiyo_he }
 				itkanaahtuusu_province = { itkanaahtuusu e_ometaeso heviksnipahis mo_ohta_vo_honaaeva notameohmeshehse }
 				iisaxpuatahcheeaashe_province = { iisaxpuatahcheeaashe aashbikkaashee ishpiialawaache bighorn_mountains dukundeka }
 			}
-			upper_missouri_area = {
-				awatixa_province = { awatixa adixoodagoorahareesh koostaaka amahami }
+			montana_area = {
 				suktogeja_o_ipa_province = { suktogeja_o_ipa patgasa_wakpa baliisshe_aashe minisose }
 				ski_iyo_he_province = { ski_iyo_he hoskitaga kinuhsisuht wase_wakpa caba_wakpa badlands_mt_2 }
 				e_omita_i_province = {e_omita_i xuahceesh_annappiio huupalikooche aluutashe baashalapache }
 				aashise_province = { aashise binmatshua cuthuhogwa great_belt_mountains }
 				kinaksisahtai_province = { kinaksisahtai kyaiyesisahtai onnikisisaahtaayi mahpahpahazhhah rockies_mt }
-				poyiitahtai_province = { poyiitahtai wakpa_juk_ana etzikom }
-				kwaskwuti_province = { kwaskwuti cahe canhewincasta }
+				south_selish_province = {
+					bitterroot deer_lodge granite missoula turah selish_range_s agaidika_range
+				}
+				north_selish_province = {
+					saleesh niarada bad_rock epixyu hungry_horse selish_range_n nataeosueti aqanqmi
+				}
+				chakadee_wakpa_province = { chakadee_wakpa wahasah badlands_mt waahukaahaanu wit_anowi_yohe moehe_yoe }
+				ihkowom_iyo_he_province = { ihkowom_iyo_he ksai_yohe mitsiadazi skaapirox buaxaxxaashe aahkawirahkata aashbiliihkupe iichiilikaaashaashe little_belt_mountains }
+				agaidika_province = {
+					red_rock elkhorn penointikara ruby_valley beaverhead
+				}
+				dukundeka_province = {
+					gazzllatin ashalaho
+				}
 			}
-			central_plains_area = {
-				shuntaneshnanga_province = { shuntaneshnanga kansas monecato kirarutah nepahalla }
-				neosho_province = { neosho manhukdhintanwan nanzewaspe wasetihoge }
-				etzanoa_province = { etzanoa quivira harahey ninescah ayadaldapa ne_shuta }
-				aahkawiraahkata = { ne_miskua kaw aahkawiraahkata panenetah kaiurskuta }
+			oklahoma_area = {
 				headdhetanwan_province = { headdhetanwan wakhakukdhin pasukhdin }
 				tulsa_province = { tulsa tawehash chikaskia }
 				wewoka_province = { guichita wewoka washita ouachita_ok kiamichi nanatsoho }
 				hawaastatkiicu_province = { hawaastatkiicu nigitai kicpahat gulvau oktahutchee nixgu }
-				niobrara_province = { niobrara aowa waha_tunga kits_ixta }
-				kickatari_province = { kickatari mnitanka minatare }
-				omaha_province = { omaha nemaha nebraska ni_haunchi_to }
-				kanpeska_province = { kanpeska kus_lecha kickatus ickari_kitsu nutanke pitahauerat }
-			}
-			high_plains_area = {
-				hehvaitaneo_province = { hehvaitaneo laramie_range meneeohe medicine_bow }
-				wotapio_province = { wotapio so_taeo_o oevemanaho ohktouna hisse_yoyi_yoe hisiometaneo paiyo_he }
-				niineniiniicie_province = { niineniiniicie neenowuxoote_i ce_eiinox nih_iitkotousi_l }
-				phankeska_wakpa_province = { phankeska_wakpa ononio_he wasin_wakpa veoneohe mano_iyo_he }
-				heeyoteeyo_province = { mutsisooni_yohe heeyoteyoo ponoeohe }
-				wishkahuunu_province = { wishkahuunu mahohevahoe beesowuunenno minii_yohe }
-				wiskapella_province = { wiskapella chitolah nanwacinahaana }
+				oklahoma_panhandle_province = { honih_hiyo_he }
 			}
 			saskatchewan_area = {
+				poyiitahtai_province = { poyiitahtai wakpa_juk_ana etzikom }
+				kwaskwuti_province = { kwaskwuti cahe canhewincasta }
 				winnipegosis_province = { opaskwayak wapisiw_sipihk winnipegosis lake_winnipegosis swan_lake red_deer_lake }
 				wazihe_province = { wazihe minizuahe wibazoka_wakpa minichinas tugaske notukeu }
 				miksiw_sipisis_province = { miksiw_sipisis kiyiu manitowi_sakahikanihk ye_ya_xabine }
@@ -7011,9 +7040,6 @@ america = {
 				osukyuze_province = { osukyuze hepa canuba_wakpa }
 				muskiki_province = { muskiki kinistino etomami kamsack quill_lakes }
 				iskwao_province = { iskwao tacehubana wascana posakanaciwiy katepwewi assapasca old_wives_lake }
-				pikwedina_province = { pikwedina kimodakiwi ajawewesitagun manomin gawakomitigweia mustinka }
-				tewaukon_province = { tewaukon maitomoni_ohe mekinock pembina minnewaukan mirixubaash devil_lake }
-				saakak_hukaahaanu_province = { saakak_hukaahaanu metigoshe itscheabine }
 			}
 		}
 		mesoamerica_region = {
@@ -7405,12 +7431,11 @@ america = {
 			}
 		}
 		aridoamerica_region = {
-			natahende_area = {
-				mah_hom_province = { hupenuu mah_hom oohkoi_yohe kuhtsutuuka }
+			new_mexico_area = {
 				hoyu_ao_he_province = { hoyu_ao_he atarque tinde }
-				hotoanaohe_province = { kiowa hotoanaohe wahin_wakpa apispaha }
-				chinali_province = { chinali iriirakiicuhat }
-				oklahoma_panhandle_province = { honih_hiyo_he }
+				shiewhibak_province = {
+					tih_go_tel teypana shiewhibak aaku halona_idiwana tsiya tuf_shur_tia than_u_ge ohkweeo_owingeh ialophaybo 	dinetah nde_nda_i tselgaii tse_bitai tsoka_ne_nde bidanku dzil_ligai_mountains
+				}
 				natahende_province = {
 					tcha_shka_ozhaye tucumcari natahende
 					guhlkahende chlaande nitahende natages
@@ -7421,8 +7446,7 @@ america = {
 					yenecamu guaycura monqui cadegomo mti_pa
 				}
 				cochimi_province = {
-					guadalupe_island cochimi nakipa koleeu akwaala
-					salton_lake salada_lagoon
+					guadalupe_island cochimi nakipa koleeu akwaala salada_lagoon
 				}
 			}
 			tahejoc_area = {
@@ -7495,12 +7519,13 @@ america = {
 					east_hanos west_hanos manso hue_hue_ri_gi_ta tehua suma
 					namiquipa xicahua
 				}
+			}
+			texas_area = {
+				mah_hom_province = { hupenuu mah_hom oohkoi_yohe kuhtsutuuka }
 				xumani_province = {
 					pinanaca dzithinahnde xumani patarabueye chinaitih
 					tahuunde tseichi
 				}
-			}
-			texas_area = {
 				cacaxtles_province = {
 					tugumlepen estok_gna cachopostales cacaxtles
 					koke_metchesko_laha cabias
@@ -7549,10 +7574,7 @@ america = {
 					ajehuac_yana sana_tx tza_wan_pupako tickanwatic
 				}
 			}
-			shiewhibak_area = {
-				shiewhibak_province = {
-					tih_go_tel teypana shiewhibak aaku halona_idiwana tsiya tuf_shur_tia than_u_ge ohkweeo_owingeh ialophaybo 	dinetah nde_nda_i tselgaii tse_bitai tsoka_ne_nde bidanku dzil_ligai_mountains
-				}
+			arizona_area = {
 				orayvi_province = {
 					tsezhin_deezahi kin_ligaai ni_alniigi chinili orayvi walpi shungopavi
 				}
@@ -7861,35 +7883,40 @@ america = {
 				sequoyah_province = {
 					sinkyone mattole nongatl jaroujiji wailaki
 				}
-				yuru_kyara_province = {
-					hoilkut oohl chidkhu tututni ko_kwel
-				}
 				shasta_province = {
 					natinixwe amblu_kai tsnungwe wintu okwanuchu
 				}
 				takelma_province = {
-					waika siskiyou karuk yulalona tak_elam etnemitane klamath_range
+					waika siskiyou karuk klamath_range hoilkut oohl
 				}
 				klamath_province = {
-					achomawi tollin mbosaksawaas ewksikni modokni
+					achomawi tollin modokni
 				}
 				mojave_province = {
-					iviatim kitanemuk taaqtam vanyume kawaiisu havasu ivanpah kumeyaay kwatsaan halchidoma
+					iviatim kitanemuk taaqtam vanyume kawaiisu havasu ivanpah kumeyaay kwatsaan halchidoma salton_lake
 				}
 				death_valley_province = { #https://en.wikipedia.org/wiki/Death_Valley
 					tubatulabam timbisha kuzedika inyo_mountains tumpisa
 				}
 			}
-			great_basin_area = {
-				chemewevi_province = {
-					pah_rimpi moapa sebit amargosa nuwuvi_desert
-				}
+			utah_area = {
 				east_nuwuvi_province = {
 					kaibab quitchupah kaiparowit nuwuvi_wasteland wasatch moanunts
 				}
 				kusiutta_province = {
 					koosharem pierruiat tooele unkagarit pio_gwut seuhubeogoi pagayuat
 					salt_lake
+				}
+				bear_river_province = {
+					buenaventura morgan boa_ogoi yuttahih bear_river_w
+				}
+				west_nuchiu_province = {
+					sahpeech yoowetum pahva_nits cumumba toompahnahwach nuchiu_range c_nuchiu_range nuchiu tavaputs ouray
+				}
+			}
+			nevada_area = {
+				chemewevi_province = {
+					pah_rimpi moapa sebit amargosa nuwuvi_desert
 				}
 				nye_province = {
 					kawich akamba tsaiduka kutsipiuti newe_wasteland fish_lake
@@ -7906,17 +7933,10 @@ america = {
 				ticutta_province = {
 					koop_ticutta cui_yui_ticutta kamu_ticutta panina_ticutta
 				}
-				malheur_province = {
-					tsitsiadi malheur wadadokado
-				}
+			}
+			idaho_area = {
 				idaho_province = {
 					yakwahnim_paa tipanuk king_hill yahandeka toponisw tagotoka
-				}
-				northeast_numu_province = {
-					seneca arock juntura nyssa
-				}
-				bear_river_province = {
-					buenaventura morgan boa_ogoi yuttahih bear_river_w
 				}
 				snake_river_province = {
 					hazelton richfield pohoko_ikkatee wapi dembimbosaage jefferson so_so_goiw bear_river_e kuccuntikka teewinot kamodika doyahinee tukudika fremont
@@ -7924,20 +7944,14 @@ america = {
 				bannock_province = {
 					lemhi pohogwe koa_aga_itoka shohopanaiti yambadika waradika bannock_range leadore agaidika
 				}
-				west_nuchiu_province = {
-					sahpeech yoowetum pahva_nits cumumba toompahnahwach nuchiu_range c_nuchiu_range nuchiu tavaputs
+				nimiipuu_province = {
+					alpowna kamiahpu asahkaiowaipu lamatama iyeesnime payette yam_pah_pa
+				}
+				kalispel_province = {
+					kaniksu skitswish benewah qlispe yaqan_nukiy
 				}
 			}
-			rockies_area = {
-				grand_teton_province = {
-					guchuntikka tondzaosha grand_teton point_of_rocks mitse_adazi
-				}
-				agaidika_province = {
-					red_rock elkhorn penointikara ruby_valley beaverhead
-				}
-				dukundeka_province = {
-					gazzllatin ashalaho
-				}
+			colorado_area = {
 				alamosa_province = {
 					kahpota moghwachi taviwac na_isha arapaho colorado
 				}
@@ -7948,16 +7962,23 @@ america = {
 					uintah pahdteeahnooch yapudttka
 				}
 				northern_nuchiu_province = {
-					ouray moffat routt dagett east_yuttahih
+					moffat routt dagett east_yuttahih
 				}
-				sweetwater_province = {
-					bridger rock_springs flaming_gorge sinclair yoov_we_teuh randolph sweetwater savery basawunena
-				}
-				western_crow_province = {
-					pushroot split_rock washakie hinono_ei moneta grass_creek hot_springs wamsutter milk_creek shoshonne
-				}
+				niineniiniicie_province = { niineniiniicie neenowuxoote_i ce_eiinox nih_iitkotousi_l }
+				phankeska_wakpa_province = { phankeska_wakpa ononio_he wasin_wakpa veoneohe mano_iyo_he }
+				heeyoteeyo_province = { mutsisooni_yohe heeyoteyoo ponoeohe }
+				hotoanaohe_province = { kiowa hotoanaohe wahin_wakpa apispaha }
 			}
-			cascadia_area = {
+			oregon_area = {
+				malheur_province = {
+					tsitsiadi malheur wadadokado
+				}
+				northeast_numu_province = {
+					seneca arock juntura nyssa
+				}
+				yuru_kyara_province = {
+					chidkhu tututni ko_kwel yulalona tak_elam etnemitane
+				}
 				oregon_province = {
 					quuiich yaquina umpqua kalapuya south_molala
 				}
@@ -7967,50 +7988,42 @@ america = {
 				chinook_province = {
 					tillamook atfalati chinook multnomah watlala
 				}
-				olympic_province = {
-					stlpulmsh chehalis chala_at sklallam twana makah
-				}
 				sahaptin_province = {
 					tayxlama takspaslama waluulapam umatilla liksiyu wallowa
+				}
+				northwest_numu_province = {
+					silver_lake chewaucan kidutokado tinainu crook grant towarnehiooks mbosaksawaas ewksikni
+				}
+			}
+			washington_area = {
+				olympic_province = {
+					stlpulmsh chehalis chala_at sklallam twana makah
 				}
 				yakama_province = {
 					wishram klikitat mamachatpam pa_kiut_lema north_cascade
 				}
-				northwest_numu_province = {
-					silver_lake chewaucan kidutokado tinainu crook grant towarnehiooks
-				}
-				nimiipuu_province = {
-					alpowna kamiahpu asahkaiowaipu lamatama iyeesnime payette yam_pah_pa
-				}
-				south_selish_province = {
-					bitterroot deer_lodge granite missoula turah selish_range_s agaidika_range
-				}
-				north_selish_province = {
-					saleesh niarada bad_rock epixyu hungry_horse selish_range_n nataeosueti aqanqmi
-				}
-				kalispel_province = {
-					kaniksu skitswish benewah qlispe yaqan_nukiy
-				}
-				south_ktunaxa_province = {
-					akinkumasnuqit aq_am akisq_nuk kananmituk sw_ktunaxa_ranges se_ktunaxa_ranges ce_ktunaxa_ranges
-				}
-				north_ktunaxa_province = {
-					akinka_nup aqyam_nup ainu_nik ktunwakanmituk aknuq_uk yakyu_ki ne_ktunaxa_ranges nc_ktunaxa_ranges cw_ktunaxa_ranges #nw_ktunaxa_ranges
-				}
 				cascadia_province = {
 					puyallup kittikas duwamish snohomish skagit nisqually nooksack lhaq_temish
-				}
-				halkomelem_province = {
-					sto_lo sts_ailes whonnock katzie
-				}
-				strathcona_province = {
-					squamish sechelt sliammon klahoose homalco strathacona_range
 				}
 				columbia_plateau_province = {
 					alpo_wa pa_lus_sa nkee_us stata_ketux scqescilni snt_t_ulix wanapum kalispel sletewsi hinsepu
 				}
 				okanagan_province = {
 					wenatchi chelan osoyoos n_pooh_le enselxcin
+				}
+			}
+			cascadia_area = {
+				south_ktunaxa_province = {
+					akinkumasnuqit aq_am akisq_nuk kananmituk sw_ktunaxa_ranges se_ktunaxa_ranges ce_ktunaxa_ranges
+				}
+				north_ktunaxa_province = {
+					akinka_nup aqyam_nup ainu_nik ktunwakanmituk aknuq_uk yakyu_ki ne_ktunaxa_ranges nc_ktunaxa_ranges cw_ktunaxa_ranges #nw_ktunaxa_ranges
+				}
+				halkomelem_province = {
+					sto_lo sts_ailes whonnock katzie
+				}
+				strathcona_province = {
+					squamish sechelt sliammon klahoose homalco strathacona_range
 				}
 				arrow_lakes_province = {
 					swarakxen ntiltxitk stxtilusten snk_mip q_espiea illecillewaet sinixt_range similkameen okanagan spaxomin
