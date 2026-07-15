@@ -7,7 +7,6 @@ horses = { #War Horses
 	transport_cost = 2
 	
 	demand_add = {
-		nobles =  0.25
 	}	
 
 	origin_in_old_world = yes
