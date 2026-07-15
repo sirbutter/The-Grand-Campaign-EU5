@@ -971,3 +971,10 @@
  # temporary ones
  nw_africa_coast_area: "Northwest Africa Coast"
  bessarabia_area: "Bessarabia"
+ east_prussia_area: "East Prussia"
+ west_prussia_area: "West Prussia"
+ oulu_area: "Oulu"
+ schleswig_area: "Schleswig"
+ west_galicia_area: "West Galicia"
+ east_galicia_area: "East Galicia"
+ weser_ems_area: "Weser-Ems"
