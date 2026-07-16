@@ -316,9 +316,6 @@
 				neumark_province = {
 					chojna soltyn gorzow santok torzym
 				}
-				altmark_province = {
-					stendal gardelegen salzwedel osterburg haldensleben wolmirstedt
-				}
 				prignitz_province = {
 					havelberg wittstock ruppin pritzwalk wittenberge
 				}
@@ -326,16 +323,34 @@
 					prenzlau templin angermunde
 				}
 				mittelmark_province = {
-					berlin teltow treuenbrietzen herzfelde freienwalde lebus brandenburg potsdam
-				}
-				flaming_province = {
-					juterbog schweinitz zerbst wittenberg belzig bitterfeld
+					berlin teltow treuenbrietzen herzfelde freienwalde lebus brandenburg potsdam belzig
 				}
 				niederlausitz_province = {
-					cottbus guben spremberg calau lubben luckau beeskow zossen
+					cottbus guben spremberg calau lubben luckau beeskow zossen juterbog
+				}
+			}
+			magdeburg_area = {
+				flaming_province = {
+					schweinitz wittenberg bitterfeld liebenwerda torgau delitzsch
+				}
+				altmark_province = {
+					stendal gardelegen salzwedel osterburg haldensleben wolmirstedt
+				}
+				magdeburger_borde_province = {
+					magdeburg calbe halberstadt quedlinburg burg jerichow 
+				}
+				saale_province = {
+					halle_an_der_saale weissenfels freyburg merseburg eisleben
+				}
+				langensalza_province = {
+					muhlhausen nordhausen sangerhausen sondershausen langensalza beichlingen erfurt
+				}
+				anhalt_province = {
+					zerbst bernburg ballenstedt
 				}
 			}
 			rhineland_area = {
+				mainz_province = { oppenheim worms }
 				palatinate_province = {
 					kaiserslautern zweibrucken speyer pirmasens germersheim leiningen landau_rhineland neustadt_an_der_haardt meisenheim
 				}
@@ -354,13 +369,22 @@
 				niederrhein_province = {
 					monchengladbach kleve mors geldern
 				}
+				bergisches_land_province = {
+					remscheid siegburg gummersbach solingen
+				}
+				westerwald = {
+					coblenz altenkirchen wied
+				}
+				west_ruhr_province = {
+					essen wesel dusseldorf
+				}
 			}
 			hesse_area = {
 				hessen_bergland_province = {
-					kassel eschwege rotenburg korbach frankenberg marburg melsungen
+					kassel eschwege rotenburg korbach frankenberg marburg melsungen hofgeismar
 				}
 				untermain_province = {
-					worms mainz darmstadt offenbach oppenheim
+					darmstadt offenbach bensheim erbach
 				}
 				wetterau_province = {
 					hanau frankfurt giessen wetzlar friedberg_hesse budingen nidda
@@ -368,39 +392,30 @@
 				vogelsberg_province = {
 					fulda lauterbach hunfeld hersfeld ziegenhain
 				}
-				spessart_province = {
-					miltenberg aschaffenburg lohr bruckenau
-				}
 				taunus_province = {
-					dillenburg wiesbaden diez usingen katzenelnbogen hadamar
+					dillenburg wiesbaden diez usingen katzenelnbogen hadamar mainz
 				}
 			}
 			westphalia_area = {
-				bergisches_land_province = {
-					remscheid siegburg gummersbach solingen
-				}
-				westerwald = {
-					coblenz altenkirchen wied
-				}
 				munsterland_province = {
-					munster ahaus horstmar dulmen
+					munster ahaus horstmar dulmen tecklenburg rheine
 				}
 				ostwestphalia_province = {
 					bielefeld minden
 				}
 				lippe_province = {
-					lippstadt soest paderborn detmold hoxter warburg buren rietberg
+					lippstadt soest paderborn warburg buren rietberg
 				}
 				sauerland_province = {
 					berleburg siegen altena arnsberg meschede brilon attendorn
 				}
-				ruhr_province = {
-					essen recklinghausen dortmund wesel hamm bochum dusseldorf
+				east_ruhr_province = {
+					recklinghausen dortmund hamm bochum
 				}
 			}
 			weser_ems_area = {
 				emsland_province = {
-					lingen bentheim meppen bersenbruck tecklenburg rheine aschendorf
+					lingen bentheim meppen bersenbruck aschendorf
 				}
 				middle_weser_province = {
 					nienburg hoya diepholz osnabruck
@@ -420,13 +435,13 @@
 					harburg stade hamburg neuhaus ritzebuttel bremervorde warendorf
 				}
 				hanover_province = {
-					hildesheim hanover burgdorf buckeburg hamelin neustadt_am_rubenberge
+					hildesheim hanover burgdorf buckeburg hamelin neustadt_am_rubenberge detmold hoxter
 				}
 				brunswick_province = {
 					brunswick wolfenbuttel helmstedt gifhorn meinersen
 				}
 				leine_province = {
-					holzminden gottingen einbeck hofgeismar muhlhausen duderstadt
+					holzminden gottingen einbeck duderstadt
 				}
 				luneburger_heide_province = {
 					dannenberg luneburg uelzen winsen soltau winsen_aller isenhagen ebstorf luchow
@@ -435,38 +450,32 @@
 					celle fallingbostel verden zeven achim
 				}
 				harz_province = {
-					nordhausen sangerhausen goslar alfeld blankenburg gandersheim herzberg ballenstedt wernigerode
-				}
-				magdeburger_borde_province = {
-					magdeburg bernburg calbe halberstadt quedlinburg burg jerichow 
+					goslar alfeld blankenburg gandersheim herzberg wernigerode
 				}
 			}
 			upper_saxony_area = {
 				oberlausitz_province = {
-					gorlitz bautzen zittau hoyerswerda rothenburg_oberlausitz marienstern
+					bautzen zittau marienstern
 				}
 				elbtal_province = {
-					meissen dresden pirna liebenwerda torgau annaburg
+					meissen dresden pirna annaburg
 				}
 				erzgebirge_province = {
-					glauchau zwickau chemnitz freiberg sayda
+					glauchau zwickau chemnitz freiberg sayda plauen
 				}
 				leipziger_bucht_province = {
-					leipzig grimma rochlitz wurzen altenburg delitzsch
+					leipzig grimma rochlitz wurzen
 				}
-				vogtland_province = {
-					plauen gera schleiz
-				}
+			}
+			thuringia_area = {
 				thuringer_becken_province = {
-					erfurt eisenberg weimar apolda arnstadt langensalza sondershausen
-					saalfeld
+					eisenberg weimar apolda arnstadt saalfeld
 				}
-
 				thuringer_wald_province = {
 					hildburghausen schmalkalden eisenach meiningen gotha ohrdruf schleusingen coburg
 				}
-				saale_province = {
-					halle_an_der_saale naumburg weissenfels freyburg beichlingen merseburg eisleben
+				vogtland_province = {
+					gera schleiz altenburg naumburg
 				}
 			}
 			mecklenburg_area = {
@@ -594,6 +603,7 @@
 				thurgau_province = {
 					zurich werdenberg st_gallen frauenfeld toggenburg kyburg lake_zurich
 				}
+				ticino_province = { lugano bellinzona locarno }
 			}
 			western_switzerland_area = {
 				vaud_province = {
@@ -605,47 +615,50 @@
 			}
 			upper_rhine_area = {
 				kraichgau_province = {
-					sinsheim heilbronn bruchsal durlach heidelberg
+					sinsheim bruchsal durlach heidelberg
 				}
 				schwarzwald_province = {
-					calw oberndorf oberkirch nagold villingen furstenberg waldshut bonndorf
+					oberkirch villingen furstenberg waldshut bonndorf
 				}
 				rhine_valley_province = {
 					freiburg mullheim offenburg hachberg baden
 				}
 				odenwald_province = {
-					bensheim mosbach buchen erbach
+					mosbach buchen tauberbischofsheim
 				}
-			}
-			swabia_area = {
 				hegau_province = {
 					konstanz uberlingen schaffhausen stockach lake_constance
 				}
+			}
+			swabia_area = {
 				hohenloher_ebene_province = {
-					ellwangen welzheim dinkelsbuhl oettingen
+					ellwangen welzheim
 				}
 				swabian_alb_province = {
-					ulm heidenheim sigmaringen riedlingen helfenstein balingen hohenberg erbach_swabia
-				}
-				eastern_upper_swabia_province = {
-					augsburg memmingen krumbach gunzburg dillingen wertingen illereichen
+					ulm heidenheim riedlingen helfenstein erbach_swabia
 				}
 				western_upper_swabia_province = {
 					ravensburg biberach waldburg waldsee saulgau
 				}
-				allgau_province = {
-					immenstadt sonthofen kempten oberdorf
-				}
 				neckar_province = {
-					horb tubingen stuttgart urach vaihingen goppingen
+					horb tubingen stuttgart urach vaihingen goppingen calw oberndorf nagold hohenberg
+				}
+				tauberfranken_province = {
+					mergentheim hall crailsheim backnang ohringen heilbronn
+				}
+				hohenzollern_province = {
+					balingen sigmaringen
 				}
 			}
 			franconia_area = {
+				spessart_province = {
+					miltenberg aschaffenburg lohr bruckenau
+				}
 				ries_province = {
 					nuremberg schwabach ansbach uffenheim rothenburg neustadt
 				}
 				franconian_alb_province = {
-					neumarkt weissenburg eichstatt parsberg beilngries
+					neumarkt weissenburg eichstatt parsberg beilngries dinkelsbuhl oettingen
 				}
 				frankische_schweiz_province = {
 					bayreuth forchheim pegnitz schesslitz wunsiedel kulmbach eschenbach tirschenreuth sulzbach bamberg
@@ -655,9 +668,6 @@
 				}
 				frankenwald_province = {
 					kronach lichtenfels hof
-				}
-				tauberfranken_province = {
-					mergentheim hall crailsheim backnang ohringen tauberbischofsheim
 				}
 			}
 			bavaria_area = {
@@ -681,6 +691,12 @@
 				}
 				oberpfalzer_wald_province = {
 					cham amberg leuchtenberg roding burglengenfeld
+				}
+				eastern_upper_swabia_province = {
+					augsburg memmingen krumbach gunzburg dillingen wertingen illereichen
+				}
+				allgau_province = {
+					immenstadt sonthofen kempten oberdorf
 				}
 			}
 			bohemia_area = {
@@ -717,30 +733,34 @@
 				buckinghamshire_province = { buckingham aylesbury wycombe }
 				# surrey_province = { }
 			}
-			midlands_area = {
-				#east
+			east_midlands_area = {
 				leicestershire_province = { leicester loughborough bosworth rutland }
 				derbyshire_province = { derby glossop chesterfield }
 				nottinghamshire_province = { nottingham newark retford }
 				lincolnshire_province = { lincoln boston grimsby grantham louth spalding }
 				northamptonshire_province = { northampton daventry kettering }
-				#west
+			}
+			west_midlands_area = {
 				warwickshire_province = { coventry birmingham stratford }
 				shropshire_province = { shrewsbury oswestry ludlow }
 				herefordshire_province = { hereford ewyas wigmore }
 				worcestershire_province = { worcester kidderminster }
 				staffordshire_province = { stafford stoke tamworth }
 			}
-			northumbria_area= {
-				lancashire_province = { lancaster blackburn liverpool preston manchester pennines_01 pennines_02 }
+			yorkshire_area = {
 				north_riding_province = { york scarborough bedale richmond whitby north_york_moors }
 				east_riding_province = { hull bridlington selby norton }
 				west_riding_province = { leeds pontefract skipton wakefield doncaster ripon pennines_04 pennines_05 pennines_06 }
+			}
+			lancashire_area = {
+				lancashire_province = { lancaster blackburn liverpool preston manchester pennines_01 pennines_02 }
+				cheshire_province = { chester macclesfield nantwich }
+			}
+			north_england_area= {
 				northumberland_province = { newcastle hexham alnwick morpeth billingham }
-				cumberland_province = { carlisle cockermouth penrith egremont derwent_water }
 				westmorland_province = { kendal appleby }
 				durham_province = { durham darlington stockton pennines_03 }
-				cheshire_province = { chester macclesfield nantwich }
+				cumberland_province = { carlisle cockermouth penrith egremont derwent_water }
 			}
 			east_anglia_area= {
 				norfolk_province = { norwich lynn yarmouth thetford fakenham }
@@ -1004,12 +1024,13 @@
 				nice_province = { nice puget_theniers }
 			}
 			savoy_area = {
-				gresivaudan_province = { grenoble briancon gap la_mure cottian_alps1 dauphine_alps1 dauphine_alps2 }
 				savoy_province = { chambery annecy evian faucigny la_roche_sur_foron moutiers saint_jean_de_maurienne sallanches graian_alps1 pennine_alps1 }
+			}
+			dauphine_area = {
+				gresivaudan_province = { grenoble briancon gap la_mure cottian_alps1 dauphine_alps1 dauphine_alps2 }
 				valentinois_province = { valence condorcet die mevouillon vercors_massif }
 				viennois_province = { vienne romans saint_marceilin la_tour_du_pin }
 			}
-
 			bay_of_biscay_area = {
 				gulf_of_gascony_province = { basque_coast coast_aquitaine gironde ile_de_re quiberon_bay coast_of_cornouaille north_eastern_atlantic35 north_eastern_atlantic36 north_eastern_atlantic37 }
 				cantabrian_sea_province = { cape_penas coast_asturias bay_santander rias_altas north_eastern_atlantic38 north_eastern_atlantic39 north_eastern_atlantic69 north_eastern_atlantic40 }
@@ -1190,7 +1211,6 @@
 				milano_province = { milano legnano rho varese pavia }
 				monza_province = { monza lecco treviglio como lake_como rhaetian_alps5 }
 				valtellina_province = { tresivio bormio chiavenna rhaetian_alps2 rhaetian_alps3 }
-				ticino_province = { lugano bellinzona locarno }
 			}
 			marche_area = {
 				marche_province = { ancona ascolipiceno camerino fabriano fermo macerata central_apennines1 }
@@ -1409,6 +1429,7 @@
 				tesin_province = { tesin bielsko }
 				wroclaw_province = { wroclaw brzeg grodkow nysa niemodlin olawa sroda_slaska }
 				kattowitz_province = { bytom kozle pszczyna raciborz toszek hlucin glubczyce }
+				central_lusatia_province = { gorlitz hoyerswerda rothenburg_oberlausitz }
 			}
 			eastern_baltic_sea = {
 				eastern_baltic_sea = { north_central_baltic gulf_of_riga coast_of_osel west_gulf_of_finland east_gulf_of_finland }
@@ -1830,7 +1851,7 @@
 				bosnia_province = { vrhbosna borac konjic olovo srebrenica zenica dinaric_alps2 dinaric_alps3 }
 				donji_kraji_province = { jajce glamoc kljuc livno }
 				hum_province = { trebinje drijeva gacko mostar nevesinje dinaric_alps4 }
-				podrinje_province = { ustikolina pljevlja soko_grad dinaric_alps5 dinaric_alps6 }
+				podrinje_province = { ustikolina pljevlja soko_grad dinaric_alps5 }
 				una_sana_province = { bihac dubica gradiski_brod kozara srb }
 				usora_and_soli_province = { doboj glaz soli srebrenik teocak }
 			}
@@ -1842,8 +1863,9 @@
 				raska_province = { trgoviste_SER brskovo brvenik budimlja sjenica dinaric_alps7 }
 				sumadija_province = { belgrad smederevo rudnik }
 				toplica_province = { krusevac jagodina stalac zica }
-				zeta_province = { podgorica bar_cg gradina kotor onogost lake_skadar }
+				zeta_province = { podgorica bar_cg gradina kotor onogost dinaric_alps6 lake_skadar }
 				zlatibor_province = { uzice arilje gradac prijepolje visegrad }
+				zajecar_province = { svrljig visesav kozelj }
 			}
 			bulgaria_area = {
 				north_dobruja_province = { babadag cernavoda constanta enisala isaccea tulcea harsova }
@@ -1852,7 +1874,7 @@
 				sredets_province = { sredets dupnitsa pirot tsaribrod velbuzd samokov svoge zemlungrad balkan_mountains4 }
 				south_dobruja_province = { karvuna drastar kaliakra kladentsi pangalia tutrakan }
 				tarnovo_province = { tarnovo cherven lyaskovets nikopol ruse tryavna }
-				vidin_province = { vidin archar kozelj kutlovitsa lom svrljig visesav vratsa balkan_mountains1 balkan_mountains2 }
+				vidin_province = { vidin archar  kutlovitsa lom vratsa balkan_mountains1 balkan_mountains2 }
 			}
 			macedonia_area = {
 				central_macedonia_province = { edessa giannitsa gynaikokastro hatera kilkis veria }
@@ -2466,18 +2488,15 @@ asia = {
 				yongzhou_province = { lingling dongan_yongzhou lengshuitan guiyang_hengyang qiyang }
 				youzhou_province = { youzhou chaling yongan_youzhou liling liuyang }
 				yuezhou_province = { baling changshou_pingjiang huarong linxiang pingjiang }
-			}
-			wuling_area = {
 				changde_province = { wuling taoyuan longyang yuanjiang yuannan dongting_lake }
 				chen_province = { yuanling chenxi huaihua xupu madi_yuanling luxi }
 				jing_province = { yongping suining_jing huitong tongdao tianzhu }
-				lizhou_province = { liyang_lizhou anfu_li anxiang cili shimen tianping shixi dayong }
-				shizhou_province = { shizhou datian_shizhou lichuan rongmei wufeng sanmao zhonglu shinan wulingshan }
 				yongshun_province = { yongshun_yongshun guzhang shangxi baojing wuzhai }
 				yuanzhou_huguang_province = { luyang qianyang_yuanzhou mayang }
-
 			}
 			hubei_area = {
+				lizhou_province = { liyang_lizhou anfu_li anxiang cili shimen tianping shixi dayong }
+				shizhou_province = { shizhou datian_shizhou lichuan rongmei wufeng sanmao zhonglu shinan wulingshan }
 				anlu_province = { zhongxiang fengle shipai fushui jingshan }
 				dean_province = { anlu xiaogan yingcheng yunmeng }
 				fangzhou_province = { fangling banqiao baokang baihekou bomoping zhushan zhuxi fengxi }
@@ -2513,19 +2532,12 @@ asia = {
 				ruizhou_province = { gaoan shanggao xinchang_yifeng }
 				yuanzhou_province = { yichun fenyi wanzai pingxiang }
 			}
-			jiangnan_area = {
-				changzhou_province = { wujin jiangyin wuxi yixing ge_lake tai_lake }
-				chizhou_province = { guichi shidai qingyang tongling dongliu }
-				guangde_province = { guangde jianping liyang }
-				huizhou_province = { shexian yixian xiuning jixi_huizhou tunxi qimen wuyuan_huizhou }
-				ningguo_province = { ningguo taiping_ningguo jingxian jingde nanling xuancheng nanyi_lake }
-				songjiang_province = { huating nanhui shanghai dianshan_lake }
-				suzhou_province = { wuxian changshu chongming jiading kunshan wujiang yangcheng_lake }
-				taiping_province = { dangtu fanchang wuhu shijiu_lake }
+			jiangsu_area = {
 				yingtian_province = { shangyuan jiangning jurong luhe lishui_yingtian wujiang_yingtian }
 				zhenjiang_province = { dantu danyang jintan tao_lake }
-			}
-			huaidong_area = {
+				changzhou_province = { wujin jiangyin wuxi yixing ge_lake tai_lake }
+				songjiang_province = { huating nanhui shanghai dianshan_lake }
+				suzhou_province = { wuxian changshu chongming jiading kunshan wujiang yangcheng_lake }
 				gaoyou_province = { gaoyou xinghua baoying baima_lake gaoyou_lake }
 				haizhou_province = { qushan banpu gaoqiao ganyu shuyang }
 				huaian_province = { shanyang_huaian andong_huaian qinghe_huaian yancheng funing_huaian taoyuan_huaian hongze_lake}
@@ -2535,7 +2547,12 @@ asia = {
 				xuzhou_province = { xuzhou dangshan fengxian xiaoxian peixian }
 				yangzhou_province = { jiangdu taixing yangzi }
 			}
-			huaixi_area = {
+			anhui_area = {
+				chizhou_province = { guichi shidai qingyang tongling dongliu }
+				guangde_province = { guangde jianping liyang }
+				huizhou_province = { shexian yixian xiuning jixi_huizhou tunxi qimen wuyuan_huizhou }
+				ningguo_province = { ningguo taiping_ningguo jingxian jingde nanling xuancheng nanyi_lake }
+				taiping_province = { dangtu fanchang wuhu shijiu_lake }
 				anqing_province = { huaining qianshan susong taihu tongcheng_anqing wangjiang zongyang longgan_lake }
 				bozhou_nanzhili_province = { qiaoxian chengfu mengcheng }
 				chuzhou_province = { qingliu_chuzhou zhaoxin quanjiao laian }
@@ -2553,6 +2570,11 @@ asia = {
 				north_taiwan_province = { basai kavalan ketagalan kulun pakuali squliq }
 				south_taiwan_province = { siraya ishbukun lloa makatao rukai takitudu tsou }
 				west_taiwan_province = { papora arikun babuza mayrinax seediq taokas xueshan }
+			}
+			ryukyu_area = {
+				satsunan_islands_province = {amami_ooshima satsunan_islands tokunoshima }
+				ryuukyuu_province = { urasoe nakijin oozato kumejima }
+				sakishima_islands_province = { miyakojima ishigaki iriomote yonaguni tarama }
 			}
 			zhejiang_area = {
 				chuzhou_zhejiang_province = { lishui daxue qingtian minghe longquan suichang qingyuan_chuzhou jinyun songyang yunhe wuyishan1 }
@@ -2603,93 +2625,94 @@ asia = {
 				teshio_province = { teshio kitanakagawa kitakamikawa tomamae rumoi }
 				tokachi_province = { tokachi hiroo toubui kasai minamikamikawa katou minaminakagawa ishikari_mountains hidaka_mountains }
 			}
-			hokurikudou_area = {
+			hokuriku_area = {
 				ecchuu_province = { imizu niikawa nei tonami }
 				echigo_province = { higashikubiki nishikubiki iwafune nutari nishikanbara higashikanbara koshi kariwa minamiuonuma kitauonuma iide_mountains }
-				echizen_province = { nyuu sakai_echizen nakaoono imadate tsuruga }
+				echizen_province = { nyuu sakai_echizen nakaoono imadate tsuruga onyuu }
 				kaga_province = { nomi kaga }
 				noto_japan_province = { noto_jap fugeshi suzu }
 				sado_province = { sawata kamo }
 			}
-			kinai_area = {
+			kansai_area = {
 				settsu_province = { osaka kawabe muko izumi }
 				yamashiro_province = { kyoto kuse }
 				yamato_province = { takaichi nara yoshino kii_mountains }
+				harima_province = { shikama akashi taka akou shisou }
+				tajima_province = { keta_tajima yabu futakata }
+				tanba_province = { kuwada funai ikaruga hikami }
+				tango_province = { kasa yosa }
+				kii_province = { kaisou higashimuro minamimuro nishimuro hidaka naga awaji }
+				oumi_province = { kurita azai echi gamou kouka takashima lake_biwa }
+				shima_province = { shima kitamuro }
+				ise_province = { suzuka mie ichishi watarai taki iga }
 			}
-			nankaidou_area = {
-				awa_province = { nakata awa_shikoku awaji naka_shikoku kaifu mima miyoshi_shikoku mount_tsurugi }
+			shikoku_area = {
+				awa_province = { nakata awa_shikoku naka_shikoku kaifu mima miyoshi_shikoku mount_tsurugi }
 				iyo_province = { ochi iyo nii ukena kita_shikoku uwa }
-				kii_province = { kaisou higashimuro minamimuro nishimuro hidaka naga }
 				sanuki_province = { aya mitoyo miki }
 				tosa_province = { nagaoka tosa aki_shikoku kami_shikoku agawa takaoka hata ishizuchi_mountains }
 			}
-			saikaidou_area = {
+			northern_saikaido_area = {
 				bungo_province = { ooita kunisaki hayami amabe oono_bungo naoiri kusu hita }
 				buzen_province = { nakatsu mike usa }
 				chikugo_province = { mii kamitsuma }
 				chikuzen_province = { mikasa hakata onga asakura }
-				higo_province = { akita_kumamoto aso koushi tamana mashiki yatsushiro_higo amakusa kuma ashikita }
 				hizen_province = { saga higashimatsuura kishima takaki nishisonogi higashisonogi nishimatsuura minamimatsuura }
+				tsushima_province = { shimoagata kamiagata }
+			}
+			southern_saikaido_area = {
 				hyuuga_province = { koyu higashiusuki nishiusuki naka_hyuuga nishimorokata kitamorokata miyazaki minamimorokata }
 				oosumi_province = { soo oosumi kimotsuki kuwabara hishikari gomu kumage_oosumi }
 				satsuma_province = { satsuma kagoshima ibusuki izumi_satsuma koshikishima }
-				tsushima_province = { shimoagata kamiagata }
+				higo_province = { akita_kumamoto aso koushi tamana mashiki yatsushiro_higo amakusa kuma ashikita }
 			}
-			sanindou_area = {
+			sanin_area = {
 				houki_province = { kume_houki aimi hino }
 				inaba_province = { houmi takakusa }
 				iwami_province = { naka_iwami nima oochi mino kanoashi }
 				izumo_province = { ou izumo oki iishi nita lake_shinji lake_nakaumi}
-				tajima_province = { keta_tajima yabu futakata }
-				tanba_province = { kuwada funai ikaruga hikami }
-				tango_province = { kasa yosa onyuu }
 			}
-			sanyoudou_area = {
+			sanyo_area = {
 				aki_province = { aki geiyo_islands_wastelands toyota saeki yamagata takata }
 				bicchuu_province = { kaya asakuchi katou_bicchuu aka }
 				bingo_province = { ashida sera miyoshi eso nuka kameshi }
 				bizen_province = { joutou wake tsudaka }
-				harima_province = { shikama akashi taka akou shisou }
 				mimasaka_province = { tomata kume mashima aita }
 				nagato_province = { toyoura asa ootsu abu mishima_island }
 				suou_province = { saba kuga kumage tsuno yoshiki_suou }
 			}
-			ou_area = {
+			mutsu_area = {
 				iwaki_province = { iwaki uda_mutsu katta namekata shineha naraha kikuta takano shirakawa tamura }
 				iwase_province = { iwase date_loc shinobu adachi yama_jap kawanuma oonuma kitaaizu minamiaizu asaka lake_iwashiro mount_azuma }
 				rikuchuu_province = { iwate kuji shimohei kitahei kamihei shiwa hienuki esashi waga isawa iwai }
 				rikuou_province = { inaka hanawa hiraka_aomori shimokita kamikita nukanobu kazuno lake_ogawara lake_towada }
 				rikuzen_province = { miyagi kesen motoyoshi oshika tome kurihara kami kurokawa natori }
+			}
+			dewa_area = {
 				ugo_province = { kamiura hiyama hinai akita toshima yamamoto yuri yuza }
 				uzen_province = { tagawa murayama kitamogami minamimogami nishiokitama higashiokitama }
 			}
-			toukaidou_area = {
+			kanto_area = {
+				sagami_province = { kamakura ashigara aikou }
+				shimousa_province = { katsushika katori chiba souma }
+				kazusa_province = { ichihara musa isumi awa makuda }
 				hitachi_province = { ibaraki taga kuji_kanto naka kashima niihari tsukuba kamigaura_bay }
-				ise_province = { suzuka mie ichishi watarai taki iga }
+				musashi_province = { tama saitama adachi_kanto toshima_kanto tachibana chichibu hiki hanzawa }
+				shimotsuke_province = { tsuga nasu shioya kawachi haga ashikaga_loc }
+				kouzuke_province = { gunma tone seta nitta usui kanra agatsuma echigo_mountains }
+			}
+			tokai_area = {
 				izu_province = { tagata kamo_izu izu_islands }
 				kai_province = { yatsushiro tsuru yamanashi koma_kai okuchichibu_mountains }
-				kazusa_province = { ichihara musa isumi awa makuda }
 				mikawa_province = { hoi shitara kamo_mikawa hekikai }
-				musashi_province = { tama saitama adachi_kanto toshima_kanto tachibana chichibu hiki hanzawa }
 				owari_province = { nakajima niwa aichi }
-				sagami_province = { kamakura ashigara aikou }
-				shima_province = { shima kitamuro }
-				shimousa_province = { katsushika katori chiba souma }
 				suruga_province = { abe suntou fuji ihara shida mount_fuji }
 				tootoumi_province = { toyoda kitou shuuchi fuchi }
-			}
-			tousandou_area = {
-				hida_province = { kamioono yoshiki mashita hida_mountains mount_ontake mount_haku }
-				kouzuke_province = { gunma tone seta nitta usui kanra agatsuma echigo_mountains }
 				mino_province = { fuwa_mino ena minokamo gujou mugi toki katagata ikeda }
-				oumi_province = { kurita azai echi gamou kouka takashima lake_biwa }
-				shimotsuke_province = { tsuga nasu shioya kawachi haga ashikaga_loc }
-				shinano_province = { tsukama kiso saku takai minochi sarashina azumi chiisagata suwa kamiina shimoina asama_mountains akaishi_mountains kiso_mountains yatsugatake_mountains mikuni_mountains }
 			}
-			ryuukyuu_area = {
-				satsunan_islands_province = {amami_ooshima satsunan_islands tokunoshima }
-				ryuukyuu_province = { urasoe nakijin oozato kumejima }
-				sakishima_islands_province = { miyakojima ishigaki iriomote yonaguni tarama }
+			shinetsu_area = {
+				hida_province = { kamioono yoshiki mashita hida_mountains mount_ontake mount_haku }
+				shinano_province = { tsukama kiso saku takai minochi sarashina azumi chiisagata suwa kamiina shimoina asama_mountains akaishi_mountains kiso_mountains yatsugatake_mountains mikuni_mountains }
 			}
 
 			#Sea Zones
@@ -2976,7 +2999,7 @@ asia = {
 			}
 		}
 		north_china_region = {
-			yannan_area = {
+			zhili_area = {
 				anzhou_province = { gecheng dingxing gaoyang_baoding xincheng_baoding guixin }
 				baoding_province = { qingyuan_baoding wanzhou_baoding tangxian }
 				qingchi = { qingchi liguo nanpi qingyun yanshan }
@@ -2991,16 +3014,12 @@ asia = {
 				yizhou_province = { yixian_yizhou ansu laishui mancheng }
 				zhaozhou_province = { pingji ningjin_zhaozhou lincheng longping_zhaozhou zanhuang }
 				zhending_province = { zhending fuping gaocheng yuanshi_zhending huolu gucheng_zhending lingshou pingshan_zhending jingxing wuji }
-			}
-			yanbei_area = {
 				daning_province = { daning_pingquan huihe hezhong naiman pingquan wuping_daning fushu }
 				chaoyang_province = { xingzhong xiankang lizhou longshan chuanzhou shenshui }
 				quanning_province = { quanning songzhou pingdisonglin enhua yingchang dalai_nur_lake }
 				shangdu_province = { dongliangting shangdu chagannur huanzhou }
 				xingzhou_province = { baitan yixingzhou kuanhe_xingzhou niushan limin taipingzhuang liuyuan xiabancheng zhangsanying yanshan_mountains1 }
 				xinghe_province = { gaoyuan baochang fuzhou weining zhongdu yanshan_mountains2 }
-			}
-			beiping_area = {
 				baoan_province = { baoan_baoan huailai longqing taihangshan1 }
 				bazhou_province = { yijin dacheng wenan }
 				changping_province = { changping huairou miyun shunyi }
@@ -3010,17 +3029,15 @@ asia = {
 				tongzhou_beizhili_province = { luxian baodi sanhe_tongzhou lutai xianghe wuqing }
 				wanquan_province = { huaian yunzhou dushikou xuanping longmen_chicheng shunsheng xuande }
 				yongping_province = { lulong changli funing longwangmiao qianan sanchakou }
-			}
-			hebei_area = {
-				cizhou_province = { fuyang shexian_cizhou wuan }
 				daming_province = { yuancheng baima_daming nanle neihuang weixian xunxian }
 				guangping_province = { guangping qinghe guangzong handan yongnian mingshui quzhou }
-				huaiqing_province = { henei jiyuan mengxian wuzhi wenxian xiuwu }
 				kaizhou_province = { puyang changyuan dongming qingfeng }
-				weihui_province = { jixian huixian qizhou xinxiang }
-				zhangde_province = { anyang linzhou linzhang tangyin }
 			}
 			henan_area = {
+				cizhou_province = { fuyang shexian_cizhou wuan }
+				zhangde_province = { anyang linzhou linzhang tangyin }
+				weihui_province = { jixian huixian qizhou xinxiang }
+				huaiqing_province = { henei jiyuan mengxian wuzhi wenxian xiuwu }
 				chenzhou_henan_province = { wanqiu dancheng xiangcheng shangshui nandun xihua }
 				dengzhou_henan_province = { rangxian xichuan neixiang shunyang xinye huayuantou xixia }
 				guangzhou_henan_province = { dingcheng changtan guangshan gucheng_xi gushi shangcheng xizhou zhugao }
@@ -3038,7 +3055,7 @@ asia = {
 				yuzhou_province = { fangcheng yexian wuyang }
 				zhengzhou_province = { guancheng_zhengzhou mixian xingyang yanjin yuanyang yangdi zhongmu }
 			}
-			haiyou_area = {
+			shandong_area = {
 				dengzhou_province = { changshan_islands_wastelands penglai dasong jiangshan_laiyang laiyang huangxian qixia zhaoyuan }
 				jiaozhou_province = { jiaoxi fushan_jiaozhou jimo lingshanwei }
 				juzhou_province = { juxian yiyuan gegou mengyin rizhao shizilu yishui }
@@ -3046,8 +3063,6 @@ asia = {
 				mizhou_province = { zhucheng anqiu changle wulian }
 				ninghai_province = { muping chengshan fushan_muping rushan weihai wendeng }
 				qingzhou_province = { yidu_qingzhou boxing lean linqu shouguang zichuan }
-			}
-			shandong_area = {
 				binzhou_province = { bohai zhanhua lijin wudi }
 				caozhou_province = { chuqiu chengwu dingtao jiyin }
 				dezhou_province = { lingzhou_dezhou deping ande linyi_jinan pingyuan_jinan qihe yucheng }
@@ -3066,15 +3081,15 @@ asia = {
 				yizhou_shandong_province = { linyi licheng_yizhou feixian lanling tancheng }
 			}
 			datong_area = {
-				datong_province = { datong_datong xuanning huairen tiancheng baideng yulin_datong yunchuan taihangshan3 }
 				hetao_province = { bayannur uraqai xinhure lake_ulansu }
-				jining_shanxi_province = { jining erdao liangcheng pingdi daihai_lake huangqihai_lake yanshan_mountains3 }
 				ordos_province = { ordos aerzhai otog tongwancheng }
 				qingcheng_province = { fengzhou yinshan hebin zhenwu ningbian yunnei dongsheng wuchuan }
-				yingzhou_shanxi_province = { jincheng shanyin zhongling shenwu shanyang_yingzhou taihangshan9 }
-				yuzhou_shanxi_province = { lingxian_shanxi guangling hunyuan feihu lingqiu taihangshan10 }
 			}
 			shanxi_area = {
+				datong_province = { datong_datong xuanning huairen tiancheng baideng yulin_datong yunchuan taihangshan3 }
+				jining_shanxi_province = { jining erdao liangcheng pingdi daihai_lake huangqihai_lake yanshan_mountains3 }
+				yingzhou_shanxi_province = { jincheng shanyin zhongling shenwu shanyang_yingzhou taihangshan9 }
+				yuzhou_shanxi_province = { lingxian_shanxi guangling hunyuan feihu lingqiu taihangshan10 }
 				baode_province = { baode hequ piantouguan wuzhou }
 				daizhou_province = { daizhou jianzhou_daizhou taizhou guozhou taihangshan8 }
 				fenzhou_province = { xihe jiexiu pingyao xiaoyi }
@@ -3103,7 +3118,7 @@ asia = {
 			}
 		}
 		south_china_region = {
-			haibei_hainan_area = {
+			guangdong_area = {
 				gaozhou_province = { maoming xinyi_gaozhou dianbai baoning }
 				huazhou_province = { shilong shicheng wuchuan_huazhou }
 				leizhou_province = { haikang qingdao zhanchuan suixi xuwen }
@@ -3111,8 +3126,6 @@ asia = {
 				nanningjun_province = { yilun yande ganen changhua }
 				qiongzhou_province = { qiongshan shuihui dingan lehui chengmai lingao wenchang }
 				wananjun_province = { wanan_wananjun lingshui ningyuan_wananjun limushan }
-			}
-			guangdong_area = {
 				chaozhou_province = { haiyang sanhe_chaozhou pantian chengxiang huilai chaoyang pingyuan_mei puning sanrao jieyang }
 				deqing_province = { duanxi shuangshui ducheng jinkang }
 				dongguan_province = { dongguan baoan_dongguan guanfu }
@@ -3129,7 +3142,7 @@ asia = {
 				yingde_province = { yingde hanguang wengyuan }
 				zhaoqing_province = { gaoyao gaoming guangning_zhaoqing sanshui sihui }
 			}
-			liangjiang_area = {
+			guangxi_area = {
 				baishan_province = { baishan anding_mashan duyang yongshun }
 				binzhou_guangxi_province = { lingfang shanglin qianjiang_binzhou }
 				guishun_province = { guishun xiaozhenan zhenan_guishun }
@@ -3142,8 +3155,6 @@ asia = {
 				taiping_guangxi_province = { chongshan longzhou_longzhou mingying doukang guwan }
 				tianzhou_province = { laian_tianzhou baise sienzhou tianzhou tangxing }
 				xilong_province = { xilong bada ceheng machang zhenfeng }
-			}
-			guangxi_area = {
 				guilin_province = { lingui lingchuan yining xingan yongfu }
 				hezhou_guangxi_province = { linhe fengcheng guiling fuchuan }
 				liuzhou_province = { maping liucheng wuxian_liuzhou yangshou laibin }
@@ -3174,7 +3185,7 @@ asia = {
 				wusawei_province = { shuicheng pingba zhijin huozhu }
 				zhenan_province = { zhengan zhenzhou suiyang bochuan }
 			}
-			dali_area = {
+			yunnan_area = {
 				beisheng_province = { beisheng langqu jinshajiang yongning_baisheng ningfan }
 				dali_province = { taihe_dali menghua yunlong binchuan yangbei wujing yunnan langqiong erhai_lake qingshuilangshan }
 				heqing_province = { heqing jianchuan qingshuilangshan2 }
@@ -3187,9 +3198,6 @@ asia = {
 				tengchong_province = { tengchong wadian zhenxi nandan_tengcheng nandian gaoligongshan1 }
 				yaoan_province = { yaozhou dayao juque }
 				yongchang_province = { yongchang_yongchang zhenkang shidian kongwei yongping_yongchang rouyuan lujiang }
-
-			}
-			yunnan_area = {
 				cheli_province = { jinglong daolong gengdang mengban_jihong menghai mengla yot_ou }
 				chengjiang_province = { heyang jiangchuan lunan xinxing fuxian_lake }
 				chuxiong_province = { weichu dingyuan_chuxiong zhennan nanan ailaoshan }
@@ -3292,22 +3300,13 @@ asia = {
 				suzhou_gansu_province = { suzhou_gansu gaotai jinta chijin }
 				xining_province = { xining datong_xining gushan haomen nianbo zhuanglang qilianshan2 }
 				yongchang_gansu_province = { yongchang_ganzhou anyuan gulang jinchang xiliang baiting zhenfan qingtu_lake }
-			}
-			hexi_area = {
-				fuzhou_shaanxi_province = { fuzhou_yanan luochuan zhongbu yijun }
 				guyuan_province = { kaicheng_guyuan xianzhou zhenrong }
-				jiazhou_province = { jiazhou fugu kaiguang shenmu }
 				jingning_province = { jingning longde sanchuan shuiluo liupanshan }
 				jingzhou_shaanxi_province = { jingchuan guangan zhenyuan lingtai }
 				lingzhou_province = { lingzhou dingyuan_lingzhou yanchi ningxia }
 				ningxia_province = { mingsha fuchuan_ningxia lingwu yingli }
 				pingliang_province = { pingliang huating_pingliang chongxin }
 				qingyang_province = { anhua baimachen huachi huanzhou_qingyang zhenning_qingyang heshui ningzhou }
-				suide_province = { suide dingrong mizhi qingjian }
-				yanan_province = { fushi anding baoan yichuan ganquan yanchang yanchuan ansai }
-				yulin_province = { yulin dingbian huaiyuan_mizhi anbian jingbian }
-			}
-			longyou_area = {
 				gongchang_province = { longxi_gongchang dingxi fuqiang huizhou_gongchang ningyuan_gongchang tongwei zhangxian qinlingshan3 }
 				hezhou_province = { hezhou guide jishi dingqiang }
 				huizhou_shaanxi_province = { huizhou chengzhou xihe_huizhou liangdang lidian }
@@ -3318,6 +3317,11 @@ asia = {
 				taozhou_province = { kedang amchok kuntokling taktsang liulin sangqu tewo tso_gon qinlingshan2 }
 			}
 			shaanxi_area = {
+				fuzhou_shaanxi_province = { fuzhou_yanan luochuan zhongbu yijun }
+				jiazhou_province = { jiazhou fugu kaiguang shenmu }
+				suide_province = { suide dingrong mizhi qingjian }
+				yanan_province = { fushi anding baoan yichuan ganquan yanchang yanchuan ansai }
+				yulin_province = { yulin dingbian huaiyuan_mizhi anbian jingbian }
 				binzhou_shaanxi_province = { xinping chunhua yongshou sanshui_binzhou }
 				fengxiang_province = { baoji fengxiang fufeng linyou longzhou_fengxiang meixian qianyang qishan longan }
 				fengzhou_province = { liuba liangquan guochuan qinlingshan4 }

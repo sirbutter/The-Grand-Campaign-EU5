@@ -392,14 +392,6 @@ TON = {
 	religion_definition = catholic
 }
 
-#Montfort
-MON = {
-	#color = map_FRA
-	color = rgb { 219 44 44 }
-	culture_definition = french
-	religion_definition = catholic
-}
-
 #Aumale
 AUM = {
 	#color = map_FRA

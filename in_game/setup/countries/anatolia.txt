@@ -246,14 +246,6 @@ EGL = {
 	religion_definition = sunni
 }
 
-HKK = {
-	color = map_hakkari
-	color2 = rgb { 144 220 149 }
-
-	culture_definition = kurdish_culture
-	religion_definition = sunni
-}
-
 HZN = {
 	color = map_hazni
 	color2 = rgb { 144 220 149 }

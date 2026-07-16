@@ -54,7 +54,7 @@ KHI = { #Abkhazia
 }
 
 KOK = { #Abkhazia
-	color = map_KOK
+	color = rgb { 154 27 31 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = circassian_culture
@@ -104,7 +104,7 @@ BSR = { #Bushehr
 
 
 KHZ = { #Khuzestan
-   color = rgb { 95 180 75 }
+   color = rgb { 88 97 158 }
    color2 = rgb { 16 41 202 }
    unit_color0 = rgb { 49 49 49 }
    unit_color1 = rgb { 49 49 49 }
@@ -264,14 +264,14 @@ BTL = {
 }
 
 NMN = { 
-	color = rgb { 155 233 115 }
+	color = rgb { 42 174 201 }
 	
 	culture_definition = eastern_amazigh
 	religion_definition = sunni
 }
 
 KGD = { 
-	color = rgb { 155 233 115 }
+	color = rgb { 99 100 137 }
 	
 	culture_definition = eastern_amazigh
 	religion_definition = sunni
@@ -287,7 +287,7 @@ ARD = {
 
 
 STN = { #Saptagram
-   color = rgb { 184 158 136 }
+   color = rgb { 183 149 102 }
    color2 = rgb { 16 41 202 }
    unit_color0 = rgb { 49 49 49 }
    unit_color1 = rgb { 49 49 49 }
@@ -309,7 +309,7 @@ HRT = {
 
 
 TYM = {
-   color = rgb { 164 111 111 }
+   color = rgb { 163 56 42 }
    color2 = rgb { 16 41 202 }
    unit_color0 = rgb { 49 49 49 }
    unit_color1 = rgb { 49 49 49 }
@@ -330,7 +330,7 @@ HZJ = {
 }
 
 SLR = {
-	color = map_STN
+	color = rgb { 170 173 98 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = bengali
@@ -338,7 +338,7 @@ SLR = {
 }
 
 JSD = {
-	color = map_STN
+	color = rgb { 117 163 126 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = bengali
@@ -346,7 +346,7 @@ JSD = {
 }
 
 TEK = {
-	color = map_teke
+	color = rgb { 140 150 20 }
 	color2 = rgb { 221 180 249 }
 
 	culture_definition = turkish_culture
@@ -354,7 +354,7 @@ TEK = {
 }
 
 YMD = {
-	color = map_teke
+	color = rgb { 78 142 69 }
 	color2 = rgb { 221 180 249 }
 
 	culture_definition = turkish_culture
@@ -362,7 +362,7 @@ YMD = {
 }
 
 NKL = {
-	color = map_teke
+	color = rgb { 160 120 139 }
 	color2 = rgb { 221 180 249 }
 
 	culture_definition = turkish_culture
@@ -370,7 +370,7 @@ NKL = {
 }
 
 ATB = {
-	color = map_antambahoaka
+	color = rgb { 75 160 50}
 	color2 = black
 
 	culture_definition = antambahoaka_culture
@@ -378,7 +378,7 @@ ATB = {
 }
 
 SHD = {
-	color = map_antambahoaka
+	color = rgb { 240 110 50 }
 	color2 = black
 
 	culture_definition = antambahoaka_culture
@@ -386,7 +386,7 @@ SHD = {
 }
 
 ZFR = {
-	color = map_antambahoaka
+	color = rgb { 229 225 118 }
 	color2 = black
 
 	culture_definition = antambahoaka_culture
@@ -394,23 +394,21 @@ ZFR = {
 }
 
 ALE = {
-	#color = map_FRA
-	color = rgb { 162 116 225 }
+	color = rgb { 170 25 35 }
 
 	culture_definition = norman
 	religion_definition = catholic
 }
 
 TJN = {
-	#color = map_FRA
-	color = rgb { 162 116 225 }
+	color = rgb { 66 163 113 }
 
 	culture_definition = norman
 	religion_definition = catholic
 }
 
 JLY = { #Jalayirs
-	color = map_JLY
+	color = rgb { 165 129 164 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = mongolian_culture
@@ -418,28 +416,28 @@ JLY = { #Jalayirs
 }
 
 SPL	= { #spoleto
-	color = hsv { 0 0.71 0.38 }
+	color = rgb { 123 135 81 }
 
 	culture_definition = median
 	religion_definition = catholic
 }
 
 MMN	= {
-	color = hsv { 0 0.71 0.38 }
+	color = rgb { 50 200 190 }
 
 	culture_definition = median
 	religion_definition = catholic
 }
 
 ADK	= {
-	color = hsv { 0 0.71 0.38 }
+	color = rgb { 56 229 215 }
 
 	culture_definition = median
 	religion_definition = catholic
 }
 
 SGH = {
-	color = map_SGH
+	color = rgb { 63 255 242 }
 	color2 = black
 
 	culture_definition = godala_culture
@@ -474,7 +472,7 @@ BGT = {
 }
 
 BLK = {
-	color = rgb { 153 65 47}
+	color = rgb { 155 102 122 }
 	color2 = black
 
 	culture_definition = godala_culture
@@ -498,7 +496,7 @@ MZR = {
 }
 
 TSK = { #Tsakho
-	color = map_TSK
+	color = rgb { 52 78 186 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = gyalrong_culture
@@ -506,7 +504,7 @@ TSK = { #Tsakho
 }
 
 KDZ = {
-	color = map_TSK
+	color = rgb { 55 120 250 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = gyalrong_culture
@@ -514,7 +512,7 @@ KDZ = {
 }
 
 BDS = {
-	color = map_BDS
+	color = rgb { 190 100 190 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = mazanderani_culture
@@ -522,7 +520,7 @@ BDS = {
 }
 
 KFR = {
-	color = map_BDS
+	color = rgb { 149 160 67 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = mazanderani_culture
@@ -530,7 +528,7 @@ KFR = {
 }
 
 DIR = {
-	color = map_BDS
+	color = rgb { 168 219 102 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = mazanderani_culture
@@ -549,7 +547,7 @@ SKH = {
 }
 
 WKH = {
-	color = map_wahpekhute
+	color = rgb { 65 85 140 }
 	color2 = rgb { 71 39 141 }
 
 	culture_definition = wahpekhute_culture
@@ -557,7 +555,7 @@ WKH = {
 }
 
 SGN = {
-	color = map_SGN
+	color = rgb { 134 181 88 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = bengali
@@ -565,7 +563,7 @@ SGN = {
 }
 
 RSH = {
-	color = map_rasht
+	color = rgb { 149 195 211 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = gilak_culture
@@ -573,7 +571,7 @@ RSH = {
 }
 
 DRV = {
-	color = map_rasht
+	color = rgb { 120 230 70 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = gilak_culture
@@ -581,7 +579,7 @@ DRV = {
 }
 
 KLB = { #Banu Kilab
-	color = map_KLB
+	color = rgb { 137 164 193 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = najdi_culture
@@ -589,7 +587,7 @@ KLB = { #Banu Kilab
 }
 
 BLJ = { #Banu Kilab
-	color = map_KLB
+	color = rgb { 105 151 211 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = najdi_culture
@@ -597,7 +595,7 @@ BLJ = { #Banu Kilab
 }
 
 KRG = { #Banu Kilab
-	color = map_KLB
+	color = rgb { 44 144 158 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = najdi_culture
@@ -605,7 +603,7 @@ KRG = { #Banu Kilab
 }
 
 KBD = {
-	color = map_kubadids
+	color = rgb { 155 137 107 }
 	color2 = rgb { 235 206 207 }
 
 	culture_definition = turkish_culture #turkoman_culture
@@ -613,7 +611,7 @@ KBD = {
 }
 
 HSR = {
-	color = map_HSR
+	color = rgb { 173 146 72 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = kyushu_culture
@@ -621,7 +619,7 @@ HSR = {
 }
 
 SRS = {
-	color = map_HSR
+	color = rgb { 45 131 145 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = kyushu_culture
@@ -629,7 +627,7 @@ SRS = {
 }
 
 UTP = {
-	color = map_HSR
+	color = rgb { 120 100 0 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = kyushu_culture
@@ -637,7 +635,7 @@ UTP = {
 }
 
 KRT = { #Kartids
-	color = map_KRT
+	color = rgb { 193 137 104 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = khorasani_culture
@@ -645,7 +643,7 @@ KRT = { #Kartids
 }
 
 WZR = { #Kartids
-	color = map_KRT
+	color = rgb { 113 160 183 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = khorasani_culture
@@ -653,21 +651,21 @@ WZR = { #Kartids
 }
 
 MAK = {
-	color = map_makuria
+	color = rgb { 190 30 100 }
 	color2 = black
 	culture_definition = nubian
 	religion_definition = sunni
 }
 
 JEL = {
-	color = map_makuria
+	color = rgb { 148 43 160 }
 	color2 = black
 	culture_definition = nubian
 	religion_definition = sunni
 }
 
 SHK = {
-	color = map_sharkha
+	color = rgb { 160 123 145 }
 	color2 = beige
 	culture_definition = gurage
 	religion_definition = sunni
@@ -719,7 +717,7 @@ BYD = {
 
 
 SRN = {
-   color = rgb { 79 89 182 }
+   color = rgb { 59 69 142 }
    color2 = beige
    unit_color0 = rgb { 49 49 49 }
    unit_color1 = rgb { 49 49 49 }
@@ -730,7 +728,7 @@ SRN = {
 
 
 BHT = {
-   color = rgb { 84 234 134 }
+   color = rgb { 247 247 9 }
    color2 = rgb { 144 220 149 }
    unit_color0 = rgb { 49 49 49 }
    unit_color1 = rgb { 49 49 49 }
@@ -780,4 +778,48 @@ KLA = { #Kalat
    unit_color2 = rgb { 49 49 49 }
    culture_definition = brahui_culture
    religion_definition = sunni
+}
+
+HKK = {
+	color = rgb { 84 234 134 }
+	color2 = rgb { 144 220 149 }
+
+	culture_definition = kurdish_culture
+	religion_definition = sunni
+}
+
+GLI = {
+	color = rgb { 132 173 116 }
+	color2 = map_gilgit_2
+
+	culture_definition = kashmiri_culture
+	religion_definition = shia
+}
+DOG = {
+	color = rgb { 63 150 30 }
+	color2 = map_dogra_2
+
+	culture_definition = punjabi
+	religion_definition = hindu #Converts to Islam in 1350s
+}
+CTR = {
+	color = rgb { 0 153 0 }
+	color2 = map_chitral_2
+
+	culture_definition = kashmiri_culture
+	religion_definition = sunni
+}
+HNZ = {
+	color = rgb { 68 249 102 }
+	color2 = map_hunza_2
+
+	culture_definition = kashmiri_culture
+	religion_definition = shia
+}
+NAG = {
+	color = map_nagar
+	color2 = map_nagar_2
+
+	culture_definition = kashmiri_culture
+	religion_definition = hindu #Switches to Muslim in a year
 }

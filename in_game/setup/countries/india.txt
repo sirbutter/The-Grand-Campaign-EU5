@@ -465,13 +465,6 @@ BHA = {
 	culture_definition = bagri
 	religion_definition = sunni
 }
-DOG = {
-	color = map_dogra
-	color2 = map_dogra_2
-
-	culture_definition = punjabi
-	religion_definition = hindu #Converts to Islam in 1350s
-}
 DHU = {
 	color = map_dhundhar
 	color2 = map_dhundhar_2
@@ -650,30 +643,9 @@ JFN = {
 	culture_definition = tamil
 	religion_definition = hindu
 }
-NAG = {
-	color = map_nagar
-	color2 = map_nagar_2
-
-	culture_definition = kashmiri_culture
-	religion_definition = hindu #Switches to Muslim in a year
-}
 SWT = {
 	color = map_swat
 	color2 = map_swat_2
-
-	culture_definition = kashmiri_culture
-	religion_definition = sunni
-}
-HNZ = {
-	color = map_hunza
-	color2 = map_hunza_2
-
-	culture_definition = kashmiri_culture
-	religion_definition = shia
-}
-CTR = {
-	color = map_chitral
-	color2 = map_chitral_2
 
 	culture_definition = kashmiri_culture
 	religion_definition = sunni
@@ -684,13 +656,6 @@ CRL = {
 
 	culture_definition = kashmiri_culture
 	religion_definition = hindu #Switches to Muslim in a year
-}
-GLI = {
-	color = map_gilgit
-	color2 = map_gilgit_2
-
-	culture_definition = kashmiri_culture
-	religion_definition = shia
 }
 KSH = {
 	color = map_kashmir

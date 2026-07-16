@@ -12910,7 +12910,7 @@ countries = {
             mukur zhamshy kashkanteniz bolgan_ana aitbulat belen_ana talmas_ata orda_bazar alashakhan baskamyr
             ulytau zhuban_ana kaip_ata karagau korgan maulimberdy tagatay dandybay karabay smai_samkai
             yegindybulak tengiz kon_tengiz kulanotpes sonaly karasor karkaraly balyktykol shybyndy aybas
-            kabyrga karaturgay turgay zhaldama sarykopa karasu saryozen ulkayak shoindykol
+            kabyrga karaturgay turgay zhaldama sarykopa karasu saryozen ulkayak shoindykol hunger_steppe
          }
 
          include = "expl_christian_caucasus"
@@ -13477,6 +13477,9 @@ countries = {
       MON = {
          country_rank = rank_county
 
+         own_control_core = {
+            gradina dinaric_alps6
+         }
        }
       MOO = {
          capital = moro
@@ -15604,7 +15607,7 @@ countries = {
             middle_taurus_2 middle_taurus_3 middle_taurus_4 middle_taurus_5 middle_taurus_6 middle_taurus_7 middle_taurus_8 erenler_mountains sultan_mountains_1 sultan_mountains_2
             sultan_mountains_3 melendiz_mountains hodul_mountains ak_mountains koroglu_mountains_1 koroglu_mountains_2 ilgaz_mountains west_pontus_mountains_1 west_pontus_mountains_2 kose_mountains_1
             kose_mountains_2 east_pontus_mountains_1 east_pontus_mountains_2 east_pontus_mountains_3 otlukbeli_mountains mescit_mountains east_taurus_8 east_taurus_2 east_taurus_1 east_taurus_9
-            kars_mountains_1 kars_mountains_2 kars_mountains_3 karagol_mountains dinaric_alps1 dinaric_alps4 dinaric_alps3 dinaric_alps2 dinaric_alps7 dinaric_alps6
+            kars_mountains_1 kars_mountains_2 kars_mountains_3 karagol_mountains dinaric_alps1 dinaric_alps4 dinaric_alps3 dinaric_alps2 dinaric_alps7
             dinaric_alps5 dinaric_alps8 pindus_mountains1 pindus_mountains2 pindus_mountains3 pindus_mountains4 pindus_mountains8 pindus_mountains5 pindus_mountains6 pindus_mountains7
             pindus_mountains9 pindus_mountains10 mount_olympos balkan_mountains1 balkan_mountains2 balkan_mountains3 balkan_mountains4 balkan_mountains5 balkan_mountains6 rhodope_mountains1
             rhodope_mountains3 rhodope_mountains2 rhodope_mountains4 rhodope_mountains5 rhodope_mountains6 karpathos amasra gradiski_brod dubica bihac
@@ -15626,7 +15629,7 @@ countries = {
             constantinople silivri catalca luleburgaz kirklareli malgara alasehir uskudar silli biga
             eregli chios vize ormenio demetrias farsala elassona larissa siatista stomio
             trikala tyrnavos pyli karditsa grevena bukelon devol ustra peja prizren
-            bitola kicevo tetovo shkoder debar onogost gradina budimlja brskovo gjakova
+            bitola kicevo tetovo shkoder debar onogost budimlja brskovo gjakova
             mitrovica pristina novo_brdo skopje kumanovo veles prosek shtip kratovo vranje
             podgorica bar_cg prijepolje visegrad ustikolina soko_grad glubocica nis prokuplje gacko
             trebinje ohrid kocani strumica koman has dukagjini lezha florina sredets
@@ -18774,7 +18777,7 @@ countries = {
             aksumbe gulshara kyzylkorgan ran tasty balasagun dzhul harandzuvan kysmyci nuzket
             sargau soltobe merki aspara khantau kulan sretenskoe tasuktul tolekskoe talas
             dzhulsub sarvaslyk tekabket yangi zherkorgan tamdy akkesene baba_ata nurlykent saudakent
-            shavgar sholakkorgan
+            shavgar sholakkorgan moiynkum_desert taukum_desert saryesik_atyrau_desert
          }
 
          include = "expl_christian_caucasus"
